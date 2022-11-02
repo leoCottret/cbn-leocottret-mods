@@ -21,12 +21,16 @@ First, big thanks to @scarf that helped me build the start of the script, and wa
 - If it doesn't, and I especially like this "hack", it just creates a recipe to convert a normal armor to the xl one, and the opposit
 - That's how this script can cover ALL armors, without adding non craftable versions to spawn locations (which would have been a pain, and maybe unrealistic in some cases)
 - It will give some false positive though (armors that shouldn't have an XL version because it's not needed), but I'm working on removing all of them, and you can just remove them from the json files. If you could execute the script, you obviously have the knowledge for it
+- 🔴🔴🔴**THE SCRIPT DELETES THE "results" FOLDER EACH TIME IT'S STARTED**🔴🔴🔴
+	- This means, for safety, move the files somewhere else before editing them
+
+### What is this blacklist file?
 - The blacklist file contains a list of armor ids that shouldn't have an XL version, but could. 
 	- Most of the time, it's because I saw that it was already created in other mods, so I added it in the blacklist. 
 	- Somtimes, it's because that made no sense, eg saddle bags are tagged as armor, not pet armor, so you can create an XL version and put it on your mutant. 	- To continue this example, if that's your thing, remove the id from the blacklist file, and run the script
 - If you want to add some ids to the blacklist for some valid reason, you can open an issue or make a PR about it, if you feel like it.
 	- Balance isn't one, I'm totally ok with mutants being able to modify power armors to be able to wear them.  People that are not ok with it can remove them after the script or create their own blacklist, but balance should never be the reason to change the default blacklist.
-- If an armor already exists, it will print it to the console. Then you have to manually add it to the blacklist, and restart the script (it's quite fast)
+- If at least one of the armor already has an XL version, it will print it to the console. Then you have to manually add it to the blacklist, by copy pasting the output, and restart the script (it's quite fast)
 
 ### How to use it?
 - Install python 3 latest version
