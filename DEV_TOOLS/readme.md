@@ -1,0 +1,39 @@
+STILL WIP FOR NOW
+
+First, big thanks to @scarf that helped me build the start of the script, and was even kind enough to give me a Proof of Concept of it
+
+### What is this for?
+- It's a script to generate XL versions of normal armors, based on custom parameters.
+- Probably for technical people or highly motivated ones.
+- Otherwise, go get the ready to use version here (when it's ready) *TODO put link*
+
+### Why should I care?
+- The amount of XL versions in vanilla is tiny (~16, compare that to the number of armor that a huge mutant can't wear)
+- With this script, you can create your own version of missing XL armors for vanilla ones, and even your mods!
+- So it's especially interesting for modders that want to create XL versions of their armors (although I can do it too, you might want to balance them yourself)
+
+### How does it work?
+- First, you set the different options, including how much you want the xl armor to change from the normal version one
+	- you can increase the encumbrance, volume, weight and storage by 20% for example (those are the default values, and what is used in the ready to use version). You can set individual modifiers for each values.
+- Basically, it checks through your game folder and in all of your current mod files if an armor has an xl version of it
+- If that's not the case, it creates one
+- Then, if there's a recipe for it (recipe and uncraft), it adds an XL version of it
+- If it doesn't, and I particularly like this "hack", it just creates a recipe to convert a normal armor to the xl one, and the opposit
+- That's how this script can cover ALL armors
+- It will give some false positive though (armors that shouldn't have an XL version because it's not needed), but I'm working on removing all of them, and you can just remove them from the json files. If you could execute the script, you obviously have the knowledge for it
+
+### How to use it?
+- Install python 3 latest version
+- Install the required libraries with pip `python -m pip install msgspec` (and maybe other libraries too)
+- Change your options in the script (every options are explained)
+- Execute the script `python3 generate_xl_armors.py`
+	- This will create missing xl versions of every mods and vanilla
+	- Each xl armor/recipe/uncraft will be placed in the corresponding module, like below TODO
+- Then, remove/change what you want, and drag and drop the files in your mods folder
+
+
+### Some misc technical explanations
+- the powershell script (.ps1) and the excecutable (.exe) are used to lint (rearange) the json files. They are executed at the very end of the ps1 script
+- the powershell script is just a slightly modified version of the one that can be found in `cdda/msvc-full-features/`. It lints the json files starting from the current directory, instead of trying to lint an inexistent cdda folder
+- the executable is run by the powershell script on each file, again, to lint everything. This is the same version as the one you get when you build the entire solution, with visual studio (it's then in `cdda/tools/format/`)
+- you can also remove those 2 files and the python script will throw a harmless error at the end. And then, you lint your files through other means. I just found it better that way
