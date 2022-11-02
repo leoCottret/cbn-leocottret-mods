@@ -472,7 +472,7 @@ if __name__ == "__main__":
 
             for armor in file_data.data:
                 # we don't want to create a xl armor of a xl armor. Is not checked in is_valid_armor because this function is used in check_xl_armor... too   
-                if (is_valid_armor(armor, armor_blacklist_ids) and not is_xl_armor(armor) and not (armor.flags and "OVERSIZE" in armor.flags)):
+                if is_valid_armor(armor, armor_blacklist_ids) and not is_xl_armor(armor) and not (armor.flags and "OVERSIZE" in armor.flags) and armor.id != armor.copy_from:
                     xl_armor = XLArmor.from_armor(armor, XL_factors)
                     if (check_if_xl_armor_exists):
                         check_xl_armor_existence(armor, xl_armor, armor_blacklist_ids, potential_target_armors_data)
@@ -537,5 +537,5 @@ if __name__ == "__main__":
 
     # lint xl armors and their recipes
     print("Linting everything...")
-    # subprocess.run([POWERSHELL_PATH, PS_SCRIPT_PATH], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
+    subprocess.run([POWERSHELL_PATH, PS_SCRIPT_PATH], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
 
