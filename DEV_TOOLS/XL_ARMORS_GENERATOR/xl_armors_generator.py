@@ -10,12 +10,12 @@ import math
 import subprocess  # IMPORT FOR SUB PROCESS . RUN METHOD
 import msgspec
 import pathlib
+from datetime import datetime
 
 from typing import Literal
 from typing import Optional
 from msgspec import Struct
 from typing_extensions import Self
-
 
 
 
@@ -37,7 +37,7 @@ blacklist_file_name = "armors_blacklist.txt"
 blacklist_keywords = [ "badge_", "_bracelet", "_cat_ears", "_collar", "_cufflinks", "_earring", "_necklace"]
 
 # set to False if you don't want to use the powershell script to lint your files
-linting = False
+linting = True
 # powershell exe location. Is used to execute the powershell script
 POWERSHELL_PATH = r'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
 # path to the powershell script that will lint the result with the help of json_formatter.exe
@@ -61,9 +61,16 @@ sort_blacklist:bool = True
 # END OPTIONS, YOU SHOULDN'T HAVE TO CHANGE THINGS BELOW THAT
 
 
-# Used to create the vanilla module files, and give them some kind of flag. Mods use their folder name instead.
-VANILLA_FLAG = "VANILLA"
+# used to create the vanilla module files, and give them some kind of flag. Mods use their folder name instead.
+# also the id of the main xl armor mod. Will also be written before the xl armor mod extensions for each mod
+# eg xl armor mod for arcana will have for id XL_Armors_Arcana
+VANILLA_FLAG = "XL_Armors"
 
+# to check if the json object is a valid modinfo
+modinfo_type = "MOD_INFO"
+
+now = datetime.now()
+current_date = str(now.year) + "/" + str(now.month) + "/" + str(now.day)
 
 # get the armor name in the gazillon of possibilities
 def get_armor_name(armor: XLArmor|Armor):
@@ -148,6 +155,22 @@ def get_potential_recipes(targeted_file):
     recipes = msgspec.json.decode(json.dumps(new_raw_json_objects).encode('utf-8'), type=list[Recipe])
     return recipes
 
+# load "all" potential mod info in this file. Sometimes mods contain non modinfo json objects (the mod content is in this file...). This filters it
+def get_potential_mod_info(targeted_file):
+    if (not targeted_file.exists()):
+        print("FILE DOESN T EXIST: " + targeted_file.name)
+        exit()
+
+    raw_json_object = msgspec.json.decode(targeted_file.read_bytes())
+    new_raw_json_objects = []
+    for raw_json in raw_json_object:
+        valid:bool = False
+        # we want to avoid potential non modinfo objects in the file
+        if ("'type': '"+modinfo_type+"'" in str(raw_json)) and ("'id': '" in str(raw_json)):
+            new_raw_json_objects.append(raw_json)
+    # will hopefully always be a list of one modinfo
+    modinfo = msgspec.json.decode(json.dumps(new_raw_json_objects).encode('utf-8'), type=list[ModInfo])
+    return modinfo
 
 # if we want to avoid making a xl version of an armor, we put its id in the blacklist file
 # this function load those ids and return them in an array
@@ -197,6 +220,7 @@ def is_xl_armor(armor: ARMOR):
     return ret_is_xl_armor
 
 # load every potential recipes or armors, and store them with their respective file name, and it's origin (the mod folder or "IS_VANILLA")
+# TODO set data_type as an enum
 def load_potential_data(potential_data_folders, data_type, origin):
     potential_data = []
     for file_group in potential_data_folders:
@@ -206,6 +230,8 @@ def load_potential_data(potential_data_folders, data_type, origin):
                 data = get_potential_armors(targeted_file_path)
             elif (data_type == "RECIPE"):
                 data = get_potential_recipes(targeted_file_path)
+            elif (data_type == "MOD_INFO"):
+                data = get_potential_mod_info(targeted_file_path)
             else:
                 print("WRONG DATA TYPE")
                 exit()
@@ -217,9 +243,26 @@ def load_potential_data(potential_data_folders, data_type, origin):
 # create a new file while being sure to not overwrite an existing file
 def create_new_file(file_path):
     new_file = pathlib.Path(file_path)
-    if (new_file.exists()):
-        print("File already exists " + str(new_file.match))
-    return pathlib.Path(file_path)
+
+    i:int = 2
+    # if file exists, rename to name_2.json, and if it also exists name_3.json etc.
+    # can happen if the mod uses at least 2 files with the same name and valid armors/recipes in all of them
+    # those files being at different places in the mod tree. Tested, it works (doesn't exist in vanila)
+    while new_file.exists():
+        new_path = file_path.replace(".json", "_" + str(i) + ".json")
+        new_file = pathlib.Path(new_path)
+        i += 1
+    return new_file
+
+def create_mod_info_file(result_folder, file_origin, mod_info:ModInfo|None = None):
+    new_modinfo_path = pathlib.Path(f"{result_folder}/{file_origin}/modinfo.json")
+    # if mod_info is not null, this is the mod info file for a mod, otherwise it's the new xl armor mod for vanilla
+    new_mod_info = ModInfo.from_mod_info(mod_info) if mod_info else ModInfo.generate_vanilla_file()
+    new_mod_info_json = json.loads(msgspec.json.encode(new_mod_info))
+    result_recipe_file = create_new_file(f"{result_folder}/{file_origin}/modinfo.json")
+    result_recipe_file.write_bytes(json.dumps(new_mod_info_json, indent=2).encode('utf-8'))
+
+
 
 
 
@@ -286,7 +329,6 @@ class Proportional(Struct, omit_defaults=True):
     volume: float
     storage: float
     encumbrance: float
-
 
 # an extend value modifier for armor.
 class Extend(Struct):
@@ -395,6 +437,55 @@ class Recipe(Struct, rename={"copy_from": "copy-from"}, omit_defaults=True):
             autolearn=True,
             components=[ [ [ armor.id, 1 ] ] ]
         )
+
+# a modinfo file representation
+class ModInfo(Struct, omit_defaults=True):
+    type: str
+    id: str
+    name: str
+    description: str # used for the "vanilla mod"
+    authors: list | None = None
+    maintainers: list | None = None
+    dependencies: list | None = None # in the futur (maybe), this will be used to generate xl armors and their recipes taking into account dependencies
+    category: str
+    version: str | None = None
+
+    @classmethod
+    def from_mod_info(cls, mod_info:ModInfo) -> Self:
+        new_mod_name = "<color_cyan>" + VANILLA_FLAG.replace("_", " ") + "</color> for " + mod_info.name
+        return cls(
+            id=f"{VANILLA_FLAG}_{mod_info.id}",
+            name=new_mod_name,
+            type=modinfo_type,
+            description=f"This is an extension that adds XL armors for the {mod_info.name} mod.",
+            authors=["leoCottret"],
+            maintainers=["leoCottret"],
+            # in the futur (maybe), this will be used to generate xl armors and their recipes taking into account dependencies
+            # this was also the main idea between this modinfo file generation for each mod
+            # with this players won't have errors because they added a folder from a mod that they don't use in their world
+            dependencies=[mod_info.id], 
+            category="content",
+            version=f"Bright Night, last update {current_date}"
+        )
+
+    @classmethod
+    def generate_vanilla_file(cls) -> Self:
+        new_mod_name = "<color_cyan>" + VANILLA_FLAG.replace("_", " ") + "</color>"
+        return cls(
+            id=VANILLA_FLAG,
+            name=new_mod_name,
+            type=modinfo_type,
+            description=f"This is the main XL armors mod, that adds XL armors for vanilla.",
+            authors=["leoCottret"],
+            maintainers=["leoCottret"],
+            dependencies=["bn"], 
+            category="content",
+            version=f"Bright Night, last update {current_date}"
+        )
+
+
+
+
 
 
 
@@ -506,6 +597,33 @@ if __name__ == "__main__":
                 pathlib.Path(f"{result_path}/uncraft/armor").mkdir(parents=True, exist_ok=True)
                 result_recipe_file = create_new_file(f"{result_path}/uncraft/armor/xl_{file_data.file_path.name}")
                 result_recipe_file.write_bytes(json.dumps(xl_recipes_uncraft_json, indent=2).encode('utf-8'))
+
+    # second "main loop", create the mod file for the corresponding mods
+    mod_info_files = [x for x in pathlib.Path(game_folder_path + "/mods/").glob('**/*modinfo.json')]
+    new_xl_armor_mods_folders = [x for x in pathlib.Path(f"{result_folder}").iterdir()]
+
+    # get all mod info data of the modules from the newly generated xl armors and recipes
+    mod_info_data = []
+    for nxamf in new_xl_armor_mods_folders:
+        for mif in mod_info_files:
+            # if the modfile was in the same folder as this newly created one
+            if nxamf.name == mif.parent.name:
+                modinfo_data = load_potential_data([[mif]], "MOD_INFO", nxamf.name)
+                mod_info_data.append(modinfo_data)
+
+    # generate the new mod info files for the new folders in results
+    # yes those are "valid mods" entirely generated by a script
+    for module_files in mod_info_data:
+        for file_data in module_files:
+            for mod_info in file_data.data:
+                create_mod_info_file(result_folder, file_data.origin, mod_info)
+    # create the mod info file for the main XL armors mod
+    create_mod_info_file(result_folder, VANILLA_FLAG)          
+
+    # rename the module folder with vanilla flag, so they can be drag and drop in the /mods/ folder
+    for nxamf in new_xl_armor_mods_folders:
+        if not nxamf.name == VANILLA_FLAG:
+            nxamf.rename(f"{result_folder}/{VANILLA_FLAG}_{nxamf.name}")
 
     # lint XL armors and their recipes
     if linting:
