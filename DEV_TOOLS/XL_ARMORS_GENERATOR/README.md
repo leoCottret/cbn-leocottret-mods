@@ -48,4 +48,4 @@ First, big thanks to @scarf that helped me build the start of the script, and wa
 - the powershell script (.ps1) and the excecutable (.exe) are used to lint (rearange) the json files. They are executed at the very end of the python script
 - the powershell script is just a slightly modified version of the one that can be found in `cdda/msvc-full-features/`. It lints the json files starting from the current directory, instead of trying to lint an inexistent data folder
 - the executable is run by the powershell script on each file, again, to lint everything. This is the same version as the one you get when you build the entire solution, with visual studio (it's then in `cdda/tools/format/`)
-- you can also remove those 2 files and the python script will throw a harmless error at the end. And then, you lint your files through other means. I just found it better that way
+- you can also set the linting option to false and lint your files through other means
