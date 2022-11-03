@@ -25,13 +25,16 @@ from typing_extensions import Self
 # Please move the files from the results folder before editing them, to be safe
 
 # explicit. Existing armors, recipes, data from mods etc. Everything is fetched thanks to this variable
-game_folder_path = "C:/Games/CDDA_BN_MY_CURRENT_GAME/cdda/data/"
+game_folder_path = "C:/Games/CDDA_MODDING_BN/cdda/data/"
 # the resulting folder, with, for each module, the xl armors, recipes and uncraft recipes
 # PS: modules = mods + vanilla
 pathlib.Path("results").mkdir(parents=True, exist_ok=True)
 result_folder = pathlib.Path("results")
 # we don't went to create XL versions of some armors, this is a list of those ids
 blacklist_file_name = "armors_blacklist.txt"
+# if the armor id contains one of those keywords, exclude it. Difference with the blacklist is, 
+# this won't search for an exact match, but if the id contains one of those words
+blacklist_keywords = [ "badge_", "_bracelet", "_cat_ears", "_collar", "_cufflinks", "_earring", "_necklace"]
 
 # set to False if you don't want to use the powershell script to lint your files
 linting = False
@@ -170,8 +173,13 @@ def is_valid_armor(armor: ARMOR, armor_blacklist_ids):
     if (armor.id in armor_blacklist_ids):
         is_valid = False
     # we don't want to create a xl armor for something without coverage (and without copy-from), like earings, because they can be worn by mutants
-    elif(not armor.copy_from and not armor.coverage):
+    elif (not armor.copy_from and not armor.coverage):
         is_valid = False
+    # we don't want this armor if it contains one of the blacklisted keywords too
+    for kw in blacklist_keywords:
+        if kw in armor.id:
+            is_valid = False
+            break
 
     return is_valid         
 
