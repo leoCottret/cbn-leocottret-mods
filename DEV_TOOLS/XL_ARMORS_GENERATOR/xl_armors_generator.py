@@ -30,14 +30,15 @@ game_folder_path = "C:/Games/CDDA_BN_MY_CURRENT_GAME/cdda/data/"
 # PS: modules = mods + vanilla
 pathlib.Path("results").mkdir(parents=True, exist_ok=True)
 result_folder = pathlib.Path("results")
-
 # we don't went to create XL versions of some armors, this is a list of those ids
 blacklist_file_name = "armors_blacklist.txt"
+
+# set to False if you don't want to use the powershell script to lint your files
+linting = False
 # powershell exe location. Is used to execute the powershell script
 POWERSHELL_PATH = r'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
 # path to the powershell script that will lint the result with the help of json_formatter.exe
 PS_SCRIPT_PATH = r'C:\Users\Sudo\Desktop\python_tests\style-json-cur-dir.ps1'
-
 
 # how punishing the XL versions will be, eg 1.2 encumbrance means 20% more from the original version
 class XLFactors():
@@ -498,7 +499,7 @@ if __name__ == "__main__":
                 result_recipe_file = create_new_file(f"{result_path}/uncraft/armor/xl_{file_data.file_path.name}")
                 result_recipe_file.write_bytes(json.dumps(xl_recipes_uncraft_json, indent=2).encode('utf-8'))
 
-
     # lint XL armors and their recipes
-    print("Linting everything...")
-    subprocess.run([POWERSHELL_PATH, PS_SCRIPT_PATH], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
+    if linting:
+        print("Linting everything...")
+        subprocess.run([POWERSHELL_PATH, PS_SCRIPT_PATH], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
