@@ -34,6 +34,7 @@ chainmail_vest
 chestguard_hard
 chestrig
 conductive_suit
+crt_canteen
 cuirass_lightplate
 duffelbag
 duster
