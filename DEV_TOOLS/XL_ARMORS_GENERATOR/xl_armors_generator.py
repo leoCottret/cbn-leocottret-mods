@@ -34,7 +34,7 @@ result_folder = pathlib.Path("results")
 blacklist_file_name = "armors_blacklist.txt"
 # if the armor id contains one of those keywords, exclude it. Difference with the blacklist is, 
 # this won't search for an exact match, but if the id contains one of those words
-blacklist_keywords = [ "badge_", "_bracelet", "_cat_ears", "_collar", "_cufflinks", "_earring", "_necklace"]
+blacklist_keywords = [ "badge_", "_bracelet", "_cat_ears", "_collar", "_cufflinks", "_earring", "_necklace" ]
 
 # set to False if you don't want to use the powershell script to lint your files
 linting = True
@@ -107,7 +107,7 @@ def check_xl_armor_existence(armor: Armor, new_xl_armor: XLArmor, armor_blacklis
                     #   the id starts with xl_, and if we remove it, we have the same id EG xl_jeans
                     #   the id ends with _xl, and if we remove this _xl, we get the same id EG armguard_acidchitin_xl
                     #   we replace _xl by _, and we get the same id EG tool_xlbelt
-                    if (a.id[:2] == "xl" and a.id[2:] == armor.id) or (a.id[:3] == "xl_" and a.id[3:] == armor.id) or ("_xl" in a.id and a.id.replace("_xl", "_") == armor.id) or (a.id[-3:] == "_xl" and a.id[:-3] == armor.id):
+                    if (gus(a)[:2] == "xl" and gus(a)[2:] == gus(armor)) or (gus(a)[:3] == "xl_" and gus(a)[3:] == gus(armor)) or ("_xl" in gus(a) and gus(a).replace("_xl", "_") == gus(armor)) or (gus(a)[-2:] == "_xl" and gus(a)[:-2] == gus(armor)):
                         # if it's the first time, add a warning message
                         if not existing_xl_armor_found:
                             print("EXISTING XL ARMOR(S) FOUND, printing original armor ids:")
@@ -126,10 +126,9 @@ def get_potential_armors(targeted_file):
     for raw_json in raw_json_object:
         valid:bool = False
         for allowed_armor_type in armor_types:
-            # if it has no id, eg an abstract object, skip it
-            # if it has no name, skip it
-            # we also want to avoid potential non armor objects in the file
-            if ("'type': '"+allowed_armor_type+"'" in str(raw_json)) and ("'id': '" in str(raw_json)) and ("'name':" in str(raw_json)):
+            # we want to avoid potential non armor objects in the file
+            # so we check if it is of one of the armor type, if it has an id or a abstract field, and a name
+            if ("'type': '"+allowed_armor_type+"'" in str(raw_json)) and ( ("'id': '" in str(raw_json)) or ("'abstract': '" in str(raw_json)) ) and ("'name':" in str(raw_json)):
                 valid = True
         if (valid):
             new_raw_json_objects.append(raw_json)
@@ -189,35 +188,74 @@ def load_blacklist_ids(file_name, sort_blacklist):
 
 # does this armor needs a xl version of it? Checks if it's in the blacklist, and if it has both no copy_from and no coverage
 # an armor coverage means that this armor is only wearable by normal sized characters by default
-# for now, this doesn't support armor coverage set in the copy-from, so in doubt, the script will create a XL version of it
 def is_valid_armor(armor: ARMOR, armor_blacklist_ids):
     is_valid:bool = True
     # we don't create an xl version of blacklisted armor ids
-    if (armor.id in armor_blacklist_ids):
+    if (gus(armor) in armor_blacklist_ids):
         is_valid = False
     # we don't want to create a xl armor for something without coverage (and without copy-from), like earings, because they can be worn by mutants
     elif (not armor.copy_from and not armor.coverage):
         is_valid = False
     # we don't want this armor if it contains one of the blacklisted keywords too
     for kw in blacklist_keywords:
-        if kw in armor.id:
+        if kw in gus(armor):
             is_valid = False
             break
 
     return is_valid         
 
+# was "get_unique_str" but it's used absolutly everywhere, so it's better that way
+# now we have abstract armor objects! So we need a way to return either the id or the abstract field easily
+def gus(armor: Armor):
+    return armor.id if armor.id else armor.abstract
+
 # return true if the armor is an xl armor
 def is_xl_armor(armor: ARMOR):
-    ret_is_xl_armor = False
+    is_xl = False
     if "XL" in get_armor_name(armor):
-        ret_is_xl_armor = True
-    elif armor.id[:2] == "xl":
-        ret_is_xl_armor = True
-    elif armor.id[:3] == "xl_":
-        ret_is_xl_armor = True
-    elif "_xl" in armor.id:
-        ret_is_xl_armor = True
-    return ret_is_xl_armor
+        is_xl = True
+    elif gus(armor)[:2] == "xl":
+        is_xl = True
+    elif "_xl" in gus(armor):
+        is_xl = True
+    elif gus(armor)[-2:] == "xl":
+        is_xl = True
+
+    return is_xl
+
+# will check everything to be sure it's an armor that needs a XL version
+# will be called recursively if copy_from is set
+def check_if_needs_xl_armor(armor:Armor, armor_blacklist_ids, potential_armors_data, from_child=False):
+
+    # if it's an abstract object and not from a child, we really don't want it!
+    if armor.abstract and not from_child:
+        return False
+
+    # if it's an xl armor, not doubt, we don't want it
+    # if it's a blacklisted id, has a blacklisted keyword, or has no coverage and no copy from, we also definitly don't want a XL armor
+    if is_xl_armor(armor) or not is_valid_armor(armor, armor_blacklist_ids):
+        return False
+
+    # if it has the oversize flag, or inherit from itself, same, we don't want a XL version
+    if (armor.flags and "OVERSIZE" in armor.flags) or (gus(armor) == armor.copy_from):
+        return False
+
+    # now if everything above passed, and the armor doesn't have a copy from, it's valid
+    if not armor.copy_from:
+        return True
+
+    # otherwise, we get the parent and apply the same chekcs
+    for module_files in potential_armors_data:
+        for file_data in module_files:
+            for a in file_data.data:
+                # we found the parent (the copy-from id)!
+                if gus(a) == armor.copy_from:
+                    return check_if_needs_xl_armor(a, armor_blacklist_ids, potential_armors_data, True)
+
+    # if we didn't find the parent, it's best to create an armor
+    # very rarely, an armor item inherit from a non armor item
+    print(f"{armor.id}_xl -> Parent not found:{armor.copy_from} for the armor:{armor.id}. If the parent is from a non armor type, it's normal. Decides yourself if you want to keep the xl armor")
+    return True
 
 # load every potential recipes or armors, and store them with their respective file name, and it's origin (the mod folder or "IS_VANILLA")
 # TODO set data_type as an enum
@@ -315,7 +353,8 @@ class Name(Struct, omit_defaults=True):
 
 # a minimal armor representation to generate its XL variants
 class Armor(Struct, rename={"copy_from": "copy-from"}, omit_defaults=True):
-    id: str # This might seem dangerous, but this can be true if an object is "abstract". In that case we skip the object
+    id: str | None = None# This might seem dangerous, but this can be true if an object is "abstract". In that case we skip the object
+    abstract: str | None = None
     name: object
     type: str | None = None
     description: object | None = None
@@ -349,7 +388,6 @@ class XLArmor(Armor, rename={"copy_from": "copy-from"}, omit_defaults=True):
             description = f"{armor.description.str}{added_description}"
         else:
             description = f"{armor.description}{added_description}"        
-
 
         return cls(
             id=f"{armor.id}_xl",
@@ -423,7 +461,6 @@ class Recipe(Struct, rename={"copy_from": "copy-from"}, omit_defaults=True):
             flags=recipe.flags
         )
 
-
     # generate a XL recipe for an armor that doesn't have one in the game. So you can convert an armor to its xl version, and the opposit
     @classmethod
     def from_original_armor(cls, armor:Armor, recipe_type:str) -> Self:
@@ -437,6 +474,7 @@ class Recipe(Struct, rename={"copy_from": "copy-from"}, omit_defaults=True):
             autolearn=True,
             components=[ [ [ armor.id, 1 ] ] ]
         )
+
 
 # a modinfo file representation
 class ModInfo(Struct, omit_defaults=True):
@@ -538,7 +576,7 @@ if __name__ == "__main__":
             selected_armors = []
             for armor in file_data.data:
                 # we don't want to create a xl armor of a xl armor. Is not checked in is_valid_armor because this function is used in check_xl_armor... too   
-                if is_valid_armor(armor, armor_blacklist_ids) and not is_xl_armor(armor) and not (armor.flags and "OVERSIZE" in armor.flags) and armor.id != armor.copy_from:
+                if check_if_needs_xl_armor(armor, armor_blacklist_ids, potential_armors_data):
                     xl_armor = XLArmor.from_armor(armor, XL_factors)
                     check_xl_armor_existence(armor, xl_armor, armor_blacklist_ids, potential_armors_data)
                     xl_armor_json = json.loads(msgspec.json.encode(xl_armor))
@@ -568,7 +606,9 @@ if __name__ == "__main__":
                                 # so one would have to spawn himself an XL version of the armor
                                 # or an other crazy idea could be to add the XL version to the loot tables, whenever the normal version spawn
                                 if (recipe.result == armor.id):
-                                    armor_found = True
+                                    # only normal recipe means we found a recipe to craft the armor, not uncraft ones!
+                                    if recipe.type == "recipe":
+                                        armor_found = True
                                     xl_recipe = Recipe.from_recipe(recipe, XL_factors)
                                     xl_recipe_json = json.loads(msgspec.json.encode(xl_recipe))
 
@@ -583,9 +623,11 @@ if __name__ == "__main__":
                 # if the armor has no recipe, no matter! Add a recipe to create an XL version from the original
                 # so you can enjoy you XL linux tee-shirt, XL beekeeping gloves, XL clownshoes etc.
                 if (not armor_found):
-                    xl_recipe = Recipe.from_original_armor(armor, "recipe")
-                    xl_recipe_json = json.loads(msgspec.json.encode(xl_recipe))
-                    xl_recipes_json.append(xl_recipe_json)
+                    # we don't want recipes for active objects
+                    if not armor.id[-3:] == "_on":
+                        xl_recipe = Recipe.from_original_armor(armor, "recipe")
+                        xl_recipe_json = json.loads(msgspec.json.encode(xl_recipe))
+                        xl_recipes_json.append(xl_recipe_json)
 
             # create a file with the new XL recipes, with the same name as the original armor file, but with xl_ before
             if xl_recipes_json:
