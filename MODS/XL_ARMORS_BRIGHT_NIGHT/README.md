@@ -22,9 +22,12 @@
   - It just creates a reversible recipe to craft the XL version from the original version
   - If that's not clear, if you find a power armor, you can craft an XL version of it, and disassemble the XL version to get a normal one
 
-## What about XL armors already added by other mods?
+## What about XL armors already added by other mods (or vanilla)?
 - I created a list of XL armors already added in other mods with the help of the script
 - Then I added those armors to a blacklist, to avoid creating a XL version of them
+- The main mod that you would want to use, to get access to all XL armors, is [More Armor](https://github.com/Kenan2000/BrightNights-Structured-Kenan-Modpack/tree/master/Kenan-BrightNights-Structured-Modpack/Medium-Maintenance-Small-Mods/More_Armor) mod from [Kenan's modpack](https://github.com/Kenan2000/BrightNights-Structured-Kenan-Modpack)
+  - With Kenan's agreement, I recently changed the XL armors with the same multipliers as the ones written in "How to solve this injustice?"
+- Vanilla XL armors are left untouched, and XL armors already added by other mods too
 
 ## What if I don't like the values of the XL armors?
 - Using a tool like sublime text, right click on the XL_ARMORS_BRIGHT_NIGHT folder, and select find in folder
