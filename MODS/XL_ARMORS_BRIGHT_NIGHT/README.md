@@ -2,7 +2,7 @@
 ## Why this?
 - Huge mutants have a tiny, ridiculous choice of armors. There are some XL armors in the base game, but they cover only a few % of the available armors
 - There are some mods that add XL armors, but they are very far from covering every armors
-- In general, mods don't add XL versions of their armor too
+- Many mods don't add XL versions of their armor too
 
 ## How to solve this injustice?
 - Add 606 XL armors, and even more recipes for them (more on that below)
