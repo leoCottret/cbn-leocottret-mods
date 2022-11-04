@@ -35,6 +35,8 @@ blacklist_file_name = "armors_blacklist.txt"
 # if the armor id contains one of those keywords, exclude it. Difference with the blacklist is, 
 # this won't search for an exact match, but if the id contains one of those words
 blacklist_keywords = [ "badge_", "_bracelet", "_cat_ears", "_collar", "_cufflinks", "_earring", "_necklace" ]
+# if you want to exclude some mod folders, it's here
+blacklist_mod_folders = [ "TEST_DATA", "Dark-Skies-Above" ]
 
 # set to False if you don't want to use the powershell script to lint your files
 linting = True
@@ -526,7 +528,6 @@ class ModInfo(Struct, omit_defaults=True):
 
 
 
-
 # the line below was from scarf, and means that this code will be executed only if we execute the script directly
 # so this is interesting if the file get used as a "library" file, even if it's far from being ready for it
 if __name__ == "__main__":
@@ -534,11 +535,14 @@ if __name__ == "__main__":
     shutil.rmtree("results", True)
     pathlib.Path("results").mkdir(parents=True, exist_ok=True)
 
+
+    new_armors_amount = 0
+
     # load XL factors (cf options)
     XL_factors = XLFactors()
 
     # get every mod folders
-    mod_root_folders = [x for x in pathlib.Path(game_folder_path + "/mods/").iterdir() if not x.is_file()]
+    mod_root_folders = [x for x in pathlib.Path(game_folder_path + "/mods/").iterdir() if (not x.is_file() and x.name not in blacklist_mod_folders)]
 
     # load all potential armors, and put them in potential_armors_data
     vanilla_files = pathlib.Path(game_folder_path + "/json/items/" ).glob('**/*.json')
@@ -582,6 +586,7 @@ if __name__ == "__main__":
                     xl_armor_json = json.loads(msgspec.json.encode(xl_armor))
                     xl_armors_json.append(xl_armor_json)
                     selected_armors.append(armor)
+                    new_armors_amount += 1
 
             # create a file with the new XL armors, with the same name as the original armor file, but with xl_ before
             if xl_armors_json:
@@ -666,7 +671,7 @@ if __name__ == "__main__":
     for nxamf in new_xl_armor_mods_folders:
         if not nxamf.name == VANILLA_FLAG:
             nxamf.rename(f"{result_folder}/{VANILLA_FLAG}_{nxamf.name}")
-
+    print(f"New armors amount: {new_armors_amount}")
     # lint XL armors and their recipes
     if linting:
         print("Linting everything...")
