@@ -17,10 +17,10 @@
 
 ## How is this possible?
 - The script generates XL armors based on a few custom parameters
-- Then, if it finds an existing recipe, it creates one with more materials for the XL armor
+- Then, if it finds an existing recipe for the original armor, it creates one with more materials for the XL armor
 - And if it doesn't find a recipe (eg for a power armor, that don't have a crafting recipe)?
   - It just creates a reversible recipe to craft the XL version from the original version
-  - If that's not clear, if you find a power armor, you can craft an XL version of it, and disassemble the XL version to get a normal one
+  - If that's not clear, if you find a power armor, you can craft a XL version of it, and disassemble the XL version to get a normal one (or materials that you would get with the original)
 
 ## What about XL armors already added by other mods (or vanilla)?
 - I created a list of XL armors already added in other mods with the help of the script
