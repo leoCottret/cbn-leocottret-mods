@@ -1,0 +1,11 @@
+[
+  {
+    "result": "gloves_fingerless_mod_xl",
+    "type": "uncraft",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "1 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "leather", 2 ] ], [ [ "scrap", 2 ] ] ]
+  }
+]

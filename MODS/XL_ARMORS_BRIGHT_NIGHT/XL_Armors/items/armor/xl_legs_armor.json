@@ -1,0 +1,110 @@
+[
+  {
+    "name": { "str": "pair of XL 2-by-shin guards", "str_pl": "pairs of XL 2-by-shin guards" },
+    "copy-from": "2byshin_guard",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "2byshin_guard_xl",
+    "description": "A pair of improvised shin guards made from broken pieces of a two by four that are tied to your shins with rags and string.  They offer good protection, but are really hard to run with.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL turnout trousers" },
+    "copy-from": "bunker_pants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bunker_pants_xl",
+    "description": "A heavy pair of protective overalls worn by firefighters.  Highly resistant to heat and flame, they provide excellent protection from injury.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL leather chaps" },
+    "copy-from": "chaps_leather",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "chaps_leather_xl",
+    "description": "A pair of black leather chaps.  Very tough and light, but doesn't offer any storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL fencing pants" },
+    "copy-from": "fencing_pants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fencing_pants_xl",
+    "description": "A pair of reinforced pants used by fencers to prevent injuries.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL knee pads", "str_pl": "pairs of XL knee pads" },
+    "copy-from": "knee_pads",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "knee_pads_xl",
+    "description": "A pair of knee pads made of stout plastic and cloth.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL bronze greaves", "str_pl": "pairs of XL bronze greaves" },
+    "copy-from": "legguard_bronze",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "legguard_bronze_xl",
+    "description": "A pair of bronze leg guards with a simple leather lining.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL hard leg guards", "str_pl": "pairs of XL hard leg guards" },
+    "copy-from": "legguard_hard",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "legguard_hard_xl",
+    "description": "A pair of polyurethane leg guards with neoprene backing.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL paper leg guards", "str_pl": "pairs of XL paper leg guards" },
+    "copy-from": "legguard_paper",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "legguard_paper_xl",
+    "description": "Leg guards made of stacked paper sheets held together with duct tape.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL scrap leg guards", "str_pl": "pairs of XL scrap leg guards" },
+    "copy-from": "legguard_scrap",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "legguard_scrap_xl",
+    "description": "A pair of leg guards made from scraps of metal secured by simple strings; the loose collection of plates provides decent but not the most convenient protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL light survivor cargo pants" },
+    "copy-from": "lsurvivor_pants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "lsurvivor_pants_xl",
+    "description": "Lightweight, Kevlar armored cargo pants designed to hold as much as possible.  Strong and mostly waterproof.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL motorcycle pants", "str_pl": "XL pairs of motorcycle pants" },
+    "copy-from": "motorbike_pants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "motorbike_pants_xl",
+    "description": "A pair of pants designed for dirt bikers and motorcyclists.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL survivor cargo pants" },
+    "copy-from": "pants_survivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "pants_survivor_xl",
+    "description": "A pair of Kevlar armored pants covered with pouches and pockets.  Custom-built to be durable, comfortable, and easy to wear.  This can be worn regardless of your state of mutation"
+  }
+]

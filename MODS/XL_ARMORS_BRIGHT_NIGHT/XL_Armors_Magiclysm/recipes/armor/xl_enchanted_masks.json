@@ -1,0 +1,22 @@
+[
+  {
+    "result": "mmask_disappearance_xl",
+    "id_suffix": "from_mmask_disappearance",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "mmask_disappearance", 1 ] ] ]
+  },
+  {
+    "result": "mmask_vision_xl",
+    "id_suffix": "from_mmask_vision",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "mmask_vision", 1 ] ] ]
+  }
+]

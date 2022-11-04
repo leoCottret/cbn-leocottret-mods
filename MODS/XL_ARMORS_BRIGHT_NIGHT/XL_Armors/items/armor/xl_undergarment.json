@@ -1,0 +1,227 @@
+[
+  {
+    "name": { "str": "pair of XL arm warmers", "str_pl": "pairs of XL arm warmers" },
+    "copy-from": "arm_warmers",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "arm_warmers_xl",
+    "description": "Snug, soft cloth sleeves to keep your arms warm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL camo tank top" },
+    "copy-from": "army_top",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "army_top_xl",
+    "description": "A sleeveless cotton shirt with camouflage dye.  Very easy to move in.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bikini bottom" },
+    "copy-from": "bikini_bottom",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bikini_bottom_xl",
+    "description": "A simple bikini bottom.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bikini top" },
+    "copy-from": "bikini_top",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bikini_top_xl",
+    "description": "A simple bikini top.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fur bikini top" },
+    "copy-from": "bikini_top_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bikini_top_fur_xl",
+    "description": "A simple fur bikini top.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL leather bikini top" },
+    "copy-from": "bikini_top_leather",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bikini_top_leather_xl",
+    "description": "A simple leather bikini top.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL boxer briefs" },
+    "copy-from": "boxer_briefs",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boxer_briefs_xl",
+    "description": "The age-old question, boxers or briefs?  Your answer?  Yes.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL boxer shorts" },
+    "copy-from": "boxer_shorts",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boxer_shorts_xl",
+    "description": "Men's boxer shorts.  More fashionable than briefs and just as comfortable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL boy shorts" },
+    "copy-from": "boy_shorts",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boy_shorts_xl",
+    "description": "Female underwear similar to men's boxer shorts, but much more close-fitting.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bra" },
+    "copy-from": "bra",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bra_xl",
+    "description": "A simple bra.  For protecting those bits you don't want zombies to look at.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL briefs" },
+    "copy-from": "briefs",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "briefs_xl",
+    "description": "A pair of briefs.  Comfortable underwear worn by men.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL camisole" },
+    "copy-from": "camisole",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "camisole_xl",
+    "description": "A small camisole made from silk.  Typically used as an undergarment, they are light and easy to wear.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL leather corset" },
+    "copy-from": "corset",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "corset_xl",
+    "description": "A snug, black leather corset.  Has no pockets, but its thick material provides good protection from harm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL long underwear bottom" },
+    "copy-from": "long_underpants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "long_underpants_xl",
+    "description": "A pair of long underwear that help to maintain body temperature.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL long underwear top" },
+    "copy-from": "long_undertop",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "long_undertop_xl",
+    "description": "A long underwear top that helps to maintain body temperature.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sleeveless underwear top" },
+    "copy-from": "long_undertop_sleeveless",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "long_undertop_sleeveless_xl",
+    "description": "A sleeveless underwear top that helps to maintain body temperature.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL panties" },
+    "copy-from": "panties",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "panties_xl",
+    "description": "Underwear designed to be worn by women.  Preserves your modesty in desperate times.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL thermal shirt" },
+    "copy-from": "thermal_shirt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "thermal_shirt_xl",
+    "description": "A lightweight, form-fitting long-sleeved spandex undershirt that helps maintains body temperature.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sports bra" },
+    "copy-from": "sports_bra",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sports_bra_xl",
+    "description": "A sturdy nylon bra to provide additional support during physical movement.  Typically worn when exercising, it clings to the skin and is easy to wear.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL tank top" },
+    "copy-from": "tank_top",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tank_top_xl",
+    "description": "A sleeveless cotton shirt.  Very easy to move in.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL tights" },
+    "copy-from": "tights",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tights_xl",
+    "description": "A snug cloth garment which clings tightly to the legs and feet to protect them from the cold.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL compression top" },
+    "copy-from": "under_armor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "under_armor_xl",
+    "description": "Nylon sportswear that clings to your chest and maintains body temperature.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL compression shorts" },
+    "copy-from": "under_armor_shorts",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "under_armor_shorts_xl",
+    "description": "Nylon sportswear that clings to your upper legs, aiding muscle tone and maintaining warmth.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL undershirt" },
+    "copy-from": "undershirt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "undershirt_xl",
+    "description": "A simple white undershirt.  Worn beneath your regular clothes, it provides a little extra warmth.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL unitard" },
+    "copy-from": "unitard",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "unitard_xl",
+    "description": "A skin-tight spandex garment resembling a crew necked leotard combined with leggings.  Commonly used by gymnasts, dancers and equestrian vaulters, the unitard provides overall coverage with great flexibility.  This can be worn regardless of your state of mutation"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "name": { "str": "XL turnout coat" },
+    "copy-from": "bunker_coat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bunker_coat_xl",
+    "description": "A heavy protective coat worn by firefighters.  Highly resistant to heat and flame, it provides excellent protection from injury.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL cassock" },
+    "copy-from": "cassock",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cassock_xl",
+    "description": "A piece of clerical clothing, usually worn by Christian priests.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fur coat" },
+    "copy-from": "coat_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "coat_fur_xl",
+    "description": "A fur coat with a couple small pockets.  Extremely warm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL faux fur coat" },
+    "copy-from": "coat_faux_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "coat_faux_fur_xl",
+    "description": "A garishly-colored faux fur coat with a couple small pockets.  Although not as warm as the natural fur, it gives you some of that unique flair.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sable coat" },
+    "copy-from": "coat_fur_sf",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "coat_fur_sf_xl",
+    "description": "A very well-made fur coat, featuring thick panels of sable fur.  Very warm and very good-looking.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL lab coat" },
+    "copy-from": "coat_lab",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "coat_lab_xl",
+    "description": "A long white coat with several large pockets.  Comes with a very nice pocket protector.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL rain coat" },
+    "copy-from": "coat_rain",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "coat_rain_xl",
+    "description": "A plastic coat with a hood and two very large pockets.  Provides protection from rain.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL gutskin parka" },
+    "copy-from": "coat_gut",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "coat_gut_xl",
+    "description": "An intricately sewn coat of treated and split intestines, prized for its light weight and waterproofness among the indigenous peoples of the arctic.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL winter coat" },
+    "copy-from": "coat_winter",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "coat_winter_xl",
+    "description": "A padded coat with deep pockets and a hood.  Very warm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fur duster" },
+    "copy-from": "duster_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "duster_fur_xl",
+    "description": "A thick fur full-length duster.  Has many pockets for storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL faux fur duster" },
+    "copy-from": "duster_faux_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "duster_faux_fur_xl",
+    "description": "A thick faux fur duster, falling below your knees.  Has many pockets for storing things.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor duster" },
+    "copy-from": "duster_survivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "duster_survivor_xl",
+    "description": "A Kevlar armored custom full-length duster, covered with pouches and pockets.  Comfortable, durable, and great for storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL greatcoat" },
+    "copy-from": "greatcoat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "greatcoat_xl",
+    "description": "A heavy, full-length wool coat.  Cumbersome, but warm and with deep pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL hakama" },
+    "copy-from": "hakama_gi",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hakama_gi_xl",
+    "description": "Plain black hakama for use in kendo and other martial arts.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL hakama" },
+    "copy-from": "hakama",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hakama_xl",
+    "description": "A flowing, pleated garment which can be worn over a kimono.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL army jacket" },
+    "copy-from": "jacket_army",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_army_xl",
+    "description": "A tough jacket with lots of pockets.  Favored by the military.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL chef's jacket" },
+    "copy-from": "jacket_chef",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_chef_xl",
+    "description": "This double-breasted uniform is unusually thick to protect against the heat of the kitchen.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL emergency jacket" },
+    "copy-from": "jacket_evac",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_evac_xl",
+    "description": "A bright & cheaply made FEMA-issue windbreaker jacket with a hood.  One size, fits none.  Helps keep you unfrozen & visible for rescuers.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL flannel jacket" },
+    "copy-from": "jacket_flannel",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_flannel_xl",
+    "description": "A jacket made from flannel-style denim, favored by outdoorsy types.  Provides decent protection from cuts.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL jean jacket" },
+    "copy-from": "jacket_jean",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_jean_xl",
+    "description": "A jacket made from denim.  Provides decent protection from cuts.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL leather jacket" },
+    "copy-from": "jacket_leather",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_leather_xl",
+    "description": "A jacket made from thick leather.  Cumbersome, but offers excellent protection from cuts.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL red leather jacket" },
+    "copy-from": "jacket_leather_red",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_leather_red_xl",
+    "description": "A candy-apple-red leather jacket with black strips and shoulder protrusions.  It has a number of zippers and snaps in the front.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL light jacket" },
+    "copy-from": "jacket_light",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_light_xl",
+    "description": "A thin cotton jacket with a hood.  Good for brisk weather.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL windbreaker" },
+    "copy-from": "jacket_windbreaker",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_windbreaker_xl",
+    "description": "A light synthetic jacket with a hood.  Not very warm, but will keep out the rain.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL judo gi" },
+    "copy-from": "judo_gi",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "judo_gi_xl",
+    "description": "Plain white judo gi.  Thick and a little stiff, it gives minor protection from cuts and punches.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL karate gi" },
+    "copy-from": "karate_gi",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "karate_gi_xl",
+    "description": "Plain white karate gi.  Loose and flowing, it offers little protection, and little encumbrance.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL kariginu" },
+    "copy-from": "kariginu",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kariginu_xl",
+    "description": "A traditional, ankle-length Shinto robe with several layers and very wide sleeves.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL keikogi" },
+    "copy-from": "keikogi",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "keikogi_xl",
+    "description": "Plain white keikogi for use in martial arts.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL kimono" },
+    "copy-from": "kimono",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kimono_xl",
+    "description": "A traditional, ankle-length Japanese robe, wrapped around the body with a sash.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL yukata" },
+    "copy-from": "yukata",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "yukata_xl",
+    "description": "An easy-to-wear, breezy robe secured with a sash.  Essentially Japanese pajamas.  Great for summer nights.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL haori" },
+    "copy-from": "haori",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "haori_xl",
+    "description": "A loose coat with wide sleeves that is worn unfastened over a kimono.  It is jet black with sparse, tasteful golden embroidery.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL kittel" },
+    "copy-from": "kittel",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kittel_xl",
+    "description": "A white, knee-length cotton robe, traditionally worn by Jews on special occasions.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL peacoat" },
+    "copy-from": "peacoat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "peacoat_xl",
+    "description": "A heavy wool coat.  Cumbersome, but warm and with deep pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL robe" },
+    "copy-from": "robe",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "robe_xl",
+    "description": "A loose-fitting outer garment with sleeves, and a mysterious amount of well-hidden pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL ski jacket" },
+    "copy-from": "ski_jacket",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "ski_jacket_xl",
+    "description": "An insulated, breathable hoodie made for alpine skiing.  Very warm, and with sizable pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sleeveless fur duster" },
+    "copy-from": "sleeveless_duster_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sleeveless_duster_fur_xl",
+    "description": "A thick fur full-length duster without sleeves, leaving your arms unencumbered.  Has plenty of storage space due to its many pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sleeveless faux fur duster" },
+    "copy-from": "sleeveless_duster_faux_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sleeveless_duster_faux_fur_xl",
+    "description": "A thick, sleeveless faux fur duster, falling below your knees.  Has many pockets for storing things.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sleeveless survivor duster" },
+    "copy-from": "sleeveless_duster_survivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sleeveless_duster_survivor_xl",
+    "description": "A custom Kevlar armored full-length duster without sleeves, covered with pouches and pockets.  Comfortable, durable, and great for storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sleeveless fur trenchcoat" },
+    "copy-from": "sleeveless_trenchcoat_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sleeveless_trenchcoat_fur_xl",
+    "description": "A thick fur trenchcoat without sleeves, leaving your arms unencumbered.  Has plenty of storage space due to its many pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sleeveless faux fur trenchcoat" },
+    "copy-from": "sleeveless_trenchcoat_faux_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sleeveless_trenchcoat_faux_fur_xl",
+    "description": "A thick faux fur trenchcoat without sleeves.  Has plenty of storage space, and looks pretty good.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sleeveless survivor trenchcoat" },
+    "copy-from": "sleeveless_trenchcoat_survivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sleeveless_trenchcoat_survivor_xl",
+    "description": "A custom Kevlar armored trenchcoat without sleeves, covered with pouches and pockets.  Comfortable, durable, and great for storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sleeveless tunic" },
+    "copy-from": "sleeveless_tunic",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sleeveless_tunic_xl",
+    "description": "A sleeveless cloth garment that covers the torso and legs.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL thawb" },
+    "copy-from": "thawb",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "thawb_xl",
+    "description": "A long, loose-fitting robe with wide sleeves, a traditional Arab garment.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fur trenchcoat" },
+    "copy-from": "trenchcoat_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "trenchcoat_fur_xl",
+    "description": "A thick fur trenchcoat, lined with pockets.  Great for storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL faux fur trenchcoat" },
+    "copy-from": "trenchcoat_faux_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "trenchcoat_faux_fur_xl",
+    "description": "A thick faux fur trenchcoat, lined with pockets.  Great for storage, and makes you the talk of the town.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor trenchcoat" },
+    "copy-from": "trenchcoat_survivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "trenchcoat_survivor_xl",
+    "description": "A Kevlar armored custom trenchcoat, covered with pouches and pockets.  Comfortable, durable, and great for storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL tunic" },
+    "copy-from": "tunic",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tunic_xl",
+    "description": "A simple garment long enough to cover down to the knees.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL tuxedo" },
+    "copy-from": "tux",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tux_xl",
+    "description": "A full-body tuxedo.  Makes the apocalypse feel a little more classy.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL waistcoat" },
+    "copy-from": "waistcoat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "waistcoat_xl",
+    "description": "An elegant waistcoat.  Ideal for those occasions when wearing only a shirt would be too casual and a suit would be just overdoing it.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL army winter jacket" },
+    "copy-from": "winter_jacket_army",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "winter_jacket_army_xl",
+    "description": "A tough hooded jacket with lots of pockets, thickly padded for warmth.  Favored by the military.  This can be worn regardless of your state of mutation"
+  }
+]

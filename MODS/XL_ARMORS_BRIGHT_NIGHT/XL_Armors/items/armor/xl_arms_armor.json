@@ -1,0 +1,65 @@
+[
+  {
+    "name": { "str": "pair of XL 2-by-arm guards", "str_pl": "pairs of XL 2-by-arm guards" },
+    "copy-from": "2byarm_guard",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "2byarm_guard_xl",
+    "description": "A pair of improvised arm guards made from broken pieces of a two by four that are tied to your arms with rags and string.  They offer good protection, but are really uncomfortable to wear.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL hard arm guards", "str_pl": "pairs of XL hard arm guards" },
+    "copy-from": "armguard_hard",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armguard_hard_xl",
+    "description": "A pair of neoprene arm sleeves covered with molded plastic sheaths.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL paper arm guards", "str_pl": "pairs of XL paper arm guards" },
+    "copy-from": "armguard_paper",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armguard_paper_xl",
+    "description": "Arm guards made of stacked paper sheets held together with duct tape.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL scrap arm guards", "str_pl": "pairs of XL scrap arm guards" },
+    "copy-from": "armguard_scrap",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armguard_scrap_xl",
+    "description": "A pair of arm guards made from scraps of metal secured by simple strings; the loose collection of plates provides decent but not the most convenient protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL neoprene arm sleeves", "str_pl": "pairs of XL neoprene arm sleeves" },
+    "copy-from": "armguard_soft",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armguard_soft_xl",
+    "description": "A pair of soft neoprene arm sleeves.  Often used in contact sports.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL elbow pads", "str_pl": "pairs of XL elbow pads" },
+    "copy-from": "elbow_pads",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "elbow_pads_xl",
+    "description": "A pair of elbow pads made of stout plastic and cloth.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL leather vambraces", "str_pl": "pairs of XL leather vambraces" },
+    "copy-from": "vambrace_larmor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "vambrace_larmor_xl",
+    "description": "A pair of light leather arm guards, made for archery.  This can be worn regardless of your state of mutation"
+  }
+]

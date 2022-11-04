@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL wizard hat" },
+    "copy-from": "wizard_hat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "wizard_hat_xl",
+    "description": "A blue pointed hat with stars stiched into it.  Wearing it increases your mana regeneration.  This can be worn regardless of your state of mutation"
+  }
+]

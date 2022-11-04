@@ -1,0 +1,164 @@
+[
+  {
+    "name": { "str": "XL salvaged power armor" },
+    "copy-from": "depowered_armor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "depowered_armor_xl",
+    "description": "The DoubleTech Power Armor, Mk. I: A heavy suit of basic power armor, offering very good protection against attacks, but hard to move in.  This suit has had its servos and cooling system stripped out, meaning it no longer requires power, but also encumbers you greatly and doesn't provide internal thermal regulation.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL salvaged power armor helmet" },
+    "copy-from": "depowered_helmet",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "depowered_helmet_xl",
+    "description": "A basic helmet, designed for use with the DoubleTech Power Armor, Mk. I.  Offers excellent protection from both attacks and environmental hazards.  This suit has had its internal computer and cooling system stripped out, meaning it no longer requires power, but it has no internal chronometer and doesn't provide internal thermal regulation.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL basic power armor" },
+    "copy-from": "power_armor_basic",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_basic_xl",
+    "description": "The DoubleTech Power Armor, Mk. I: A heavy suit of basic power armor, offering very good protection against attacks, but hard to move in.  The UPS compartment can store other things if you don't mind powering the suit yourself.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL basic power armor (on)", "str_pl": "XL basic power armors (on)" },
+    "copy-from": "power_armor_basic_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_basic_on_xl",
+    "description": "The DoubleTech Power Armor, Mk. I: A heavy suit of basic power armor, offering very good protection against attacks, but hard to move in.  The UPS compartment can store other things if you don't mind powering the suit yourself.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  It is turned on and continually drawing power.  Use it to turn it off.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL heavy power armor" },
+    "copy-from": "power_armor_heavy",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_heavy_xl",
+    "description": "A suit of DoubleTech Power Armor, Mk. II-H.  This model offers several improvements over the Mk. I, most notably the improved environmental protection.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL heavy power armor (on)", "str_pl": "XL heavy power armors (on)" },
+    "copy-from": "power_armor_heavy_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_heavy_on_xl",
+    "description": "A suit of DoubleTech Power Armor, Mk. II-H.  This model offers several improvements over the Mk. I, most notably the improved environmental protection.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  It is turned on and continually drawing power.  Use it to turn it off.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL basic power armor helmet" },
+    "copy-from": "power_armor_helmet_basic",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_helmet_basic_xl",
+    "description": "A basic helmet, designed for use with the DoubleTech Power Armor, Mk. I.  Offers excellent protection from both attacks and environmental hazards.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL basic power armor helmet (on)", "str_pl": "XL basic power armor helmets (on)" },
+    "copy-from": "power_armor_helmet_basic_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_helmet_basic_on_xl",
+    "description": "A basic helmet, designed for use with the DoubleTech Power Armor, Mk. I.  Offers excellent protection from both attacks and environmental hazards.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  It is turned on and continually drawing power.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL heavy power armor helmet" },
+    "copy-from": "power_armor_helmet_heavy",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_helmet_heavy_xl",
+    "description": "A power armor helmet designed for use with the DoubleTech Power Armor, Mk. II-H.  This improved design is heavier than the Mk. I helmet, but cooler, and offers better environmental protection.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL heavy power armor helmet (on)", "str_pl": "XL heavy power armor helmets (on)" },
+    "copy-from": "power_armor_helmet_heavy_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_helmet_heavy_on_xl",
+    "description": "A power armor helmet designed for use with the DoubleTech Power Armor, Mk. II-H.  This improved design is heavier than the Mk. I helmet, but cooler, and offers better environmental protection.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  It is turned on and continually drawing power.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL light power armor helmet" },
+    "copy-from": "power_armor_helmet_light",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_helmet_light_xl",
+    "description": "A power armor helmet designed for use with the DoubleTech Power Armor, Mk. II-L.  This improved design is lighter and cooler than the Mk. I helmet.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL light power armor helmet (on)", "str_pl": "XL light power armor helmets (on)" },
+    "copy-from": "power_armor_helmet_light_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_helmet_light_on_xl",
+    "description": "A power armor helmet designed for use with the DoubleTech Power Armor, Mk. II-L.  This improved design is lighter and cooler than the Mk. I helmet.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  It is turned on and continually drawing power.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL light power armor" },
+    "copy-from": "power_armor_light",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_light_xl",
+    "description": "A suit of DoubleTech Power Armor, Mk. II-L.  This model offers several improvements over the Mk. I, most notably the reduced weight.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL field combat exoskeleton (on)", "str_pl": "XL field combat exoskeletons (on)" },
+    "copy-from": "power_armor_light_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_light_on_xl",
+    "description": "A suit of DoubleTech Power Armor, Mk. II-L.  This model offers several improvements over the Mk. I, most notably the reduced weight.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  It is turned on and continually drawing power.  Use it to turn it off.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL bone arm guards", "str_pl": "pairs of XL bone arm guards" },
+    "copy-from": "armguard_bone",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armguard_bone_xl",
+    "description": "A pair of arm guards made from leather, reinforced with bone.  Light and strong.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bone body armor" },
+    "copy-from": "armor_bone",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_bone_xl",
+    "description": "Body armor consisting of a leather suit with strategically-placed bone reinforcement.  Light and strong.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL bone armor gauntlets", "str_pl": "pairs of XL bone armor gauntlets" },
+    "copy-from": "gauntlets_bone",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gauntlets_bone_xl",
+    "description": "Leather gauntlets with bone armor reinforcement.  Very light and strong.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bone armor helmet" },
+    "copy-from": "helmet_bone",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_bone_xl",
+    "description": "A grotesque, horned helmet carved from bone.  Covers the entire head; very light and strong.  This can be worn regardless of your state of mutation"
+  }
+]

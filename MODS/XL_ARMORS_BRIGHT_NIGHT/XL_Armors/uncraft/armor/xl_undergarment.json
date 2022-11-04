@@ -1,0 +1,59 @@
+[
+  {
+    "result": "boxer_briefs_xl",
+    "type": "uncraft",
+    "time": "30 m",
+    "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+    "components": [ [ [ "thread", 48 ] ] ]
+  },
+  {
+    "result": "boxer_shorts_xl",
+    "type": "uncraft",
+    "time": "30 m",
+    "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+    "components": [ [ [ "thread", 48 ] ] ]
+  },
+  {
+    "result": "boy_shorts_xl",
+    "type": "uncraft",
+    "time": "30 m",
+    "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+    "components": [ [ [ "thread", 48 ] ] ]
+  },
+  {
+    "result": "briefs_xl",
+    "type": "uncraft",
+    "time": "30 m",
+    "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+    "components": [ [ [ "thread", 42 ] ] ]
+  },
+  {
+    "result": "panties_xl",
+    "type": "uncraft",
+    "time": "30 m",
+    "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+    "components": [ [ [ "thread", 42 ] ] ]
+  },
+  {
+    "result": "tank_top_xl",
+    "type": "uncraft",
+    "skill_used": "tailor",
+    "time": "30 s",
+    "components": [ [ [ "rag", 4 ] ] ],
+    "flags": [ "BLIND_HARD" ]
+  },
+  {
+    "result": "under_armor_xl",
+    "type": "uncraft",
+    "time": "2 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "lycra_patch", 1 ] ] ]
+  },
+  {
+    "result": "under_armor_shorts_xl",
+    "type": "uncraft",
+    "time": "2 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "lycra_patch", 1 ] ] ]
+  }
+]

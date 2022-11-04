@@ -1,0 +1,38 @@
+[
+  {
+    "name": { "str": "XL seven league boots", "str_pl": "XL pairs of seven league boots" },
+    "copy-from": "mboots_sevenleague",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mboots_sevenleague_xl",
+    "description": "Rugged yet extremely comfortable and well fitting boots of worn leather and steel, they look like they've seen a lot of use and will likely see a lot more.  They make your movement a lot less work.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL boots of haste", "str_pl": "XL pairs of boots of haste" },
+    "copy-from": "mboots_haste",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mboots_haste_xl",
+    "description": "Rugged yet extremely comfortable and well fitting boots of worn leather and steel, they look like they've seen a lot of use and will likely see a lot more.  They make your movement a lot less work.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL escape boots" },
+    "copy-from": "mboots_escape",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mboots_escape_xl",
+    "description": "Rugged yet extremely comfortable and well fitting boots of worn leather and steel, these boots can be activated once a day to escape from nasty situations, teleporting you a good distance in a random direction.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL boots of grounding", "str_pl": "XL pairs of boots of grounding" },
+    "copy-from": "mboots_grounding",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mboots_grounding_xl",
+    "description": "Rugged yet extremely comfortable and well fitting boots of leather with small engraved runes seemingly filled with rubber.  When worn, you are immune to damage from electricity.  This can be worn regardless of your state of mutation"
+  }
+]

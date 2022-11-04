@@ -1,0 +1,434 @@
+[
+  {
+    "name": { "str": "pair of XL cord sandals", "str_pl": "pairs of XL cord sandals" },
+    "copy-from": "bastsandals",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bastsandals_xl",
+    "description": "Lightweight sandals made from wound cord.  They offer little in the way of protection, but keep you cool during warmer months.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL turnout boots", "str_pl": "pairs of XL turnout boots" },
+    "copy-from": "boots_bunker",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_bunker_xl",
+    "description": "A pair of steel-toed rubber boots, the sort worn by firefighters.  Highly resistant to heat and flame, they provide excellent protection from injury.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL survivor fireboots", "str_pl": "pairs of XL survivor fireboots" },
+    "copy-from": "boots_fsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_fsurvivor_xl",
+    "description": "A pair of customized, Kevlar armored Nomex boots, modified to provide maximum protection from harm and the elements, even when knee-deep in the dead.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL fur boots", "str_pl": "pairs of XL fur boots" },
+    "copy-from": "boots_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_fur_xl",
+    "description": "Boots lined with fur for warmth.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL survivor wetsuit boots", "str_pl": "pairs of XL survivor wetsuit boots" },
+    "copy-from": "boots_h20survivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_h20survivor_xl",
+    "description": "A pair of customized, Kevlar armored neoprene boots, modified to provide maximum protection from harm and the elements, even when knee-deep in the dead.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL hiking boots", "str_pl": "pairs of XL hiking boots" },
+    "copy-from": "boots_hiking",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_hiking_xl",
+    "description": "Tough yet light leather boots.  Durable and comfortable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL heavy survivor boots", "str_pl": "pairs of XL heavy survivor boots" },
+    "copy-from": "boots_hsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_hsurvivor_xl",
+    "description": "A pair of customized Kevlar boots, heavily armored with steel and modified to provide maximum protection from harm, even when knee-deep in the dead.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL light survivor boots", "str_pl": "pairs of XL light survivor boots" },
+    "copy-from": "boots_lsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_lsurvivor_xl",
+    "description": "A pair of customized, Kevlar armored cloth boots, modified to provide maximum protection from harm, even when knee-deep in the dead.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL rubber boots", "str_pl": "pairs of XL rubber boots" },
+    "copy-from": "boots_rubber",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_rubber_xl",
+    "description": "A pair of rubber boots, often used while cleaning with caustic materials.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL scrap boots", "str_pl": "pairs of XL scrap boots" },
+    "copy-from": "boots_scrap",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_scrap_xl",
+    "description": "Boots made of random scraps.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL steeltoed boots", "str_pl": "pairs of XL steeltoed boots" },
+    "copy-from": "boots_steel",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_steel_xl",
+    "description": "Leather boots with a steel toe.  Extremely durable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL winter boots", "str_pl": "pairs of XL winter boots" },
+    "copy-from": "boots_winter",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_winter_xl",
+    "description": "Cumbersome boots designed for warmth.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL winter survivor boots", "str_pl": "pairs of XL winter survivor boots" },
+    "copy-from": "boots_wsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_wsurvivor_xl",
+    "description": "A pair of customized, Kevlar armored fur boots, modified to provide maximum protection from harm and the elements, even when knee-deep in the dead.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL cleats", "str_pl": "pairs of XL cleats" },
+    "copy-from": "cleats",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cleats_xl",
+    "description": "Sport shoes with hard undersides, and studs on the bottom designed to dig into the grass.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL golf shoes", "str_pl": "pairs of XL golf shoes" },
+    "copy-from": "golf_shoes",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "golf_shoes_xl",
+    "description": "Snug fit sport shoes with hard ridges on the bottom.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL wooden clogs", "str_pl": "pairs of XL wooden clogs" },
+    "copy-from": "clogs",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "clogs_xl",
+    "description": "Known as klompen in the Netherlands and sabots in France, these wooden shoes have endured through the ages due to their simple design and durability.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL clown shoes", "str_pl": "pairs of XL clown shoes" },
+    "copy-from": "clownshoes",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "clownshoes_xl",
+    "description": "Gigantic shoes fit for a clown.  Incredibly difficult to walk in.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL dance shoes", "str_pl": "pairs of XL dance shoes" },
+    "copy-from": "dance_shoes",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "dance_shoes_xl",
+    "description": "Expensive black dance shoes with large heels.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL dress shoes", "str_pl": "pairs of XL dress shoes" },
+    "copy-from": "dress_shoes",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "dress_shoes_xl",
+    "description": "Fancy patent leather shoes.  Not designed for running in.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL flip-flops", "str_pl": "pairs of XL flip-flops" },
+    "copy-from": "flip_flops",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "flip_flops_xl",
+    "description": "Simple sandals.  Very difficult to run in.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL expensive flip-flops", "str_pl": "pairs of XL flip-flops" },
+    "copy-from": "flip_flops_exp",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "flip_flops_exp_xl",
+    "description": "These are upmarket \"luxury\" flip-flops.  Very difficult to run in.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL geta", "str_pl": "pairs of XL geta" },
+    "copy-from": "geta",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "geta_xl",
+    "description": "Simple wooden geta.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL heels", "str_pl": "pairs of XL heels" },
+    "copy-from": "heels",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "heels_xl",
+    "description": "A pair of high heels.  Difficult to even walk in.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL knee-high boots", "str_pl": "pairs of XL knee-high boots" },
+    "copy-from": "knee_high_boots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "knee_high_boots_xl",
+    "description": "Very long leather boots that cover the lower legs.  Difficult to wear but extremely durable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL leather sandals", "str_pl": "pairs of XL leather sandals" },
+    "copy-from": "leathersandals",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "leathersandals_xl",
+    "description": "Sturdy leather hiking sandals with a heel strap.  Offers little in the way of protection, but keeps you cool during warmer months.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL lowtop tennis shoes", "str_pl": "pairs of XL lowtop tennis shoes" },
+    "copy-from": "lowtops",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "lowtops_xl",
+    "description": "Lightweight shoes made of cloth and rubber.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL moccasins", "str_pl": "pairs of XL moccasins" },
+    "copy-from": "mocassins",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mocassins_xl",
+    "description": "Simple shoes made from animal pelts.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL motorcycle boots", "str_pl": "pairs of XL motorcycle boots" },
+    "copy-from": "motorbike_boots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "motorbike_boots_xl",
+    "description": "A pair of durable boots to be used by dirt bikers and motorcyclists.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL rollerblades", "str_pl": "pairs of XL rollerblades" },
+    "copy-from": "roller_blades",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "roller_blades_xl",
+    "description": "A pair of inline skates.  Very fast on flat floors, but they make it hard to move on rough terrain, take hits, or to dodge effectively.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL rollerskates", "str_pl": "pairs of XL rollerskates" },
+    "copy-from": "rollerskates",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "rollerskates_xl",
+    "description": "An old-fashioned pair of leather rollerskates with steel frames.  While quite fast on flat floors, they make it difficult to take hits or to move on rough terrain.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL birchbark shoes", "str_pl": "pairs of XL birchbark shoes" },
+    "copy-from": "shoes_birchbark",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "shoes_birchbark_xl",
+    "description": "Simple shoes woven from strips of birch bark.  Not very comfortable, but better than going barefoot.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL bowling shoes", "str_pl": "pairs of XL bowling shoes" },
+    "copy-from": "shoes_bowling",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "shoes_bowling_xl",
+    "description": "A pair of flat-soled shoes designed to give you a grip on slippery surfaces.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL slippers", "str_pl": "pairs of XL slippers" },
+    "copy-from": "slippers",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "slippers_xl",
+    "description": "Soft shoes that keep your feet warm.  Not suitable for running.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL sneakers", "str_pl": "pairs of XL sneakers" },
+    "copy-from": "sneakers",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sneakers_xl",
+    "description": "Guaranteed to make you run faster and jump higher!  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL straw sandals", "str_pl": "pairs of XL straw sandals" },
+    "copy-from": "straw_sandals",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "straw_sandals_xl",
+    "description": "Sandals made from straw rope.  Not very comfortable, but can keep your feet safe.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL swim fins", "str_pl": "pairs of XL swim fins" },
+    "copy-from": "swim_fins",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "swim_fins_xl",
+    "description": "A pair of rubber flippers worn on the feet which improve swimming speed while greatly impeding the wearer's ability to walk.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL thigh-high boots", "str_pl": "pairs of XL thigh-high boots" },
+    "copy-from": "thigh_high_boots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "thigh_high_boots_xl",
+    "description": "Very long leather boots that reach past the knees.  Difficult to wear but extremely durable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL swimming booties", "str_pl": "pairs of XL swimming booties" },
+    "copy-from": "wetsuit_booties",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "wetsuit_booties_xl",
+    "description": "A pair of neoprene swimming booties, with individual toes.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL heelys (off)", "str_pl": "pairs of XL heelys (off)" },
+    "copy-from": "roller_shoes_off",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "roller_shoes_off_xl",
+    "description": "A pair of sneakers with wheels, currently the wheels are hidden.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL heelys (on)", "str_pl": "pairs of XL heelys (on)" },
+    "copy-from": "roller_shoes_on",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "roller_shoes_on_xl",
+    "description": "A pair of sneakers with wheels, currently the wheels are out.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL chainmail chausses", "str_pl": "pairs of XL chainmail chausses" },
+    "copy-from": "chainmail_feet",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "chainmail_feet_xl",
+    "description": "Customized chainmail chausses that cover the feet, like booties made of chainmail.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL socks", "str_pl": "pairs of XL socks" },
+    "copy-from": "socks",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "socks_xl",
+    "description": "Socks.  Put 'em on your feet.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL ankle socks", "str_pl": "pairs of XL ankle socks" },
+    "copy-from": "socks_ankle",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "socks_ankle_xl",
+    "description": "Short socks, commonly used for sports.  These are designed to protect your feet from friction, not temperature  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL disposable bowling socks", "str_pl": "pairs of XL disposable bowling socks" },
+    "copy-from": "socks_bowling",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "socks_bowling_xl",
+    "description": "Cheap one time socks.  Can keep your feet clean, but too thin to give any protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL wool socks", "str_pl": "pairs of XL wool socks" },
+    "copy-from": "socks_wool",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "socks_wool_xl",
+    "description": "Warm socks made of wool.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL stockings", "str_pl": "pairs of XL stockings" },
+    "copy-from": "stockings",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "stockings_xl",
+    "description": "Long cotton socks that reach above the knees to help protect from the cold.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL tabi", "str_pl": "pairs of XL tabi" },
+    "copy-from": "tabi_dress",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tabi_dress_xl",
+    "description": "A pair of black tabi, as worn with traditional Japanese clothes.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL gi tabi", "str_pl": "pairs of XL gi tabi" },
+    "copy-from": "tabi_gi",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tabi_gi_xl",
+    "description": "A pair of white tabi, as used by martial arts practitioners.  This can be worn regardless of your state of mutation"
+  }
+]

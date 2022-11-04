@@ -1,0 +1,218 @@
+[
+  {
+    "name": { "str": "XL AEP suit" },
+    "copy-from": "aep_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "aep_suit_xl",
+    "description": "An armored environmental protection suit.  Custom-built from a cleansuit and body armor, it provides excellent protection against both physical harm and ambient radiation.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL ANBC suit" },
+    "copy-from": "anbc_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "anbc_suit_xl",
+    "description": "An armored, impermeable full-body suit that functions as body armor, as well as protecting from nuclear, biological, and chemical hazards.  It requires a separate gas mask for full protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL boiled leather armor" },
+    "copy-from": "armor_blarmor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_blarmor_xl",
+    "description": "Thick leather body armor that has been hardened via chemical treatment.  Light and strong.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fur body armor" },
+    "copy-from": "armor_farmor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_farmor_xl",
+    "description": "Thick body armor made from furs.  Warm and comfortable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL leather body armor" },
+    "copy-from": "armor_larmor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_larmor_xl",
+    "description": "Thick leather body armor.  Light and comfortable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL nomad gear" },
+    "copy-from": "armor_nomad",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_nomad_xl",
+    "description": "A makeshift outfit made from pre-Cataclysm clothing designed for long travels.  It has a lot of storage space.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL light nomad gear" },
+    "copy-from": "armor_nomad_light",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_nomad_light_xl",
+    "description": "A light makeshift outfit made from pre-Cataclysm clothing designed for long summer travels.  It offers less storage space and armor compared to regular nomad gear.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL plated leather armor" },
+    "copy-from": "armor_plarmor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_plarmor_xl",
+    "description": "Thick leather body armor that has been reinforced with strategically-placed metal plates.  Strong and comfortable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL ornamental plate armor" },
+    "copy-from": "armor_plate",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_plate_xl",
+    "description": "An extremely heavy suit of ornamental armor.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL riot armor" },
+    "copy-from": "armor_riot",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_riot_xl",
+    "description": "Black armor used by riot police officers.  The padded layers and hard plastic shoulder guards offer good protection without much encumbrance.  The word POLICE is emblazoned across the front.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL scavenger gear" },
+    "copy-from": "armor_scavenger",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_scavenger_xl",
+    "description": "A sturdy scavenger's outfit made from refitted pre-Cataclysm protective gear.  It has a lot of storage space.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL beekeeping suit" },
+    "copy-from": "beekeeping_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "beekeeping_suit_xl",
+    "description": "A white suit commonly worn by professional beekeepers with straps on your ankles and wrists to prevent bees from flying in.  It's not a very tough fabric, but it's lightweight and has plenty of storage thanks to a chest pocket.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL chainmail hauberk" },
+    "copy-from": "chainmail_hauberk",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "chainmail_hauberk_xl",
+    "description": "A fully customized chainmail outfit, leaving the head uncovered.  The shirt, arms, and leggings have been modified with straps and combined with a gambeson to deal with uneven weight distribution, cold environments and to allow them to be used separately.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL cleansuit" },
+    "copy-from": "cleansuit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cleansuit_xl",
+    "description": "A simple hazardous materials handling suit.  Though somewhat restrictive and fragile, wearing it will provide excellent protection against ambient radiation.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL entry suit" },
+    "copy-from": "entry_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "entry_suit_xl",
+    "description": "A flame-resistant whole-body garment worn by firefighters as protection against extreme heat.  Though very restrictive, wearing it will provide excellent protection against fire and smoke.  It requires a separate gas mask for full protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor firesuit" },
+    "copy-from": "fsurvivor_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fsurvivor_suit_xl",
+    "description": "Heavy, hand-built combination armor made from a cut-down bulletproof vest and a reinforced flame-resistant Nomex jumpsuit.  Protects the wearer from fire and the elements.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL gambeson" },
+    "copy-from": "gambeson",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gambeson_xl",
+    "description": "A thick jacket of quilted fabric extending down to your knees, designed to be worn underneath mail or other armor.  Or worn on its own, if you can't afford proper armor.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL hazmat suit" },
+    "copy-from": "hazmat_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hazmat_suit_xl",
+    "description": "An impermeable whole-body garment worn as protection against hazardous materials.  Though very restrictive and fragile, wearing it will provide complete protection against ambient radiation.  It requires a separate gas mask for full protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL light survivor suit" },
+    "copy-from": "lsurvivor_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "lsurvivor_suit_xl",
+    "description": "A lightweight, hand-built combination armor made from a cut-down bulletproof vest and a reinforced fabric jumpsuit.  Protects from the elements as well as from harm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Hub 01 environmental suit" },
+    "copy-from": "robofac_enviro_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "robofac_enviro_suit_xl",
+    "description": "A lightweight environmental suit worn by Hub personnel in their rare forays aboveground.  Colored brown and blue, the white seal of Hub 01 is embroidered on both of its upper arms.  It requires a separate gas mask for full protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL WS-47G moisture retention suit" },
+    "copy-from": "stillsuit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "stillsuit_xl",
+    "description": "The WebbStar moisture retention suit utilizes advanced technology to prevent up to 30% of moisture loss through perspiration.  The suit is powered by the micro-motions of the body, especially breathing and walking motions.  Because of this, your walking speed is impaired while wearing it.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL suit" },
+    "copy-from": "suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "suit_xl",
+    "description": "A full-body cotton suit.  Makes the apocalypse a truly gentlemanly experience.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL leather touring suit" },
+    "copy-from": "touring_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "touring_suit_xl",
+    "description": "A thick leather body suit made for protection while riding motorcycles.  Light and very comfortable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL winter survivor suit" },
+    "copy-from": "wsurvivor_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "wsurvivor_suit_xl",
+    "description": "A warm and heavy hand-built combination armor made from a reinforced bulletproof vest and an insulated leather jumpsuit.  Protects from the elements as well as from harm.  This can be worn regardless of your state of mutation"
+  }
+]

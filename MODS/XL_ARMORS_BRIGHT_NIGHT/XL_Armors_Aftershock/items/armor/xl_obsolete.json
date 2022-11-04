@@ -1,0 +1,56 @@
+[
+  {
+    "name": { "str": "XL hazardous environment suit" },
+    "copy-from": "afs_blatant_half_life_reference",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "afs_blatant_half_life_reference_xl",
+    "description": "Developed for the exploration of alien planes, the lightweight, orange-black HEV suit covers everything below the neck.  While it possesses only modest physical protection, it provides excellent protection from most environmental hazards.  A hatch in the front opens to provide a small amount of storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL hazardous environment helmet" },
+    "copy-from": "afs_hev_helmet",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "afs_hev_helmet_xl",
+    "description": "Meant to pair with a compatible HEV suit, this helmet's physical protection is basic at best, but makes up for it with an air recycler that provides excellent protection from airborne contaminants.  It has a mounted LED headlamp, powered by standard batteries.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL hazardous environment helmet (on)", "str_pl": "XL hazardous environment helmets (on)" },
+    "copy-from": "afs_hev_helmet_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "afs_hev_helmet_on_xl",
+    "description": "Meant to pair with a compatible HEV suit, this helmet's physical protection is basic at best, but makes up for it with an air recycler that provides excellent protection from airborne contaminants.  Its light is on, illuminating the area at a cost of batteries.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL brigandine" },
+    "copy-from": "afs_brigandine",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "afs_brigandine_xl",
+    "description": "A piece of body armor from the Middle Ages consisting of boiled leather with riveted metal plates lying underneath.  Typically used to protect from arrows, it has very good protection against cuts.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL MBR vest (titanium)", "str_pl": "XL MBR vests (titanium)" },
+    "copy-from": "afs_mbr_titanium",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "afs_mbr_titanium_xl",
+    "description": "A Modular Bullet Resistant Vest.  Titanium scraps have been inserted to improve its protection.  It has four pouches capable of carrying magazines.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL crafted brigandine" },
+    "copy-from": "afs_brigandine_crafted",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "afs_brigandine_crafted_xl",
+    "description": "Modeled after a proper brigandine from medieval times, this makeshift piece of body armor consists of layered cloth with small pieces of sheet metal affixed to the underside.  While not as protective as a proper piece of armor, it'll still keep you relatively safe.  This can be worn regardless of your state of mutation"
+  }
+]

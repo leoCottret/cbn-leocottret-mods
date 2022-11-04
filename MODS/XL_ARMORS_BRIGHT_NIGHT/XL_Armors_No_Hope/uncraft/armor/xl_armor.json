@@ -1,0 +1,36 @@
+[
+  {
+    "result": "power_armor_basic_xl",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "1 h 20 m",
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
+    "tools": [ [ [ "boltcutters", -1 ], [ "toolset", -1 ] ] ],
+    "components": [
+      [ [ "depowered_armor", 1 ] ],
+      [ [ "power_supply", 8 ] ],
+      [ [ "element", 2 ] ],
+      [ [ "cable", 16 ] ],
+      [ [ "circuit", 8 ] ],
+      [ [ "transponder", 1 ] ]
+    ]
+  },
+  {
+    "result": "power_armor_helmet_basic_xl",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "time": "1 h 20 m",
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
+    "tools": [ [ [ "boltcutters", -1 ], [ "toolset", -1 ] ] ],
+    "components": [
+      [ [ "depowered_helmet", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "element", 1 ] ],
+      [ [ "small_lcd_screen", 2 ] ],
+      [ [ "circuit", 2 ] ],
+      [ [ "RAM", 1 ] ]
+    ]
+  }
+]

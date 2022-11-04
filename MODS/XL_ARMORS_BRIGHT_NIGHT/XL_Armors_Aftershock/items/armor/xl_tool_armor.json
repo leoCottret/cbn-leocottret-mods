@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "XL cryopod bodyglove" },
+    "copy-from": "afs_cryopod_bodyglove",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "afs_cryopod_bodyglove_xl",
+    "description": "A dark orange bodyglove, hundreds of tubes curl over its surface, tracing the contours of human musculature.  Meant to control body temperature during prolonged cryopreservation, it could easily keep you comfortable in any earthly climate.  Use it to activate its climate control functionality.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL cryopod bodyglove (on)", "str_pl": "XL cryopod bodygloves (on)" },
+    "copy-from": "afs_cryopod_bodyglove_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "afs_cryopod_bodyglove_on_xl",
+    "description": "The temperature control units of this high-tech garment are currently active, and continuously draining battery power.  Use it to turn them off.  This can be worn regardless of your state of mutation"
+  }
+]

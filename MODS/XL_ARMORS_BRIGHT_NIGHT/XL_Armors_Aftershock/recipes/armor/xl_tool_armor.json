@@ -1,0 +1,12 @@
+[
+  {
+    "result": "afs_cryopod_bodyglove_xl",
+    "id_suffix": "from_afs_cryopod_bodyglove",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "afs_cryopod_bodyglove", 1 ] ] ]
+  }
+]
