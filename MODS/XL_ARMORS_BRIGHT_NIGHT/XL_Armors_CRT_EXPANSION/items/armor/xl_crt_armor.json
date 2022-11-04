@@ -1,0 +1,92 @@
+[
+  {
+    "name": { "str": "XL CRIT face mask" },
+    "copy-from": "crt_mask",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_mask_xl",
+    "description": "This is the C.R.I.T standard issue face mask, lined with Kevlar for extra protection.  A few filters provide decent environmental safety, but it was not intended for extended use.  It has a basic integrated HUD.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL CRIT boots", "str_pl": "pairs of XL CRIT boots" },
+    "copy-from": "crt_boots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_boots_xl",
+    "description": "C.R.I.T standard-issue boots.  Next-gen gels keep feet comfortable and hygienic during long-term missions while absorbing shock and heat from outside-sources.  Superalloy mesh and rubber offer quite a bit of chemical protection as well.  Decently heavy though  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL CRIT LA boots", "str_pl": "pairs of XL CRIT LA boots" },
+    "copy-from": "crt_la_boots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_la_boots_xl",
+    "description": "C.R.I.T skeletonized boots.  Based off of C.R.I.T boots, the light-armor variant was created for missions in warmer climates.  The LA boots keep most of the old features of the standard issue boots but trade in protection for easier movement.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL CRIT leg guards", "str_pl": "pairs of XL CRIT leg guards" },
+    "copy-from": "crt_legguard",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_legguard_xl",
+    "description": "C.R.I.T standard-issue leg armor.  Simple design and durable material allows for easy movement and the padding keeps the legs safe and warm in colder conditions.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL CRIT arm guards", "str_pl": "pairs of XL C.R.I.T arm guards" },
+    "copy-from": "crt_armguard",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_armguard_xl",
+    "description": "A pair of arm guards made from superalloy molded upon neoprene, and then insulated with rubber.  They are sturdy and will block attacks, but they are ridiculously heavy.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL CRIT infantry duster" },
+    "copy-from": "crt_iduster",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_iduster_xl",
+    "description": "A thick full-length duster coat with rubber insulation.  More than mildly encumbering, but rather protective against any anti-infantry electrical discharges from the robots.  Has several pockets for storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL CRIT Armored Anomaly Suit" },
+    "copy-from": "crt_aarmor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_aarmor_xl",
+    "description": "A relatively simple suit of armor.  A suit of woven composite fibers combined with a cleansuit core and strategically placed segmented Kevlar plates keep the suit light-weight and the one wearing it alive while offering superb resistance to the elements and ambient radiation.    This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL CRIT drop leg pouch", "str_pl": "XL C.R.I.T drop leg pouches" },
+    "copy-from": "crt_legrig",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_legrig_xl",
+    "description": "A set of pouches that can be worn on the thighs using buckled straps.  This variety is more compact and is favored by the C.R.I.T for its ease of use.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL CRIT Enforcer armor assembly", "str_pl": "XL CRIT Enforcer armor assemblies" },
+    "copy-from": "crt_earmor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_earmor_xl",
+    "description": "A series of plates, guards and buckles which assemble into a suit of sturdy body-armor which usually goes over other armor.  Overlapping steel plates on top of Kevlar plates cover vast expanses as the armor juts off in places so it can deflect attacks.  Built with the idea that comfort is less important than safety, this heavy suit is difficult to move about in but highly protective.  Various adjustable connectors such as straps and clips hold it together.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL CRIT Soldier Suit" },
+    "copy-from": "crt_sarmor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_sarmor_xl",
+    "description": "A suit of modern body-armor.  Strategically placed superalloy plates keep the suit's weight minimal while Kevlar plates other areas and a lining of soft neoprene pads areas for extra comfort.  Most importantly, this can be worn comfortably under other armor.  This can be worn regardless of your state of mutation"
+  }
+]

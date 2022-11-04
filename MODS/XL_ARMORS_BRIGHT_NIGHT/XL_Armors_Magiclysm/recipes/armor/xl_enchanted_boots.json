@@ -1,0 +1,42 @@
+[
+  {
+    "result": "mboots_sevenleague_xl",
+    "id_suffix": "from_mboots_sevenleague",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "mboots_sevenleague", 1 ] ] ]
+  },
+  {
+    "result": "mboots_haste_xl",
+    "id_suffix": "from_mboots_haste",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "mboots_haste", 1 ] ] ]
+  },
+  {
+    "result": "mboots_escape_xl",
+    "id_suffix": "from_mboots_escape",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "mboots_escape", 1 ] ] ]
+  },
+  {
+    "result": "mboots_grounding_xl",
+    "id_suffix": "from_mboots_grounding",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "mboots_grounding", 1 ] ] ]
+  }
+]

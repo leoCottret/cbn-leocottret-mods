@@ -1,0 +1,236 @@
+[
+  {
+    "name": { "str": "pair of XL beekeeping gloves", "str_pl": "pairs of XL beekeeping gloves" },
+    "copy-from": "beekeeping_gloves",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "beekeeping_gloves_xl",
+    "description": "A pair of white beekeeping gloves made out of smooth leather.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL chainmail gloves", "str_pl": "pairs of XL chainmail gloves" },
+    "copy-from": "chainmail_hands",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "chainmail_hands_xl",
+    "description": "Customized chainmail gloves.  They fully enclose the fingers and provide excellent protection, but are somewhat cumbersome.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL fire gauntlets", "str_pl": "pairs of XL fire gauntlets" },
+    "copy-from": "fire_gauntlets",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fire_gauntlets_xl",
+    "description": "A heavy pair of gloves, used by firefighters and metalworkers for heat protection.  Highly resistant to heat and flame, they provide excellent protection from injury.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fencing gauntlet" },
+    "copy-from": "gauntlet_fencing",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gauntlet_fencing_xl",
+    "description": "A single suede glove with sturdy cotton wrists, padded backs and well-fitting fingers.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fencing gauntlet (left)", "str_pl": "XL fencing gauntlets (left)" },
+    "copy-from": "gauntlet_fencing_l",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gauntlet_fencing_l_xl",
+    "description": "A single suede glove with sturdy cotton wrists, padded backs and well-fitting fingers.  This one is left-handed.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL fingerless gloves", "str_pl": "pairs of XL fingerless gloves" },
+    "copy-from": "gloves_fingerless",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_fingerless_xl",
+    "description": "A pair of leather gloves with no fingers, allowing greater manual dexterity.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL armored fingerless gloves", "str_pl": "pairs of XL armored fingerless gloves" },
+    "copy-from": "gloves_fingerless_mod",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_fingerless_mod_xl",
+    "description": "A pair of leather gloves with no fingers, allowing greater manual dexterity.  These have been crudely reinforced with steel guards across the back.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL survivor firegloves", "str_pl": "pairs of XL survivor firegloves" },
+    "copy-from": "gloves_fsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_fsurvivor_xl",
+    "description": "A pair of customized, Kevlar armored Nomex gloves, modified to be easy to wear while providing maximum protection under extreme conditions.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL fur gloves", "str_pl": "pairs of XL fur gloves" },
+    "copy-from": "gloves_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_fur_xl",
+    "description": "A pair of warm fur gloves.  They are somewhat cumbersome.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL heavy survivor gloves", "str_pl": "pairs of XL heavy survivor gloves" },
+    "copy-from": "gloves_hsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_hsurvivor_xl",
+    "description": "A pair of heavily customized, steel-backed armored Kevlar gloves, modified to be easy to wear while providing maximum protection under extreme conditions.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL white glove" },
+    "copy-from": "glove_jackson",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "glove_jackson_xl",
+    "description": "A single white glove covered with hundreds of rhinestones.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL light gloves", "str_pl": "pairs of XL light gloves" },
+    "copy-from": "gloves_light",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_light_xl",
+    "description": "A pair of cotton gloves.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL glove liners", "str_pl": "pairs of XL glove liners" },
+    "copy-from": "gloves_liner",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_liner_xl",
+    "description": "A pair of thin cotton gloves.  Often used as a liner beneath other gloves.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL light survivor gloves", "str_pl": "pairs of XL light survivor gloves" },
+    "copy-from": "gloves_lsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_lsurvivor_xl",
+    "description": "A pair of customized, Kevlar armored cloth gloves, modified to be easy to wear while providing maximum protection under extreme conditions.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL fingerless survivor gloves", "str_pl": "pairs of XL fingerless survivor gloves" },
+    "copy-from": "gloves_survivor_fingerless",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_survivor_fingerless_xl",
+    "description": "A pair of customized, Kevlar armored cloth gloves with no fingers, modified to be easy to wear while providing maximum protection under extreme conditions.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL medical gloves", "str_pl": "pairs of XL medical gloves" },
+    "copy-from": "gloves_medical",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_medical_xl",
+    "description": "A pair of thin latex gloves, designed to limit the spread of disease.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL rubber gloves", "str_pl": "pairs of XL rubber gloves" },
+    "copy-from": "gloves_rubber",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_rubber_xl",
+    "description": "A pair of rubber gloves, often used while cleaning with caustic materials.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL winter gloves", "str_pl": "pairs of XL winter gloves" },
+    "copy-from": "gloves_winter",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_winter_xl",
+    "description": "A pair of padded gloves.  Cumbersome, but warm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL wool gloves", "str_pl": "pairs of XL wool gloves" },
+    "copy-from": "gloves_wool",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_wool_xl",
+    "description": "A thick pair of wool gloves.  Cumbersome, but warm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL work gloves", "str_pl": "pairs of XL work gloves" },
+    "copy-from": "gloves_work",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_work_xl",
+    "description": "A tough pair of gloves, for tough everyday work.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL cut resistant gloves", "str_pl": "pairs of XL cut resistant gloves" },
+    "copy-from": "gloves_cut_resistant",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_cut_resistant_xl",
+    "description": "A pair of cut resistant gloves, useful when rapidly breaking down carcasses.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL winter survivor gloves", "str_pl": "pairs of XL winter survivor gloves" },
+    "copy-from": "gloves_wsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_wsurvivor_xl",
+    "description": "A pair of customized, Kevlar armored fur gloves, modified to be easy to wear while providing maximum protection under extreme conditions.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL extra long white gloves", "str_pl": "pairs of XL extra long white gloves" },
+    "copy-from": "long_glove_white",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "long_glove_white_xl",
+    "description": "Long white costume gloves.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL sock mitts", "str_pl": "pairs of XL sock mitts" },
+    "copy-from": "sockmitts",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sockmitts_xl",
+    "description": "A pair of improvised gloves made from socks with holes poked through them.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL army winter gloves", "str_pl": "pairs of XL army winter gloves" },
+    "copy-from": "winter_gloves_army",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "winter_gloves_army_xl",
+    "description": "A pair of padded gloves.  Favored by the military.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL golfing gloves", "str_pl": "pairs of XL golfing gloves" },
+    "copy-from": "gloves_golf",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_golf_xl",
+    "description": "A thin pair of black leather golfing gloves.  This can be worn regardless of your state of mutation"
+  }
+]

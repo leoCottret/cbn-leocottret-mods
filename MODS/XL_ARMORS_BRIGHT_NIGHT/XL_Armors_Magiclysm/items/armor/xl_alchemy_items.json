@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL copper circlet" },
+    "copy-from": "copper_circlet",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "copper_circlet_xl",
+    "description": "A wooden band with copper trimmings to be worn on the head.  Touching your temples with it on makes you feel very calm.  This can be worn regardless of your state of mutation"
+  }
+]

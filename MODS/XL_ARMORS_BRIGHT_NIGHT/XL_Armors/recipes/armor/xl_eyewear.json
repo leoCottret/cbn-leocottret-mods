@@ -1,0 +1,145 @@
+[
+  {
+    "result": "eclipse_glasses_xl",
+    "id_suffix": "from_eclipse_glasses",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "eclipse_glasses", 1 ] ] ]
+  },
+  {
+    "result": "fancy_sunglasses_xl",
+    "id_suffix": "from_fancy_sunglasses",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "fancy_sunglasses", 1 ] ] ]
+  },
+  {
+    "result": "fitover_sunglasses_xl",
+    "id_suffix": "from_fitover_sunglasses",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "fitover_sunglasses", 1 ] ] ]
+  },
+  {
+    "result": "glasses_bal_xl",
+    "id_suffix": "from_glasses_bal",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "glasses_bal", 1 ] ] ]
+  },
+  {
+    "result": "glasses_bifocal_xl",
+    "id_suffix": "from_glasses_bifocal",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "glasses_bifocal", 1 ] ] ]
+  },
+  {
+    "result": "glasses_eye_xl",
+    "id_suffix": "from_glasses_eye",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "glasses_eye", 1 ] ] ]
+  },
+  {
+    "result": "glasses_monocle_xl",
+    "id_suffix": "from_glasses_monocle",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "glasses_monocle", 1 ] ] ]
+  },
+  {
+    "result": "glasses_reading_xl",
+    "id_suffix": "from_glasses_reading",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "glasses_reading", 1 ] ] ]
+  },
+  {
+    "result": "glasses_safety_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "time": "8 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "cordage", 1, "LIST" ] ], [ [ "bottle_plastic", 1 ], [ "bottle_plastic_small", 2 ] ] ]
+  },
+  {
+    "result": "goggles_ski_xl",
+    "id_suffix": "from_goggles_ski",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "goggles_ski", 1 ] ] ]
+  },
+  {
+    "result": "goggles_welding_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "mechanics",
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "book_learn": [ [ "textbook_fabrication", 3 ], [ "welding_book", 3 ] ],
+    "components": [
+      [ [ "goggles_ski", 1 ], [ "goggles_swim", 1 ], [ "glasses_safety", 1 ] ],
+      [ [ "eclipse_glasses", 1 ], [ "glass_tinted", 3 ] ],
+      [ [ "duct_tape", 48 ], [ "medical_tape", 48 ] ]
+    ]
+  },
+  {
+    "result": "iggaak_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "8 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "cordage_short", 2, "LIST" ], [ "filament", 120, "LIST" ] ],
+      [ [ "2x4", 1 ], [ "stick", 1 ], [ "bone", 1 ], [ "bone_human", 1 ] ]
+    ]
+  },
+  {
+    "result": "sunglasses_xl",
+    "id_suffix": "from_sunglasses",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "sunglasses", 1 ] ] ]
+  }
+]

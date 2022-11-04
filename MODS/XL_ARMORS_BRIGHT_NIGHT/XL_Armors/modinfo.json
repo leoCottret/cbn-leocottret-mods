@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors",
+  "name": "<color_cyan>XL Armors</color>",
+  "description": "This is the main XL armors mod, that adds XL armors for vanilla.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "bn"
+  ],
+  "version": "Bright Night, last update 2022/11/4"
+}

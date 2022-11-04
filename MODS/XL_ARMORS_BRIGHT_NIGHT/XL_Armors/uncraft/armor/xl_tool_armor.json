@@ -1,0 +1,58 @@
+[
+  {
+    "result": "guitar_electric_xl",
+    "type": "uncraft",
+    "skill_used": "electronics",
+    "difficulty": 1,
+    "time": "7 m",
+    "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "shoulder_strap", 1 ] ],
+      [ [ "2x4", 1 ] ],
+      [ [ "amplifier", 1 ] ],
+      [ [ "cable", 12 ] ],
+      [ [ "scrap", 1 ] ],
+      [ [ "e_scrap", 2 ] ]
+    ]
+  },
+  {
+    "result": "solarpack_xl",
+    "type": "uncraft",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "time": "50 m",
+    "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 2 } ],
+    "using": [ [ "soldering_standard", 35 ], [ "welding_standard", 20 ] ],
+    "components": [
+      [ [ "power_supply", 2 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "solar_panel", 1 ] ],
+      [ [ "cable", 24 ] ],
+      [ [ "sheet_metal", 1 ] ],
+      [ [ "sheet_metal_small", 4 ] ],
+      [ [ "steel_chunk", 4 ] ],
+      [ [ "scrap", 9 ] ],
+      [ [ "rope_6", 1 ] ]
+    ]
+  },
+  {
+    "result": "solarpack_on_xl",
+    "type": "uncraft",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "time": "50 m",
+    "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 2 } ],
+    "using": [ [ "soldering_standard", 35 ], [ "welding_standard", 20 ] ],
+    "components": [
+      [ [ "power_supply", 2 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "solar_panel", 1 ] ],
+      [ [ "cable", 24 ] ],
+      [ [ "sheet_metal", 1 ] ],
+      [ [ "sheet_metal_small", 4 ] ],
+      [ [ "steel_chunk", 4 ] ],
+      [ [ "scrap", 9 ] ],
+      [ [ "rope_6", 1 ] ]
+    ]
+  }
+]

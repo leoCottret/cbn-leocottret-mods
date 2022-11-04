@@ -1,0 +1,56 @@
+[
+  {
+    "name": { "str": "pair of XL steel bracers", "str_pl": "pairs of XL steel bracers" },
+    "copy-from": "mbracer_steel_pair",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mbracer_steel_pair_xl",
+    "description": "A full assembly of medieval arm protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL steel bracer" },
+    "copy-from": "mbracer_steel_single",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mbracer_steel_single_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bracer of lesser defense", "str_pl": "XL bracers of lesser defense" },
+    "copy-from": "mbracer_defense_lesser",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mbracer_defense_lesser_xl",
+    "description": "A light but extremely sturdy steel bracer with an ornate shield engraved on the top, silver accentuates the intricate design.  It protects your body with a light aura to reduce damage you take.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bracer of greater defense", "str_pl": "XL bracers of greater defense" },
+    "copy-from": "mbracer_defense_greater",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mbracer_defense_greater_xl",
+    "description": "A light but extremely sturdy steel bracer with an ornate shield engraved on the top, gold accentuates the intricate design.  It protects your body with a strong aura to reduce damage you take.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL lesser bracer of lightning", "str_pl": "XL lesser bracers of lightning" },
+    "copy-from": "mbracer_lightning_lesser",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mbracer_lightning_lesser_xl",
+    "description": "A light but extremely sturdy steel bracer with an ornate bundle of lightning bolts engraved on the top, silver accentuates the intricate design.  It protects your body with a light aura to reduce electrical damage you take, as well as being able to release a Jolt spell 3 times a day.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL greater bracer of lightning", "str_pl": "XL greater bracers of lightning" },
+    "copy-from": "mbracer_lightning_greater",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mbracer_lightning_greater_xl",
+    "description": "A light but extremely sturdy steel bracer with an ornate bundle of lightning bolts engraved on the top, gold accentuates the intricate design.  It protects your body with a strong aura to reduce electrical damage you take, as well as being able to release a Lightning Bolt spell 3 times a day.  This can be worn regardless of your state of mutation"
+  }
+]
