@@ -1,0 +1,47 @@
+[
+  {
+    "name": { "str": "XL service cap" },
+    "copy-from": "service_cap_ija",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "service_cap_ija_xl",
+    "description": "The service cap of the Imperial Japanese Army from World War 2. A peaked cap similar to an American one of the time. Red piping runs along the outer edge of the crown and the headband has an inch wide red felt band. At the front of the red band is a gold star.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Type 92 helmet" },
+    "copy-from": "helm_type92",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helm_type92_xl",
+    "description": "An old-era army helmet worn by the Imperial Japanese Army in world war 2. Decently protective, it should be able to withstand at least some small arms fire. It surprisingly helps to keep the sun out of your eyes  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Hachimaki" },
+    "copy-from": "headband_hachimaki",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "headband_hachimaki_xl",
+    "description": "The Hachimaki, a stylized headband of red and white cloth. A symbol of perserverance and effort by the wearer, it is commonly associated with the 'kamikazee' suicide bombers of world war 2.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL IJA fatigues" },
+    "copy-from": "fatigues_ija",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fatigues_ija_xl",
+    "description": "Green cotton fatigues, ussued as a hot-weather uniform by the Imperial Japanese Army. It should protect decently well, though don't expect it to block bullets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Red Sun fatigues" },
+    "copy-from": "fatigues_redsun",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fatigues_redsun_xl",
+    "description": "Green cotton fatigues, modified off the base design for Imperial Japanese Army fatigues in ww2. It should protect decently well. It has a red sun design on the back  This can be worn regardless of your state of mutation"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_PK_REBALANCE",
+  "name": "<color_cyan>XL Armors</color> for PKs Rebalancing",
+  "description": "This is an extension that adds XL armors for the PKs Rebalancing mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "PK_REBALANCE"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

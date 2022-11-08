@@ -1,0 +1,33 @@
+[
+  {
+    "result": "magnetic_field_vo_xl",
+    "type": "recipe",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "time": "20 m",
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [ [ "textbook_mechanics", 8 ], [ "textbook_robots", 7 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "WRENCH", "level": 1 },
+      { "id": "SCREW", "level": 1 }
+    ],
+    "tools": [
+      [ [ "goggles_welding", -1 ] ],
+      [ [ "welder", 50 ], [ "welder_crude", 75 ], [ "toolset", 75 ] ],
+      [ [ "soldering_iron", 30 ], [ "toolset", 30 ] ]
+    ],
+    "components": [
+      [ [ "bio_magnet", 2 ] ],
+      [ [ "armor_scrapsuit", 1 ] ],
+      [ [ "UPS_off", 3 ] ],
+      [ [ "cable", 2400 ] ],
+      [ [ "power_supply", 12 ] ],
+      [ [ "scrap", 48 ], [ "steel_chunk", 12 ] ]
+    ]
+  }
+]

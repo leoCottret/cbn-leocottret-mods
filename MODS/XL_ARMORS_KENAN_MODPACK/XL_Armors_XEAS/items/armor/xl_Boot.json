@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "pair of XL xeas boot", "str_pl": "pairs of XL xeas boots" },
+    "copy-from": "XEAS_boots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "XEAS_boots_xl",
+    "description": "A pair of experimental mix multilayer boots.  This can be worn regardless of your state of mutation"
+  }
+]

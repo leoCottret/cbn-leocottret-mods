@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_realdarkskies",
+  "name": "<color_cyan>XL Armors</color> for <color_light_green>Real Dark Skies</color>",
+  "description": "This is an extension that adds XL armors for the <color_light_green>Real Dark Skies</color> mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "realdarkskies"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

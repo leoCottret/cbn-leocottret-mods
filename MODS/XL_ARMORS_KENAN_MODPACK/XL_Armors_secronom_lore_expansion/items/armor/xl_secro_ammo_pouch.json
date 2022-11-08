@@ -1,0 +1,47 @@
+[
+  {
+    "name": { "str": "XL ammo satchel" },
+    "copy-from": "secro_flesh_ammo_satchel",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "secro_flesh_ammo_satchel_xl",
+    "description": "A fleshy ammo bag worn at the waist.  It is capable of holding a single large magazine close at hand.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL chest ammo pouch", "str_pl": "XL chest ammo pouches" },
+    "copy-from": "secro_flesh_chestpouch",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "secro_flesh_chestpouch_xl",
+    "description": "A fleshy ammo pouch that can be strapped to your chest and hold a single magazine close at hand.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL chest rig" },
+    "copy-from": "secro_flesh_chestrig",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "secro_flesh_chestrig_xl",
+    "description": "Popularized during the Vietnam War, chest rigs like these are typically plain, barebones affairs consisting of three or more pouches in a row, with straps to secure them on your chest.  This one can hold four magazines in its pouches.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL leg ammo pouch", "str_pl": "XL leg ammo pouches" },
+    "copy-from": "secro_flesh_legpouch_large",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "secro_flesh_legpouch_large_xl",
+    "description": "A fleshy ammo pouch that can be strapped to your leg and hold two magazines close at hand.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL tac vest" },
+    "copy-from": "secro_flesh_tacvest",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "secro_flesh_tacvest_xl",
+    "description": "This light vest is meant to carry your gear and ammunition comfortably distributed about your torso.  They are popular amongst law enforcement, but less so than combination tactical vests incorporating Kevlar.  Lightweight and easy to don, this vest can hold four magazines close at hand in its many pouches.  This can be worn regardless of your state of mutation"
+  }
+]

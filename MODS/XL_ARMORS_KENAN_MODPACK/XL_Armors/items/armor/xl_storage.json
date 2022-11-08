@@ -1,0 +1,146 @@
+[
+  {
+    "name": { "str": "XL giant novelty backpack" },
+    "copy-from": "backpack_giant",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "backpack_giant_xl",
+    "description": "A huge fabric backpack made mostly as a joke before the Cataclysm.  Now, it's still rather silly, but it can store a lot of stuff.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL dive bag" },
+    "copy-from": "dive_bag",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "dive_bag_xl",
+    "description": "A lightweight mesh backpack, commonly worn by swimmers and divers.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL tactical dump pouch", "str_pl": "XL tactical dump pouches" },
+    "copy-from": "dump_pouch",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "dump_pouch_xl",
+    "description": "An expandable pouch secured with straps.  Provides a bit of extra storage with minimal encumbrance.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fanny pack" },
+    "copy-from": "fanny",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fanny_xl",
+    "description": "Provides a bit of extra storage, with minimal encumbrance.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL makeshift knapsack" },
+    "copy-from": "makeshift_knapsack",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "makeshift_knapsack_xl",
+    "description": "A pair of pants with the bottom ends tied with string, and then passed through the belt loops so the knapsack can be carried on the back.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL messenger bag" },
+    "copy-from": "mbag",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mbag_xl",
+    "description": "Light and easy to wear, but doesn't offer much storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL MOLLE pack" },
+    "copy-from": "molle_pack",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "molle_pack_xl",
+    "description": "The Modular Lightweight Load-carrying Equipment is an advanced military backpack.  Covered with pockets and straps, it strikes a fine balance between storage space and encumbrance.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL petpack" },
+    "copy-from": "petpack",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "petpack_xl",
+    "description": "Before the Cataclysm this would allow your four-legged friend to see the world, now it's used to shield them from the world.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL purse" },
+    "copy-from": "purse",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "purse_xl",
+    "description": "A bit cumbersome to wear, but provides some storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL military rucksack" },
+    "copy-from": "rucksack",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "rucksack_xl",
+    "description": "A huge military rucksack, provides a lot of storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL runner pack" },
+    "copy-from": "runner_bag",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "runner_bag_xl",
+    "description": "The obvious choice for outdoor athletes, this ergonomic backpack is light and easy to wear, ensuring comfort when carrying heavy and bulky items.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sling pack" },
+    "copy-from": "slingpack",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "slingpack_xl",
+    "description": "A simple single-sling backpack.  Easier to access than a normal backpack, but can't comfortably hold as much.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor backpack" },
+    "copy-from": "survivor_pack",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "survivor_pack_xl",
+    "description": "A custom-built backpack.  Durable and carefully crafted to hold as much stuff as possible.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor runner pack" },
+    "copy-from": "survivor_runner_pack",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "survivor_runner_pack_xl",
+    "description": "A custom-built lightweight runner pack.  Durable and carefully crafted to hold as much stuff as possible.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL travelpack" },
+    "copy-from": "travelpack",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "travelpack_xl",
+    "description": "A hiking pack used for short trips.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL utility vest" },
+    "copy-from": "vest",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "vest_xl",
+    "description": "A light vest covered in pockets and straps for storage.  This can be worn regardless of your state of mutation"
+  }
+]

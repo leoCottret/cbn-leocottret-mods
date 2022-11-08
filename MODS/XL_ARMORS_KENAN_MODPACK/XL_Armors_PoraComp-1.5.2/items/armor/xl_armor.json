@@ -1,0 +1,92 @@
+[
+  {
+    "name": { "str": "XL Survivor Bottoms" },
+    "copy-from": "porawep_survivor_bottoms",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "porawep_survivor_bottoms_xl",
+    "description": "The answer to the ever evolving challange of the cataclysm, survivor gear is customized for utility and versility. This particular gear set is a very rugged pair of cargo pants. A nomex underlay protects from the enviroment while kevlar gives a bit of physical protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Pair of Survivor Gloves" },
+    "copy-from": "porawep_survivorgloves",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "porawep_survivorgloves_xl",
+    "description": "The answer to the ever evolving challange of the cataclysm, survivor gear is customized for utility and versility. This particular gear set is a pair of nomex lined kevlar gloves. Bumbs along the palm area provide great grip.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Survivor Hood" },
+    "copy-from": "porawep_survivorhood",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "porawep_survivorhood_xl",
+    "description": "The answer to the ever evolving challange of the cataclysm, survivor gear is customized for utility and versility. This particular gear set is a nomex backed kevlar hood, perfect for keeping out zombies and rain.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Survivor Boots" },
+    "copy-from": "porawep_survivorboots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "porawep_survivorboots_xl",
+    "description": "The answer to the ever evolving challange of the cataclysm, survivor gear is customized for utility and versility. This particular gear set is a pair of boots, crafted to ensure protection against any muck you may trudge through.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Survivor Mask" },
+    "copy-from": "porawep_survivormask",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "porawep_survivormask_xl",
+    "description": "The answer to the ever evolving challange of the cataclysm, survivor gear is customized for utility and versility. This particular gear set is a plastic mask with metal reinforcements, sealed against enviromental hazards.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Survivor Mask" },
+    "copy-from": "porawe_survivormask",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "porawe_survivormask_xl",
+    "description": "The answer to the ever evolving challange of the cataclysm, survivor gear is customized for utility and versility. This particular gear set is a plastic mask with metal reinforcements, sealed against enviromental hazards.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Survivor Chestplate" },
+    "copy-from": "porawep_survivor_chestplate",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "porawep_survivor_chestplate_xl",
+    "description": "The answer to the ever evolving challange of the cataclysm, survivor gear is customized for utility and versility. This particular gear set is a chestrig linking leather pouches for extra space and magazine capcity, and kevlar armor plates covering the vital sections.   This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Survivor Arm Guards" },
+    "copy-from": "porawep_survivor_armguards",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "porawep_survivor_armguards_xl",
+    "description": "The answer to the ever evolving challange of the cataclysm, survivor gear is customized for utility and versility. This particular gear set is a set of shaped, soft kevlar plates made to protect the arms, linked by leather. While not bulletproof, it will certainly spare you a zombie bite.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Survivor Leg Guards" },
+    "copy-from": "porawep_survivor_legguards",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "porawep_survivor_legguards_xl",
+    "description": "The answer to the ever evolving challange of the cataclysm, survivor gear is customized for utility and versility. This particular gear set is a set of shaped, soft kevlar plates made to protect the arms. A couple handy pouches can also be used to stash two magazines.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Survivor Heavy Chestplate" },
+    "copy-from": "porawep_survivorheavyplating",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "porawep_survivorheavyplating_xl",
+    "description": "The answer to the ever evolving challange of the cataclysm, survivor gear is customized for utility and versility. This particular gear set is a collection of kevlar pouches filled with hard steel plates , all linked together by straps and buckles.  This can be worn regardless of your state of mutation"
+  }
+]

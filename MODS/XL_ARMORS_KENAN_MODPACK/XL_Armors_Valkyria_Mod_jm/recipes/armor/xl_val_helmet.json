@@ -1,0 +1,32 @@
+[
+  {
+    "result": "gal_helmet_xl",
+    "id_suffix": "from_gal_helmet",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gal_helmet", 1 ] ] ]
+  },
+  {
+    "result": "imp_helmet_xl",
+    "id_suffix": "from_imp_helmet",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "imp_helmet", 1 ] ] ]
+  },
+  {
+    "result": "bruhlscarf_xl",
+    "id_suffix": "from_bruhlscarf",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "bruhlscarf", 1 ] ] ]
+  }
+]

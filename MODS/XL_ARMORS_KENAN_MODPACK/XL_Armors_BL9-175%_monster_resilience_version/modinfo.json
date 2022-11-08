@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_BL9_175monres",
+  "name": "<color_cyan>XL Armors</color> for <color_light_blue>BL9-175%-monster-resilience-version</color>",
+  "description": "This is an extension that adds XL armors for the <color_light_blue>BL9-175%-monster-resilience-version</color> mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "BL9_175monres"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "result": "armor_legion_recruit_xl",
+    "id_suffix": "from_armor_legion_recruit",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "armor_legion_recruit", 1 ] ] ]
+  },
+  {
+    "result": "helmet_legion_recruit_xl",
+    "id_suffix": "from_helmet_legion_recruit",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helmet_legion_recruit", 1 ] ] ]
+  },
+  {
+    "result": "armor_legion_prime_xl",
+    "id_suffix": "from_armor_legion_prime",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "armor_legion_prime", 1 ] ] ]
+  },
+  {
+    "result": "helmet_legion_prime_xl",
+    "id_suffix": "from_helmet_legion_prime",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helmet_legion_prime", 1 ] ] ]
+  },
+  {
+    "result": "armor_legion_veteran_xl",
+    "id_suffix": "from_armor_legion_veteran",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "armor_legion_veteran", 1 ] ] ]
+  },
+  {
+    "result": "helmet_legion_veteran_xl",
+    "id_suffix": "from_helmet_legion_veteran",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helmet_legion_veteran", 1 ] ] ]
+  }
+]

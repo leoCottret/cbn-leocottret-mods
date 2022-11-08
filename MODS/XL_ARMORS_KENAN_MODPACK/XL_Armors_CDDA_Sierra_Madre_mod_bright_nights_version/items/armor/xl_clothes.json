@@ -1,0 +1,38 @@
+[
+  {
+    "name": { "str": "XL Dean's tuxedo" },
+    "copy-from": "tux_dean",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tux_dean_xl",
+    "description": "A legendary tuxedo worn by the pre-apocalypse King of Swing, singer Dean Domino, famous for his talent... And fragile personality.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Vera's outfit" },
+    "copy-from": "dress_vera",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "dress_vera_xl",
+    "description": "An iconic black evening dress with a red outline worn by the famous Holywood starlet Vera Keyes. Its characteristic trait is the fact that it covers only right leg.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Sinclair's suit" },
+    "copy-from": "suit_sinclair",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "suit_sinclair_xl",
+    "description": "A fancy black suit worn by the Frederick Sinclair, the legendary bussinessman, founder of the Sierra Madre.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Dead Money jumpsuit" },
+    "copy-from": "jumpsuit_sierra",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jumpsuit_sierra_xl",
+    "description": "A light gray jumpsuit, similar to the ones worn by technical workers. Unlike those, though, this one has a red cross mark on the back.  This can be worn regardless of your state of mutation"
+  }
+]

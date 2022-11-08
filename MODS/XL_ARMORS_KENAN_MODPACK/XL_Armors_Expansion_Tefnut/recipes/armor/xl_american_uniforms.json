@@ -1,0 +1,32 @@
+[
+  {
+    "result": "fatigues_us_xl",
+    "id_suffix": "from_fatigues_us",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "fatigues_us", 1 ] ] ]
+  },
+  {
+    "result": "jacket_eisenhower_xl",
+    "id_suffix": "from_jacket_eisenhower",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jacket_eisenhower", 1 ] ] ]
+  },
+  {
+    "result": "boots_jump_xl",
+    "id_suffix": "from_boots_jump",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "boots_jump", 1 ] ] ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "result": "ragshirt_xl",
+    "id_suffix": "from_ragshirt",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "ragshirt", 1 ] ] ]
+  },
+  {
+    "result": "ragpants_xl",
+    "id_suffix": "from_ragpants",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "ragpants", 1 ] ] ]
+  }
+]

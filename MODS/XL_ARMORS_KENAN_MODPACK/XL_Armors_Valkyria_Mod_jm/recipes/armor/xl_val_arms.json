@@ -1,0 +1,62 @@
+[
+  {
+    "result": "gal_scoutarm_xl",
+    "id_suffix": "from_gal_scoutarm",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gal_scoutarm", 1 ] ] ]
+  },
+  {
+    "result": "gal_trooperarm_xl",
+    "id_suffix": "from_gal_trooperarm",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gal_trooperarm", 1 ] ] ]
+  },
+  {
+    "result": "gal_lancerarm_xl",
+    "id_suffix": "from_gal_lancerarm",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gal_lancerarm", 1 ] ] ]
+  },
+  {
+    "result": "gallian_leatherglove_xl",
+    "id_suffix": "from_gallian_leatherglove",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gallian_leatherglove", 1 ] ] ]
+  },
+  {
+    "result": "imp_leatherglove_xl",
+    "id_suffix": "from_imp_leatherglove",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "imp_leatherglove", 1 ] ] ]
+  },
+  {
+    "result": "imp_trooperarm_xl",
+    "id_suffix": "from_imp_trooperarm",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "imp_trooperarm", 1 ] ] ]
+  }
+]

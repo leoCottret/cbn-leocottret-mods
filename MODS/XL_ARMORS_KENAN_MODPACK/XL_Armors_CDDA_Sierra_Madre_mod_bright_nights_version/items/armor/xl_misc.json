@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL explosive collar" },
+    "copy-from": "collar_armed",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "collar_armed_xl",
+    "description": "The collar is constantly beeping, ready to blow up once its internal timer reaches zero.  This can be worn regardless of your state of mutation"
+  }
+]

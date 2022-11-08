@@ -1,0 +1,128 @@
+[
+  {
+    "name": { "str": "XL bowler hat of kinetic diversion" },
+    "copy-from": "sp_mbhat_off",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_mbhat_off_xl",
+    "description": "A bowler hat with an array of magnetic coils on its perimeter.  The hat can admit an electric field to protect the user when activated, running off of batteries.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL activated bowler hat of kinetic diversion" },
+    "copy-from": "sp_mbhat_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_mbhat_on_xl",
+    "description": "A bowler hat with an array of magnetic coils on its perimeter.  The hat can admit an electric field to protect the user when activated, running off of batteries.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL eye gear" },
+    "copy-from": "sp_eyegear",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_eyegear_xl",
+    "description": "An armored pair of lenses for sight magnification for those who are both near-sighted and far-sighted.  You can use them to focus sunlight. Increases perception by +1  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL goggled helmet" },
+    "copy-from": "sp_goghelm",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_goghelm_xl",
+    "description": "An armored helmet with goggles affixed to its front. Boosts the user's vision while providing all around protection. Increases perception by +1  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL vision helmet" },
+    "copy-from": "sp_vishelm",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_vishelm_xl",
+    "description": "An armored helmet with a meshed visor affixed to its front. Boosts the user's vision while providing all around protection. Increases perception by +1  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL wool jacket" },
+    "copy-from": "sp_wool_jacket",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_wool_jacket_xl",
+    "description": "A professional-looking wool jacket.  Commonly worn by men in town guards. Features thick wool padding, but is still fairly easy to move in.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL smoking jacket" },
+    "copy-from": "sp_smokingjacket",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_smokingjacket_xl",
+    "description": "A professional-looking smoking jacket.  Only for the most debonair of men.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL elegant dress" },
+    "copy-from": "sp_elegant_dress",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_elegant_dress_xl",
+    "description": "An elegant-looking dress, fit only for women of the upper class.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL plain dress" },
+    "copy-from": "sp_plain_dress",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_plain_dress_xl",
+    "description": "A fine-looking dress, fit for women of all social classes  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL rustic dress" },
+    "copy-from": "sp_rustic_dress",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_rustic_dress_xl",
+    "description": "A somewhat rough but sturdy dress, equally suited for work on a farm or in a factory.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL outdoor dress" },
+    "copy-from": "sp_outdoor_dress",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_outdoor_dress_xl",
+    "description": "A dress that has been made seemingly for use outdoors, fortified beyond usual feminine work. Includes pockets!  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL mechanical dress" },
+    "copy-from": "sp_mech_dress",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_mech_dress_xl",
+    "description": "A dress that has been made seemingly for use outdoors, fortified beyond usual feminine work. Includes pockets! With the addition of a miniature steam engine and motors, this dress's capabilties are boosted far beyond normal levels.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL galvanic motor shoes" },
+    "copy-from": "sp_mshoes_off",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_mshoes_off_xl",
+    "description": "A pair of shoes with attached electric motors near the heels. When activated, the user can accelerate far beyond normal speeds. Run on battery charge.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL activated galvanic motor shoes" },
+    "copy-from": "sp_mshoes_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sp_mshoes_on_xl",
+    "description": "A pair of shoes with attached electric motors near the heels. When activated, the user can accelerate far beyond normal speeds. The motor shoes are currently active, and running off battery charge.  This can be worn regardless of your state of mutation"
+  }
+]

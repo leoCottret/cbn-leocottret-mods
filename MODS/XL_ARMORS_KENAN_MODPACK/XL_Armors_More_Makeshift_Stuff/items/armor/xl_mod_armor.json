@@ -1,0 +1,200 @@
+[
+  {
+    "name": { "str": "XL makeshift wooden cuirass", "str_pl": "XL makeshift wooden cuirasses" },
+    "copy-from": "woodrass_one",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "woodrass_one_xl",
+    "description": "A makeshift wooden cuirass, actually just a bunch of boards fastened somewhat tight with strings.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL elaborate wooden cuirass", "str_pl": "XL elaborate wooden cuirasses" },
+    "copy-from": "woodrass_two",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "woodrass_two_xl",
+    "description": "An elaborate wooden cuirass, more thin, flexible and with shoulderpads for better coverage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL wooden laminar cuirass", "str_pl": "XL wooden laminar cuirasses" },
+    "copy-from": "woodrass_three",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "woodrass_three_xl",
+    "description": "An armor made from thin wooden sheets with carefully cut grooves sewn onto a cloth undershirt.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL wooden laminar suit" },
+    "copy-from": "woodrass_four",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "woodrass_four_xl",
+    "description": "A suit of armor made from thin wooden sheets with carefully cut grooves sewn onto a cloth gambeson.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL wire mail shirt" },
+    "copy-from": "wiremail_chest",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "wiremail_chest_xl",
+    "description": "A shirt made out of wires, coiled around and sewn into fabric. Not even close to a proper mail, but better than just clothing.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL wire mail sleeves" },
+    "copy-from": "wiremail_arms",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "wiremail_arms_xl",
+    "description": "A pair of sleeves made out of wires, coiled around and sewn into fabric. Sacrifices coverage to leave the elbow unencumbered. Not even close to a proper mail, but better than just clothing.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL wire mail leggins" },
+    "copy-from": "wiremail_legs",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "wiremail_legs_xl",
+    "description": "A pair of leggins made out of wires, coiled around and sewn into fabric. Sacrifices coverage to leave the knee unencumbered. Not even close to a proper mail, but better than just clothing.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL wooden helmet" },
+    "copy-from": "wooden_helm",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "wooden_helm_xl",
+    "description": "A makeshift wooden helmet. Heavy, uncomfortable and not quite sturdy, because the pieces are held together with a glue.   This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bottle vambraces" },
+    "copy-from": "bottle_vambraces",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bottle_vambraces_xl",
+    "description": "Have a spare bottle? Cut it in half, stuff inside some padding, fasten it with rags or string and use as vambraces. Hey, it's better than nothing.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL plastic breastplate" },
+    "copy-from": "plastic_chest",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "plastic_chest_xl",
+    "description": "A makeshift plastic breastplate with some padding. Not as good as factory-made football armor, but it's way less bulky and covers more torso area.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL tin can vambraces" },
+    "copy-from": "can_vambraces",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "can_vambraces_xl",
+    "description": "A pair of tin cans with removed bottoms and cut open along the side to allow wearing them on wrists. Some rags are wrapped around the sharp sides and to hold it firmly.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL linothorax", "str_pl": "XL linothoraxes" },
+    "copy-from": "linothorax",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "linothorax_xl",
+    "description": "A semi-historical(it would be neat to add small pockets) replica of linothorax. Strong, light and comfortable; it has only one flaw - it will fall apart under the rain, and the only way of waterproofing you can think of is the beeswax.   This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sandbag vest" },
+    "copy-from": "sandbag_vest",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sandbag_vest_xl",
+    "description": "A vest with dozens of sand-filled pockets. Kinda prone to ripping, and when it happens the sand disperses, making it impossible to repair, only make a new one.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL cardboard visor" },
+    "copy-from": "cardboard_visor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cardboard_visor_xl",
+    "description": "A cardboard visor. Protects from sun glare.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL wooden scale cuirass", "str_pl": "XL wooden scale cuirasses" },
+    "copy-from": "woodrass_five",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "woodrass_five_xl",
+    "description": "An armor made from wooden scales with carefully drilled holes sewn onto a cloth undershirt.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL wooden scale suit" },
+    "copy-from": "woodrass_six",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "woodrass_six_xl",
+    "description": "A suit of armor made from wooden scales with carefully drilled holes sewn onto a cloth gambeson.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL makeshift metal skullcap" },
+    "copy-from": "metal_skullcap",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "metal_skullcap_xl",
+    "description": "A skullcap hammered out of metal sheet.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL metal sheet vest" },
+    "copy-from": "metal_vest",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "metal_vest_xl",
+    "description": "A vest with two thin, but nevertheless inflexible metal sheets sealed inside its big pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL wooden mask" },
+    "copy-from": "wooden_mask",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "wooden_mask_xl",
+    "description": "A plain wooden mask. Looks kinda... creepy.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL tire arm guards" },
+    "copy-from": "tire_armguards",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tire_armguards_xl",
+    "description": "A pair of arm guards cut from a thick motorbike tire.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL tire leg guards" },
+    "copy-from": "tire_legguards",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tire_legguards_xl",
+    "description": "A pair of leg guards cut from a thick automobile tire.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL patchwork pants", "str_pl": "XL pants" },
+    "copy-from": "patch_pants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "patch_pants_xl",
+    "description": "A pair of makeshift patchwork pants.   This can be worn regardless of your state of mutation"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "name": { "str": "XL companion teddy bear" },
+    "copy-from": "nec_teddy",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "nec_teddy_xl",
+    "description": "A cute stuffed toy attached to your body. Offers no support other than morale.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL gothic lolita dress" },
+    "copy-from": "nec_gothic_dress",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "nec_gothic_dress_xl",
+    "description": "An impractically lacy dress from the Gothic Lolita subculture. Despite all the laces, it is surprisingly easy to move in.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL gothic lolita headdress" },
+    "copy-from": "nec_gothic_headdress",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "nec_gothic_headdress_xl",
+    "description": "A lacy headdress meant to be worn with the dress. It attracts attention.  This can be worn regardless of your state of mutation"
+  }
+]

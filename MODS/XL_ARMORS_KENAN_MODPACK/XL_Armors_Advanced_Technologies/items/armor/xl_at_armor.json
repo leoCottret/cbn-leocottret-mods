@@ -1,0 +1,29 @@
+[
+  {
+    "name": { "str": "XL robot helmet" },
+    "copy-from": "helmet_robot",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_robot_xl",
+    "description": "A tough green helmet built from durable materials, designed as armor for combat robots, but suitable for humans.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL steel helmet" },
+    "copy-from": "helmet_met",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_met_xl",
+    "description": "A dull gray steel helmet with a skirt on the rear to protect against shrapnel and provide extra coverage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL pilot helmet" },
+    "copy-from": "helmet_mechpilot",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_mechpilot_xl",
+    "description": "A thick helmet, encasing the entire head, with a large reflective visor, allowing a wide field of vision.  This can be worn regardless of your state of mutation"
+  }
+]

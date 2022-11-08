@@ -1,0 +1,36 @@
+[
+  {
+    "result": "boots_combat_tan_xl",
+    "id_suffix": "from_boots_combat_tan",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "boots_combat_tan",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "boots_combat_brown_xl",
+    "id_suffix": "from_boots_combat_brown",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "boots_combat_brown",
+          1
+        ]
+      ]
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "result": "Civilian_depower_armor_xl",
+    "id_suffix": "from_Civilian_depower_armor",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "Civilian_depower_armor", 1 ] ] ]
+  },
+  {
+    "result": "power_armor_Civilian_xl",
+    "id_suffix": "from_power_armor_Civilian",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "power_armor_Civilian", 1 ] ] ]
+  }
+]

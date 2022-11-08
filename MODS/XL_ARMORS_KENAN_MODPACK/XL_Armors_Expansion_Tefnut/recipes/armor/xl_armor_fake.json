@@ -1,0 +1,72 @@
+[
+  {
+    "result": "armor_lorica_fake_xl",
+    "id_suffix": "from_armor_lorica_fake",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "armor_lorica_fake", 1 ] ] ]
+  },
+  {
+    "result": "chainmail_vest_fake_xl",
+    "id_suffix": "from_chainmail_vest_fake",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "chainmail_vest_fake", 1 ] ] ]
+  },
+  {
+    "result": "cuirass_lightplate_fake_xl",
+    "id_suffix": "from_cuirass_lightplate_fake",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "cuirass_lightplate_fake", 1 ] ] ]
+  },
+  {
+    "result": "chainmail_legs_fake_xl",
+    "id_suffix": "from_chainmail_legs_fake",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "chainmail_legs_fake", 1 ] ] ]
+  },
+  {
+    "result": "legguard_lightplate_fake_xl",
+    "id_suffix": "from_legguard_lightplate_fake",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "legguard_lightplate_fake", 1 ] ] ]
+  },
+  {
+    "result": "armor_lightplate_fale_xl",
+    "id_suffix": "from_armor_lightplate_fale",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "armor_lightplate_fale", 1 ] ] ]
+  },
+  {
+    "result": "armor_plate_fake_xl",
+    "id_suffix": "from_armor_plate_fake",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "armor_plate_fake", 1 ] ] ]
+  }
+]

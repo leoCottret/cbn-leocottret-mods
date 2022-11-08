@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_Survivors_Lost_item",
+  "name": "<color_cyan>XL Armors</color> for Survivor's Lost item",
+  "description": "This is an extension that adds XL armors for the Survivor's Lost item mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "Survivors_Lost_item"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

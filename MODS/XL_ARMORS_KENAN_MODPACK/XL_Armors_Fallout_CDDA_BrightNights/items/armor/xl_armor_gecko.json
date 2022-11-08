@@ -1,0 +1,128 @@
+[
+  {
+    "name": { "str": "pair of XL gecko-skin boots", "str_pl": "pairs of XL gecko-skin boots" },
+    "copy-from": "boots_gecko",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_gecko_xl",
+    "description": "Tough gecko-skin boots.  Very durable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL golden gecko-skin boots", "str_pl": "pairs of XL golden gecko-skin boots" },
+    "copy-from": "boots_gecko_gold",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_gecko_gold_xl",
+    "description": "Tough, golden gecko-skin boots.  Very durable, and immune to acid in entirety, you can wade through anything in these.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL gecko-skin gloves", "str_pl": "pairs of XL gecko-skin gloves" },
+    "copy-from": "gloves_leather_gecko",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_leather_gecko_xl",
+    "description": "A thin pair of silver gecko-skin gloves.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL golden gecko-skin gloves", "str_pl": "pairs of XL golden gecko-skin gloves" },
+    "copy-from": "gloves_leather_gecko_gold",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_leather_gecko_gold_xl",
+    "description": "A thin pair of golden gecko-skin gloves. Ever wanted to choke out a spitter? with these babies, you can.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL gecko-skin backpack" },
+    "copy-from": "backpack_leather_gecko",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "backpack_leather_gecko_xl",
+    "description": "A small gecko-skin backpack.  Good storage for a little encumbrance.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL golden gecko-skin backpack" },
+    "copy-from": "backpack_leather_gecko_gold",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "backpack_leather_gecko_gold_xl",
+    "description": "A small golden gecko-skin backpack.  Good storage for a little encumbrance. Perfect for carrying stuff a golden gecko might be interested in, or just carrying vials of acid that youre worried about breaking.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL gecko-skin arm guards", "str_pl": "pairs of XL gecko-skin arm guards" },
+    "copy-from": "armguard_leather_gecko",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armguard_leather_gecko_xl",
+    "description": "A pair of tough gecko-skin arm guards.  Light and comfortable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL golden gecko-skin arm guards", "str_pl": "pairs of XL golden gecko-skin arm guards" },
+    "copy-from": "armguard_leather_gecko_gold",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armguard_leather_gecko_gold_xl",
+    "description": "A pair of tough golden gecko-skin arm guards.  Light and comfortable. Perfect for plunging your arm into an acid anthill.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL gecko-skin body armor" },
+    "copy-from": "armor_leather_gecko",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_leather_gecko_xl",
+    "description": "Thick gecko-skin body armor. Light and durable, with many pockets for storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL golden gecko-skin body armor" },
+    "copy-from": "armor_leather_gecko_gold",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_leather_gecko_gold_xl",
+    "description": "Thick gecko-skin body armor. Light and durable, with many pockets for storage. You could swim in acid in this, if you only had facial protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL gecko-skin mask" },
+    "copy-from": "mask_gecko",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mask_gecko_xl",
+    "description": "A homemade mask slash helmet made of a regular gas mask and gecko skin, with tinted glass eyeholes so you don't get blood and sun in your eyes.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL golden gecko-skin mask" },
+    "copy-from": "mask_gecko_gold",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mask_gecko_gold_xl",
+    "description": "A homemade mask slash helmet, made of a regular gas mask and golden gecko skin, with tinted glass eyeholes so you don't get blood and sun in your eyes. Is the air acid? Well not anymore!  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL gecko-skin duster" },
+    "copy-from": "duster_leather_gecko",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "duster_leather_gecko_xl",
+    "description": "A thick gecko-skin full-length duster.  Has many pockets for storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL golden gecko-skin duster" },
+    "copy-from": "duster_leather_gecko_gold",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "duster_leather_gecko_gold_xl",
+    "description": "A thick golden gecko-skin full-length duster.  Has many pockets for storage. It also doubles as a raincoat!  This can be worn regardless of your state of mutation"
+  }
+]

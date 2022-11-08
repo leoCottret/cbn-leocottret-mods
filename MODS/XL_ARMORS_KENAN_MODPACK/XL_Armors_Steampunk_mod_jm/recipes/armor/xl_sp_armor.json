@@ -1,0 +1,213 @@
+[
+  {
+    "result": "sp_mbhat_off_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "mechanics",
+    "difficulty": 6,
+    "time": "120 m",
+    "reversible": true,
+    "book_learn": [ [ "textbook_mechanics", 5 ], [ "manual_mechanics", 5 ], [ "textbook_fabrication", 5 ], [ "sp_text_devices", 5 ] ],
+    "qualities": [ { "id": "SCREW", "level": 2 } ],
+    "using": [ [ "welding_standard", 50 ] ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ] ],
+    "components": [ [ [ "bowhat", 1 ] ], [ [ "e_scrap", 18 ] ], [ [ "cable", 180 ] ], [ [ "amplifier", 1 ] ], [ [ "scrap", 6 ] ] ]
+  },
+  {
+    "result": "sp_eyegear_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "mechanics",
+    "difficulty": 5,
+    "time": "80 m",
+    "reversible": true,
+    "book_learn": [ [ "textbook_mechanics", 5 ], [ "manual_mechanics", 5 ], [ "textbook_fabrication", 5 ], [ "sp_text_devices", 5 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "CUT_FINE", "level": 1 },
+      { "id": "DRILL", "level": 1 },
+      { "id": "SCREW", "level": 1 }
+    ],
+    "using": [ [ "welding_standard", 20 ], [ "sewing_standard", 10 ] ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ] ],
+    "components": [
+      [ [ "pipe", 2 ] ],
+      [ [ "sheet_metal_small", 1 ] ],
+      [ [ "scrap", 18 ] ],
+      [ [ "glasses_bifocal", 1 ], [ "glasses_eye", 1 ], [ "glasses_monocle", 2 ], [ "glasses_reading", 1 ] ]
+    ]
+  },
+  {
+    "result": "sp_goghelm_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "mechanics",
+    "difficulty": 6,
+    "time": "110 m",
+    "reversible": true,
+    "book_learn": [ [ "textbook_mechanics", 5 ], [ "manual_mechanics", 5 ], [ "textbook_fabrication", 5 ], [ "sp_text_devices", 5 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "DRILL", "level": 1 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "using": [ [ "welding_standard", 50 ] ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ] ],
+    "components": [
+      [ [ "sp_eyegear", 1 ] ],
+      [ [ "sheet_metal_small", 2 ] ],
+      [ [ "steel_chunk", 12 ], [ "steel_lump", 6 ], [ "scrap", 30 ] ]
+    ]
+  },
+  {
+    "result": "sp_vishelm_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "mechanics",
+    "difficulty": 6,
+    "time": "120 m",
+    "reversible": true,
+    "book_learn": [ [ "textbook_mechanics", 5 ], [ "manual_mechanics", 5 ], [ "textbook_fabrication", 5 ], [ "sp_text_devices", 5 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "DRILL", "level": 1 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "using": [ [ "welding_standard", 25 ] ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ], [ [ "swage", -1 ] ] ],
+    "components": [
+      [ [ "cable", 30 ] ],
+      [ [ "sheet_metal_small", 1 ] ],
+      [ [ "scrap", 18 ] ],
+      [ [ "steel_chunk", 12 ], [ "steel_lump", 6 ] ]
+    ]
+  },
+  {
+    "result": "sp_wool_jacket_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "1 h 30 m",
+    "autolearn": true,
+    "book_learn": [ [ "mag_tailor", 5 ], [ "manual_tailor", 4 ], [ "sp_text_devices", 3 ] ],
+    "using": [ [ "sewing_standard", 12 ] ],
+    "components": [ [ [ "rag", 15 ] ], [ [ "felt_patch", 9 ] ] ]
+  },
+  {
+    "result": "sp_smokingjacket_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "1 h 30 m",
+    "autolearn": true,
+    "book_learn": [ [ "mag_tailor", 5 ], [ "manual_tailor", 5 ], [ "sp_text_devices", 4 ] ],
+    "using": [ [ "sewing_standard", 12 ] ],
+    "components": [ [ [ "rag", 12 ] ] ]
+  },
+  {
+    "result": "sp_elegant_dress_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "1 h 30 m",
+    "autolearn": true,
+    "book_learn": [ [ "textbook_tailor", 4 ], [ "manual_tailor", 3 ], [ "sp_text_devices", 4 ] ],
+    "using": [ [ "sewing_standard", 12 ] ],
+    "components": [ [ [ "rag", 21 ] ] ]
+  },
+  {
+    "result": "sp_plain_dress_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "1 h 10 m",
+    "autolearn": true,
+    "book_learn": [ [ "textbook_tailor", 4 ], [ "manual_tailor", 3 ], [ "sp_text_devices", 3 ] ],
+    "using": [ [ "sewing_standard", 12 ] ],
+    "components": [ [ [ "rag", 18 ] ] ]
+  },
+  {
+    "result": "sp_rustic_dress_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "1 h 10 m",
+    "autolearn": true,
+    "book_learn": [ [ "mag_tailor", 4 ], [ "manual_tailor", 4 ], [ "sp_text_devices", 3 ] ],
+    "using": [ [ "sewing_standard", 12 ] ],
+    "components": [ [ [ "rag", 18 ] ] ]
+  },
+  {
+    "result": "sp_outdoor_dress_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "1 h 10 m",
+    "autolearn": true,
+    "book_learn": [ [ "mag_tailor", 4 ], [ "manual_tailor", 4 ], [ "sp_text_devices", 3 ] ],
+    "using": [ [ "sewing_standard", 12 ] ],
+    "components": [ [ [ "rag", 21 ] ] ]
+  },
+  {
+    "result": "sp_mech_dress_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 7,
+    "time": "2 h 10 m",
+    "autolearn": true,
+    "book_learn": [ [ "mag_tailor", 4 ], [ "manual_tailor", 5 ], [ "sp_text_devices", 5 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "CUT_FINE", "level": 1 },
+      { "id": "DRILL", "level": 1 },
+      { "id": "SCREW", "level": 1 }
+    ],
+    "using": [ [ "sewing_standard", 12 ], [ "welding_standard", 15 ], [ "soldering_standard", 10, "LIST" ] ],
+    "components": [
+      [ [ "cable", 120 ] ],
+      [ [ "pipe", 2 ] ],
+      [ [ "coal_lump", 60 ], [ "charcoal", 60 ] ],
+      [ [ "metal_tank_little", 2 ] ],
+      [ [ "sheet_metal_small", 2 ] ],
+      [ [ "sp_mini_steam_engine", 1 ] ],
+      [ [ "sp_outdoor_dress", 1 ] ]
+    ]
+  },
+  {
+    "result": "sp_mshoes_off_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "mechanics",
+    "difficulty": 6,
+    "time": "120 m",
+    "reversible": true,
+    "book_learn": [ [ "textbook_mechanics", 5 ], [ "manual_mechanics", 5 ], [ "textbook_fabrication", 5 ], [ "sp_text_devices", 5 ] ],
+    "qualities": [ { "id": "SCREW", "level": 2 } ],
+    "using": [ [ "welding_standard", 50 ] ],
+    "tools": [ [ [ "soldering_standard", 10, "LIST" ], [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ] ],
+    "components": [ [ [ "motor_tiny", 4 ] ], [ [ "e_scrap", 18 ] ], [ [ "cable", 180 ] ], [ [ "amplifier", 1 ] ], [ [ "scrap", 6 ] ] ]
+  }
+]

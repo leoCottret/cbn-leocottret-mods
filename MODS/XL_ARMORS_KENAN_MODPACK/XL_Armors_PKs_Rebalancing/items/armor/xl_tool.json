@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL wearable lighter" },
+    "copy-from": "ref_lighter_string",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "ref_lighter_string_xl",
+    "description": "A lighter with a bit of string and taping to allow it to be worn about the neck like a lanyard.  A bit fumbly to get a hold of, but perfectly servicable.  This can be worn regardless of your state of mutation"
+  }
+]

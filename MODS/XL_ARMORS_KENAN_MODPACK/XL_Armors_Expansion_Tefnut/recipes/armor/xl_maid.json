@@ -1,0 +1,82 @@
+[
+  {
+    "result": "maid_dress_miniskirt_xl",
+    "id_suffix": "from_maid_dress_miniskirt",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "maid_dress_miniskirt", 1 ] ] ]
+  },
+  {
+    "result": "maid_dress_victorian_xl",
+    "id_suffix": "from_maid_dress_victorian",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "maid_dress_victorian", 1 ] ] ]
+  },
+  {
+    "result": "maid_hat_victorian_xl",
+    "id_suffix": "from_maid_hat_victorian",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "maid_hat_victorian", 1 ] ] ]
+  },
+  {
+    "result": "maid_dress_steampunk_xl",
+    "id_suffix": "from_maid_dress_steampunk",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "maid_dress_steampunk", 1 ] ] ]
+  },
+  {
+    "result": "maid_dress_combat_xl",
+    "id_suffix": "from_maid_dress_combat",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "maid_dress_combat", 1 ] ] ]
+  },
+  {
+    "result": "maid_dress_cyberpunk_xl",
+    "id_suffix": "from_maid_dress_cyberpunk",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "maid_dress_cyberpunk", 1 ] ] ]
+  },
+  {
+    "result": "maid_boots_cyberpunk_xl",
+    "id_suffix": "from_maid_boots_cyberpunk",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "maid_boots_cyberpunk", 1 ] ] ]
+  },
+  {
+    "result": "maid_hat_cyberpunk_xl",
+    "id_suffix": "from_maid_hat_cyberpunk",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "maid_hat_cyberpunk", 1 ] ] ]
+  }
+]

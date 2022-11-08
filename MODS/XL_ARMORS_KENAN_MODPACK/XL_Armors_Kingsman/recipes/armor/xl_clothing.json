@@ -1,0 +1,42 @@
+[
+  {
+    "result": "overcoat_kingsman_xl",
+    "id_suffix": "from_overcoat_kingsman",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "overcoat_kingsman", 1 ] ] ]
+  },
+  {
+    "result": "suit_jacket_kingsman_xl",
+    "id_suffix": "from_suit_jacket_kingsman",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "suit_jacket_kingsman", 1 ] ] ]
+  },
+  {
+    "result": "overcoat_statesman_xl",
+    "id_suffix": "from_overcoat_statesman",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "overcoat_statesman", 1 ] ] ]
+  },
+  {
+    "result": "suit_jacket_statesman_xl",
+    "id_suffix": "from_suit_jacket_statesman",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "suit_jacket_statesman", 1 ] ] ]
+  }
+]

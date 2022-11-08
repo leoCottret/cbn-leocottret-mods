@@ -1,0 +1,33 @@
+[
+  {
+    "result": "visored_helm_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "1 h 30 m",
+    "reversible": false,
+    "autolearn": false,
+    "book_learn": [ [ "textbook_armwest", 6 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 3, "amount": 1 }, { "id": "CHISEL", "level": 3, "amount": 1 } ],
+    "using": [ [ "steel_standard", 10 ] ],
+    "tools": [
+      [ [ "tongs", -1 ] ],
+      [ [ "anvil", -1 ] ],
+      [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ],
+      [ [ "forge", 300 ], [ "oxy_torch", 60 ] ]
+    ],
+    "components": [ [ [ "fur", 4 ], [ "leather", 4 ] ] ]
+  },
+  {
+    "result": "visored_helm_open_xl",
+    "id_suffix": "from_visored_helm_open",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "visored_helm_open", 1 ] ] ]
+  }
+]

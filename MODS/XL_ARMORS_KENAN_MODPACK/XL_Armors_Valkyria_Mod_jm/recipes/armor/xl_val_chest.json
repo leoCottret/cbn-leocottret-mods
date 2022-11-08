@@ -1,0 +1,112 @@
+[
+  {
+    "result": "galarmyjacket_xl",
+    "id_suffix": "from_galarmyjacket",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "galarmyjacket", 1 ] ] ]
+  },
+  {
+    "result": "galwebbing_xl",
+    "id_suffix": "from_galwebbing",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "galwebbing", 1 ] ] ]
+  },
+  {
+    "result": "galchestarmor_xl",
+    "id_suffix": "from_galchestarmor",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "galchestarmor", 1 ] ] ]
+  },
+  {
+    "result": "imparmyjacket_xl",
+    "id_suffix": "from_imparmyjacket",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "imparmyjacket", 1 ] ] ]
+  },
+  {
+    "result": "impwebbing_xl",
+    "id_suffix": "from_impwebbing",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "impwebbing", 1 ] ] ]
+  },
+  {
+    "result": "impchestarmor_xl",
+    "id_suffix": "from_impchestarmor",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "impchestarmor", 1 ] ] ]
+  },
+  {
+    "result": "galwomjacket_xl",
+    "id_suffix": "from_galwomjacket",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "galwomjacket", 1 ] ] ]
+  },
+  {
+    "result": "galwomtunic_xl",
+    "id_suffix": "from_galwomtunic",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "galwomtunic", 1 ] ] ]
+  },
+  {
+    "result": "gallian_pack_xl",
+    "id_suffix": "from_gallian_pack",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gallian_pack", 1 ] ] ]
+  },
+  {
+    "result": "imperial_pack_xl",
+    "id_suffix": "from_imperial_pack",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "imperial_pack", 1 ] ] ]
+  },
+  {
+    "result": "val_gallian_dress_xl",
+    "id_suffix": "from_val_gallian_dress",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "val_gallian_dress", 1 ] ] ]
+  }
+]

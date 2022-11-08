@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL Magnetic field generator (suit)" },
+    "copy-from": "magnetic_field_vo",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "magnetic_field_vo_xl",
+    "description": "You can manipulate the surrounding metal and create a machine. It consumes enormous power.  This can be worn regardless of your state of mutation"
+  }
+]

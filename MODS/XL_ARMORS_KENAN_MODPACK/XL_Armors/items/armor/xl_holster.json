@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL survivor harness", "str_pl": "XL survivor harnesses" },
+    "copy-from": "survivor_vest",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "survivor_vest_xl",
+    "description": "A custom-built light harness covered with pouches and including an integral tactical sling for a small rifle or other such weapon.  Durable and carefully crafted to be comfortable to wear.  Activate to holster/draw your weapon.  This can be worn regardless of your state of mutation"
+  }
+]

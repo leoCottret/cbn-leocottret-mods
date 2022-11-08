@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL demon armor" },
+    "copy-from": "demon_chitin_armor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "demon_chitin_armor_xl",
+    "description": "Thine armour hath been forged from some foul daemon, which provides ye unrivaled protection from their fires!.  This can be worn regardless of your state of mutation"
+  }
+]

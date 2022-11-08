@@ -1,0 +1,120 @@
+[
+  {
+    "result": "cordage_pouch_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "20 m",
+    "autolearn": true,
+    "components": [ [ [ "cordage", 18, "LIST" ], [ "rope_natural", 1, "LIST" ] ] ]
+  },
+  {
+    "result": "cordage_pouch_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "20 m",
+    "autolearn": true,
+    "components": [ [ [ "cordage", 18, "LIST" ], [ "rope_natural", 1, "LIST" ] ] ]
+  },
+  {
+    "result": "birchbark_pouch_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "cordage", 3, "LIST" ], [ "rope_natural_short", 1, "LIST" ] ], [ [ "bone", 1 ] ], [ [ "birchbark", 19 ] ] ]
+  },
+  {
+    "result": "birchbark_pouch_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "cordage", 3, "LIST" ], [ "rope_natural_short", 1, "LIST" ] ], [ [ "bone", 1 ] ], [ [ "birchbark", 19 ] ] ]
+  },
+  {
+    "result": "backpack_aframe_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "cordage", 3, "LIST" ], [ "rope_natural_short", 1, "LIST" ] ], [ [ "stick", 4 ] ] ]
+  },
+  {
+    "result": "backpack_aframe_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "cordage", 3, "LIST" ], [ "rope_natural_short", 1, "LIST" ] ], [ [ "stick", 4 ] ] ]
+  },
+  {
+    "result": "backpack_aframe_birchbark_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": "2 m 30 s",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "backpack_aframe", 1 ] ], [ [ "birchbark_pouch", 1 ] ] ]
+  },
+  {
+    "result": "backpack_aframe_birchbark_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": "2 m 30 s",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "backpack_aframe", 1 ] ], [ [ "birchbark_pouch", 1 ] ] ]
+  },
+  {
+    "result": "backpack_aframe_cordage_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": "2 m 30 s",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "backpack_aframe", 1 ] ], [ [ "cordage_pouch", 1 ] ] ]
+  },
+  {
+    "result": "backpack_aframe_cordage_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": "2 m 30 s",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "backpack_aframe", 1 ] ], [ [ "cordage_pouch", 1 ] ] ]
+  }
+]

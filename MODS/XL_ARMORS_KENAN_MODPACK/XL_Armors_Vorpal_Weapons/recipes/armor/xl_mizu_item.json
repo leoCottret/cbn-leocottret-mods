@@ -1,0 +1,23 @@
+[
+  {
+    "result": "snorkel_mizu_xl",
+    "id_suffix": "from_snorkel_mizu",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "snorkel_mizu", 1 ] ] ]
+  },
+  {
+    "result": "snorkel_makeshift_mizu_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "50 s",
+    "autolearn": true,
+    "components": [ [ [ "hose", 1 ] ], [ [ "duct_tape", 60 ] ] ]
+  }
+]

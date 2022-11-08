@@ -1,0 +1,29 @@
+[
+  {
+    "name": { "str": "XL Gallian P.32 Helmet" },
+    "copy-from": "gal_helmet",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gal_helmet_xl",
+    "description": "A heavy helmet that provides excellent protection from all sorts of damage.  It is labeled as the Gallian P.32 Helmet.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Model 1926 Steel Helm" },
+    "copy-from": "imp_helmet",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "imp_helmet_xl",
+    "description": "One of the most famous symbols of the Empire, the Steel Helm can trace its roots back to the carnage of the first Europan War. Like many articles of Imperial armor, it is quite encumbering and heavy, but has amazing protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bruhl headscarf" },
+    "copy-from": "bruhlscarf",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bruhlscarf_xl",
+    "description": "A red cotton headscarf.  Commonly worn the women in the rural hinterlands of gallia.  This can be worn regardless of your state of mutation"
+  }
+]

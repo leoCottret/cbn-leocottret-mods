@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "XL brotherhood scribe outfit" },
+    "copy-from": "fo_scribe_coat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fo_scribe_coat_xl",
+    "description": "A thick, red longcoat.  Has many pockets for storage. Seen in use among the various scribes and learned men and women of the Brotherhood of Steel.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL NCR trooper helmet" },
+    "copy-from": "fo_ncr_trooper_helmet",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fo_ncr_trooper_helmet_xl",
+    "description": "A steel helmet that provides a high degree of protection from a wide variety of damage from all sorts of damage. Comes with a wide brim to block out the glare of the wasteland sun.  This can be worn regardless of your state of mutation"
+  }
+]

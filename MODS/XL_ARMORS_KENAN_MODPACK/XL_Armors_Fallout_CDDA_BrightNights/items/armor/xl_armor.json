@@ -1,0 +1,452 @@
+[
+  {
+    "name": { "str": "XL vault jumpsuit" },
+    "copy-from": "jumpsuit_vault",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jumpsuit_vault_xl",
+    "description": "A thin, blue jumpsuit, with a few pockets, with a yellow zipper down the front  Provides decent storage and is not very encumbering. It's customizable for the Vault Dweller with priorities, and has a belt with pouches on it to make up for it's lack of pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL vault 13 jumpsuit" },
+    "copy-from": "jumpsuit_vault_13",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jumpsuit_vault_13_xl",
+    "description": "A thin, blue jumpsuit, with a few pockets, with a yellow zipper down the front  Provides decent storage and is not very encumbering. It's customizable for the Vault Dweller with priorities, and has a belt with pouches on it to make up for it's lack of pockets. This one has the number 13 on the back in yellow.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL vault 13 utility jumpsuit" },
+    "copy-from": "jumpsuit_vault_13_utility",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jumpsuit_vault_13_utility_xl",
+    "description": "A thin, blue jumpsuit, with a few pockets, with a yellow zipper down the front  Provides decent storage and is not very encumbering. It's customizable for the Vault Dweller with priorities, and has a belt with pouches on it to make up for it's lack of pockets. This one has the number 13 on the back in yellow, and has been customized with more storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL armored vault 13 jumpsuit" },
+    "copy-from": "jumpsuit_vault_13_armored",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jumpsuit_vault_13_armored_xl",
+    "description": "A thin, blue jumpsuit, with a few pockets, with a yellow zipper down the front  Provides decent storage and is not very encumbering. It's customizable for the Vault Dweller with priorities, and has a belt with pouches on it to make up for it's lack of pockets. It's lightly armored, has more pouches, and has a bright yellow 13 on it's back.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL handmade plate armor" },
+    "copy-from": "armor_wasteplate",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_wasteplate_xl",
+    "description": "A suit of handmade metal armor. The arms have spiked pauldrons  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Psychic Nullifier" },
+    "copy-from": "helm_nullifier",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helm_nullifier_xl",
+    "description": "A strange device, constructed from an odd technology...  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Tunnel Snakes leather jacket" },
+    "copy-from": "jacket_leather_tunnel",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_leather_tunnel_xl",
+    "description": "A jacket made from thick leather.  Cumbersome, but offers excellent protection from cuts. On the back is the image of a snake contorted into an 's'. The jacket makes you feel like you rule.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Kings leather jacket" },
+    "copy-from": "jacket_leather_king",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_leather_king_xl",
+    "description": "A jacket made from thick leather.  Cumbersome, but offers excellent protection from cuts. On the back is the image of a crown with the words 'The Kings' written in it. Hail to the king, baby.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Great Khans leather jacket" },
+    "copy-from": "jacket_leather_khan",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_leather_khan_xl",
+    "description": "A jacket made from thick leather.  Cumbersome, but offers excellent protection from cuts. Its decorated with a flame pattern, and has the image of a skull with the words 'Great Khans' on the back. The sleeves were cut off. Brutal.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Atom Cats leather jacket" },
+    "copy-from": "jacket_leather_atomcat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_leather_atomcat_xl",
+    "description": "A jacket made from thick leather.  Cumbersome, but offers excellent protection from cuts. On the back is the image of a mushroom cloud and a cat, with the words 'atom cats' printed. You feel like a cool cat just wearing this.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL naughty nightpants" },
+    "copy-from": "nightpants_naughty",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "nightpants_naughty_xl",
+    "description": "A pair of leapard-print pajama pants. Perfect for seduction, or just sleeping.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL naughty nightshirt" },
+    "copy-from": "nightshirt_naughty",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "nightshirt_naughty_xl",
+    "description": "A leopard-print nightshirt. For when you want to show your sexual prowess in a tacky, yet oddly endearing way.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL chinese jumpsuit" },
+    "copy-from": "jumpsuit_china",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jumpsuit_china_xl",
+    "description": "A green jumpsuit with Chinese flag patches on it. Seems to have been worn by a chinese infiltrator.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Red Racer jumpsuit" },
+    "copy-from": "jumpsuit_racer",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jumpsuit_racer_xl",
+    "description": "A red mechanic's jumpsuit from a tricycle factory. Pockets abound for all your tools and spare parts.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Enclave jumpsuit" },
+    "copy-from": "jumpsuit_enclave",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jumpsuit_enclave_xl",
+    "description": "A black jumpsuit worn by Enclave personel. Its not very warm, and is meant to be worn under their armor.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Enclave jacket", "str_pl": "XL Enclave jackets" },
+    "copy-from": "winter_jacket_enclave",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "winter_jacket_enclave_xl",
+    "description": "A tough hooded jacket with lots of pockets, thickly padded for warmth.  Favored by the eastern branch of the Enclave.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Enclave pants", "str_pl": "XL Enclave pants" },
+    "copy-from": "winter_pants_enclave",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "winter_pants_enclave_xl",
+    "description": "A tough pair of pants lined with pockets, thickly padded for warmth.  Favored by the eastern branch of the Enclave.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Enclave Commander Hat" },
+    "copy-from": "hat_enclave",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_enclave_xl",
+    "description": "An enclave officer's hat. Black, with the enclave logo above the brim.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL minutemen duster" },
+    "copy-from": "duster_minutemen",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "duster_minutemen_xl",
+    "description": "A light brown leather full-length duster, worn by the Commonwealth Minutemen, a small, presumably dead group of militiamen.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL minutemen general's duster" },
+    "copy-from": "duster_minutemen_general",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "duster_minutemen_general_xl",
+    "description": "A thick dark blue duster, once worn by the general of the Commonwealth Minutemen. It's yours now, general.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL red frock coat" },
+    "copy-from": "coat_frock_red",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "coat_frock_red_xl",
+    "description": "A thick, red longcoat.  Has many pockets for storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL green longcoat" },
+    "copy-from": "trenchcoat_general_green",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "trenchcoat_general_green_xl",
+    "description": "A thick leather trenchcoat, lined with pockets.  It seems to just demand respect.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL winter longcoat" },
+    "copy-from": "trenchcoat_general_white",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "trenchcoat_general_white_xl",
+    "description": "A thick leather trenchcoat, lined with pockets.  It seems to just demand respect.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL facist's longcoat" },
+    "copy-from": "trenchcoat_general_black",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "trenchcoat_general_black_xl",
+    "description": "A thick leather trenchcoat, lined with pockets.  If someone wearing this approaches you, run.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL General Hat" },
+    "copy-from": "hat_general_green",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_general_green_xl",
+    "description": "A great general's hat. Respect the man wearing this.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL General Winter's Hat" },
+    "copy-from": "hat_general_white",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_general_white_xl",
+    "description": "A great general's hat. Perfect for attacking Russia when you really shouldn't attack Russia.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Facist's Hat" },
+    "copy-from": "hat_general_black",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_general_black_xl",
+    "description": "The hat of pure evil. Do not trust it's wearer.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Raider Wastehound Hood" },
+    "copy-from": "wastehound_mask",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "wastehound_mask_xl",
+    "description": "A burlap sack and a pair of goggles, turned into a menacing mask.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL retro motorcycle helmet" },
+    "copy-from": "helmet_biker_retro",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_biker_retro_xl",
+    "description": "A heavy, round helmet that provides excellent protection from blunt impacts.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Chinese Commando Hat" },
+    "copy-from": "hat_peoples",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_peoples_xl",
+    "description": "A warm ushanka with a disgusting red star on the front.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL pint-sized slasher mask" },
+    "copy-from": "mask_pint",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mask_pint_xl",
+    "description": "A paper-mache mask in the image of a psychotic-looking clown. Its modelled after the infamous serial killer.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL pint-sized slasher mask" },
+    "copy-from": "mask_pint_magic",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mask_pint_magic_xl",
+    "description": "A paper-mache mask in the image of a psychotic-looking clown. Its modelled after the infamous serial killer. Something feels... off about this one.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Tops suit" },
+    "copy-from": "suit_benny",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "suit_benny_xl",
+    "description": "A black and white plaid suit. Perfect for gamblers, or those just gambling with destiny.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL boomer flight jacket" },
+    "copy-from": "jacket_boomer",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_boomer_xl",
+    "description": "A leather flight jacket covered in military medals.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL scientist scrubs" },
+    "copy-from": "scrubs_bigmt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "scrubs_bigmt_xl",
+    "description": "A simple white set of scientist's scrubs. They lack storage, or durability, but theyre ideal for science.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL NCR dress shirt" },
+    "copy-from": "dress_shirt_NCR",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "dress_shirt_NCR_xl",
+    "description": "A tan button-down shirt with long sleeves, and an NCR patch on the front.  Looks professional!  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL NCR pants", "str_pl": "XL NCR pants" },
+    "copy-from": "jeans_ncr",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jeans_ncr_xl",
+    "description": "A pair of brown pants with two deep pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL NCR armor" },
+    "copy-from": "ncr_armor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "ncr_armor_xl",
+    "description": "A suit of brown body armor used by NCR troopers and rangers. Provides great environmental protection  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL legate's armor" },
+    "copy-from": "armor_legate",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_legate_xl",
+    "description": "A suit of handcrafted heavy-steel armor from out west, worn by only the greatest warriors. Well, no traditionalists are here to stop you now.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL legate helmet" },
+    "copy-from": "helmet_legate",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_legate_xl",
+    "description": "The helmet of the legate, Caesar's most powerful warrior. It has a face design, and is incredibly beautiful.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL experimental hazmat suit" },
+    "copy-from": "hazmat_suit_ghost",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hazmat_suit_ghost_xl",
+    "description": "A hazmat suit made to protect from foreign materials. It is incredibly durable compared to other similar models, though its a bit bulkier. It needs a separate gas mask.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL 1st Recon beret" },
+    "copy-from": "beret_recon",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "beret_recon_xl",
+    "description": "A soft, red cotton hat. Worn by the NCR's 1st Recon division; 'The last things you'll never see'.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fiend helmet" },
+    "copy-from": "helmet_fiend",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_fiend_xl",
+    "description": "A small bike helmet outfitted with a horned skull.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL DB Tech Varsity jacket" },
+    "copy-from": "jacket_db_varsity",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_db_varsity_xl",
+    "description": "A thin cotton jacket made to represent a college football team.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL army combat armor" },
+    "copy-from": "armor_combat_light",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_combat_light_xl",
+    "description": "A suit of full body green armor used by army personell shortly before the cataclysm. Its covered in pockets and pouches.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL winterized army combat armor" },
+    "copy-from": "armor_combat_light_winter",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_combat_light_winter_xl",
+    "description": "A suit of full body white armor used by army personell shortly before the cataclysm. Its much warmer than similar armors.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL winterized medic combat armor" },
+    "copy-from": "armor_combat_light_winter_medic",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_combat_light_winter_medic_xl",
+    "description": "A suit of full body white armor used by army personell shortly before the cataclysm. Its much warmer than similar armors, though not as protective. It has a large red cross on the back, to signify you're not an active combatant. Sadly, zombies don't recognize the Geneva Convention.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL combat helmet" },
+    "copy-from": "helmet_combat_light",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_combat_light_xl",
+    "description": "A heavy helmet that provides excellent protection from all sorts of damage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL combat helmet" },
+    "copy-from": "helmet_combat_light_winter",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_combat_light_winter_xl",
+    "description": "A heavy winterized helmet that provides excellent protection from all sorts of damage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL winterized balaclava" },
+    "copy-from": "balclava_winter",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "balclava_winter_xl",
+    "description": "A warm, white covering that protects the head and face from the cold. It's reinforced with Kevlar to protect your face.  This can be worn regardless of your state of mutation"
+  }
+]

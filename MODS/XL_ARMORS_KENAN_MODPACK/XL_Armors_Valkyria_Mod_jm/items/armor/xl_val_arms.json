@@ -1,0 +1,56 @@
+[
+  {
+    "name": { "str_sp": "XL Gallian P.31 Light Arm Protection" },
+    "copy-from": "gal_scoutarm",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gal_scoutarm_xl",
+    "description": "Arm protection designed to protect the elbows, upper arm and shoulders from shell fragment and glancing bullet shots. Relatively lightly constructed, this armor is used primarily by gallian scouts.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Gallian P.33 Medium Arm Protection" },
+    "copy-from": "gal_trooperarm",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gal_trooperarm_xl",
+    "description": "Arm protection designed to protect the elbows, upper arm and shoulders from shell fragment and glancing bullet shots. Relatively moderately constructed, this armor is used primarily by gallian stormtroopers.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Gallian P.33 Heavy Arm Protection" },
+    "copy-from": "gal_lancerarm",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gal_lancerarm_xl",
+    "description": "Arm protection designed to protect the elbows, upper arm and shoulders from shell fragment and glancing bullet shots. Heavily constructed, this armor is used primarily by gallian Lancers.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Kloden Leather gloves" },
+    "copy-from": "gallian_leatherglove",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gallian_leatherglove_xl",
+    "description": "A thick pair of leather gloves backed by fur. Very warm and comfortable  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Imperial Leather gloves" },
+    "copy-from": "imp_leatherglove",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "imp_leatherglove_xl",
+    "description": "A thick pair of leather gloves.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Model 1929 Arm Protection" },
+    "copy-from": "imp_trooperarm",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "imp_trooperarm_xl",
+    "description": "Arm protection designed to protect the elbows, upper arm and shoulders from shell fragment and glancing bullet shots. Relatively moderately constructed, this armor is used primarily by Imperial stormtroopers.  This can be worn regardless of your state of mutation"
+  }
+]

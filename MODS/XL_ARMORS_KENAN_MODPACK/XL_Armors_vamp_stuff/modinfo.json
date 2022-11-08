@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_vamp_stuff",
+  "name": "<color_cyan>XL Armors</color> for Vampiric Stuff",
+  "description": "This is an extension that adds XL armors for the Vampiric Stuff mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "vamp_stuff"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_more_survivor_stuff",
+  "name": "<color_cyan>XL Armors</color> for More Survivor Stuff",
+  "description": "This is an extension that adds XL armors for the More Survivor Stuff mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "more_survivor_stuff"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

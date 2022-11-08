@@ -1,0 +1,83 @@
+[
+  {
+    "name": { "str": "XL EOD jacket" },
+    "copy-from": "jacket_eod",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_eod_xl",
+    "description": "A thick armored jacket constructed from kevlar and nomex for explosive ordnance disposal.  It is designed to protect against overpressure, fragmentation, impact and heat.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL light EOD jacket" },
+    "copy-from": "jacket_eod_light",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_eod_light_xl",
+    "description": "An armored jacket constructed from kevlar and nomex designed to protect against overpressure, fragmentation, impact and heat in hostile environments.  It is lighter than normal EOD armor to provide more maneuverability and can be worn over ballistic armor.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL EOD gloves", "str_pl": "pairs of XL EOD gloves" },
+    "copy-from": "gloves_eod",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_eod_xl",
+    "description": "Light armored gloves constructed from kevlar and nomex for explosive ordnance disposal.  They are designed to protect against fragmentation and heat.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL EOD helmet" },
+    "copy-from": "helmet_eod",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_eod_xl",
+    "description": "An armored electronically shielded helmet containing a camera, a two-way radio, and a headlamp, all of which can be voice-activated for redundancy.  It is designed to protect against overpressure, fragmentation, impact and heat.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL EOD helmet (on)", "str_pl": "XL EOD helmets (on)" },
+    "copy-from": "helmet_eod_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_eod_on_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL EOD trousers" },
+    "copy-from": "trousers_eod",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "trousers_eod_xl",
+    "description": "Thick armored trousers constructed from kevlar and nomex for explosive ordnance disposal.  It is designed to protect against overpressure, fragmentation, impact and heat.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL light EOD trousers" },
+    "copy-from": "trousers_eod_light",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "trousers_eod_light_xl",
+    "description": "Armored trousers constructed from kevlar and nomex designed to protect against overpressure, fragmentation, impact and heat in hostile environments.  It is lighter than normal EOD armor to provide more maneuverability.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL EOD foot protectors", "str_pl": "pairs of XL EOD foot protectors" },
+    "copy-from": "foot_protectors_eod",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "foot_protectors_eod_xl",
+    "description": "Armored foot protectors constructed from steel and nomex for explosive ordnance disposal.  They are designed to protect against overpressure, fragmentation, impact and heat.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL head bandana" },
+    "copy-from": "bandana_head",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bandana_head_xl",
+    "description": "A cotton bandana, worn over the head.  This can be worn regardless of your state of mutation"
+  }
+]

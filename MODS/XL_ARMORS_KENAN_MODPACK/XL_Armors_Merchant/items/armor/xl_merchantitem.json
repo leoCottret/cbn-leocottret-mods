@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL Caravan Bag" },
+    "copy-from": "Merchantbag",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "Merchantbag_xl",
+    "description": "The luggage, often used by caravans. It is too bulky to carry. However, when it comes to trade in one area, this is one of the most perfect storage.  This can be worn regardless of your state of mutation"
+  }
+]

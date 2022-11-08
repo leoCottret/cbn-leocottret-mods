@@ -1,0 +1,52 @@
+[
+  {
+    "result": "secro_flesh_ammo_satchel_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "secro_flesh_craft",
+    "difficulty": 4,
+    "time": "20 m",
+    "using": [ [ "fleshweaving_core", 6 ], [ "fleshweaving_meat", 3 ], [ "fleshweaving_bone", 1 ] ]
+  },
+  {
+    "result": "secro_flesh_chestpouch_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "secro_flesh_craft",
+    "difficulty": 3,
+    "time": "5 m",
+    "using": [ [ "fleshweaving_core", 2 ], [ "fleshweaving_meat", 1 ] ]
+  },
+  {
+    "result": "secro_flesh_chestrig_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "secro_flesh_craft",
+    "difficulty": 4,
+    "time": "20 m",
+    "using": [ [ "fleshweaving_core", 6 ], [ "fleshweaving_meat", 3 ], [ "fleshweaving_bone", 1 ] ]
+  },
+  {
+    "result": "secro_flesh_legpouch_large_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "secro_flesh_craft",
+    "difficulty": 4,
+    "time": "5 m",
+    "using": [ [ "fleshweaving_core", 2 ], [ "fleshweaving_meat", 1 ] ]
+  },
+  {
+    "result": "secro_flesh_tacvest_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "secro_flesh_craft",
+    "difficulty": 5,
+    "time": "30 m",
+    "using": [ [ "fleshweaving_core", 10 ], [ "fleshweaving_meat", 5 ], [ "fleshweaving_bone", 1 ] ]
+  }
+]

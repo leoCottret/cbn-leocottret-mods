@@ -1,0 +1,24 @@
+[
+  {
+    "result": "boots_steel_xl",
+    "type": "uncraft",
+    "skill_used": "tailor",
+    "time": "1 m",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "leather", 9 ] ], [ [ "scrap", 2 ] ] ]
+  },
+  {
+    "result": "socks_xl",
+    "type": "uncraft",
+    "time": "30 m",
+    "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+    "components": [ [ [ "thread", 42 ] ] ]
+  },
+  {
+    "result": "socks_ankle_xl",
+    "type": "uncraft",
+    "time": "30 m",
+    "qualities": [ { "id": "CUT_FINE", "level": 1 } ],
+    "components": [ [ [ "thread", 42 ] ] ]
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "result": "jumpsuit_vault_xl",
+    "id_suffix": "from_jumpsuit_vault",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jumpsuit_vault", 1 ] ] ]
+  },
+  {
+    "result": "jumpsuit_vault_13_xl",
+    "id_suffix": "from_jumpsuit_vault_13",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jumpsuit_vault_13", 1 ] ] ]
+  },
+  {
+    "result": "jumpsuit_vault_13_utility_xl",
+    "id_suffix": "from_jumpsuit_vault_13_utility",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jumpsuit_vault_13_utility", 1 ] ] ]
+  },
+  {
+    "result": "jumpsuit_vault_13_armored_xl",
+    "id_suffix": "from_jumpsuit_vault_13_armored",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jumpsuit_vault_13_armored", 1 ] ] ]
+  },
+  {
+    "result": "armor_wasteplate_xl",
+    "id_suffix": "from_armor_wasteplate",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "armor_wasteplate", 1 ] ] ]
+  },
+  {
+    "result": "helm_nullifier_xl",
+    "id_suffix": "from_helm_nullifier",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helm_nullifier", 1 ] ] ]
+  },
+  {
+    "result": "jacket_leather_tunnel_xl",
+    "id_suffix": "from_jacket_leather_tunnel",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jacket_leather_tunnel", 1 ] ] ]
+  },
+  {
+    "result": "jacket_leather_king_xl",
+    "id_suffix": "from_jacket_leather_king",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jacket_leather_king", 1 ] ] ]
+  },
+  {
+    "result": "jacket_leather_khan_xl",
+    "id_suffix": "from_jacket_leather_khan",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jacket_leather_khan", 1 ] ] ]
+  },
+  {
+    "result": "jacket_leather_atomcat_xl",
+    "id_suffix": "from_jacket_leather_atomcat",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jacket_leather_atomcat", 1 ] ] ]
+  },
+  {
+    "result": "nightpants_naughty_xl",
+    "id_suffix": "from_nightpants_naughty",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "nightpants_naughty", 1 ] ] ]
+  },
+  {
+    "result": "nightshirt_naughty_xl",
+    "id_suffix": "from_nightshirt_naughty",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "nightshirt_naughty", 1 ] ] ]
+  },
+  {
+    "result": "jumpsuit_china_xl",
+    "id_suffix": "from_jumpsuit_china",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jumpsuit_china", 1 ] ] ]
+  },
+  {
+    "result": "jumpsuit_racer_xl",
+    "id_suffix": "from_jumpsuit_racer",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jumpsuit_racer", 1 ] ] ]
+  },
+  {
+    "result": "jumpsuit_enclave_xl",
+    "id_suffix": "from_jumpsuit_enclave",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jumpsuit_enclave", 1 ] ] ]
+  },
+  {
+    "result": "winter_jacket_enclave_xl",
+    "id_suffix": "from_winter_jacket_enclave",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "winter_jacket_enclave", 1 ] ] ]
+  },
+  {
+    "result": "winter_pants_enclave_xl",
+    "id_suffix": "from_winter_pants_enclave",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "winter_pants_enclave", 1 ] ] ]
+  },
+  {
+    "result": "hat_enclave_xl",
+    "id_suffix": "from_hat_enclave",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "hat_enclave", 1 ] ] ]
+  },
+  {
+    "result": "duster_minutemen_xl",
+    "id_suffix": "from_duster_minutemen",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "duster_minutemen", 1 ] ] ]
+  },
+  {
+    "result": "duster_minutemen_general_xl",
+    "id_suffix": "from_duster_minutemen_general",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "duster_minutemen_general", 1 ] ] ]
+  },
+  {
+    "result": "coat_frock_red_xl",
+    "id_suffix": "from_coat_frock_red",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "coat_frock_red", 1 ] ] ]
+  },
+  {
+    "result": "trenchcoat_general_green_xl",
+    "id_suffix": "from_trenchcoat_general_green",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "trenchcoat_general_green", 1 ] ] ]
+  },
+  {
+    "result": "trenchcoat_general_white_xl",
+    "id_suffix": "from_trenchcoat_general_white",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "trenchcoat_general_white", 1 ] ] ]
+  },
+  {
+    "result": "trenchcoat_general_black_xl",
+    "id_suffix": "from_trenchcoat_general_black",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "trenchcoat_general_black", 1 ] ] ]
+  },
+  {
+    "result": "hat_general_green_xl",
+    "id_suffix": "from_hat_general_green",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "hat_general_green", 1 ] ] ]
+  },
+  {
+    "result": "hat_general_white_xl",
+    "id_suffix": "from_hat_general_white",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "hat_general_white", 1 ] ] ]
+  },
+  {
+    "result": "hat_general_black_xl",
+    "id_suffix": "from_hat_general_black",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "hat_general_black", 1 ] ] ]
+  },
+  {
+    "result": "wastehound_mask_xl",
+    "id_suffix": "from_wastehound_mask",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "wastehound_mask", 1 ] ] ]
+  },
+  {
+    "result": "helmet_biker_retro_xl",
+    "id_suffix": "from_helmet_biker_retro",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helmet_biker_retro", 1 ] ] ]
+  },
+  {
+    "result": "hat_peoples_xl",
+    "id_suffix": "from_hat_peoples",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "hat_peoples", 1 ] ] ]
+  },
+  {
+    "result": "mask_pint_xl",
+    "id_suffix": "from_mask_pint",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "mask_pint", 1 ] ] ]
+  },
+  {
+    "result": "mask_pint_magic_xl",
+    "id_suffix": "from_mask_pint_magic",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "mask_pint_magic", 1 ] ] ]
+  },
+  {
+    "result": "suit_benny_xl",
+    "id_suffix": "from_suit_benny",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "suit_benny", 1 ] ] ]
+  },
+  {
+    "result": "jacket_boomer_xl",
+    "id_suffix": "from_jacket_boomer",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jacket_boomer", 1 ] ] ]
+  },
+  {
+    "result": "scrubs_bigmt_xl",
+    "id_suffix": "from_scrubs_bigmt",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "scrubs_bigmt", 1 ] ] ]
+  },
+  {
+    "result": "dress_shirt_NCR_xl",
+    "id_suffix": "from_dress_shirt_NCR",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "dress_shirt_NCR", 1 ] ] ]
+  },
+  {
+    "result": "jeans_ncr_xl",
+    "id_suffix": "from_jeans_ncr",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jeans_ncr", 1 ] ] ]
+  },
+  {
+    "result": "ncr_armor_xl",
+    "id_suffix": "from_ncr_armor",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "ncr_armor", 1 ] ] ]
+  },
+  {
+    "result": "armor_legate_xl",
+    "id_suffix": "from_armor_legate",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "armor_legate", 1 ] ] ]
+  },
+  {
+    "result": "helmet_legate_xl",
+    "id_suffix": "from_helmet_legate",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helmet_legate", 1 ] ] ]
+  },
+  {
+    "result": "hazmat_suit_ghost_xl",
+    "id_suffix": "from_hazmat_suit_ghost",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "hazmat_suit_ghost", 1 ] ] ]
+  },
+  {
+    "result": "beret_recon_xl",
+    "id_suffix": "from_beret_recon",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "beret_recon", 1 ] ] ]
+  },
+  {
+    "result": "helmet_fiend_xl",
+    "id_suffix": "from_helmet_fiend",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helmet_fiend", 1 ] ] ]
+  },
+  {
+    "result": "jacket_db_varsity_xl",
+    "id_suffix": "from_jacket_db_varsity",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jacket_db_varsity", 1 ] ] ]
+  },
+  {
+    "result": "armor_combat_light_xl",
+    "id_suffix": "from_armor_combat_light",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "armor_combat_light", 1 ] ] ]
+  },
+  {
+    "result": "armor_combat_light_winter_xl",
+    "id_suffix": "from_armor_combat_light_winter",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "armor_combat_light_winter", 1 ] ] ]
+  },
+  {
+    "result": "armor_combat_light_winter_medic_xl",
+    "id_suffix": "from_armor_combat_light_winter_medic",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "armor_combat_light_winter_medic", 1 ] ] ]
+  },
+  {
+    "result": "helmet_combat_light_xl",
+    "id_suffix": "from_helmet_combat_light",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helmet_combat_light", 1 ] ] ]
+  },
+  {
+    "result": "helmet_combat_light_winter_xl",
+    "id_suffix": "from_helmet_combat_light_winter",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helmet_combat_light_winter", 1 ] ] ]
+  },
+  {
+    "result": "balclava_winter_xl",
+    "id_suffix": "from_balclava_winter",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "balclava_winter", 1 ] ] ]
+  }
+]

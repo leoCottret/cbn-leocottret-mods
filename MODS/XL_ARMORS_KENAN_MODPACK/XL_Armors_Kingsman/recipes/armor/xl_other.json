@@ -1,0 +1,52 @@
+[
+  {
+    "result": "glasses_kingsman_xl",
+    "id_suffix": "from_glasses_kingsman",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "glasses_kingsman", 1 ] ] ]
+  },
+  {
+    "result": "watch_kingsman_xl",
+    "id_suffix": "from_watch_kingsman",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "watch_kingsman", 1 ] ] ]
+  },
+  {
+    "result": "glasses_statesman_xl",
+    "id_suffix": "from_glasses_statesman",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "glasses_statesman", 1 ] ] ]
+  },
+  {
+    "result": "watch_statesman_xl",
+    "id_suffix": "from_watch_statesman",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "watch_statesman", 1 ] ] ]
+  },
+  {
+    "result": "hat_statesman_xl",
+    "id_suffix": "from_hat_statesman",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "hat_statesman", 1 ] ] ]
+  }
+]

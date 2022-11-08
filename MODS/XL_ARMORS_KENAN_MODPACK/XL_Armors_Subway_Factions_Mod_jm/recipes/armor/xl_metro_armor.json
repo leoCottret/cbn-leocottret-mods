@@ -1,0 +1,82 @@
+[
+  {
+    "result": "metro_redhat_xl",
+    "id_suffix": "from_metro_redhat",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "metro_redhat", 1 ] ] ]
+  },
+  {
+    "result": "metro_red_offcoat_xl",
+    "id_suffix": "from_metro_red_offcoat",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "metro_red_offcoat", 1 ] ] ]
+  },
+  {
+    "result": "metro_redvest_xl",
+    "id_suffix": "from_metro_redvest",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "metro_redvest", 1 ] ] ]
+  },
+  {
+    "result": "metro_redfur_xl",
+    "id_suffix": "from_metro_redfur",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "metro_redfur", 1 ] ] ]
+  },
+  {
+    "result": "metro_nsmhat_xl",
+    "id_suffix": "from_metro_nsmhat",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "metro_nsmhat", 1 ] ] ]
+  },
+  {
+    "result": "metro_nsmjacket_xl",
+    "id_suffix": "from_metro_nsmjacket",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "metro_nsmjacket", 1 ] ] ]
+  },
+  {
+    "result": "metro_nsmvest_xl",
+    "id_suffix": "from_metro_nsmvest",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "metro_nsmvest", 1 ] ] ]
+  },
+  {
+    "result": "metro_nsmhelmet_xl",
+    "id_suffix": "from_metro_nsmhelmet",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "metro_nsmhelmet", 1 ] ] ]
+  }
+]

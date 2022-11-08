@@ -1,0 +1,12 @@
+[
+  {
+    "result": "secro_flesh_rucksack_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "secro_flesh_craft",
+    "difficulty": 4,
+    "time": "345 m",
+    "using": [ [ "fleshweaving_core", 110 ], [ "fleshweaving_meat", 55 ], [ "fleshweaving_bone", 14 ] ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "result": "XEAS_mask_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 7,
+    "time": "6 h",
+    "book_learn": [ [ "recipe_maiar", 8 ] ],
+    "qualities": [
+      { "id": "SAW_M", "level": 2 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "GLARE", "level": 3 },
+      { "id": "ANVIL", "level": 3 }
+    ],
+    "using": [ [ "adhesive", 1 ], [ "sewing_standard", 200 ] ],
+    "tools": [
+      [
+        [ "oxy_torch", 9 ],
+        [ "welder", 45 ],
+        [ "welder_crude", 75 ],
+        [ "toolset", 75 ],
+        [ "small_repairkit", 45 ],
+        [ "large_repairkit", 45 ]
+      ]
+    ],
+    "components": [
+      [ [ "mask_filter", 2 ], [ "mask_gas", 1 ], [ "mask_bunker", 1 ] ],
+      [ [ "glasses_safety", 2 ], [ "glasses_bal", 1 ] ],
+      [ [ "alloy_sheet", 1 ] ],
+      [ [ "diamond", 2 ] ],
+      [ [ "nomex", 24 ] ],
+      [ [ "rag", 24 ] ],
+      [ [ "slime_scrap", 48 ] ],
+      [ [ "acidchitin_piece", 60 ] ],
+      [ [ "iv_mutagen_insect", 1 ] ]
+    ]
+  }
+]

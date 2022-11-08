@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "XL berserker stimpack" },
+    "copy-from": "berserker_drug",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "berserker_drug_xl",
+    "description": "An iv drip in a protective case.  PRM patented stimulants will push the body to its limits for a brief period, making intense combat easier.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL berserker stimpack (active)" },
+    "copy-from": "berserker_drug_act",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "berserker_drug_act_xl",
+    "description": "An iv drip in a protective case.  Inside, PRM brand chemicals are surging through the needle, providing incredible strength and agility to its user.  This can be worn regardless of your state of mutation"
+  }
+]

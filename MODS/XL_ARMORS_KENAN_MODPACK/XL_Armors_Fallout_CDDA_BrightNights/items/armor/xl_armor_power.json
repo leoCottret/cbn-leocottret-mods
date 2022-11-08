@@ -1,0 +1,110 @@
+[
+  {
+    "name": { "str": "XL T-51 power armor" },
+    "copy-from": "power_armor_t51",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_t51_xl",
+    "description": "The T-51b powered infantry armor is designed with the latest passive defense features for both civilian and military disturbances. It requires power.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL T-51 power armor (on)", "str_pl": "XL T-51 power armors (on)" },
+    "copy-from": "power_armor_t51_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_t51_on_xl",
+    "description": "The T-51b powered infantry armor is designed with the latest passive defense features for both civilian and military disturbances. It requires power.  It is turned on and continually drawing power.  Use it to turn it off.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL T-51b power helmet" },
+    "copy-from": "power_armor_helmet_t51",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_helmet_t51_xl",
+    "description": "A basic helmet, designed for use with the the T-51b Power Helmet.  Offers excellent protection from both attacks and environmental hazards.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL T-51b power helmet (active)", "str_pl": "XL T-51b power helmets (active)" },
+    "copy-from": "power_armor_helmet_t51_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_helmet_t51_on_xl",
+    "description": "A basic helmet, designed for use with the the T-51b Power Helmet.  Offers excellent protection from both attacks and environmental hazards.  Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL T-45 Power armor" },
+    "copy-from": "power_armor_t45",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_t45_xl",
+    "description": "A suit of T-45D power armor, T-51's weaker cousin, T-45 is bulky, but still effective.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL T-45 Power armor (on)", "str_pl": "XL T-45 Power armors (on)" },
+    "copy-from": "power_armor_t45_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_t45_on_xl",
+    "description": "A suit of T-45D power armor, T-51's weaker cousin, T-45 is bulky, but still effective. It requires power.  It is turned on and continually drawing power.  Use it to turn it off.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL T-45 power helmet" },
+    "copy-from": "power_armor_helmet_t45",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_helmet_t45_xl",
+    "description": "A T-45 power helmet. Bulky, but it works  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL T-45 power helmet (active)", "str_pl": "XL T-45 power helmets (active)" },
+    "copy-from": "power_armor_helmet_t45_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_helmet_t45_on_xl",
+    "description": "A T-45 power helmet. Bulky, but it works  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Enclave X-01 Power Armor" },
+    "copy-from": "power_armor_x01",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_x01_xl",
+    "description": "One of the enclave's myriad of power armor models, the X-01 is the first model, used by the Enclave elite  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Enclave X-01 Power Armor (on)", "str_pl": "XL Enclave X-01 Power Armors (on)" },
+    "copy-from": "power_armor_x01_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_x01_on_xl",
+    "description": "One of the enclave's myriad of power armor models, the X-01 is the first model, used by the Enclave elite.  It requires power.  It is turned on and continually drawing power.  Use it to turn it off.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL enclave X-01 power helmet" },
+    "copy-from": "power_armor_helmet_x01",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_helmet_x01_xl",
+    "description": "An enclave power armor helmet. It looks quite menacing.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL enclave x-01 power armor helmet (active)", "str_pl": "XL enclave x-01 power armor helmets (active)" },
+    "copy-from": "power_armor_helmet_x01_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_helmet_x01_on_xl",
+    "description": "An enclave power armor helmet. It looks quite menacing.  This can be worn regardless of your state of mutation"
+  }
+]

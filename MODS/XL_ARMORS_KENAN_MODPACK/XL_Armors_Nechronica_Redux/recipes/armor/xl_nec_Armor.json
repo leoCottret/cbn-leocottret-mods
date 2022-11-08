@@ -1,0 +1,41 @@
+[
+  {
+    "result": "nec_teddy_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "using": [ [ "filament", 10 ] ],
+    "components": [ [ [ "rag", 4 ] ] ]
+  },
+  {
+    "result": "nec_gothic_dress_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "250 m",
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "rag", 36 ] ], [ [ "nec_ribbon", 6 ] ] ]
+  },
+  {
+    "result": "nec_gothic_headdress_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "60 m",
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "rag", 3 ] ], [ [ "nec_ribbon", 2 ] ] ]
+  }
+]

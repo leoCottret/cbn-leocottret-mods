@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "pair of XL survivor heelys (off)", "str_pl": "pairs of XL survivor heelys (off)" },
+    "copy-from": "roller_shoes_surv_off",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "roller_shoes_surv_off_xl",
+    "description": "A pair of thick kevlar boots with wheels, currently the wheels are hidden. You are certainly surviving in style.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL survivor heelys (on)", "str_pl": "pairs of XL survivor heelys (on)" },
+    "copy-from": "roller_shoes_surv_on",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "roller_shoes_surv_on_xl",
+    "description": "A pair of thick kevlar boots with wheels, currently the wheels are out. You are certainly surviving in style.  This can be worn regardless of your state of mutation"
+  }
+]

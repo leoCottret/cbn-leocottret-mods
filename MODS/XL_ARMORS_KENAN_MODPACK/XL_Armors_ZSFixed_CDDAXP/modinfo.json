@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_ZSFIXED_cddaxp",
+  "name": "<color_cyan>XL Armors</color> for ZSFIXED_C:DDA Extra Professions & Gears",
+  "description": "This is an extension that adds XL armors for the ZSFIXED_C:DDA Extra Professions & Gears mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "ZSFIXED_cddaxp"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

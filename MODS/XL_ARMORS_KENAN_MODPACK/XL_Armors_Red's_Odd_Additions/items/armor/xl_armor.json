@@ -1,0 +1,82 @@
+[
+  {
+    "name": {
+      "str": "XL Legendary Bacon Undies"
+    },
+    "copy-from": "legendary_bacon_undie",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "legendary_bacon_undie_xl",
+    "description": "This is the fabled bacon undies of legend! You shall be IMMORTAL! Well, at least to fire anyway. And have strangely deep pockets too!  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL Afro of Encumbrance"
+    },
+    "copy-from": "afro",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "afro_xl",
+    "description": "Technically this is really just a wig. A very large wig at that. So much that you can't wear anything else! On the bright side, it's so thick it's like armor! Well, kinda.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL Immortal Loincloth"
+    },
+    "copy-from": "immortal_loincloth",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "immortal_loincloth_xl",
+    "description": "No more will you need to worry about zombie hulks kicking you in the groin! You won't feel a thing with this small item of clothing. Although it protects literally nothing else.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plutonium chestplate"
+    },
+    "copy-from": "plutonium_chestplate",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plutonium_chestplate_xl",
+    "description": "It probably isn't very healthy to wear plutonium all day... But it looks awesome! So who cares!?  This can be worn regardless of your state of mutation"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL <color_magenta>clinger</color>" },
+    "copy-from": "clinger_clinging",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "clinger_clinging_xl",
+    "description": "A filthy rotten creature that greatly hampers your reflexes. Activate to pull it off.  This can be worn regardless of your state of mutation"
+  }
+]

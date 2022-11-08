@@ -1,0 +1,47 @@
+[
+  {
+    "name": { "str": "XL looped cordage pouch" },
+    "copy-from": "cordage_pouch",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cordage_pouch_xl",
+    "description": "A net bag made from carefully looped natural cordage, very flexible, has a strap to wear over your torso  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL birchbark pouch" },
+    "copy-from": "birchbark_pouch",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "birchbark_pouch_xl",
+    "description": "A bag made from cut and woven strips of birchbark, not very flexible, has a bone tog for fastening it closed, has a strap to wear over your torso  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL a-frame backpack" },
+    "copy-from": "backpack_aframe",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "backpack_aframe_xl",
+    "description": "An A-Frame backpack made from heavy sticks. This is just the frame  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL a-frame birchbark backpack" },
+    "copy-from": "backpack_aframe_birchbark",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "backpack_aframe_birchbark_xl",
+    "description": "An A-Frame backpack with a birchbark pouch fastened to it for storage. It has some loops for attaching gear  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL a-frame cordage backpack" },
+    "copy-from": "backpack_aframe_cordage",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "backpack_aframe_cordage_xl",
+    "description": "An A-Frame backpack with a looped cordage pouch fastened to it for storage. It has some loops for attaching gear  This can be worn regardless of your state of mutation"
+  }
+]

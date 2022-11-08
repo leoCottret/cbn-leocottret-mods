@@ -1,0 +1,22 @@
+[
+  {
+    "result": "maidguy_mask_off_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 8,
+    "time": "120 m",
+    "reversible": false,
+    "autolearn": true,
+    "tools": [
+      [ [ "tongs", -1 ] ],
+      [ [ "chisel", -1 ] ],
+      [ [ "swage", -1 ] ],
+      [ [ "anvil", -1 ] ],
+      [ [ "forge", 100 ], [ "char_forge", 20 ], [ "oxy_torch", 20 ] ],
+      [ [ "sewing_kit", 20 ] ]
+    ],
+    "components": [ [ [ "rag", 4 ] ], [ [ "silver_small", 1200 ] ], [ [ "maid_point", 1200 ] ] ]
+  }
+]

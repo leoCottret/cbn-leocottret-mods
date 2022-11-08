@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL xeas suit" },
+    "copy-from": "XEAS_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "XEAS_suit_xl",
+    "description": "A lightweight, experimental mix multilayer armor made from. Protects from the elements as well as from harm.  This can be worn regardless of your state of mutation"
+  }
+]

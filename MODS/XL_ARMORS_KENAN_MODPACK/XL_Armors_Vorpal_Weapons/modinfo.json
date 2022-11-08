@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_vorpal_weapons",
+  "name": "<color_cyan>XL Armors</color> for vorpal weapons",
+  "description": "This is an extension that adds XL armors for the vorpal weapons mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "vorpal_weapons"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

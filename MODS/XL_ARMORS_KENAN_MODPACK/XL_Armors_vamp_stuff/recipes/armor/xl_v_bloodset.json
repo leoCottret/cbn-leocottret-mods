@@ -1,0 +1,80 @@
+[
+  {
+    "result": "blood_suit_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "8 m 50 s",
+    "book_learn": [ [ "vamp_darkfashion1", 10 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "using": [ [ "filament", 45 ] ],
+    "components": [ [ [ "compactsheet", 6 ] ] ]
+  },
+  {
+    "result": "blood_hood_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "6 m 50 s",
+    "book_learn": [ [ "vamp_darkfashion1", 10 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "using": [ [ "filament", 55 ] ],
+    "components": [ [ [ "compactsheet", 3 ] ], [ [ "leather", 3 ] ] ]
+  },
+  {
+    "result": "blood_duster_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "7 m 55 s",
+    "book_learn": [ [ "vamp_darkfashion1", 10 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "using": [ [ "filament", 65 ] ],
+    "components": [ [ [ "compactsheet", 6 ] ], [ [ "leather", 7 ] ] ]
+  },
+  {
+    "result": "blood_gloves_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "5 m 45 s",
+    "book_learn": [ [ "vamp_darkfashion1", 10 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "using": [ [ "filament", 20 ] ],
+    "components": [ [ [ "compactsheet", 2 ] ], [ [ "leather", 2 ] ] ]
+  },
+  {
+    "result": "blood_pants_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "7 m 10 s",
+    "book_learn": [ [ "vamp_darkfashion1", 10 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "using": [ [ "filament", 60 ] ],
+    "components": [ [ [ "compactsheet", 4 ] ], [ [ "leather", 4 ] ] ]
+  },
+  {
+    "result": "blood_boots_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "5 m 25 s",
+    "book_learn": [ [ "vamp_darkfashion1", 10 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "using": [ [ "filament", 30 ] ],
+    "components": [ [ [ "compactsheet", 3 ] ], [ [ "leather", 3 ] ] ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "result": "dkz_xenoid_light_armor_salvaged_xl",
+    "type": "uncraft",
+    "skill_used": "electronics",
+    "difficulty": 4,
+    "time": "120 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "using": [ [ "soldering_standard", 20 ], [ "welding_standard", 40 ] ],
+    "components": [
+      [ [ "dkz_weave_scrap", 1 ] ],
+      [ [ "dkz_elecscrap", 2 ] ],
+      [ [ "dkz_biotech", 1 ] ],
+      [ [ "dkz_powercell", 1 ] ],
+      [ [ "dkz_blend_scrap", 2 ] ],
+      [ [ "dkz_polymer_scrap", 1 ] ]
+    ]
+  },
+  {
+    "result": "dkz_xenoid_heavy_armor_salvaged_xl",
+    "type": "uncraft",
+    "skill_used": "electronics",
+    "difficulty": 5,
+    "time": "135 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 2 } ],
+    "using": [ [ "soldering_standard", 20 ], [ "welding_standard", 50 ] ],
+    "components": [
+      [ [ "dkz_weave_scrap", 3 ] ],
+      [ [ "dkz_elecscrap", 2 ] ],
+      [ [ "dkz_biotech", 1 ] ],
+      [ [ "dkz_powercell", 1 ] ],
+      [ [ "dkz_blend_scrap", 6 ] ],
+      [ [ "dkz_polymer_scrap", 2 ] ]
+    ]
+  },
+  {
+    "result": "dkz_xenoid_mask_salvaged_xl",
+    "type": "uncraft",
+    "skill_used": "electronics",
+    "difficulty": 4,
+    "time": "45 m",
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 }, { "id": "PRY", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "using": [ [ "soldering_standard", 10 ], [ "welding_standard", 5 ] ],
+    "components": [
+      [ [ "dkz_polymer_scrap", 2 ] ],
+      [ [ "dkz_weave_scrap", 1 ] ],
+      [ [ "dkz_elecscrap", 1 ] ],
+      [ [ "dkz_biotech", 1 ] ],
+      [ [ "dkz_blend_scrap", 1 ] ],
+      [ [ "lens", 2 ] ]
+    ]
+  }
+]

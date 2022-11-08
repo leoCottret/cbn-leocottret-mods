@@ -1,0 +1,47 @@
+[
+  {
+    "name": { "str_sp": "XL survivor panties" },
+    "copy-from": "panties_surv",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "panties_surv_xl",
+    "description": "Kevlar and nomex underwear designed to be worn by women.  Preserves your modesty in desperate times.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor bra" },
+    "copy-from": "bra_surv",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bra_surv_xl",
+    "description": "A sturdy kevlar and nomex bra that hugs tight. Has extra padding to make your bust appear thicker, while also proving extra protection. Extra nomex, because you're smokin'. It has POCKETS!  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL survivor stockings", "str_pl": "pairs of XL survivor stockings" },
+    "copy-from": "surv_stockings",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "surv_stockings_xl",
+    "description": "Long kevlar and nomex socks that reach above the knees to help protect from the cold, fire, and damage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL survivor programmer socks", "str_pl": "pairs of XL survivor programmer socks" },
+    "copy-from": "surv_socks_programmer",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "surv_socks_programmer_xl",
+    "description": "Long, colorful kevlar and nomex socks that reach above the knees to help protect from the cold, fire, and damage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL programmer socks", "str_pl": "pairs of XL programmer socks" },
+    "copy-from": "socks_programmer",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "socks_programmer_xl",
+    "description": "Long, colorful socks that reach above the knees to help protect from the cold. They help you program better, and also just look cute.  This can be worn regardless of your state of mutation"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": { "str_sp": "XL South Gate Station Security Uniform" },
+    "copy-from": "sgs_jacket",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sgs_jacket_xl",
+    "description": "The standard and uniformly dull blue uniform worn by most members of the South Gate Station security detail. Often associated with bravery, or a quick death.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Cave Hopper Leather Armor" },
+    "copy-from": "sgs_leatherjacket",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sgs_leatherjacket_xl",
+    "description": "A rather lightweight armor protecting user's vital torso area, in addition to some arm protection. This armor is made of cave hopper leather. .  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL South Gate Station security vest" },
+    "copy-from": "sgs_secvest",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sgs_secvest_xl",
+    "description": "A nylon vest equipped with several pouches for magazine and ammunition storage. Comes pre-equipped with several light ballistic plates that provide a small modicum of protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Underrail metal helmet" },
+    "copy-from": "sgs_metal_helmet",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sgs_metal_helmet_xl",
+    "description": "A helmet made from plates of steel with a visor of ballistic glass. Made for use in tandem with underrail metal armor.  This can be worn regardless of your state of mutation"
+  }
+]

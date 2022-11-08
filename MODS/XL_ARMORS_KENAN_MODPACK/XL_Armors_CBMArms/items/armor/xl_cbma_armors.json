@@ -1,0 +1,38 @@
+[
+  {
+    "name": { "str": "XL inner armored suit (off)" },
+    "copy-from": "cbma_inner_suite",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cbma_inner_suite_xl",
+    "description": "A thin, strong Myamar inner suit covering the entire body. The artificial muscles are not powered and do not perform as expected. Power supply is started by starting up.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL inner armored suit (on)" },
+    "copy-from": "cbma_inner_suite_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cbma_inner_suite_on_xl",
+    "description": "A thin, strong Myamar inner suit covering the entire body. Electric power is supplied to the artificial muscles, and the original performance is exhibited.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL inner armored suit (off) (UPS)" },
+    "copy-from": "cbma_inner_suite_ups",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cbma_inner_suite_ups_xl",
+    "description": "A thin and strong inner cover made of Myamar fiber that covers the entire body so that it can be fed by UPS. The artificial muscles are not powered and do not perform as expected. Power supply is started by starting up.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL inner armored suit (on) (UPS)" },
+    "copy-from": "cbma_inner_suite_ups_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cbma_inner_suite_ups_on_xl",
+    "description": "A thin and strong inner cover made of Myamar fiber that covers the entire body so that it can be fed by UPS. Electric power is supplied to the artificial muscles, and the original performance is exhibited.  This can be worn regardless of your state of mutation"
+  }
+]

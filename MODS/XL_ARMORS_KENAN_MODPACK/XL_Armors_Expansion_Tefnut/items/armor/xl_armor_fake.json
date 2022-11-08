@@ -1,0 +1,65 @@
+[
+  {
+    "name": { "str_sp": "XL lorica segmentata" },
+    "copy-from": "armor_lorica_fake",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_lorica_fake_xl",
+    "description": "A weak, cheap replica of ancient Roman laminar armor, made of overlapping metal strips connected to internal leather straps.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL chainmail vest" },
+    "copy-from": "chainmail_vest_fake",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "chainmail_vest_fake_xl",
+    "description": "A cheap replica of a customized chainmail vest.  It's a sleeveless piece of chainmail with small straps designed to better distribute the weight.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL cuirass", "str_pl": "XL cuirasses" },
+    "copy-from": "cuirass_lightplate_fake",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cuirass_lightplate_fake_xl",
+    "description": "A cheap aluminum breastplate, and a vital part of plate armor.  Even as full armor went into decline, cuirasses remained in use among cavalry in Europe.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL chainmail leggings", "str_pl": "XL pairs of chainmail leggings" },
+    "copy-from": "chainmail_legs_fake",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "chainmail_legs_fake_xl",
+    "description": "A cheap pair of aluminum chainmail legs.  Their straps keep everything in place, and the lack of toes and heels allows them to work perfectly well with footwear.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL steel leg guards", "str_pl": "pairs of XL steel leg guards" },
+    "copy-from": "legguard_lightplate_fake",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "legguard_lightplate_fake_xl",
+    "description": "A cheap mockery of medieval leg protection.  Cuisses, poleyns, and greaves, with leather straps to secure each piece and connect it as part of a set.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL plate armor" },
+    "copy-from": "armor_lightplate_fale",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_lightplate_fale_xl",
+    "description": "A suit of aluminum plate armor, probably used for LARPing  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL ornamental plate armor" },
+    "copy-from": "armor_plate_fake",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_plate_fake_xl",
+    "description": "An extremely heavy suit of aluminum armor, probably used in cosplay. Cosplate, if you will.  This can be worn regardless of your state of mutation"
+  }
+]

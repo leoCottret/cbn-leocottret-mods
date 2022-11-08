@@ -1,0 +1,92 @@
+[
+  {
+    "result": "gal_pants_army_xl",
+    "id_suffix": "from_gal_pants_army",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gal_pants_army", 1 ] ] ]
+  },
+  {
+    "result": "gal_shorts_army_xl",
+    "id_suffix": "from_gal_shorts_army",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gal_shorts_army", 1 ] ] ]
+  },
+  {
+    "result": "galwomsocks_xl",
+    "id_suffix": "from_galwomsocks",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "galwomsocks", 1 ] ] ]
+  },
+  {
+    "result": "imp_pants_army_xl",
+    "id_suffix": "from_imp_pants_army",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "imp_pants_army", 1 ] ] ]
+  },
+  {
+    "result": "gal_knee_pads_xl",
+    "id_suffix": "from_gal_knee_pads",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gal_knee_pads", 1 ] ] ]
+  },
+  {
+    "result": "gal_hip_armor_xl",
+    "id_suffix": "from_gal_hip_armor",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gal_hip_armor", 1 ] ] ]
+  },
+  {
+    "result": "galmilboots_xl",
+    "id_suffix": "from_galmilboots",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "galmilboots", 1 ] ] ]
+  },
+  {
+    "result": "impilboots_xl",
+    "id_suffix": "from_impilboots",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "impilboots", 1 ] ] ]
+  },
+  {
+    "result": "gal_skirt_xl",
+    "id_suffix": "from_gal_skirt",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gal_skirt", 1 ] ] ]
+  }
+]

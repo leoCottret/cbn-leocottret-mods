@@ -1,0 +1,42 @@
+[
+  {
+    "result": "tux_dean_xl",
+    "id_suffix": "from_tux_dean",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "tux_dean", 1 ] ] ]
+  },
+  {
+    "result": "dress_vera_xl",
+    "id_suffix": "from_dress_vera",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "dress_vera", 1 ] ] ]
+  },
+  {
+    "result": "suit_sinclair_xl",
+    "id_suffix": "from_suit_sinclair",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "suit_sinclair", 1 ] ] ]
+  },
+  {
+    "result": "jumpsuit_sierra_xl",
+    "id_suffix": "from_jumpsuit_sierra",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jumpsuit_sierra", 1 ] ] ]
+  }
+]

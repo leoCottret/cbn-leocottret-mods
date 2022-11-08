@@ -1,0 +1,263 @@
+[
+  {
+    "name": { "str": "XL ten-gallon hat" },
+    "copy-from": "10gal_hat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "10gal_hat_xl",
+    "description": "These may not be the Great Plains, but you can still be the Boss with this high-crowned, wide-brimmed hat.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL beret" },
+    "copy-from": "beret",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "beret_xl",
+    "description": "A soft cotton hat.  Commonly worn by armed forces and existentialists.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL wool beret" },
+    "copy-from": "beret_wool",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "beret_wool_xl",
+    "description": "A soft wool hat.  Commonly worn by armed forces and existentialists.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bowler hat" },
+    "copy-from": "bowhat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bowhat_xl",
+    "description": "The only hat for a made man.  Look like a real good fella while laughing in the face of your foes!  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL cowboy hat" },
+    "copy-from": "cowboy_hat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cowboy_hat_xl",
+    "description": "Whether yer hunting varmints, fixing up the ranch, or heading into the sunset, this is the hat for the job.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL eboshi" },
+    "copy-from": "eboshi",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "eboshi_xl",
+    "description": "A high, black cap with a very narrow top.  Traditionally worn by Shinto priests.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL boonie hat" },
+    "copy-from": "hat_boonie",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_boonie_xl",
+    "description": "Also called a \"bucket hat.\" Often used in the military.  Its wide brim helps keep the sun out of your eyes.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL baseball cap" },
+    "copy-from": "hat_ball",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_ball_xl",
+    "description": "A Red Sox cap.  It provides a little bit of warmth.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL toque" },
+    "copy-from": "hat_chef",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_chef_xl",
+    "description": "A traditional chef's hat, standing tall and proud against the vulgarities of the world.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL cotton hat" },
+    "copy-from": "hat_cotton",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_cotton_xl",
+    "description": "A snug-fitting cotton hat.  Quite warm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fur hat" },
+    "copy-from": "hat_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_fur_xl",
+    "description": "A hat made from the pelts of animals.  Extremely warm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL faux fur hat" },
+    "copy-from": "hat_faux_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_faux_fur_xl",
+    "description": "A stylish hat made of faux fur.  Like real fur, but without the suffering, if the tag is to be believed.  Very warm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL hard hat" },
+    "copy-from": "hat_hard",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_hard_xl",
+    "description": "A hard plastic hat worn in construction sites.  Excellent protection from cuts and percussion.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL hooded hard hat" },
+    "copy-from": "hat_hard_hooded",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_hard_hooded_xl",
+    "description": "A hard plastic hat worn in construction sites, with a cloth tucked in under it to serve as a makeshift hood.  Makes it a bit more comfortable to wear, and better protects the neck from sun and rain.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL hunting cap" },
+    "copy-from": "hat_hunting",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_hunting_xl",
+    "description": "A red plaid hunting cap with ear flaps.  Notably warm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL knit hat" },
+    "copy-from": "hat_knit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_knit_xl",
+    "description": "A snug-fitting wool hat.  Very warm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL newsboy cap" },
+    "copy-from": "hat_newsboy",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_newsboy_xl",
+    "description": "A slouching wool cap with a short front brim, traditionally associated with newspaper delivery boys.  Quite warm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL noise canceling headgear" },
+    "copy-from": "hat_noise_cancelling",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_noise_cancelling_xl",
+    "description": "Padding over your ears kept in place by some string.  Blocks incoming sounds.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL sombrero" },
+    "copy-from": "hat_sombrero",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_sombrero_xl",
+    "description": "A felt orange sombrero with traditional white and yellow hand stitching.  The wide brim keeps the sun out of your eyes, and a thin strap hooks around your chin.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL kippah" },
+    "copy-from": "kippah",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kippah_xl",
+    "description": "A thin, rounded skullcap.  A traditional headdress in Judaism.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL kufi cap" },
+    "copy-from": "kufi",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kufi_xl",
+    "description": "A brimless, short and rounded cap.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL French maid hat" },
+    "copy-from": "maid_hat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "maid_hat_xl",
+    "description": "A frilly white headpiece.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL porkpie hat" },
+    "copy-from": "porkpie",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "porkpie_xl",
+    "description": "A flat-topped hat with circular indent and a narrow brim.  Most popular in the 40s and 50s, still common among those in the mod scene, hipsters, and people named Heisenberg.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL mail carrier hat" },
+    "copy-from": "postman_hat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "postman_hat_xl",
+    "description": "A traditional mail carrier's cap, with the US postal service logo embroidered on the front above the plastic cap.  A symbol of a bygone world.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL straw hat" },
+    "copy-from": "straw_hat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "straw_hat_xl",
+    "description": "Hat that is woven out of straw.  Its brim helps keep the sun out of your eyes.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL tinfoil hat" },
+    "copy-from": "tinfoil_hat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tinfoil_hat_xl",
+    "description": "A sheet of aluminum foil that has been molded into a form-fitting hat.  Perfect for protecting yourself from the government, Illuminati, aliens, and THEM.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL top hat" },
+    "copy-from": "tophat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tophat_xl",
+    "description": "The only hat for a gentleman.  Look exquisite while laughing in the face of danger!  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL tricorne" },
+    "copy-from": "tricorne",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tricorne_xl",
+    "description": "A classic design, the \"tricorne\", or three-cornered hat, simply pins a large and floppy brim out of the way, though this example adds well-embroidered designs and is oiled against water.  Whether you're the \"guvnah\" of a settlement, or the captain of a post-apocalyptic crew, this is the hat for you.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL golf cap" },
+    "copy-from": "hat_golf",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_golf_xl",
+    "description": "You're not actually sure if this is called a golf cap, but it's the stereotypical cap golfers wear.  This can be worn regardless of your state of mutation"
+  }
+]

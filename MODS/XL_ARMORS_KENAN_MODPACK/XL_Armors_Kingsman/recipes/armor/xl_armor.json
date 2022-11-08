@@ -1,0 +1,12 @@
+[
+  {
+    "result": "boots_kingsman_xl",
+    "id_suffix": "from_boots_kingsman",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "boots_kingsman", 1 ] ] ]
+  }
+]

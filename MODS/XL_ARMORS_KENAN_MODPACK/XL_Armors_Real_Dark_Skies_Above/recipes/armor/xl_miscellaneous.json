@@ -1,0 +1,22 @@
+[
+  {
+    "result": "dkz_zenture_industries_premium_zwatch_xl",
+    "id_suffix": "from_dkz_zenture_industries_premium_zwatch",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "dkz_zenture_industries_premium_zwatch", 1 ] ] ]
+  },
+  {
+    "result": "dkz_zenture_industries_executive_zwatch_xl",
+    "id_suffix": "from_dkz_zenture_industries_executive_zwatch",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "dkz_zenture_industries_executive_zwatch", 1 ] ] ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "result": "berserker_drug_xl",
+    "id_suffix": "from_berserker_drug",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "berserker_drug", 1 ] ] ]
+  },
+  {
+    "result": "berserker_drug_act_xl",
+    "id_suffix": "from_berserker_drug_act",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "berserker_drug_act", 1 ] ] ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "XL white brim with veil", "str_pl": "XL white brims with veils" },
+    "copy-from": "maidguy_mask_off",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "maidguy_mask_off_xl",
+    "description": "A regular maid's white brim with an elegant veil sewn into it, decorated with silver frills. Although it covers your eyes and blocks your vision quite harshly, you can use maid points to turn it on and gain otherwordly sight.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL white brim with veil (clairvoyant)", "str_pl": "XL white brims with veils (clairvoyant)" },
+    "copy-from": "maidguy_mask_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "maidguy_mask_on_xl",
+    "description": "A regular maid's white brim with an elegant veil sewn into it, decorated with silver frills. It is currently see-through.  This can be worn regardless of your state of mutation"
+  }
+]

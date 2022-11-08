@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_Merchant",
+  "name": "<color_cyan>XL Armors</color> for Merchant Mod",
+  "description": "This is an extension that adds XL armors for the Merchant Mod mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "Merchant"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

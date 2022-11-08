@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "XL Geely carton", "str_pl": "XL Geely carton" },
+    "copy-from": "SB_paper",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "SB_paper_xl",
+    "description": "  <color_yellow>\u258b</color>Geely carton ???(<color_yellow>strange</color>)\r\n<color_dark_gray>    \u300cYou also need a can of deodorant\u300d</color>\r\n<color_dark_gray>\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</color>\r\n  Defense          \u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1   0  \r\n  Coverage        <good>\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0</good>   10  \r\n  flexibility        <good>\u25a0\u25a0\u25a0</good>\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1   2  \r\n<color_dark_gray>\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</color>\r\n<color_dark_gray>   This big cardboard box with sexy zombies painted can make sure that no one finds you while you peep in a swimsuit zombies that can shake milk or sneak into a gun shop in the city center.</color>\r\n<color_dark_gray>\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500</color>\r\n<color_dark_gray>* This stuff makes you think you are mentally retarded. Intelligence-3 \r\n* The two small holes can't see clearly. Perception-3\r\n* \u8fd9\u73a9\u610f\u788d\u624b\u77ee\u811a\u7684 \u654f\u6377-3 \u901f\u5ea6-20</color>  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Optimistic carton", "str_pl": "XL Optimistic carton" },
+    "copy-from": "SB_L_paper",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "SB_L_paper_xl",
+    "description": "Before the end, the pain is still there, stay optimistic, and smile.  This can be worn regardless of your state of mutation"
+  }
+]

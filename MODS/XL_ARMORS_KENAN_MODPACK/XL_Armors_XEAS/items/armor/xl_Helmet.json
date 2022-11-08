@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL xeas helmet" },
+    "copy-from": "XEAS_helmet",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "XEAS_helmet_xl",
+    "description": "A experimental mix multilayer helmet.  This can be worn regardless of your state of mutation"
+  }
+]

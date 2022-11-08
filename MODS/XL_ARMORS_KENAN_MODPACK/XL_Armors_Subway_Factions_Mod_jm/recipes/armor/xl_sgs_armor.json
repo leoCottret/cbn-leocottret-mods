@@ -1,0 +1,42 @@
+[
+  {
+    "result": "sgs_jacket_xl",
+    "id_suffix": "from_sgs_jacket",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "sgs_jacket", 1 ] ] ]
+  },
+  {
+    "result": "sgs_leatherjacket_xl",
+    "id_suffix": "from_sgs_leatherjacket",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "sgs_leatherjacket", 1 ] ] ]
+  },
+  {
+    "result": "sgs_secvest_xl",
+    "id_suffix": "from_sgs_secvest",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "sgs_secvest", 1 ] ] ]
+  },
+  {
+    "result": "sgs_metal_helmet_xl",
+    "id_suffix": "from_sgs_metal_helmet",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "sgs_metal_helmet", 1 ] ] ]
+  }
+]

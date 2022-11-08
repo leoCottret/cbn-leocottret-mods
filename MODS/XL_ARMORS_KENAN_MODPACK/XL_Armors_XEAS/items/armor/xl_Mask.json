@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL xeas mask" },
+    "copy-from": "XEAS_mask",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "XEAS_mask_xl",
+    "description": "A experimental, mix multilayer reinforced gas mask. Provides excellent protection from smoke, teargas, and claws. It must be prepared before use.  This can be worn regardless of your state of mutation"
+  }
+]

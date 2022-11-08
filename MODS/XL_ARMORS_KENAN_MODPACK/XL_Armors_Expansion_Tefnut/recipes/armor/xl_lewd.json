@@ -1,0 +1,61 @@
+[
+  {
+    "result": "panties_surv_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "35 m",
+    "autolearn": true,
+    "book_learn": [ [ "mag_tailor", 1 ], [ "manual_tailor", 1 ] ],
+    "using": [ [ "sewing_standard", 15 ] ],
+    "components": [ [ [ "rag", 2 ] ], [ [ "nomex", 1 ] ], [ [ "kevlar_plate", 1 ] ] ]
+  },
+  {
+    "result": "bra_surv_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "35 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 15 ] ],
+    "components": [ [ [ "kevlar_plate", 4 ] ], [ [ "rag", 2 ] ], [ [ "nomex", 1 ] ] ]
+  },
+  {
+    "result": "surv_stockings_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "10 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 6 ] ],
+    "components": [ [ [ "rag", 9 ] ], [ [ "nomex", 4 ] ], [ [ "kevlar_plate", 4 ] ] ]
+  },
+  {
+    "result": "surv_socks_programmer_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "10 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 6 ] ],
+    "components": [ [ [ "rag", 9 ] ], [ [ "nomex", 4 ] ], [ [ "kevlar_plate", 4 ] ] ]
+  },
+  {
+    "result": "socks_programmer_xl",
+    "id_suffix": "from_socks_programmer",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "socks_programmer", 1 ] ] ]
+  }
+]

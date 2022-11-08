@@ -1,0 +1,623 @@
+[
+  {
+    "name": { "str": "XL Cute Maid Clothes" },
+    "copy-from": "kawaii_maid_dress",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_dress_xl",
+    "description": "Made out of the hopes and dreams of men.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Maid Adv. Uniform (summer form)" },
+    "copy-from": "kawaii_maid_dress_ex",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_dress_ex_xl",
+    "description": "Centuries of maid sewing techniques have culminated in this pinnacle of maid outfit technology: a year-round outfit that can be transformed to fit any weather or season.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Maid Adv. Uniform (winter form)" },
+    "copy-from": "kawaii_maid_dress_ex2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_dress_ex2_xl",
+    "description": "Centuries of maid sewing techniques have culminated in this pinnacle of maid outfit technology: a year-round outfit that can be transformed to fit any weather or season.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Maid Uniform LSS-PRO" },
+    "copy-from": "kawaii_maid_dress_lss",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_dress_lss_xl",
+    "description": "The standard maid uniform may not be enough to survive in this dangerous new world. This improved version, while still appearing cute and frilly on the outside, actually conceals an advanced armor liner and climate control systems to better endure even the harshest environments.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Maid Uniform LSS-PRO (on)" },
+    "copy-from": "kawaii_maid_dress_lss_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_dress_lss_on_xl",
+    "description": "The standard maid uniform may not be enough to survive in this dangerous new world. This improved version, while still appearing cute and frilly on the outside, actually conceals an advanced armor liner and climate control systems to better endure even the harshest environments.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Victorian Maid Clothes" },
+    "copy-from": "kawaii_maid_dress_long",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_dress_long_xl",
+    "description": "A uniform with longer sleeves and skirt, better suited for winter.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Wedding Dress" },
+    "copy-from": "kawaii_wedding_dress",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_wedding_dress_xl",
+    "description": "A pure white wedding dress.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Nun Habit" },
+    "copy-from": "kawaii_sister_dress",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_sister_dress_xl",
+    "description": "A nun's habit for serving God that gives off a sacred aura.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Transparent Raincoat (hood on)" },
+    "copy-from": "kawaii_raincoat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_raincoat_xl",
+    "description": "A transparent raincoat made from very thin vinyl, very popular with maids who want to be fashionable in rainy weather. The material is thin enough that the entire coat can fold away into a pocket when not in use.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Transparent Raincoat (hood off)" },
+    "copy-from": "kawaii_raincoat_off",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_raincoat_off_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute School Girl Uniform" },
+    "copy-from": "kawaii_sailor_fuku",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_sailor_fuku_xl",
+    "description": "A school uniform worn by female students.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Navy Blue Swimsuit" },
+    "copy-from": "kawaii_sukumizu_kon",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_sukumizu_kon_xl",
+    "description": "A swimming suit worn by female students.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute White Swimsuit" },
+    "copy-from": "kawaii_sukumizu_siro",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_sukumizu_siro_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Nurse Uniform" },
+    "copy-from": "kawaii_nurse",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_nurse_xl",
+    "description": "A nurse's uniform.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute White Panties" },
+    "copy-from": "kawaii_maid_panties",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_panties_xl",
+    "description": "Pure white panties, very breathable and comfortable even in summer.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute White Bra" },
+    "copy-from": "kawaii_maid_bra",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_bra_xl",
+    "description": "Pure white bra, very breathable and comfortable even in summer.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Pink Striped Panties" },
+    "copy-from": "kawaii_maid_simapan_pink",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_simapan_pink_xl",
+    "description": "Panties with pink stripes.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Pink Striped Bra" },
+    "copy-from": "kawaii_maid_simabura_pink",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_simabura_pink_xl",
+    "description": "A bra with pink stripes.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Green Striped Panties" },
+    "copy-from": "kawaii_maid_simapan_green",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_simapan_green_xl",
+    "description": "Panties with green stripes.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Green Striped Bra" },
+    "copy-from": "kawaii_maid_simabura_green",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_simabura_green_xl",
+    "description": "A bra with green stripes.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Black Bikini Bottom" },
+    "copy-from": "kawaii_bikini_bottom_black",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_bikini_bottom_black_xl",
+    "description": "A simple black bikini bottom.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Black Bikini Top" },
+    "copy-from": "kawaii_bikini_top_black",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_bikini_top_black_xl",
+    "description": "A simple black bikini top.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Fishtail Miniskirt" },
+    "copy-from": "kawaii_tailskirt_mini",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_tailskirt_mini_xl",
+    "description": "A flared miniskirt that is longer in the back.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Utility Vest" },
+    "copy-from": "kawaii_vest",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_vest_xl",
+    "description": "A modified utility vest with many pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Maid headdress" },
+    "copy-from": "kawaii_maid_hat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_hat_xl",
+    "description": "One of the most important parts of the maid uniform. It is forbidden for maids to take it off, regardless of weather. Trained maids can channel their spirit into it to keep their heads warm during winter. (Toggle to change warmth)  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Maid headdress" },
+    "copy-from": "kawaii_maid_hat_kiai",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_hat_kiai_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Thermal Maid headdress" },
+    "copy-from": "kawaii_maid_hat_thermal_off",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_hat_thermal_off_xl",
+    "description": "One of the most important parts of the maid unifrom is the headdress. This one contains an electrical thermal system powedered using batteries. It lets you feel like a maid despite how it looks.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Thermal Maid headdress (on)" },
+    "copy-from": "kawaii_maid_hat_thermal_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_hat_thermal_on_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Maid headdress LSS-PRO" },
+    "copy-from": "kawaii_maid_hat_lss",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_hat_lss_xl",
+    "description": "A maid must maintain her pride and attends to her duties, no matter how harsh the situation or environment. The headdress is not just a piece of the uniform, it's a symbol of a maid's pride.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Maid headdress LSS-PRO (warming)" },
+    "copy-from": "kawaii_maid_hat_lss1",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_hat_lss1_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Maid headdress LSS-PRO (cooling)" },
+    "copy-from": "kawaii_maid_hat_lss2",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_hat_lss2_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute High-Tech Glasses (off)" },
+    "copy-from": "kawaii_hitec_megane",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_hitec_megane_xl",
+    "description": "These advanced glasses are not only capable of functioning as night vision or infared scanners, but protects against bright flashes, can withstand chemical corrosion, and can even completely block light for sleeping in bright places.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute High-Tech Glasses (NV)" },
+    "copy-from": "kawaii_hitec_megane_nv",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_hitec_megane_nv_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute High-Tech Glasses (IR)" },
+    "copy-from": "kawaii_hitec_megane_ir",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_hitec_megane_ir_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute High-Tech Glasses (Blind)" },
+    "copy-from": "kawaii_hitec_megane_blind",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_hitec_megane_blind_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Black Half-Rim Glasses" },
+    "copy-from": "kawaii_maid_megane_01",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_megane_01_xl",
+    "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health. (Toggle to adjust position)  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Black Half-Rim Glasses" },
+    "copy-from": "kawaii_maid_megane_02",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_megane_02_xl",
+    "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health. (Toggle to adjust position)  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Red Half-Rim Glasses" },
+    "copy-from": "kawaii_maid_megane_03",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_megane_03_xl",
+    "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health. (Toggle to adjust position)  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Red Half-Rim Glasses" },
+    "copy-from": "kawaii_maid_megane_04",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_megane_04_xl",
+    "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health. (Toggle to adjust position)  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Black Large Half-Rim Glasses" },
+    "copy-from": "kawaii_maid_megane_05",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_megane_05_xl",
+    "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Brass Monocle" },
+    "copy-from": "kawaii_maid_megane_06",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_megane_06_xl",
+    "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Brass Monocle with Chain" },
+    "copy-from": "kawaii_maid_megane_07",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_megane_07_xl",
+    "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Black Fullframe Glasses" },
+    "copy-from": "kawaii_maid_megane_08",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_megane_08_xl",
+    "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Red Fullframe Glasses" },
+    "copy-from": "kawaii_maid_megane_09",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_megane_09_xl",
+    "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute White Cotton Hat" },
+    "copy-from": "kawaii_hat_cotton",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_hat_cotton_xl",
+    "description": "It's a warm hat made of cotton, coloured white to better match a maid uniform.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Balaclava" },
+    "copy-from": "kawaii_balclava",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_balclava_xl",
+    "description": "'I refuse to cover up my cute face!' It's not as good against the cold as a normal balaclava, but it's a sacrifice necessary for the sake of fashion.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Wedding Veil" },
+    "copy-from": "kawaii_wedding_veil_a",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_wedding_veil_a_xl",
+    "description": "A beautiful but simple wedding veil.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Decorated Wedding Veil" },
+    "copy-from": "kawaii_wedding_veil_b",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_wedding_veil_b_xl",
+    "description": "A beautiful wedding veil with additional adornments.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Nun's headpiece" },
+    "copy-from": "kawaii_sister_veil",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_sister_veil_xl",
+    "description": "A veil worn by those devoted to serving God.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Nurse Hat" },
+    "copy-from": "kawaii_nurse_cap",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_nurse_cap_xl",
+    "description": "A hat that symbolizes the nurse.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Hardcase" },
+    "copy-from": "kawaii_maid_hardcase",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_hardcase_xl",
+    "description": "A huge rectangular hardcase. Normally used for carrying large musical instruments, guns, or sensitive electrical equipment.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Mini-Hardcase" },
+    "copy-from": "kawaii_maid_hardcase_mini",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_hardcase_mini_xl",
+    "description": "A smaller version of the standard hardcase.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Slim Hardcase" },
+    "copy-from": "kawaii_maid_hardcase_slim",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_hardcase_slim_xl",
+    "description": "A slimmer version of the hardcase.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Angel Wings" },
+    "copy-from": "kawaii_angel_wing_bag",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_angel_wing_bag_xl",
+    "description": "Possession is not a big deal if you have the heart of an angel.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Garter Purse" },
+    "copy-from": "kawaii_secretpouch",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_secretpouch_xl",
+    "description": "A small storage purse that can be consealed beneath a skirt, held up using a garter band.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Thick Thigh High Socks" },
+    "copy-from": "kawaii_maid_niso_thick",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_niso_thick_xl",
+    "description": "A pair of frilly thigh high socks. Its thick material keeps the wearer's legs warm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Thin Thigh High Socks" },
+    "copy-from": "kawaii_maid_niso_thin",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_niso_thin_xl",
+    "description": "A pair of frilly thigh high socks. Its thin enough to be slightly transparent when worn.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Black Tights" },
+    "copy-from": "kawaii_tights_black",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_tights_black_xl",
+    "description": "A pair of warm tights.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute White Tights" },
+    "copy-from": "kawaii_tights_white",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_tights_white_xl",
+    "description": "A pair of warm tights.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute White Socks" },
+    "copy-from": "kawaii_socks_white",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_socks_white_xl",
+    "description": "A pair of white socks normally worn by students.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Garter Belt" },
+    "copy-from": "kawaii_maid_garter",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_maid_garter_xl",
+    "description": "A black garter belt, designed to be worn with stockings.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Dress Shoes" },
+    "copy-from": "kawaii_dress_shoes",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_dress_shoes_xl",
+    "description": "Leather shoes designed to be worn with a maid uniform.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Brown Loafers" },
+    "copy-from": "kawaii_loafer",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_loafer_xl",
+    "description": "A pair of brown loafers normally worn by students.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Boots" },
+    "copy-from": "kawaii_boots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_boots_xl",
+    "description": "Leather boots that can be worn with a wide range of outfits.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Maid Heeled Boots" },
+    "copy-from": "kawaii_boots_hi",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_boots_hi_xl",
+    "description": "Pure white boots that only chosen maids are allowed to wear. They give the wearer a feeling of majesty.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Maid Heels" },
+    "copy-from": "kawaii_shoes_hi",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_shoes_hi_xl",
+    "description": "Pure white heels that only chosen maids are allowed to wear. They give the wearer a feeling of majesty.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Fashionable Scarf" },
+    "copy-from": "kawaii_scarf",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_scarf_xl",
+    "description": "A scarf with a cute pattern.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Fashionable Scarf (loose)" },
+    "copy-from": "kawaii_scarf_loose",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_scarf_loose_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Cute Maid Gloves" },
+    "copy-from": "kawaii_gloves_light",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kawaii_gloves_light_xl",
+    "description": "A pair of gloves modestly decorated with lace.  This can be worn regardless of your state of mutation"
+  }
+]

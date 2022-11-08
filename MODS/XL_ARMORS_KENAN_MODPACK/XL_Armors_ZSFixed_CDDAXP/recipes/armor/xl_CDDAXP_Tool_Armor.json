@@ -1,0 +1,52 @@
+[
+  {
+    "result": "cddaxp_tech_helmet_xl",
+    "id_suffix": "from_cddaxp_tech_helmet",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "cddaxp_tech_helmet", 1 ] ] ]
+  },
+  {
+    "result": "cddaxp_goggles_artnv_xl",
+    "id_suffix": "from_cddaxp_goggles_artnv",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "cddaxp_goggles_artnv", 1 ] ] ]
+  },
+  {
+    "result": "cddaxp_artesosk_xl",
+    "id_suffix": "from_cddaxp_artesosk",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "cddaxp_artesosk", 1 ] ] ]
+  },
+  {
+    "result": "cddaxp_artgloves_xl",
+    "id_suffix": "from_cddaxp_artgloves",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "cddaxp_artgloves", 1 ] ] ]
+  },
+  {
+    "result": "cddaxp_mtsuit_xl",
+    "id_suffix": "from_cddaxp_mtsuit",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "cddaxp_mtsuit", 1 ] ] ]
+  }
+]

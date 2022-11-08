@@ -1,0 +1,1226 @@
+[
+  {
+    "result": "acu_jacket_xl",
+    "id_suffix": "from_acu_jacket",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "acu_jacket",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "acu_pants_xl",
+    "id_suffix": "from_acu_pants",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "acu_pants",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "pasgt_helmet_xl",
+    "id_suffix": "from_pasgt_helmet",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "pasgt_helmet",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "pasgt_helmet_green_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "time": "20 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "pasgt_helmet",
+          1
+        ]
+      ],
+      [
+        [
+          "helmetcover_green",
+          1
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "pasgt_helmet_patchwork_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "time": "20 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "pasgt_helmet",
+          1
+        ]
+      ],
+      [
+        [
+          "helmetcover_patchwork",
+          1
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "pasgt_helmet_ucp_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "time": "20 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "pasgt_helmet",
+          1
+        ]
+      ],
+      [
+        [
+          "helmetcover_ucp",
+          1
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "pasgt_helmet_multi_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "time": "20 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "pasgt_helmet",
+          1
+        ]
+      ],
+      [
+        [
+          "helmetcover_multi",
+          1
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvucp_xl",
+    "id_suffix": "from_iotvucp",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "iotvucp",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "iotvkevlarucp_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvucp",
+          1
+        ]
+      ],
+      [
+        [
+          "kevlar_plate",
+          9
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvceramicucp_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvucp",
+          1
+        ]
+      ],
+      [
+        [
+          "ceramic_plate",
+          4
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvharducp_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvucp",
+          1
+        ]
+      ],
+      [
+        [
+          "hard_plate",
+          2
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvsteelucp_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvucp",
+          1
+        ]
+      ],
+      [
+        [
+          "steel_plate",
+          2
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvsuperucp_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvucp",
+          1
+        ]
+      ],
+      [
+        [
+          "alloy_plate",
+          2
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvucp_mk2_xl",
+    "id_suffix": "from_iotvucp_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "iotvucp_mk2",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "iotvkevlarucp_mk2_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvucp_mk2",
+          1
+        ]
+      ],
+      [
+        [
+          "kevlar_plate",
+          19
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvceramicucp_mk2_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvucp_mk2",
+          1
+        ]
+      ],
+      [
+        [
+          "ceramic_plate",
+          9
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvharducp_mk2_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvucp_mk2",
+          1
+        ]
+      ],
+      [
+        [
+          "hard_plate",
+          4
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvsteelucp_mk2_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvucp_mk2",
+          1
+        ]
+      ],
+      [
+        [
+          "steel_plate",
+          4
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvsuperucp_mk2_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvucp_mk2",
+          1
+        ]
+      ],
+      [
+        [
+          "alloy_plate",
+          4
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "plate_carrier_ucp_xl",
+    "id_suffix": "from_plate_carrier_ucp",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "plate_carrier_ucp",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "plate_carrier_ucp_kevlar_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "plate_carrier_ucp",
+          1
+        ]
+      ],
+      [
+        [
+          "kevlar_plate",
+          4
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "plate_carrier_ucp_ceramic_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "plate_carrier_ucp",
+          1
+        ]
+      ],
+      [
+        [
+          "ceramic_plate",
+          2
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "plate_carrier_ucp_hard_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "plate_carrier_ucp",
+          1
+        ]
+      ],
+      [
+        [
+          "hard_plate",
+          1
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "plate_carrier_ucp_steel_xl",
+    "id_suffix": "from_plate_carrier_ucp_steel",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "plate_carrier_ucp_steel",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "plate_carrier_ucp_super_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "plate_carrier_ucp",
+          1
+        ]
+      ],
+      [
+        [
+          "alloy_plate",
+          1
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvmulti_xl",
+    "id_suffix": "from_iotvmulti",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "iotvmulti",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "iotvkevlarmulti_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvmulti",
+          1
+        ]
+      ],
+      [
+        [
+          "kevlar_plate",
+          9
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvceramicmulti_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvmulti",
+          1
+        ]
+      ],
+      [
+        [
+          "ceramic_plate",
+          4
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvhardmulti_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvmulti",
+          1
+        ]
+      ],
+      [
+        [
+          "hard_plate",
+          2
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvsteelmulti_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvmulti",
+          1
+        ]
+      ],
+      [
+        [
+          "steel_plate",
+          2
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvsupermulti_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvmulti",
+          1
+        ]
+      ],
+      [
+        [
+          "alloy_plate",
+          2
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvmulti_mk2_xl",
+    "id_suffix": "from_iotvmulti_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "iotvmulti_mk2",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "iotvkevlarmulti_mk2_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvmulti_mk2",
+          1
+        ]
+      ],
+      [
+        [
+          "kevlar_plate",
+          19
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvceramicmulti_mk2_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvmulti_mk2",
+          1
+        ]
+      ],
+      [
+        [
+          "ceramic_plate",
+          9
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvhardmulti_mk2_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvmulti_mk2",
+          1
+        ]
+      ],
+      [
+        [
+          "hard_plate",
+          4
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvsteelmulti_mk2_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvmulti_mk2",
+          1
+        ]
+      ],
+      [
+        [
+          "steel_plate",
+          4
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "iotvsupermulti_mk2_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "iotvmulti_mk2",
+          1
+        ]
+      ],
+      [
+        [
+          "alloy_plate",
+          4
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "plate_carrier_multi_xl",
+    "id_suffix": "from_plate_carrier_multi",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "plate_carrier_multi",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "plate_carrier_multi_kevlar_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "plate_carrier_multi",
+          1
+        ]
+      ],
+      [
+        [
+          "kevlar_plate",
+          4
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "plate_carrier_multi_ceramic_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "plate_carrier_multi",
+          1
+        ]
+      ],
+      [
+        [
+          "ceramic_plate",
+          2
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "plate_carrier_multi_hard_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "plate_carrier_multi",
+          1
+        ]
+      ],
+      [
+        [
+          "hard_plate",
+          1
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "plate_carrier_multi_steel_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "plate_carrier_multi",
+          1
+        ]
+      ],
+      [
+        [
+          "steel_plate",
+          1
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "plate_carrier_multi_steel_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "plate_carrier_multi",
+          1
+        ]
+      ],
+      [
+        [
+          "steel_plate",
+          1
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "plate_carrier_multi_super_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": "50 s",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 0,
+    "components": [
+      [
+        [
+          "plate_carrier_multi",
+          1
+        ]
+      ],
+      [
+        [
+          "alloy_plate",
+          1
+        ]
+      ]
+    ],
+    "flags": [
+      "BLIND_EASY"
+    ]
+  },
+  {
+    "result": "acu_jacket_multi_xl",
+    "id_suffix": "from_acu_jacket_multi",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "acu_jacket_multi",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "acu_pants_multi_xl",
+    "id_suffix": "from_acu_pants_multi",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "acu_pants_multi",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "talos_xl",
+    "id_suffix": "from_talos",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "talos",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "talos_helmet_xl",
+    "id_suffix": "from_talos_helmet",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "talos_helmet",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "lv2_ policevest_xl",
+    "id_suffix": "from_lv2_ policevest",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "lv2_ policevest",
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "result": "lv3_ policevest_xl",
+    "id_suffix": "from_lv3_ policevest",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        [
+          "lv3_ policevest",
+          1
+        ]
+      ]
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "result": "bomb_suit_xl",
+    "id_suffix": "from_bomb_suit",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "bomb_suit", 1 ] ] ]
+  }
+]

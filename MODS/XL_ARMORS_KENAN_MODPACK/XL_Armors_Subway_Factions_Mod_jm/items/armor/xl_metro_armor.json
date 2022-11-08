@@ -1,0 +1,74 @@
+[
+  {
+    "name": { "str": "XL communist officer's hat" },
+    "copy-from": "metro_redhat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "metro_redhat_xl",
+    "description": "The only hat for a man of the proletarian revolution. Shoot dissidents, reich fascists, dissidents and fascist dissidents disguised as civilians, and look great doing it!  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL communist officer's coat" },
+    "copy-from": "metro_red_offcoat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "metro_red_offcoat_xl",
+    "description": "A thick leather jacket.  Protects against the cold of the metro when the warmth of the revolutionary spirit isn't enough.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Red Line combat vest" },
+    "copy-from": "metro_redvest",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "metro_redvest_xl",
+    "description": "A combat vest found in common use amongst the many soldiers of the red line. Relatively cheap to make, its low encumberance comes at the cost of having relatively little ballistic protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Red Line Ushanka" },
+    "copy-from": "metro_redfur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "metro_redfur_xl",
+    "description": "A hat made from the pelts of animals.  Extremely warm. Often worn by the citizens of the Red Line.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL 4th Reich officer's hat" },
+    "copy-from": "metro_nsmhat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "metro_nsmhat_xl",
+    "description": "Few can be deemed pure enough to be allowed entry into the Reich Stations. Even fewer can become officers with an inflated sense of self importance.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL 4th Reich Formal Jacket" },
+    "copy-from": "metro_nsmjacket",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "metro_nsmjacket_xl",
+    "description": "An authoritative-looking jacket outfitted with a 4th Reich Armband. Common amongst the higher ranking members of the 4th Reich stations.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL 4th Reich combat vest" },
+    "copy-from": "metro_nsmvest",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "metro_nsmvest_xl",
+    "description": "A combat vest found in common use amongst the well-trained, but somewhat rare, members of the 4th Reich stations. Offers a relatively decent amount of protection, at the cost of increased encumbrance.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Reich Stahlhelm" },
+    "copy-from": "metro_nsmhelmet",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "metro_nsmhelmet_xl",
+    "description": "A heavy steel helmet that provides excellent protection from all sorts of damage.  How exactly people forced to live in the New England Metro got a hold of these seemingly geniune articles is one of the great many mysteries of the Cataclysm.  This can be worn regardless of your state of mutation"
+  }
+]

@@ -1,0 +1,273 @@
+[
+  {
+    "result": "helmet_hsurvivor_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 7,
+    "time": "45 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 10 ] ],
+    "tools": [ [ [ "welder", 42 ], [ "welder_crude", 63 ], [ "soldering_iron", 63 ], [ "toolset", 63 ] ] ],
+    "components": [
+      [ [ "helmet_liner", 1 ], [ "hat_cotton", 1 ], [ "rag", 3 ] ],
+      [ [ "helmet_army", 1 ] ],
+      [ [ "hood_rain", 1 ], [ "bag_plastic", 2 ] ],
+      [ [ "steel_chunk", 2 ], [ "scrap", 8 ] ],
+      [ [ "duct_tape", 108 ] ],
+      [
+        [ "helmet_riot", 1 ],
+        [ "helmet_motor", 1 ],
+        [ "helmet_football", 1 ],
+        [ "helmet_ball", 1 ],
+        [ "helmet_skid", 1 ],
+        [ "helmet_bike", 1 ],
+        [ "hat_hard", 1 ],
+        [ "firehelmet", 1 ],
+        [ "pickelhaube", 1 ],
+        [ "plastic_chunk", 10 ]
+      ]
+    ]
+  },
+  {
+    "result": "BL9_survivorhelmet_xl",
+    "id_suffix": "from_BL9_survivorhelmet",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_survivorhelmet", 1 ] ] ]
+  },
+  {
+    "result": "BL9_survivorpants_xl",
+    "id_suffix": "from_BL9_survivorpants",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_survivorpants", 1 ] ] ]
+  },
+  {
+    "result": "BL9_survivorsuit_xl",
+    "id_suffix": "from_BL9_survivorsuit",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_survivorsuit", 1 ] ] ]
+  },
+  {
+    "result": "BL9_survivorgloves_xl",
+    "id_suffix": "from_BL9_survivorgloves",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_survivorgloves", 1 ] ] ]
+  },
+  {
+    "result": "BL9_survivorboots_xl",
+    "id_suffix": "from_BL9_survivorboots",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_survivorboots", 1 ] ] ]
+  },
+  {
+    "result": "BL9_survivorbodyarmor_xl",
+    "id_suffix": "from_BL9_survivorbodyarmor",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_survivorbodyarmor", 1 ] ] ]
+  },
+  {
+    "result": "BL9_hitech_survivorhelmet_xl",
+    "id_suffix": "from_BL9_hitech_survivorhelmet",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_hitech_survivorhelmet", 1 ] ] ]
+  },
+  {
+    "result": "BL9_hitech_survivorpants_xl",
+    "id_suffix": "from_BL9_hitech_survivorpants",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_hitech_survivorpants", 1 ] ] ]
+  },
+  {
+    "result": "BL9_hitech_survivorsuit_xl",
+    "id_suffix": "from_BL9_hitech_survivorsuit",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_hitech_survivorsuit", 1 ] ] ]
+  },
+  {
+    "result": "BL9_hitech_survivorgloves_xl",
+    "id_suffix": "from_BL9_hitech_survivorgloves",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_hitech_survivorgloves", 1 ] ] ]
+  },
+  {
+    "result": "BL9_hitech_survivorboots_xl",
+    "id_suffix": "from_BL9_hitech_survivorboots",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_hitech_survivorboots", 1 ] ] ]
+  },
+  {
+    "result": "BL9_hitech_survivorbodyarmor_xl",
+    "id_suffix": "from_BL9_hitech_survivorbodyarmor",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_hitech_survivorbodyarmor", 1 ] ] ]
+  },
+  {
+    "result": "BL9_survivorhelmet_mk2_xl",
+    "id_suffix": "from_BL9_survivorhelmet_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_survivorhelmet_mk2", 1 ] ] ]
+  },
+  {
+    "result": "BL9_survivorpants_mk2_xl",
+    "id_suffix": "from_BL9_survivorpants_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_survivorpants_mk2", 1 ] ] ]
+  },
+  {
+    "result": "BL9_survivorsuit_mk2_xl",
+    "id_suffix": "from_BL9_survivorsuit_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_survivorsuit_mk2", 1 ] ] ]
+  },
+  {
+    "result": "BL9_survivorgloves_mk2_xl",
+    "id_suffix": "from_BL9_survivorgloves_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_survivorgloves_mk2", 1 ] ] ]
+  },
+  {
+    "result": "BL9_survivorboots_mk2_xl",
+    "id_suffix": "from_BL9_survivorboots_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_survivorboots_mk2", 1 ] ] ]
+  },
+  {
+    "result": "BL9_survivorbodyarmor_mk2_xl",
+    "id_suffix": "from_BL9_survivorbodyarmor_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_survivorbodyarmor_mk2", 1 ] ] ]
+  },
+  {
+    "result": "BL9_hitech_survivorhelmet_mk2_xl",
+    "id_suffix": "from_BL9_hitech_survivorhelmet_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_hitech_survivorhelmet_mk2", 1 ] ] ]
+  },
+  {
+    "result": "BL9_hitech_survivorpants_mk2_xl",
+    "id_suffix": "from_BL9_hitech_survivorpants_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_hitech_survivorpants_mk2", 1 ] ] ]
+  },
+  {
+    "result": "BL9_hitech_survivorsuit_mk2_xl",
+    "id_suffix": "from_BL9_hitech_survivorsuit_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_hitech_survivorsuit_mk2", 1 ] ] ]
+  },
+  {
+    "result": "BL9_hitech_survivorgloves_mk2_xl",
+    "id_suffix": "from_BL9_hitech_survivorgloves_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_hitech_survivorgloves_mk2", 1 ] ] ]
+  },
+  {
+    "result": "BL9_hitech_survivorboots_mk2_xl",
+    "id_suffix": "from_BL9_hitech_survivorboots_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_hitech_survivorboots_mk2", 1 ] ] ]
+  },
+  {
+    "result": "BL9_hitech_survivorbodyarmor_mk2_xl",
+    "id_suffix": "from_BL9_hitech_survivorbodyarmor_mk2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "BL9_hitech_survivorbodyarmor_mk2", 1 ] ] ]
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "name": { "str": "XL Miltech 'VRC' helmet" },
+    "copy-from": "cddaxp_tech_helmet",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_tech_helmet_xl",
+    "description": "A lightweight Miltech helmet, that provides excellent protection from all sorts of damage and also capable of transmitting vocals orders in the ultra high frequencies utilized by robots.  Activate it to command robots from afar.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Miltech tactical night visor" },
+    "copy-from": "cddaxp_goggles_artnv",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_goggles_artnv_xl",
+    "description": "A Miltech battery-powered tactical visor that amplify ambient light, with 'HUD' for enhancing perception purposes.  Use it to turn it on.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Miltech tactical night visor (on)" },
+    "copy-from": "cddaxp_goggles_artnv_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_goggles_artnv_on_xl",
+    "description": "A Miltech battery-powered tactical visor that amplify ambient light, with 'HUD' for enhancing perception purposes.  It is currently on, and continually draining batteries.  Use it to turn it off.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Miltech powerloader exoskeleton" },
+    "copy-from": "cddaxp_artesosk",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_artesosk_xl",
+    "description": "This plutonium powered Miltech exoskeleton is a really useful powertool!  Use it to turn it on.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Miltech powerloader exoskeleton (on)" },
+    "copy-from": "cddaxp_artesosk_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_artesosk_on_xl",
+    "description": "This plutonium powered Miltech exoskeleton is a really useful powertool!  It is currently on, and continually draining batteries.  Use it to turn it off.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Miltech actuator served gloves" },
+    "copy-from": "cddaxp_artgloves",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_artgloves_xl",
+    "description": "A pair of Miltech reinforced Kevlar tactical gloves with actuators, sensors, stabilizer and motion control system.  Use it to turn it on.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Miltech actuator served gloves (on)" },
+    "copy-from": "cddaxp_artgloves_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_artgloves_on_xl",
+    "description": "A pair of Miltech reinforced Kevlar tactical gloves with actuators, sensors, stabilizer and motion control system.  They are currently on, and continually draining batteries.  Use it to turn it off.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Miltech thermal suit" },
+    "copy-from": "cddaxp_mtsuit",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_mtsuit_xl",
+    "description": "This hi-tech suit of thin thermal underwear covers you from head to toe and is equipped with internal battery-powered high-efficiency heating elements.  Use it to turn it on.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Miltech thermal suit (on)" },
+    "copy-from": "cddaxp_mtsuit_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_mtsuit_on_xl",
+    "description": "This hi-tech suit of thin thermal underwear covers you from head to toe and is equipped with internal battery-powered high-efficiency heating elements.  It is currently on, and continually draining batteries.  Use it to turn it off.  This can be worn regardless of your state of mutation"
+  }
+]

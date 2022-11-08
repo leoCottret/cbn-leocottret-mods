@@ -1,0 +1,273 @@
+[
+  {
+    "result": "turtleneck_xl",
+    "id_suffix": "from_turtleneck",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "turtleneck", 1 ] ] ]
+  },
+  {
+    "result": "turtleneck_rolled_xl",
+    "id_suffix": "from_turtleneck_rolled",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "turtleneck_rolled", 1 ] ] ]
+  },
+  {
+    "result": "megaarmor_torso_1_xl",
+    "id_suffix": "uncraft",
+    "type": "recipe",
+    "category": "CC_NONCRAFT",
+    "subcategory": "CSC_NONCRAFT",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "132 m",
+    "reversible": true,
+    "autolearn": false,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "spess_chunk", 26 ] ],
+      [ [ "scrap", 9 ] ],
+      [ [ "string_6", 4 ] ],
+      [ [ "ceramic_plate", 12 ] ],
+      [ [ "shoulder_strap", 2 ] ]
+    ]
+  },
+  {
+    "result": "megaarmor_torso_1_xl",
+    "id_suffix": "repair",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "90 m",
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "tools": [ [ [ "hotplate", 35 ], [ "toolset", 35 ] ], [ [ "sewing_kit", 90 ] ] ],
+    "components": [
+      [ [ "spess_chunk", 9 ] ],
+      [ [ "scrap", 2 ] ],
+      [ [ "string_6", 2 ] ],
+      [ [ "ceramic_plate", 4 ] ],
+      [ [ "duct_tape", 120 ], [ "superglue", 2 ] ],
+      [ [ "duct_tape", 120 ], [ "superglue", 2 ] ],
+      [ [ "megaarmor_torso_1", 2 ] ]
+    ]
+  },
+  {
+    "result": "megaarmor_torso_2_xl",
+    "id_suffix": "recraft",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "34 m",
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "hotplate", 35 ], [ "toolset", 35 ] ], [ [ "sewing_kit", 90 ] ] ],
+    "components": [
+      [ [ "spess_chunk", 4 ] ],
+      [ [ "duct_tape", 120 ], [ "superglue", 2 ] ],
+      [ [ "duct_tape", 120 ], [ "superglue", 2 ] ],
+      [ [ "megaarmor_torso_2", 1 ] ]
+    ]
+  },
+  {
+    "result": "megaarmor_head_1_xl",
+    "id_suffix": "from_megaarmor_head_1",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "megaarmor_head_1", 1 ] ] ]
+  },
+  {
+    "result": "megaarmor_leggings_1_xl",
+    "id_suffix": "uncraft",
+    "type": "recipe",
+    "category": "CC_NONCRAFT",
+    "subcategory": "CSC_NONCRAFT",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "8 m",
+    "reversible": true,
+    "autolearn": false,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "spess_chunk", 12 ] ], [ [ "neoprene", 9 ] ] ]
+  },
+  {
+    "result": "megaarmor_boots_1_xl",
+    "id_suffix": "uncraft",
+    "type": "recipe",
+    "category": "CC_NONCRAFT",
+    "subcategory": "CSC_NONCRAFT",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "23 m",
+    "reversible": true,
+    "autolearn": false,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "spess_chunk", 14 ] ], [ [ "steel_chunk", 2 ] ], [ [ "scrap", 4 ] ], [ [ "rag", 2 ] ] ]
+  },
+  {
+    "result": "megaarmor_gloves_1_xl",
+    "id_suffix": "uncraft",
+    "type": "recipe",
+    "category": "CC_NONCRAFT",
+    "subcategory": "CSC_NONCRAFT",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "10 s",
+    "reversible": true,
+    "autolearn": false,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "spess_chunk", 2 ] ], [ [ "leather", 2 ] ] ]
+  },
+  {
+    "result": "megaarmor_armguards_1_xl",
+    "id_suffix": "uncraft",
+    "type": "recipe",
+    "category": "CC_NONCRAFT",
+    "subcategory": "CSC_NONCRAFT",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "54 m",
+    "reversible": true,
+    "autolearn": false,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "spess_chunk", 4 ] ], [ [ "neoprene", 7 ] ] ]
+  },
+  {
+    "result": "helmet_bone_megabear_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "210 m",
+    "reversible": false,
+    "autolearn": [ [ "fabrication", 5 ], [ "survival", 5 ] ],
+    "book_learn": [ [ "survival_book", 5 ], [ "textbook_survival", 6 ], [ "scots_cookbook", 6 ] ],
+    "qualities": [
+      { "id": "CHEM", "level": 1 },
+      { "id": "BOIL", "level": 1 },
+      { "id": "CONTAIN", "level": 1 },
+      [ { "id": "SAW_M", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+      { "id": "HAMMER_FINE", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 30, "LIST" ] ] ],
+    "components": [
+      [ [ "megabear_skull_clean", 1 ] ],
+      [
+        [ "salt", 30 ],
+        [ "salt_water", 3 ],
+        [ "saline", 30 ],
+        [ "chem_hydrogen_peroxide_conc", 1 ],
+        [ "chem_hydrogen_peroxide", 6 ]
+      ],
+      [ [ "salt_water", 1 ], [ "water", 3 ], [ "water_clean", 3 ] ],
+      [ [ "rag", 1 ] ]
+    ]
+  },
+  {
+    "result": "vest_leather_zuicide_short_xl",
+    "id_suffix": "from_vest_leather_zuicide_short",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "vest_leather_zuicide_short", 1 ] ] ]
+  },
+  {
+    "result": "vest_leather_zuicide_short_active_xl",
+    "id_suffix": "from_vest_leather_zuicide_short_active",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "vest_leather_zuicide_short_active", 1 ] ] ]
+  },
+  {
+    "result": "sac_purse_xl",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "68 m",
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [  ],
+    "components": [
+      [ [ "sac_treated", 3 ] ],
+      [ [ "sinew", 60 ], [ "thread", 60 ], [ "plant_fibre", 60 ], [ "yarn", 30 ], [ "string_6", 1 ] ],
+      [ [ "wax", 1 ], [ "tallow", 2 ], [ "tallow_tainted", 2 ], [ "lamp_oil", 30 ], [ "cooking_oil", 2 ] ]
+    ]
+  },
+  {
+    "result": "sac_purse_arm_xl",
+    "id_suffix": "from_sac_purse_arm",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "sac_purse_arm", 1 ] ] ]
+  },
+  {
+    "result": "sac_purse_leg_xl",
+    "id_suffix": "from_sac_purse_leg",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "sac_purse_leg", 1 ] ] ]
+  },
+  {
+    "result": "sac_purse_ankle_xl",
+    "id_suffix": "from_sac_purse_ankle",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "sac_purse_ankle", 1 ] ] ]
+  },
+  {
+    "result": "kevlar_tee_xl",
+    "id_suffix": "from_kevlar_tee",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "kevlar_tee", 1 ] ] ]
+  },
+  {
+    "result": "armguard_larmor_mod_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_ARMS",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "46 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SEW", "level": 1 } ],
+    "using": [ [ "filament", 20 ] ],
+    "components": [ [ [ "armguard_larmor", 1 ] ], [ [ "scrap", 2 ] ] ]
+  }
+]

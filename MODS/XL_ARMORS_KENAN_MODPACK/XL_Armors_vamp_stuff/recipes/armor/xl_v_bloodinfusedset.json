@@ -1,0 +1,74 @@
+[
+  {
+    "result": "bloodinfused_survivorhood_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "7 m 2 s",
+    "book_learn": [ [ "vamp_darkfashion1", 10 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 }, { "id": "BINFUSING", "level": 1 } ],
+    "components": [ [ [ "hood_survivor", 1 ] ], [ [ "compactsheet", 4 ] ], [ [ "stickyblood", 2 ] ] ]
+  },
+  {
+    "result": "bloodinfused_survivorpants_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "7 m 30 s",
+    "book_learn": [ [ "vamp_darkfashion1", 10 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 }, { "id": "BINFUSING", "level": 1 } ],
+    "components": [ [ [ "pants_survivor", 1 ] ], [ [ "compactsheet", 4 ] ], [ [ "stickyblood", 2 ] ] ]
+  },
+  {
+    "result": "bloodinfused_survivorduster_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "8 m 15 s",
+    "book_learn": [ [ "vamp_darkfashion1", 10 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 }, { "id": "BINFUSING", "level": 1 } ],
+    "components": [ [ [ "duster_survivor", 1 ] ], [ [ "compactsheet", 6 ] ], [ [ "stickyblood", 2 ] ] ]
+  },
+  {
+    "result": "bloodinfused_survivorgloves_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "5 m 42 s",
+    "book_learn": [ [ "vamp_darkfashion1", 10 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 }, { "id": "BINFUSING", "level": 1 } ],
+    "components": [ [ [ "gloves_survivor", 1 ] ], [ [ "compactsheet", 2 ] ], [ [ "stickyblood", 1 ] ] ]
+  },
+  {
+    "result": "bloodinfused_survivorboots_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "6 m 2 s",
+    "book_learn": [ [ "vamp_darkfashion1", 10 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 }, { "id": "BINFUSING", "level": 1 } ],
+    "components": [ [ [ "boots_survivor", 1 ] ], [ [ "compactsheet", 3 ] ], [ [ "stickyblood", 1 ] ] ]
+  },
+  {
+    "result": "bloodinfused_survivortrenchcoat_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "7 m 10 s",
+    "book_learn": [ [ "vamp_darkfashion1", 10 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 }, { "id": "BINFUSING", "level": 1 } ],
+    "components": [ [ [ "trenchcoat_survivor", 1 ] ], [ [ "compactsheet", 6 ] ], [ [ "stickyblood", 2 ] ] ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL bomb suit", "str_pl": "XL bomb suits" },
+    "copy-from": "bomb_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bomb_suit_xl",
+    "description": "A thick and bulky armored suit used by EOD operators during bomb disposals. It offers excellent protection against evironmental dangers and ballistics, but is very cumbersome and hot to wear. It also lacks any gloves, leaving your hands exposed.  This can be worn regardless of your state of mutation"
+  }
+]

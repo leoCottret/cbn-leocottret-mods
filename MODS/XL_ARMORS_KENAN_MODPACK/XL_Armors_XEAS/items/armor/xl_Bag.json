@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL xeas bag" },
+    "copy-from": "XEAS_bag",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "XEAS_bag_xl",
+    "description": "Small lace bag. But large inside!  This can be worn regardless of your state of mutation"
+  }
+]

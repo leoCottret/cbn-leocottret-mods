@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "XL Insulated 2.5L Canteen" },
+    "copy-from": "Insulated_2L_Canteen",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "Insulated_2L_Canteen_xl",
+    "description": "A large plastic water canteen, with a 2.5 liter capacity and carrying strap. A bit of ductape and cellulose provide suprisingly effective insulation for the contents.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Insulated Canteen" },
+    "copy-from": "Insulated_Canteen",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "Insulated_Canteen_xl",
+    "description": "A military-style water canteen with a 1.5 liter capacity.  Commonly worn at the hip. A bit of ductape and cellulose provide suprisingly effective insulation for the contents.  This can be worn regardless of your state of mutation"
+  }
+]

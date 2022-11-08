@@ -1,0 +1,32 @@
+[
+  {
+    "result": "dkz_xenoid_light_armor_salvaged_xl",
+    "id_suffix": "from_dkz_xenoid_light_armor_salvaged",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "dkz_xenoid_light_armor_salvaged", 1 ] ] ]
+  },
+  {
+    "result": "dkz_xenoid_heavy_armor_salvaged_xl",
+    "id_suffix": "from_dkz_xenoid_heavy_armor_salvaged",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "dkz_xenoid_heavy_armor_salvaged", 1 ] ] ]
+  },
+  {
+    "result": "dkz_xenoid_mask_salvaged_xl",
+    "id_suffix": "from_dkz_xenoid_mask_salvaged",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "dkz_xenoid_mask_salvaged", 1 ] ] ]
+  }
+]

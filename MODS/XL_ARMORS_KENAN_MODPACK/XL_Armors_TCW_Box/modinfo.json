@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_TCW_BOX",
+  "name": "<color_cyan>XL Armors</color> for [<color_yellow>Demo</color>] Doomsday Reserve Box",
+  "description": "This is an extension that adds XL armors for the [<color_yellow>Demo</color>] Doomsday Reserve Box mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "TCW_BOX"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

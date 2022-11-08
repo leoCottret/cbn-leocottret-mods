@@ -1,0 +1,32 @@
+[
+  {
+    "result": "helmet_robot_xl",
+    "id_suffix": "from_helmet_robot",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helmet_robot", 1 ] ] ]
+  },
+  {
+    "result": "helmet_met_xl",
+    "id_suffix": "from_helmet_met",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helmet_met", 1 ] ] ]
+  },
+  {
+    "result": "helmet_mechpilot_xl",
+    "id_suffix": "from_helmet_mechpilot",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helmet_mechpilot", 1 ] ] ]
+  }
+]

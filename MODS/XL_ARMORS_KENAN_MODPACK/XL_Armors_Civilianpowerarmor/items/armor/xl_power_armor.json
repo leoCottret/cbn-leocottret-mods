@@ -1,0 +1,29 @@
+[
+  {
+    "name": { "str": "XL Commercial Depowered armor" },
+    "copy-from": "Civilian_depower_armor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "Civilian_depower_armor_xl",
+    "description": "The DoubleTech civilian Power Armor,: A heavy suit of basic power armor that has been modified for civilian use, And Has Been Made For Storage, This suit has had its servos and cooling system stripped out, meaning it no longer requires power.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Commercial power armor" },
+    "copy-from": "power_armor_Civilian",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_Civilian_xl",
+    "description": "A suit of DoubleTech Power Armor, Mk. I-C.  This model Is Made For Commercial Use, This Model Was Very Common To See On Rich Members Of society. Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Commercial power armor (active)", "str_pl": "XL Commercial power armors (active)" },
+    "copy-from": "power_armor_Civilian_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "power_armor_Civilian_on_xl",
+    "description": "A suit of DoubleTech Power Armor, Mk. I-C.  This model Is Made For Commercial Use, This Model Was Very Common To See On Rich Members Of society. Like all DoubleTech power armor, the control and climate-regulation systems require direct skin contact.  It is currently turned on, activate it to turn it off.  This can be worn regardless of your state of mutation"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": { "str": "XL thermal electric suit (UPS)" },
+    "copy-from": "thermal_suit_ups",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "thermal_suit_ups_xl",
+    "description": "This is a full-body suit of thin thermal underwear equipped with internal UPS-powered heating elements. It is warmer than its battery-powered counterpart. Use it to turn it on.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL thermal electric suit (UPS) (on)", "str_pl": "XL thermal electric suits (UPS) (on)" },
+    "copy-from": "thermal_suit_ups_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "thermal_suit_ups_on_xl",
+    "description": "This is a full-body suit of thin thermal underwear equipped with UPS-powered heating elements. It is warmer than its battery-powered counterpart. It is currently on, and continually draining UPS power.  Use it to turn it off.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL thermal electric outfit (UPS)", "str_pl": "XL thermal electric outfits (UPS)" },
+    "copy-from": "thermal_outfit_ups",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "thermal_outfit_ups_xl",
+    "description": "This suit of thin thermal underwear covers you from head to toe and is equipped with internal UPS-powered heating elements. It is warmer than its battery-powered counterpart. Use it to turn it on.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL thermal electric outfit (UPS) (on)", "str_pl": "XL thermal electric outfits (UPS) (on)" },
+    "copy-from": "thermal_outfit_ups_on",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "thermal_outfit_ups_on_xl",
+    "description": "This suit of thin thermal underwear covers you from head to toe and is equipped with internal UPS-powered heating elements. It is warmer than its battery-powered counterpart.  It is currently on, and continually draining UPS power.  Use it to turn it off.  This can be worn regardless of your state of mutation"
+  }
+]

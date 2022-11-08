@@ -1,0 +1,82 @@
+[
+  {
+    "result": "jacket_eod_xl",
+    "id_suffix": "from_jacket_eod",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jacket_eod", 1 ] ] ]
+  },
+  {
+    "result": "jacket_eod_light_xl",
+    "id_suffix": "from_jacket_eod_light",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jacket_eod_light", 1 ] ] ]
+  },
+  {
+    "result": "gloves_eod_xl",
+    "id_suffix": "from_gloves_eod",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gloves_eod", 1 ] ] ]
+  },
+  {
+    "result": "helmet_eod_xl",
+    "id_suffix": "from_helmet_eod",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helmet_eod", 1 ] ] ]
+  },
+  {
+    "result": "trousers_eod_xl",
+    "id_suffix": "from_trousers_eod",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "trousers_eod", 1 ] ] ]
+  },
+  {
+    "result": "trousers_eod_light_xl",
+    "id_suffix": "from_trousers_eod_light",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "trousers_eod_light", 1 ] ] ]
+  },
+  {
+    "result": "foot_protectors_eod_xl",
+    "id_suffix": "from_foot_protectors_eod",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "foot_protectors_eod", 1 ] ] ]
+  },
+  {
+    "result": "bandana_head_xl",
+    "id_suffix": "from_bandana_head",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "bandana_head", 1 ] ] ]
+  }
+]

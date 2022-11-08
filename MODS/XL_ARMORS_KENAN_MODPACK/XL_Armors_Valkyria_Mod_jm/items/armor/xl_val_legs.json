@@ -1,0 +1,83 @@
+[
+  {
+    "name": { "str_sp": "XL Gallian P.30 Army Trousers" },
+    "copy-from": "gal_pants_army",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gal_pants_army_xl",
+    "description": "A tough pair of pants lined with pockets. Favored by the men of the gallian military.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Gallian P.32 Army Shorts" },
+    "copy-from": "gal_shorts_army",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gal_shorts_army_xl",
+    "description": "A tough pair of shorts lined with pockets. Favored by the women of the gallian military.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Gallian P.32 Army Stockings" },
+    "copy-from": "galwomsocks",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "galwomsocks_xl",
+    "description": "A tough pair of cotton blue stockings made for use by the women of the Gallian Army and milita. Presumably used to provide leg coverage in combination with their famous shorts or skirts.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Model 1930 Field Trousers" },
+    "copy-from": "imp_pants_army",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "imp_pants_army_xl",
+    "description": "A tough pair of pants lined with pockets. Favored by the men of the Imperial military.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Gallian P.34 Armored Kneepads" },
+    "copy-from": "gal_knee_pads",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gal_knee_pads_xl",
+    "description": "A pair of knee pads made of steel for ballistic protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Gallian P.34 Steel Plate" },
+    "copy-from": "gal_hip_armor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gal_hip_armor_xl",
+    "description": "A pair of thick, almost saucer like metal plates affixed to either hip of the wearer. Standard fare for all gallian soldiers that might see regular combat.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Gallian P.17 Boots" },
+    "copy-from": "galmilboots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "galmilboots_xl",
+    "description": "Tough leather boots with fur inner padding.  Very durable, and an EW1 vintage still proudly used to this day.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL Imperial Marching Boots" },
+    "copy-from": "impilboots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "impilboots_xl",
+    "description": "Tough leather boots.  Very durable. Became famous in the Eastern European Alliance's tales of conquest.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Gallian P.29 Battle Skirt" },
+    "copy-from": "gal_skirt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gal_skirt_xl",
+    "description": "A short, breezy cotton skirt.  Easy to move in, and has some degree of storage. It's ease of movement allows for more mobility for women in combat, although there are persistent rumors about unwanted exposure.  This can be worn regardless of your state of mutation"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_CBM_Arms",
+  "name": "<color_cyan>XL Armors</color> for CBM Equipment",
+  "description": "This is an extension that adds XL armors for the CBM Equipment mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "CBM_Arms"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

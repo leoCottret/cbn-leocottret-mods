@@ -1,0 +1,38 @@
+[
+  {
+    "name": { "str": "XL clown wig" },
+    "copy-from": "clown_wig",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "clown_wig_xl",
+    "description": "A colorful and ridiculous wig fit for a clown.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL golden crown" },
+    "copy-from": "crown_golden",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crown_golden_xl",
+    "description": "A delicate golden crown featuring flowering trees.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL golden crown" },
+    "copy-from": "crown_golden_survivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crown_golden_survivor_xl",
+    "description": "A golden crown for the monarch of survivors.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL protective mouthpiece" },
+    "copy-from": "mouthpiece",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mouthpiece_xl",
+    "description": "A protective piece of equipment commonly used by athletes, which is worn inside the mouth to protect your teeth.  This can be worn regardless of your state of mutation"
+  }
+]

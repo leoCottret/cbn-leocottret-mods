@@ -1,0 +1,74 @@
+[
+  {
+    "name": { "str": "XL cosplay maid clothes", "str_pl": "XL cosplay maid clothes" },
+    "copy-from": "maid_dress_miniskirt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "maid_dress_miniskirt_xl",
+    "description": "A cosplay-based maid dress, black with a frilly white apron and miniskirt.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Victorian maid dress", "str_pl": "XL Victorian maid dresses" },
+    "copy-from": "maid_dress_victorian",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "maid_dress_victorian_xl",
+    "description": "A more traditional maid dress, black with a frilly white apron.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Victorian maid hat" },
+    "copy-from": "maid_hat_victorian",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "maid_hat_victorian_xl",
+    "description": "A frilly white hat meant to keep a maid's hair from getting dirty while she works.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL steampunk maid dress", "str_pl": "XL steampunk maid dresses" },
+    "copy-from": "maid_dress_steampunk",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "maid_dress_steampunk_xl",
+    "description": "A working lady's made dress, reinforced with leather, and full of pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL military maid clothes", "str_pl": "XL military maid clothes" },
+    "copy-from": "maid_dress_combat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "maid_dress_combat_xl",
+    "description": "A custom camo maid dress, reinforced with kevlar and leather. It only has a miniskirt, but its super protective.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL cyberpunk maid clothes", "str_pl": "XL cyberpunk maid clothes" },
+    "copy-from": "maid_dress_cyberpunk",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "maid_dress_cyberpunk_xl",
+    "description": "A futuristic, sleeveless maid dress, made of rubber and metal. It's meant to show off one's bionics, and thus isnt quite as covering as other outfits. Its still incredibly frilly.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL cyberpunk maid boots", "str_pl": "pairs of XL cyberpunk maid boots" },
+    "copy-from": "maid_boots_cyberpunk",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "maid_boots_cyberpunk_xl",
+    "description": "Very long, rubbery boots worn by cyberpunk maids. Theyre incredibly protective.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL cyberpunk maid hat" },
+    "copy-from": "maid_hat_cyberpunk",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "maid_hat_cyberpunk_xl",
+    "description": "A frilly white headpiece, held to your head by little metal ear coverings, resembling elf ears.  This can be worn regardless of your state of mutation"
+  }
+]

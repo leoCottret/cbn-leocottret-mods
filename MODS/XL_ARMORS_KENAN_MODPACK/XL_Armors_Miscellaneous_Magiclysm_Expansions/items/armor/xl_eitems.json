@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "pair of XL extremely slick icy coatings on your feet", "str_pl": "extremely slick icy coatingspairs of XL " },
+    "copy-from": "ice_sliders",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "ice_sliders_xl",
+    "description": "A magical slick icy coating on your feet.  While extremely fast on flat floors, they make it difficult to move on rough terrain.  This can be worn regardless of your state of mutation"
+  }
+]

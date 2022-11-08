@@ -1,0 +1,56 @@
+[
+  {
+    "name": { "str": "XL Legion Recruit Armor" },
+    "copy-from": "armor_legion_recruit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_legion_recruit_xl",
+    "description": "A set of football armor reinforced with leather, worn by fresh recruits of Caesar's Legion. It has an attached leather skirt.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Legion Recruit Helmet" },
+    "copy-from": "helmet_legion_recruit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_legion_recruit_xl",
+    "description": "A leather cap used by Legion recruits, combined with some form of tinted eyewear and a bandana for best effect.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Legion Prime Armor" },
+    "copy-from": "armor_legion_prime",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_legion_prime_xl",
+    "description": "A set of football armor reinforced with copius amounts of leather, worn by the primary forces of Caesar's Legion. It has an attached leather skirt.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Legion Prime Helmet" },
+    "copy-from": "helmet_legion_prime",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_legion_prime_xl",
+    "description": "A leather cap used by Prime-ranked legionarries, often combined with some form of tinted eyewear and a bandana for best effect.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Legion Veteran Armor" },
+    "copy-from": "armor_legion_veteran",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_legion_veteran_xl",
+    "description": "A set of football armor reinforced with leather and iron, worn by elite veterans of Caesar's Legion. It has an attached leather skirt.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Legion Veteran Helmet" },
+    "copy-from": "helmet_legion_veteran",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_legion_veteran_xl",
+    "description": "A plastic and iron baseball helmet used by Legion veterans, combined with some form of tinted eyewear and a bandana for best effect.  This can be worn regardless of your state of mutation"
+  }
+]

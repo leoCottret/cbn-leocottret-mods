@@ -1,0 +1,15 @@
+[
+  {
+    "result": "XEAS_bag_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "50 s",
+    "book_learn": [ [ "recipe_maiar", 3 ] ],
+    "qualities": [ { "id": "SEW", "level": 1 } ],
+    "using": [ [ "sewing_standard", 100 ] ],
+    "components": [ [ [ "vortex_stone", 1 ] ], [ [ "nomex", 12 ] ] ]
+  }
+]

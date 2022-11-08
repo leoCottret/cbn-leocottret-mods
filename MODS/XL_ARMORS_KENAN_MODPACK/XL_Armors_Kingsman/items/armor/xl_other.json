@@ -1,0 +1,47 @@
+[
+  {
+    "name": { "str": "pair of XL square framed glasses", "str_pl": "pairs of XL square framed glasses" },
+    "copy-from": "glasses_kingsman",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "glasses_kingsman_xl",
+    "description": "A pair of square framed glasses, look sylish while the world is in ruin.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL silver watch", "str_pl": "XL silver watches" },
+    "copy-from": "watch_kingsman",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "watch_kingsman_xl",
+    "description": "A self-winding silver watch, look great while punching zombies.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL round frame glasses", "str_pl": "pairs of XL round frame glasses" },
+    "copy-from": "glasses_statesman",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "glasses_statesman_xl",
+    "description": "A pair of rounded frame glasses, look nice even while you're being grabbed at my zombies.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL silver watch", "str_pl": "XL silver watches" },
+    "copy-from": "watch_statesman",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "watch_statesman_xl",
+    "description": "A self-winding silver watch, it's leather band feels oddly confortable against your skin.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL cowboy hat" },
+    "copy-from": "hat_statesman",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_statesman_xl",
+    "description": "Whether hunting bobcats, fixing up the ranch, or dueling to the death with zombies, this your hat!  This can be worn regardless of your state of mutation"
+  }
+]

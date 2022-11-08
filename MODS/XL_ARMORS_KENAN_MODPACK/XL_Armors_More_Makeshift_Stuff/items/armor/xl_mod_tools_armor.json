@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "XL visored helmet" },
+    "copy-from": "visored_helm",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "visored_helm_xl",
+    "description": "Helmet with openable visor. Not as thick and reliable as great helm due to all moving parts. Use it to open the visor and catch your breath.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL visored helmet(open)" },
+    "copy-from": "visored_helm_open",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "visored_helm_open_xl",
+    "description": "Helmet with openable visor. Use it to close the visor to protect your face.  This can be worn regardless of your state of mutation"
+  }
+]

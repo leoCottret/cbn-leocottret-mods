@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_expansion_tefnut",
+  "name": "<color_cyan>XL Armors</color> for Cataclysm: Second Chance",
+  "description": "This is an extension that adds XL armors for the Cataclysm: Second Chance mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "expansion_tefnut"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

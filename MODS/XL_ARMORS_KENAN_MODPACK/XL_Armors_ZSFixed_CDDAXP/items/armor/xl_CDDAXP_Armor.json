@@ -1,0 +1,191 @@
+[
+  {
+    "name": { "str": "XL Miltech enviromask" },
+    "copy-from": "cddaxp_envmask",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_envmask_xl",
+    "description": "A Miltech lightweight protection mask with high efficiency multipurpose filters, that straps over mouth and nose only.  Provides very good environmental protection from smoke and other contaminants.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL rioter trenchcoat" },
+    "copy-from": "cddaxp_srtrenchcoat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_srtrenchcoat_xl",
+    "description": "A makeshift armoured cotton trenchcoat that leaves your arms unencumbered.  Has plenty of storage space due to its many pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL rioter pants" },
+    "copy-from": "cddaxp_rcpants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_rcpants_xl",
+    "description": "A makeshift armoured pair of pants lined with pockets, offering lots of storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor rioter trenchcoat" },
+    "copy-from": "cddaxp_survsrtrenchcoat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_survsrtrenchcoat_xl",
+    "description": "A makeshift armoured cotton trenchcoat with pouches, that leaves your arms unencumbered.  It is also combined with a big leather back holster.  Activate to holster/draw a gun.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor rioter pants" },
+    "copy-from": "cddaxp_survrcpants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_survrcpants_xl",
+    "description": "A makeshift armoured pair of pants lined with pockets, combined with a multipurpose bandolier as belt.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bracer", "str_pl": "XL bracers" },
+    "copy-from": "cddaxp_bracer",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_bracer_xl",
+    "description": "A metal arm-guard that protect the forearm against injury.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL RILLE pack" },
+    "copy-from": "cddaxp_rillepack",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_rillepack_xl",
+    "description": "The 'RIoter Lightweight Load-carrying Equipment' is an advanced military backpack heavily customized.  Armoured and covered with pockets, it uses two granade bandoliers as shoulder straps.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL lamellar chitinous trenchcoat" },
+    "copy-from": "cddaxp_lamessrtrenchcoat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_lamessrtrenchcoat_xl",
+    "description": "A makeshift armoured cotton trenchcoat with pouches, padded in kevlar and chitin.  It has a nasty entomologic look and it is also combined with a big leather back holster.  Activate to holster/draw a gun.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL lamellar chitinous pants" },
+    "copy-from": "cddaxp_lamesrcpants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_lamesrcpants_xl",
+    "description": "A makeshift armoured pair of pants padded in kevlar and chitin, combined with a multipurpose bandolier as belt.  It has a nasty entomologic look.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL rioter long-sleeved shirt" },
+    "copy-from": "cddaxp_longshirt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_longshirt_xl",
+    "description": "A custom-built long-sleeved shirt covered in pouches with two ammo satchels to hold magazines close at hand.  Durable and carefully crafted to be comfortable to wear.  Activate to stash/draw magazines.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL chitinous rioter shirt" },
+    "copy-from": "cddaxp_srshirt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_srshirt_xl",
+    "description": "A custom-built rigid version of the standard rioter shirt, padded in kevlar and chitin.  Durable and carefully crafted to be comfortable to wear.  Activate to stash/draw up to two magazines.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bony rioter shirt" },
+    "copy-from": "cddaxp_srbshirt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_srbshirt_xl",
+    "description": "A custom-built rigid version of the standard rioter shirt, padded in kevlar and bones.  Durable and carefully crafted to be comfortable to wear.  Activate to stash/draw up to two magazines.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL ceramic rioter shirt" },
+    "copy-from": "cddaxp_srcshirt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_srcshirt_xl",
+    "description": "A custom-built rigid version of the standard rioter shirt, padded in kevlar and ceramic.  Durable and carefully crafted to be comfortable to wear.  Activate to stash/draw up to two magazines.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL lamellar bony trenchcoat" },
+    "copy-from": "cddaxp_lamessbtrenchcoat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_lamessbtrenchcoat_xl",
+    "description": "A makeshift armoured cotton trenchcoat with pouches, padded in kevlar and bones.  It has a creepy look and it is also combined with a big leather back holster.  Activate to holster/draw a gun.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL lamellar bony pants" },
+    "copy-from": "cddaxp_lamesbcpants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_lamesbcpants_xl",
+    "description": "A makeshift armoured pair of pants padded in kevlar and bones, combined with a multipurpose bandolier as belt.  It has a creepy look.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL lamellar ceramic trenchcoat" },
+    "copy-from": "cddaxp_lamessctrenchcoat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_lamessctrenchcoat_xl",
+    "description": "A makeshift armoured cotton trenchcoat with pouches, padded in kevlar and ceramic.  It has an hi-tech look and it is also combined with a big leather back holster.  Activate to holster/draw a gun.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL lamellar ceramic pants" },
+    "copy-from": "cddaxp_lamesccpants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_lamesccpants_xl",
+    "description": "A makeshift armoured pair of pants padded in kevlar and ceramic, combined with a multipurpose bandolier as belt.  It has an hi-tech look.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL heavy lamellar trenchcoat" },
+    "copy-from": "cddaxp_hlamesstrenchcoat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_hlamesstrenchcoat_xl",
+    "description": "A makeshift heavy armoured cotton trenchcoat with pouches, padded in kevlar and steel.  It has a bulletproof look and it is also combined with a big fast leather back holster.  Activate to holster/draw a gun.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL heavy lamellar pants" },
+    "copy-from": "cddaxp_hlamescpants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_hlamescpants_xl",
+    "description": "A makeshift heavy armoured pair of pants padded in kevlar and steel, combined with a multipurpose bandolier as belt.  It has a bulletproof look.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bulletproof lamellar trenchcoat" },
+    "copy-from": "cddaxp_bplamesstrenchcoat",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_bplamesstrenchcoat_xl",
+    "description": "A makeshift bulletproof cotton trenchcoat with pouches, padded in superalloy and steel.  It has a bulky look and it is also combined with a big fast leather back holster.  Activate to holster/draw a gun.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bulletproof lamellar pants" },
+    "copy-from": "cddaxp_bplamescpants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cddaxp_bplamescpants_xl",
+    "description": "A makeshift bulletproof pair of pants padded in superalloy and steel, combined with a multipurpose bandolier as belt.  It has a bulky look.  This can be worn regardless of your state of mutation"
+  }
+]

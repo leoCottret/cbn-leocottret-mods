@@ -1,0 +1,39 @@
+[
+  {
+    "result": "cbma_inner_suite_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "time": "1 h 20 m",
+    "autolearn": true,
+    "book_learn": [ [ "recipe_mil_augs", 7 ] ],
+    "using": [ [ "cbma_req_qualities", 1 ], [ "filament", 200 ], [ "cbma_req_tool_armor", 1 ] ],
+    "components": [
+      [ [ "union_suit", 1 ], [ "wetsuit", 1 ], [ "nomex_suit", 1 ] ],
+      [ [ "bio_str_enhancer", 9 ], [ "cbma_myomer_fiber", 19 ] ],
+      [ [ "bio_face_mask", 1 ] ],
+      [ [ "bio_ads", 1 ] ],
+      [ [ "bio_ods", 1 ] ],
+      [ [ "bio_cqb", 1 ] ],
+      [ [ "minireactor", 1 ] ],
+      [ [ "bio_power_storage_mkII", 12 ], [ "bio_power_storage", 24 ] ],
+      [ [ "solder_wire", 240 ] ],
+      [ [ "cable", 240 ] ]
+    ]
+  },
+  {
+    "result": "cbma_inner_suite_ups_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "time": "10 m",
+    "autolearn": true,
+    "book_learn": [ [ "recipe_mil_augs", 8 ] ],
+    "using": [ [ "cbma_req_qualities", 1 ], [ "filament", 200 ], [ "cbma_req_tool_armor", 1 ] ],
+    "components": [ [ [ "cbma_inner_suite", 1 ] ], [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ], [ [ "solder_wire", 240 ] ] ]
+  }
+]

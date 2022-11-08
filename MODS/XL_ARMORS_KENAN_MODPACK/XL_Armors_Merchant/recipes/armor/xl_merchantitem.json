@@ -1,0 +1,12 @@
+[
+  {
+    "result": "Merchantbag_xl",
+    "id_suffix": "from_Merchantbag",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "Merchantbag", 1 ] ] ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_makeshift_stuff",
+  "name": "<color_cyan>XL Armors</color> for More Makeshift Stuff",
+  "description": "This is an extension that adds XL armors for the More Makeshift Stuff mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "makeshift_stuff"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

@@ -1,0 +1,1024 @@
+[
+  {
+    "name": {
+      "str": "XL acu jacket",
+      "str_pl": "XL acu jacket"
+    },
+    "copy-from": "acu_jacket",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "acu_jacket_xl",
+    "description": "A tough jacket with lots of pockets.  Favored by the military. This jacket is in the old urban digital pattern.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL acu pants",
+      "str_pl": "XL acu pants"
+    },
+    "copy-from": "acu_pants",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "acu_pants_xl",
+    "description": "A tough pair of pants lined with pockets.  Favored by the military. These pants are in the old urban digital pattern  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL pasgt helmet"
+    },
+    "copy-from": "pasgt_helmet",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "pasgt_helmet_xl",
+    "description": "A heavy kevlar helmet used by the US military untill the mid 2000's. It provides protection from all kinds of damage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL pasgt helmet (green cover)"
+    },
+    "copy-from": "pasgt_helmet_green",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "pasgt_helmet_green_xl",
+    "description": "A heavy kevlar helmet used by the US military untill the mid 2000's. It provides protection from all kinds of damage. This helmet has a green helmet cover.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL pasgt helmet (patchwork cover)"
+    },
+    "copy-from": "pasgt_helmet_patchwork",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "pasgt_helmet_patchwork_xl",
+    "description": "A heavy kevlar helmet used by the US military untill the mid 2000's. It provides protection from all kinds of damage. This helmet has a homemade patchwork cover.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL pasgt helmet (urban digital cover)"
+    },
+    "copy-from": "pasgt_helmet_ucp",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "pasgt_helmet_ucp_xl",
+    "description": "A heavy kevlar helmet used by the US military untill the mid 2000's. It provides protection from all kinds of damage. This helmet has an urban digital cover.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL pasgt helmet (multicam cover)"
+    },
+    "copy-from": "pasgt_helmet_multi",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "pasgt_helmet_multi_xl",
+    "description": "A heavy kevlar helmet used by the US military untill the mid 2000's. It provides protection from all kinds of damage. This helmet has a multicam cover.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV (ucp) (empty)",
+      "str_pl": "XL IOTVs (empty)"
+    },
+    "copy-from": "iotvucp",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvucp_xl",
+    "description": "An Improved Outer Tactical Vest in urban digital.  It has pouches for extra armor inserts, but without them provides little more protection over a regular vest.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV (ucp) (Kevlar plates)",
+      "str_pl": "XL IOTVs (kevlar plates)"
+    },
+    "copy-from": "iotvkevlarucp",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvkevlarucp_xl",
+    "description": "An Improved Outer Tactical Vest in urban digital.  Kevlar SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV (ucp) (ceramic plates)",
+      "str_pl": "XL IOTVs (ceramic plates)"
+    },
+    "copy-from": "iotvceramicucp",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvceramicucp_xl",
+    "description": "An Improved Outer Tactical Vest in urban digital.  Ceramic plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV (ucp) (hard plates)",
+      "str_pl": "XL IOTVs (hard plates)"
+    },
+    "copy-from": "iotvharducp",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvharducp_xl",
+    "description": "An Improved Outer Tactical Vest in urban digital.  hardened SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV (ucp) (steel plating)",
+      "str_pl": "XL IOTVs (steel plating)"
+    },
+    "copy-from": "iotvsteelucp",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvsteelucp_xl",
+    "description": "An Improved Outer Tactical Vest in urban digital.  Steel strike plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV (ucp) (superalloy plates)",
+      "str_pl": "XL IOTVs (superalloy plates)"
+    },
+    "copy-from": "iotvsuperucp",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvsuperucp_xl",
+    "description": "An Improved Outer Tactical Vest in urban digital.  Superalloy SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV mk2 (ucp) (empty)",
+      "str_pl": "XL IOTVs (empty)"
+    },
+    "copy-from": "iotvucp_mk2",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvucp_mk2_xl",
+    "description": "An Improved Outer Tactical Vest mk2 in urban digital.  The IOTV mk2 is the heavy version of the regular IOTV. It's has twice the armour plating and twice the storage capacity, but it's twice as encumbering and a lot heavier as a result.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV mk2 (ucp) (Kevlar plates)",
+      "str_pl": "XL IOTVs (kevlar plates)"
+    },
+    "copy-from": "iotvkevlarucp_mk2",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvkevlarucp_mk2_xl",
+    "description": "An Improved Outer Tactical Vest mk2 in urban digital.  The IOTV mk2 is the heavy version of the regular IOTV. It's has twice the armour plating and twice the storage capacity, but it's twice as encumbering and a lot heavier as a result.  Kevlar SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV mk2 (ucp) (ceramic plates)",
+      "str_pl": "XL IOTVs (ceramic plates)"
+    },
+    "copy-from": "iotvceramicucp_mk2",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvceramicucp_mk2_xl",
+    "description": "An Improved Outer Tactical Vest mk2 in urban digital.  The IOTV mk2 is the heavy version of the regular IOTV. It's has twice the armour plating and twice the storage capacity, but it's twice as encumbering and a lot heavier as a result.  Ceramic plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV mk2 (ucp) (hard plates)",
+      "str_pl": "XL IOTVs (hard plates)"
+    },
+    "copy-from": "iotvharducp_mk2",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvharducp_mk2_xl",
+    "description": "An Improved Outer Tactical Vest mk2 in urban digital.  The IOTV mk2 is the heavy version of the regular IOTV. It's has twice the armour plating and twice the storage capacity, but it's twice as encumbering and a lot heavier as a result.  hardened SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV mk2 (ucp) (steel plating)",
+      "str_pl": "XL IOTVs (steel plating)"
+    },
+    "copy-from": "iotvsteelucp_mk2",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvsteelucp_mk2_xl",
+    "description": "An Improved Outer Tactical Vest mk2 in urban digital.  The IOTV mk2 is the heavy version of the regular IOTV. It's has twice the armour plating and twice the storage capacity, but it's twice as encumbering and a lot heavier as a result.  Steel strike plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV mk2 (ucp) (superalloy plates)",
+      "str_pl": "XL IOTVs (superalloy plates)"
+    },
+    "copy-from": "iotvsuperucp_mk2",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvsuperucp_mk2_xl",
+    "description": "An Improved Outer Tactical Vest mk2 in urban digital.  The IOTV mk2 is the heavy version of the regular IOTV. It's has twice the armour plating and twice the storage capacity, but it's twice as encumbering and a lot heavier as a result.  Superalloy SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plate carrier (ucp) (empty)",
+      "str_pl": "XL plate carriers (empty)"
+    },
+    "copy-from": "plate_carrier_ucp",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plate_carrier_ucp_xl",
+    "description": "A plate carrier in urban digital.  It has pouches for extra armor inserts, but without them provides little more protection over a regular vest.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plate carrier (ucp) (Kevlar plates)",
+      "str_pl": "XL plate carriers (kevlar plates)"
+    },
+    "copy-from": "plate_carrier_ucp_kevlar",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plate_carrier_ucp_kevlar_xl",
+    "description": "A plate carrier in urban digital.  Kevlar SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plate carrier (ucp) (ceramic plates)",
+      "str_pl": "XL plate carriers (ceramic plates)"
+    },
+    "copy-from": "plate_carrier_ucp_ceramic",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plate_carrier_ucp_ceramic_xl",
+    "description": "A plate carrier in urban digital.  Ceramic plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plate carrier (ucp) (hard plates)",
+      "str_pl": "XL plate carriers (hard plates)"
+    },
+    "copy-from": "plate_carrier_ucp_hard",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plate_carrier_ucp_hard_xl",
+    "description": "A plate carrier in urban digital.  hardened SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plate carrier (ucp) (steel plating)",
+      "str_pl": "XL plate carriers (steel plating)"
+    },
+    "copy-from": "plate_carrier_ucp_steel",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plate_carrier_ucp_steel_xl",
+    "description": "A plate carrier in urban digital.  Steel strike plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plate carrier (ucp) (superalloy plates)",
+      "str_pl": "XL plate carriers (superalloy plates)"
+    },
+    "copy-from": "plate_carrier_ucp_super",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plate_carrier_ucp_super_xl",
+    "description": "A plate carrier in urban digital.  Superalloy SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL ITOV (multicam) (empty)",
+      "str_pl": "XL IOTVs (multicam) (empty)"
+    },
+    "copy-from": "iotvmulti",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvmulti_xl",
+    "description": "An Improved Outer Tactical Vest in urban digital.  It has pouches for extra armor inserts, but without them provides little more protection over a regular vest. This vest in in the new multicam pattern.   This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL ITOV (multicam) (Kevlar plates)",
+      "str_pl": "XL IOTVs (multicam) (Kevlar plates)"
+    },
+    "copy-from": "iotvkevlarmulti",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvkevlarmulti_xl",
+    "description": "An Improved Outer Tactical Vest in urban digital.  Kevlar plates have been inserted to improve its protection. This vest in in the new multicam pattern.   This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV (multicam) (ceramic plates)",
+      "str_pl": "XL IOTVs (ceramic plates)"
+    },
+    "copy-from": "iotvceramicmulti",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvceramicmulti_xl",
+    "description": "An Improved Outer Tactical Vest in multicam.  Ceramic plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV (multicam) (hard plates)",
+      "str_pl": "XL IOTVs (hard plates)"
+    },
+    "copy-from": "iotvhardmulti",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvhardmulti_xl",
+    "description": "An Improved Outer Tactical Vest in multicam.  hardened SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV (multicam) (steel plating)",
+      "str_pl": "XL IOTVs (steel plating)"
+    },
+    "copy-from": "iotvsteelmulti",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvsteelmulti_xl",
+    "description": "An Improved Outer Tactical Vest in multicam.  Steel strike plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV (multicam) (superalloy plates)",
+      "str_pl": "XL IOTVs (superalloy plates)"
+    },
+    "copy-from": "iotvsupermulti",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvsupermulti_xl",
+    "description": "An Improved Outer Tactical Vest in multicam.  Superalloy SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV mk2 (multi) (empty)",
+      "str_pl": "XL IOTVs (empty)"
+    },
+    "copy-from": "iotvmulti_mk2",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvmulti_mk2_xl",
+    "description": "An Improved Outer Tactical Vest mk2 in urban digital.  The IOTV mk2 is the heavy version of the regular IOTV. It's has twice the armour plating and twice the storage capacity, but it's twice as encumbering and a lot heavier as a result.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV mk2 (multi) (Kevlar plates)",
+      "str_pl": "XL IOTVs (kevlar plates)"
+    },
+    "copy-from": "iotvkevlarmulti_mk2",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvkevlarmulti_mk2_xl",
+    "description": "An Improved Outer Tactical Vest mk2 in urban digital.  The IOTV mk2 is the heavy version of the regular IOTV. It's has twice the armour plating and twice the storage capacity, but it's twice as encumbering and a lot heavier as a result.  Kevlar SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV mk2 (multi) (ceramic plates)",
+      "str_pl": "XL IOTVs (ceramic plates)"
+    },
+    "copy-from": "iotvceramicmulti_mk2",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvceramicmulti_mk2_xl",
+    "description": "An Improved Outer Tactical Vest mk2 in urban digital.  The IOTV mk2 is the heavy version of the regular IOTV. It's has twice the armour plating and twice the storage capacity, but it's twice as encumbering and a lot heavier as a result.  Ceramic plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV mk2 (multi) (hard plates)",
+      "str_pl": "XL IOTVs (hard plates)"
+    },
+    "copy-from": "iotvhardmulti_mk2",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvhardmulti_mk2_xl",
+    "description": "An Improved Outer Tactical Vest mk2 in urban digital.  The IOTV mk2 is the heavy version of the regular IOTV. It's has twice the armour plating and twice the storage capacity, but it's twice as encumbering and a lot heavier as a result.  hardened SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV mk2 (multi) (steel plating)",
+      "str_pl": "XL IOTVs (steel plating)"
+    },
+    "copy-from": "iotvsteelmulti_mk2",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvsteelmulti_mk2_xl",
+    "description": "An Improved Outer Tactical Vest mk2 in urban digital.  The IOTV mk2 is the heavy version of the regular IOTV. It's has twice the armour plating and twice the storage capacity, but it's twice as encumbering and a lot heavier as a result.  Steel strike plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IOTV mk2 (multi) (superalloy plates)",
+      "str_pl": "XL IOTVs (superalloy plates)"
+    },
+    "copy-from": "iotvsupermulti_mk2",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "iotvsupermulti_mk2_xl",
+    "description": "An Improved Outer Tactical Vest mk2 in urban digital.  The IOTV mk2 is the heavy version of the regular IOTV. It's has twice the armour plating and twice the storage capacity, but it's twice as encumbering and a lot heavier as a result.  Superalloy SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plate carrier (multi) (empty)",
+      "str_pl": "XL plate carriers (empty)"
+    },
+    "copy-from": "plate_carrier_multi",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plate_carrier_multi_xl",
+    "description": "A plate carrier in urban digital.  It has pouches for extra armor inserts, but without them provides less protection that a regular vest.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plate carrier (multi) (Kevlar plates)",
+      "str_pl": "XL plate carriers (kevlar plates)"
+    },
+    "copy-from": "plate_carrier_multi_kevlar",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plate_carrier_multi_kevlar_xl",
+    "description": "A plate carrier in urban digital.  Kevlar SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plate carrier (multi) (ceramic plates)",
+      "str_pl": "XL plate carriers (ceramic plates)"
+    },
+    "copy-from": "plate_carrier_multi_ceramic",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plate_carrier_multi_ceramic_xl",
+    "description": "A plate carrier in urban digital.  Ceramic plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plate carrier (multi) (hard plates)",
+      "str_pl": "XL plate carriers (hard plates)"
+    },
+    "copy-from": "plate_carrier_multi_hard",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plate_carrier_multi_hard_xl",
+    "description": "A plate carrier in urban digital.  hardened SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plate carrier (multi) (steel plating)",
+      "str_pl": "XL plate carriers (steel plating)"
+    },
+    "copy-from": "plate_carrier_multi_steel",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plate_carrier_multi_steel_xl",
+    "description": "A plate carrier in urban digital.  Steel strike plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL plate carrier (multi) (superalloy plates)",
+      "str_pl": "XL plate carriers (superalloy plates)"
+    },
+    "copy-from": "plate_carrier_multi_super",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "plate_carrier_multi_super_xl",
+    "description": "A plate carrier in urban digital.  Superalloy SAPPI plates have been inserted to improve its protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL acu jacket (multicam)",
+      "str_pl": "XL (multicam) acu jackets"
+    },
+    "copy-from": "acu_jacket_multi",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "acu_jacket_multi_xl",
+    "description": "A tough jacket with lots of pockets.  Favored by the military. This jacket is in the new multicam pattern  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL acu pants (multicam)",
+      "str_pl": "XL (multicam) acu pants"
+    },
+    "copy-from": "acu_pants_multi",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "acu_pants_multi_xl",
+    "description": "A tough pair of pants lined with pockets.  Favored by the military. These pants are in the new multicam pattern  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL T.A.L.O.S exosuit"
+    },
+    "copy-from": "talos",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "talos_xl",
+    "description": "The T.A.L.O.S (Tactical Assault Light Operator Suit) is an exprimental exosuit devloped for military use. It uses a revolutionary new hybrid armour system composed of both kevlar and non-newtonian metalic liquids to distribute the force of an impact. It's also has an incorperated exoskeleton that increases the operational capacity of the wearer. It is powered by the wearers movement.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL T.A.L.O.S exosuit helmet"
+    },
+    "copy-from": "talos_helmet",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "talos_helmet_xl",
+    "description": "The T.A.L.O.S exosuit helmet is designed to inform the wearer of all mission critical information and protect them from all hazards.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IIa police vest",
+      "str_pl": "XL soft vests"
+    },
+    "copy-from": "lv2_ policevest",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "lv2_ policevest_xl",
+    "description": "A standard issue level IIa police vest commonly issued to regular police. It isn't very protective, but it's better that nothing.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "XL IIIa police vest",
+      "str_pl": "XL soft vests"
+    },
+    "copy-from": "lv3_ policevest",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "lv3_ policevest_xl",
+    "description": "A standard issue level IIIa police vest commonly issued to swat teams. It's twice as protective as a standard IIa vest.  This can be worn regardless of your state of mutation"
+  }
+]

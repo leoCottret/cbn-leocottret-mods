@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "XL Power assist suit (off)" },
+    "copy-from": "assist_armor_off_vo",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "assist_armor_off_vo_xl",
+    "description": "It is an auxiliary tool that makes it easy to lift heavy objects. It's not for battle, so it's not durable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Power Assist Suit (On)" },
+    "copy-from": "assist_armor_on_vo",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "assist_armor_on_vo_xl",
+    "description": "It is an auxiliary tool that makes it easy to lift heavy objects. It's not for battle, so it's not durable.  This can be worn regardless of your state of mutation"
+  }
+]

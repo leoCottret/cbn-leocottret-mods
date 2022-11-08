@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_kingsman",
+  "name": "<color_cyan>XL Armors</color> for Kingsman Umbrella",
+  "description": "This is an extension that adds XL armors for the Kingsman Umbrella mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "kingsman"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": { "str": "XL APEX Mk 0 suit" },
+    "copy-from": "apex_mk0",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "apex_mk0_xl",
+    "description": "Prototype APEX suit of armor, printed the showcase the potential of the APEX Armor Division projects. Offers excellent protection in melee combat.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL APEX Mk I suit" },
+    "copy-from": "apex_mki",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "apex_mki_xl",
+    "description": "AI-controlled suit of armor, the first model to be derived tangentially using Bitter Logic. It is easier to wear despite increased weight and volume. Thanks to optimizations in structure and AI's management of the suit, Mk I features improved protection against external threats.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL APEX Mk II suit" },
+    "copy-from": "apex_mkii",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "apex_mkii_xl",
+    "description": "TBD  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL APEX Mk III suit" },
+    "copy-from": "apex_mkiii",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "apex_mkiii_xl",
+    "description": "TBD  This can be worn regardless of your state of mutation"
+  }
+]

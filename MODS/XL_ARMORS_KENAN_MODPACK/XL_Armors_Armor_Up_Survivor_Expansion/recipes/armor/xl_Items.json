@@ -1,0 +1,71 @@
+[
+  {
+    "result": "survivor_skinsuit_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 7,
+    "time": "1 h",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "using": [ [ "filament", 150 ] ],
+    "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
+    "components": [
+      [ [ "rag", 12 ] ],
+      [ [ "duct_tape", 240 ] ],
+      [ [ "kevlar", 1 ], [ "modularvest", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 21 ] ]
+    ]
+  },
+  {
+    "result": "environmental_skinsuit_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 9,
+    "time": "3 h",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "using": [ [ "filament", 250 ] ],
+    "tools": [ [ [ "welder", 280 ], [ "welder_crude", 420 ], [ "soldering_iron", 420 ], [ "toolset", 420 ] ] ],
+    "components": [
+      [ [ "duct_tape", 240 ] ],
+      [ [ "kevlar", 1 ], [ "modularvest", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 21 ] ],
+      [ [ "cable", 180 ] ],
+      [ [ "plastic_chunk", 12 ] ],
+      [ [ "cleansuit", 1 ] ]
+    ]
+  },
+  {
+    "result": "armored_pack_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 7,
+    "time": "1 h 40 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "using": [ [ "filament", 300 ] ],
+    "tools": [ [ [ "welder", 280 ], [ "welder_crude", 420 ], [ "soldering_iron", 420 ], [ "toolset", 420 ] ] ],
+    "components": [
+      [ [ "leather", 12 ] ],
+      [ [ "runner_bag", 4 ], [ "backpack", 2 ], [ "backpack_leather", 2 ], [ "mbag", 4 ] ],
+      [
+        [ "chestrig", 1 ],
+        [ "legrig", 1 ],
+        [ "vest", 1 ],
+        [ "tool_belt", 1 ],
+        [ "ragpouch", 4 ],
+        [ "leather_pouch", 2 ],
+        [ "dump_pouch", 1 ],
+        [ "purse", 2 ],
+        [ "fanny", 2 ]
+      ],
+      [ [ "kevlar", 1 ], [ "modularvest", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 14 ] ],
+      [ [ "duct_tape", 240 ] ],
+      [ [ "steel_chunk", 2 ], [ "scrap", 7 ] ]
+    ]
+  }
+]

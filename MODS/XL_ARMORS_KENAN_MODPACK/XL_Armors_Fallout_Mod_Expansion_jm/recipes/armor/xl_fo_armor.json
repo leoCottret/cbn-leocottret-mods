@@ -1,0 +1,22 @@
+[
+  {
+    "result": "fo_scribe_coat_xl",
+    "id_suffix": "from_fo_scribe_coat",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "fo_scribe_coat", 1 ] ] ]
+  },
+  {
+    "result": "fo_ncr_trooper_helmet_xl",
+    "id_suffix": "from_fo_ncr_trooper_helmet",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "fo_ncr_trooper_helmet", 1 ] ] ]
+  }
+]

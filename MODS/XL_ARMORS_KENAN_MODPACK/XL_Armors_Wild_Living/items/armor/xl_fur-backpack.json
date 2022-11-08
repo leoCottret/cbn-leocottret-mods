@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL fur backpack" },
+    "copy-from": "backpack_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "backpack_fur_xl",
+    "description": "A medium sized fur backpack, with a few loops for attaching gear.  This can be worn regardless of your state of mutation"
+  }
+]

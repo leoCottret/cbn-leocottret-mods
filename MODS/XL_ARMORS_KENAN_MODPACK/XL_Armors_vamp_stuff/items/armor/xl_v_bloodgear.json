@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "XL bloodpack" },
+    "copy-from": "bloodpack",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bloodpack_xl",
+    "description": "Handcrafted backpack made of tough blood compact sheets customized to occupy large amount of storage at a cost of encumbrance.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL large bloodpack" },
+    "copy-from": "bigbloodpack",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bigbloodpack_xl",
+    "description": "Improved bloodpack with additional pocket arrangements around it for even larger storage occupation. Encumbrance and weight has increased, tho.  This can be worn regardless of your state of mutation"
+  }
+]

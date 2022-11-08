@@ -1,0 +1,227 @@
+[
+  {
+    "name": { "str": "XL heavy survivor helmet" },
+    "copy-from": "helmet_hsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_hsurvivor_xl",
+    "description": "A customized, heavily armored steel and Kevlar helmet, modified to provide maximum comfort and protection from harm.  All the added material has made it rather heavy.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9-infused survivor helmet" },
+    "copy-from": "BL9_survivorhelmet",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_survivorhelmet_xl",
+    "description": "A survivor helmet, modernized and infused with BL9, it is partially covered with almost sentient BL9 strengthening and hardening the helmet acting as a kevlar or ceramic alternative  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9-infused survivor cargo pants" },
+    "copy-from": "BL9_survivorpants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_survivorpants_xl",
+    "description": "A pair of survivor cargo pants, modernized and infused with BL9, it is partially covered with almost sentient BL9 strengthening and hardening the pants acting as a kevlar or ceramic alternative  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9-infused survivor suit" },
+    "copy-from": "BL9_survivorsuit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_survivorsuit_xl",
+    "description": "A survivor armored suit, modernized and infused with BL9, it is partially covered with almost sentient BL9 strengthening and hardening the suit acting as a kevlar or ceramic alternative  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL BL9-infused survivor gloves" },
+    "copy-from": "BL9_survivorgloves",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_survivorgloves_xl",
+    "description": "A pair of survivor gloves, modernized and infused with BL9, it is partially covered with almost sentient BL9 strengthening and hardening the gloves acting as a kevlar or ceramic alternative  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL BL9-infused survivor boots" },
+    "copy-from": "BL9_survivorboots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_survivorboots_xl",
+    "description": "A pair of survivor boots, modernized and infused with BL9, it is partially covered with almost sentient BL9 strengthening and hardening the boots acting as a kevlar or ceramic alternative  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9-infused survivor body armor" },
+    "copy-from": "BL9_survivorbodyarmor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_survivorbodyarmor_xl",
+    "description": "A survivor body armor, modernized and infused with BL9, it is partially covered with almost sentient BL9 strengthening and hardening the armor acting as a kevlar or ceramic alternative  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9 experimental survivor helmet" },
+    "copy-from": "BL9_hitech_survivorhelmet",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_hitech_survivorhelmet_xl",
+    "description": "A highly experimental sleek and futuristic survivor helmet with a unique design that is infused with physically and chemically structure-wise modified BL9 to be versatile, enhance the user's capabilities (<color_light_blue>+2 int, +2 per</color>) and offer better environmental protection  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9 experimental survivor cargo pants" },
+    "copy-from": "BL9_hitech_survivorpants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_hitech_survivorpants_xl",
+    "description": "Highly experimental sleek and futuristic pair of survivor cargo pants with a unique design that is infused with physically and chemically structure-wise modified BL9 to be versatile, enhance the user's capabilities (<color_light_blue>+1 str, +2 dex</color>) and offer better environmental protection  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9 experimental survivor suit" },
+    "copy-from": "BL9_hitech_survivorsuit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_hitech_survivorsuit_xl",
+    "description": "A highly experimental sleek and futuristic survivor suit with a unique design that is infused with physically and chemically structure-wise modified BL9 to be versatile, enhance the user's capabilities (<color_light_blue>+1 str, +1 dex, +1 int, +1 per, +10% to attack speed, +10% to action points</color>) and offer better environmental protection  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL experimental BL9 survivor gloves" },
+    "copy-from": "BL9_hitech_survivorgloves",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_hitech_survivorgloves_xl",
+    "description": "A highly experimental sleek and futuristic pair of survivor gloves with a unique design that is infused with physically and chemically structure-wise modified BL9 to be versatile, enhance the user's capabilities (<color_light_blue>+1 dex, +25% to attack speed</color>) and offer better environmental protection  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL BL9 experimental survivor boots" },
+    "copy-from": "BL9_hitech_survivorboots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_hitech_survivorboots_xl",
+    "description": "A highly experimental sleek and futuristic pair of survivor boots with a unique design that is infused with physically and chemically structure-wise modified BL9 to be versatile, enhance the user's capabilities (<color_light_blue>+25% to attack speed, +25% to action points</color>) and offer better environmental protection  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9 experimental survivor body armor" },
+    "copy-from": "BL9_hitech_survivorbodyarmor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_hitech_survivorbodyarmor_xl",
+    "description": "A highly experimental sleek and futuristic survivor body armor with a unique design that is infused with physically and chemically structure-wise modified BL9 to be versatile, enhance the user's capabilities (<color_light_blue>+2 str</color>) and offer better environmental protection  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9-infused survivor helmet MK ii" },
+    "copy-from": "BL9_survivorhelmet_mk2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_survivorhelmet_mk2_xl",
+    "description": "A survivor helmet, modernized and fully infused with BL9, it is entirely covered and reinforced with a very strong, evolved, perfectly sentient and durable version of BL9, multiple spiky vibrating protrusions emerge from the outer layer of it's thick tissue  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9-infused survivor cargo pants MK ii" },
+    "copy-from": "BL9_survivorpants_mk2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_survivorpants_mk2_xl",
+    "description": "A pair of survivor cargo pants, modernized and fully infused with BL9, it is entirely covered and reinforced with a very strong, evolved, perfectly sentient and durable version of BL9, multiple spiky vibrating protrusions emerge from the outer layer of it's thick tissue  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9-infused survivor suit MK ii" },
+    "copy-from": "BL9_survivorsuit_mk2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_survivorsuit_mk2_xl",
+    "description": "A survivor armored suit, modernized and fully infused with BL9, it is entirely covered and reinforced with a very strong, evolved, perfectly sentient and durable version of BL9, multiple spiky vibrating protrusions emerge from the outer layer of it's thick tissue  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Pair of BL9-infused survivor gloves MK ii" },
+    "copy-from": "BL9_survivorgloves_mk2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_survivorgloves_mk2_xl",
+    "description": "A pair of survivor gloves, modernized and fully infused with BL9, it is entirely covered and reinforced with a very strong, evolved, perfectly sentient and durable version of BL9, multiple spiky vibrating protrusions emerge from the outer layer of it's thick tissue  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Pair of BL9-infused survivor boots MK ii" },
+    "copy-from": "BL9_survivorboots_mk2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_survivorboots_mk2_xl",
+    "description": "A pair of survivor boots, modernized and fully infused with BL9, it is entirely covered and reinforced with a very strong, evolved, perfectly sentient and durable version of BL9, multiple spiky vibrating protrusions emerge from the outer layer of it's thick tissue  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9-infused survivor body armor MK ii" },
+    "copy-from": "BL9_survivorbodyarmor_mk2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_survivorbodyarmor_mk2_xl",
+    "description": "A survivor body armor, modernized and fully infused with BL9, it is entirely covered and reinforced with a very strong, evolved, perfectly sentient and durable version of BL9, multiple spiky vibrating protrusions emerge from the outer layer of it's thick tissue  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9 experimental survivor helmet MK ii" },
+    "copy-from": "BL9_hitech_survivorhelmet_mk2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_hitech_survivorhelmet_mk2_xl",
+    "description": "A strengthened and augmented with technologies beyond human possibilities highly experimental sleek and futuristic survivor helmet with a unique design that is infused with physically and chemically structure-wise modified BL9 to be versatile, enhance the user's capabilities (<color_light_blue>+5 int, +5 per</color>) and offer better environmental protection  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9 experimental survivor cargo pants MK ii" },
+    "copy-from": "BL9_hitech_survivorpants_mk2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_hitech_survivorpants_mk2_xl",
+    "description": "A strengthened and augmented with technologies beyond human possibilities highly experimental sleek and futuristic pair of survivor cargo pants with a unique design that is infused with physically and chemically structure-wise modified BL9 to be versatile, enhance the user's capabilities (<color_light_blue>+3 str, +5 dex</color>) and offer better environmental protection  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9 experimental survivor suit MK ii" },
+    "copy-from": "BL9_hitech_survivorsuit_mk2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_hitech_survivorsuit_mk2_xl",
+    "description": "A strengthened and augmented with technologies beyond human possibilities highly experimental sleek and futuristic survivor suit with a unique design that is infused with physically and chemically structure-wise modified BL9 to be versatile, enhance the user's capabilities (<color_light_blue>+3 str, +3 dex, +3 int, +3 per, +25% to attack speed, +25% to action points</color>) and offer better environmental protection  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Pair of BL9 experimental survivor gloves MK ii" },
+    "copy-from": "BL9_hitech_survivorgloves_mk2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_hitech_survivorgloves_mk2_xl",
+    "description": "A strengthened and augmented with technologies beyond human possibilities highly experimental sleek and futuristic pair of survivor gloves with a unique design that is infused with physically and chemically structure-wise modified BL9 to be versatile, enhance the user's capabilities (<color_light_blue>+3 dex, +60% to attack speed</color>) and offer better environmental protection  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Pair of BL9 experimental survivor boots MK ii" },
+    "copy-from": "BL9_hitech_survivorboots_mk2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_hitech_survivorboots_mk2_xl",
+    "description": "A strengthened and augmented with technologies beyond human possibilities highly experimental sleek and futuristic pair of survivor boots with a unique design that is infused with physically and chemically structure-wise modified BL9 to be versatile, enhance the user's capabilities (<color_light_blue>+60% to attack speed, +60% to action points</color>) and offer better environmental protection  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL BL9 experimental survivor body armor MK ii" },
+    "copy-from": "BL9_hitech_survivorbodyarmor_mk2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "BL9_hitech_survivorbodyarmor_mk2_xl",
+    "description": "A strengthened and augmented with technologies beyond human possibilities highly experimental sleek and futuristic survivor body armor with a unique design that is infused with physically and chemically structure-wise modified BL9 to be versatile, enhance the user's capabilities (<color_light_blue>+5 str</color>) and offer better environmental protection  This can be worn regardless of your state of mutation"
+  }
+]

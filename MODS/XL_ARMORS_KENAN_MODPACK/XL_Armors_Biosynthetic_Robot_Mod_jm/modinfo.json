@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_gekkobots",
+  "name": "<color_cyan>XL Armors</color> for Bio-Synth Robot expansion",
+  "description": "This is an extension that adds XL armors for the Bio-Synth Robot expansion mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "gekkobots"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

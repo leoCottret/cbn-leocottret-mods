@@ -1,0 +1,56 @@
+[
+  {
+    "name": { "str": "XL blood suit" },
+    "copy-from": "blood_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "blood_suit_xl",
+    "description": "A lightweight, blood red suit made completely of flexible blood compact sheets and designed to be worn under your clothes. Protects vital extremeties.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL blood leather hood" },
+    "copy-from": "blood_hood",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "blood_hood_xl",
+    "description": "Hood made from compact blood and leather, this is tough and provides decent protection from damage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL blood leather duster" },
+    "copy-from": "blood_duster",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "blood_duster_xl",
+    "description": "Consists of blood compact sheets and leather. This fleshy duster provides good storage and cotton lining for warmth.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL blood leather gloves" },
+    "copy-from": "blood_gloves",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "blood_gloves_xl",
+    "description": "A combination of blood compact sheets and leather. This pair of velvet gloves offer great protection against environment.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL blood leather pants" },
+    "copy-from": "blood_pants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "blood_pants_xl",
+    "description": "A pair of pants created from leather and blood compact sheets. Offers decent protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL blood leather boots" },
+    "copy-from": "blood_boots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "blood_boots_xl",
+    "description": "Pair of boots made from tough leather and blood compact sheets. It's a great choice for rough journeys.  This can be worn regardless of your state of mutation"
+  }
+]

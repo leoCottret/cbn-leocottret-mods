@@ -1,0 +1,12 @@
+[
+  {
+    "result": "secro_flesh_survivor_vest_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "secro_flesh_craft",
+    "difficulty": 5,
+    "time": "30 m",
+    "using": [ [ "fleshweaving_core", 10 ], [ "fleshweaving_meat", 5 ], [ "fleshweaving_bone", 1 ] ]
+  }
+]

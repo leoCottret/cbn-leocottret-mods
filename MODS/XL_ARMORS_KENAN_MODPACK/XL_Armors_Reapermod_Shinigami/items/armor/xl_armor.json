@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL black robe", "str_pl": "XL black robes" },
+    "copy-from": "grimrobe",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "grimrobe_xl",
+    "description": "Blacker than black, this is a long robe with many deep pockets, and almost seems to absorb the light.  This can be worn regardless of your state of mutation"
+  }
+]

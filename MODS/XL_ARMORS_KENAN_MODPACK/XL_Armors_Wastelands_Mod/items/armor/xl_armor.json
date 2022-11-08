@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "XL rag shirt" },
+    "copy-from": "ragshirt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "ragshirt_xl",
+    "description": "A collection of rags stitched together, forming a crude shirt.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL rag pants", "str_pl": "XL rag pants" },
+    "copy-from": "ragpants",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "ragpants_xl",
+    "description": "A pair of pants made up of a couple rags sewn together. Has a few pockets.  This can be worn regardless of your state of mutation"
+  }
+]

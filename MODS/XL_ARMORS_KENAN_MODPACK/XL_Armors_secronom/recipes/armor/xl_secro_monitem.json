@@ -1,0 +1,12 @@
+[
+  {
+    "result": "clinger_clinging_xl",
+    "id_suffix": "from_clinger_clinging",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "clinger_clinging", 1 ] ] ]
+  }
+]

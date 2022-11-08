@@ -1,0 +1,52 @@
+[
+  {
+    "result": "service_cap_ija_xl",
+    "id_suffix": "from_service_cap_ija",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "service_cap_ija", 1 ] ] ]
+  },
+  {
+    "result": "helm_type92_xl",
+    "id_suffix": "from_helm_type92",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "helm_type92", 1 ] ] ]
+  },
+  {
+    "result": "headband_hachimaki_xl",
+    "id_suffix": "from_headband_hachimaki",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "headband_hachimaki", 1 ] ] ]
+  },
+  {
+    "result": "fatigues_ija_xl",
+    "id_suffix": "from_fatigues_ija",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "fatigues_ija", 1 ] ] ]
+  },
+  {
+    "result": "fatigues_redsun_xl",
+    "id_suffix": "from_fatigues_redsun",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "fatigues_redsun", 1 ] ] ]
+  }
+]

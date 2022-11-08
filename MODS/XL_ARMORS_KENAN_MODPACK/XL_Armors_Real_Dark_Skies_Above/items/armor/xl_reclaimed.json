@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL reclaimed xenoid face mask" },
+    "copy-from": "dkz_xenoid_mask_reclaimed_white",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "dkz_xenoid_mask_reclaimed_white_xl",
+    "description": "After partially melting the xenoid face mask to remove the alien metal and replacing it with steel, applying an entire kevlar panel, and painting it white, the once unnerving alien face now more or less resembles an average hockey mask, while preserving the alien optics, the gas-proofing, and removing the radioactivity.  This can be worn regardless of your state of mutation"
+  }
+]

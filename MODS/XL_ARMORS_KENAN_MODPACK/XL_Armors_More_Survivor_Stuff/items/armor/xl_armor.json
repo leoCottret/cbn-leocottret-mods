@@ -1,0 +1,155 @@
+[
+  {
+    "name": { "str": "pair of XL extra-light survivor gloves", "str_pl": "pairs of XL extra-light survivor gloves" },
+    "copy-from": "mss_gloves_extralsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_gloves_extralsurvivor_xl",
+    "description": "A pair of very light Kevlar-lined cloth gloves, modified to be as easy to wear as normal gloves while providing considerable protection under rough conditions.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL extra-light survivor boots", "str_pl": "pairs of XL extra-light survivor boots" },
+    "copy-from": "mss_boots_extralsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_boots_extralsurvivor_xl",
+    "description": "A pair of very light Kevlar-lined cloth boots, modified to provide considerable protection from harm, even when ankle-deep in the dead.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL light survivor helmet" },
+    "copy-from": "mss_helmet_lsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_helmet_lsurvivor_xl",
+    "description": "A customized, Kevlar-armored helmet, modified with leather reinforcements to provide maximum comfort and considerable protection from harm given the weight.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL extra-light survivor mask" },
+    "copy-from": "mss_mask_extralsurvivor",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_mask_extralsurvivor_xl",
+    "description": "A custom-built, Kevlar-lined gas mask that covers the face and eyes.  Provides excellent protection from smoke and teargas, and considerable protection from shrapnel.  It must be prepared before use.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL extra-light survivor hood" },
+    "copy-from": "mss_hood_extralsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_hood_extralsurvivor_xl",
+    "description": "A customized Kevlar-lined cloth hood, very light and considerably durable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL extra-light survivor suit" },
+    "copy-from": "mss_extralsurvivor_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_extralsurvivor_suit_xl",
+    "description": "A very lightweight Kevlar-lined jumpsuit, nearly as easy to move in as if it were just cotton. Protects from the elements as well as from some harm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL superheavy survivor gloves", "str_pl": "pairs of XL superheavy survivor gloves" },
+    "copy-from": "mss_gloves_superhsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_gloves_superhsurvivor_xl",
+    "description": "A pair of extreme, heavily customized, steel-plated armored Kevlar gloves, modified to provide maximum protection under extreme conditions. Mobility comes second.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL superheavy survivor boots", "str_pl": "pairs of XL superheavy survivor boots" },
+    "copy-from": "mss_boots_superhsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_boots_superhsurvivor_xl",
+    "description": "A pair of extreme, customized kevlar boots, heavily armored with steel and modified to provide maximum protection from serious harm, even when knee-deep in hell itself.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL superheavy survivor helmet" },
+    "copy-from": "mss_helmet_superhsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_helmet_superhsurvivor_xl",
+    "description": "A ridiculously customized, heavily armored steel and kevlar helmet, modified to provide protection from even the most extreme harm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL superheavy survivor mask" },
+    "copy-from": "mss_mask_superhsurvivor",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_mask_superhsurvivor_xl",
+    "description": "A custom-built, tri-filter steel gas mask that covers the face and eyes.  Provides beyond excellent protection from smoke, teargas, and shrapnel.  It must be prepared before use.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL heavy survivor hood" },
+    "copy-from": "mss_hood_hsurvivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_hood_hsurvivor_xl",
+    "description": "A heavily customized, heavily armored steel, leather and kevlar hood, designed to provide maximum protection from harm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL superheavy survivor suit" },
+    "copy-from": "mss_superhsurvivor_suit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_superhsurvivor_suit_xl",
+    "description": "An extreme, hand-built combination armor made from a steel-reinforced bulletproof vest and thick metal plates attached to leather to cover the limbs.  Protects from the elements as well as from serious harm, for those who want to push the limits of unpowered armor.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL survivor rubber undersuit" },
+    "copy-from": "mss_rubber_survivor_undersuit",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_rubber_survivor_undersuit_xl",
+    "description": "A handmade, skintight acid-resistant rubber-plastic combo suit. It is cleverly designed so as to not limit movement as much as one would think, but this leaves cotton gaps at the joints which are susceptible to penetration. Either way, it will protect well from things such as acid.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL survivor dark plate gauntlets", "str_pl": "pairs of XL survivor dark plate gauntlets" },
+    "copy-from": "mss_fancy_plate_gloves",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_fancy_plate_gloves_xl",
+    "description": "A ridiculously customized, extreme-looking and insanely heavy pair of dark-tinted plate gauntlets. The knuckles flange up and the fingers end in spikes, which makes this pair of gloves understandably hard to use. However, they protect really, really well, and look super fancy to boot.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL survivor dark plate sabatons", "str_pl": "pairs of XL survivor dark plate sabatons" },
+    "copy-from": "mss_fancy_plate_boots",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_fancy_plate_boots_xl",
+    "description": "A ridiculously customized, extreme-looking and insanely heavy pair of dark-tinted plate sabatons. These terrifying boots practically threaten to crumble the earth with every step, and although their weight and stylish, angular construction make them a little impractical, they will protect your foot even if you decide to kick a tank-bot during a duel to the death. And they'll look good doing it.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor dark quad-horned greathelm", "str_pl": "XL survivor dark horned greathelmets" },
+    "copy-from": "mss_fancy_plate_helmet",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_fancy_plate_helmet_xl",
+    "description": "This is the king of helmets. The spiky horns signal to all that the wearer is the bringer of metal-plated death. Its sturdy, beyond-solid steel construction keeps anything that dares go against it at bay.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor dark plate armor" },
+    "copy-from": "mss_fancy_plate_armor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mss_fancy_plate_armor_xl",
+    "description": "A ridiculously customized, extreme-looking and insanely heavy set of dark-tinted plate armor. It's rife with impractical-looking flanges and questionable design choices, especially in the shoulder area, but in a world where opponents don't know how to exploit those, all they do is add to the protection. And... one cannot deny, it looks darn stylish.  This can be worn regardless of your state of mutation"
+  }
+]

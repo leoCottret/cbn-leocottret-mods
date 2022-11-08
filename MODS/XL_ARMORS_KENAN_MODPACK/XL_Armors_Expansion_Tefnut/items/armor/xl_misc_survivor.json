@@ -1,0 +1,11 @@
+[
+  {
+    "name": { "str": "XL survivor top hat" },
+    "copy-from": "tophat_survivor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "tophat_survivor_xl",
+    "description": "The only hat for a gentleman.  Look exquisite while laughing in the face of danger! Kevlar reinforced, so no amount of damage can stop the fancy. It even has a sheathe strapped to it!  This can be worn regardless of your state of mutation"
+  }
+]

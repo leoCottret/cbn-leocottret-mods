@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_fallout",
+  "name": "<color_cyan>XL Armors</color> for Fallout New England",
+  "description": "This is an extension that adds XL armors for the Fallout New England mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "fallout"
+  ],
+  "version": "Bright Night, last update 2022/11/8"
+}

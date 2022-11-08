@@ -1,0 +1,44 @@
+[
+  {
+    "name": {
+      "str": "pair of XL tan combat boots",
+      "str_pl": "pairs of XL combat boots"
+    },
+    "copy-from": "boots_combat_tan",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "boots_combat_tan_xl",
+    "description": "Modern reinforced tactical combat boots.  Very durable. These boots are sand colored.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": {
+      "str": "pair of XL brown combat boots",
+      "str_pl": "pairs of XL combat boots"
+    },
+    "copy-from": "boots_combat_brown",
+    "type": "ARMOR",
+    "proportional": {
+      "weight": 1.2,
+      "volume": 1.2,
+      "storage": 1.2,
+      "encumbrance": 1.2
+    },
+    "extend": {
+      "flags": [
+        "OVERSIZE"
+      ]
+    },
+    "id": "boots_combat_brown_xl",
+    "description": "Modern reinforced tactical combat boots.  Very durable. These boots are brown.  This can be worn regardless of your state of mutation"
+  }
+]

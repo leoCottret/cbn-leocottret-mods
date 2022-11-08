@@ -1,0 +1,28 @@
+[
+  {
+    "result": "bloodpack_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "12 m 40 s",
+    "autolearn": true,
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "using": [ [ "filament", 35 ] ],
+    "components": [ [ [ "compactsheet", 10 ] ], [ [ "string_6", 4 ] ] ]
+  },
+  {
+    "result": "bigbloodpack_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "6 m",
+    "autolearn": true,
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "using": [ [ "filament", 35 ] ],
+    "components": [ [ [ "compactsheet", 3 ] ], [ [ "string_6", 1 ] ] ]
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "name": { "str": "XL turtleneck" },
+    "copy-from": "turtleneck",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "turtleneck_xl",
+    "description": "A tasteful synthetic turtleneck, modeled after cashmere.  Unemcumbering and warm, but lacking storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL turtleneck (rolled)" },
+    "copy-from": "turtleneck_rolled",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "turtleneck_rolled_xl",
+    "description": "This turtlenecks neck is rolled out of the way of the mouth.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL PRM marine armor" },
+    "copy-from": "megaarmor_torso_1",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "megaarmor_torso_1_xl",
+    "description": "A green piece of the PRM Corperation Marine Corp, made from microlayered polymer plastic and tapering off into a thin, flexible filiment at the shoulder, collarbone, and stomach.  Offers decent protection from flame and acid, and features various straps and pockets for holstering your guns and containing stims and ammo.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL PRM marine underlay" },
+    "copy-from": "megaarmor_torso_2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "megaarmor_torso_2_xl",
+    "description": "A synthetic blue bodysuit worn under armor to provide substantial resistence to harsh elements from a variety of warzones.  Astronauts would be jealous of anyone lucky enough to wear one; if any were still alive.  Designed by the PRM corperation, it interlays readily with the marine helmet.  The suit is probably too complex to repair as normal, but some duct tape and superglue might keep it together if applied with skill.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL PRM marine helmet" },
+    "copy-from": "megaarmor_head_1",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "megaarmor_head_1_xl",
+    "description": "A heavy helmet with a tinted visor and sturdy, reinforced electronic wiring.  A simple filter is fixed onto either side, and an atomic power unit ensures that as long as its in one general piece its basic HUD will function.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL PRM marine leggings", "str_pl": "XL PRM marine leggings" },
+    "copy-from": "megaarmor_leggings_1",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "megaarmor_leggings_1_xl",
+    "description": "Thick and somewhat oppressive leggings to protect PRM marines from enviornmental hazards.  Although it has no pockets it does have slots along its length to carry small items more easily, and really shapes the thighs!  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL PRM marine boots", "str_pl": "XL PRM marine boots" },
+    "copy-from": "megaarmor_boots_1",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "megaarmor_boots_1_xl",
+    "description": "Lovingly refered to as 'shitstompers', these polyplastic boots reach up to the knee, where they are sealed with a large strap.  They can be very hard to even walk around in untrained, especially if they are imporperly fitted.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL PRM marine gloves", "str_pl": "XL PRM marine gloves" },
+    "copy-from": "megaarmor_gloves_1",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "megaarmor_gloves_1_xl",
+    "description": "A pair of black gloves emblazoned with the PRM logo, stretched tight against the skin so as not to interfere with dexterous tasks.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL PRM marine sleeves", "str_pl": "XL PRM marine sleeves" },
+    "copy-from": "megaarmor_armguards_1",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "megaarmor_armguards_1_xl",
+    "description": "PRM sleeves that keep the arms covered during cold conditions.  Can also protect from flame, with some discomfort.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL megabear skull helmet" },
+    "copy-from": "helmet_bone_megabear",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_bone_megabear_xl",
+    "description": "A elegantly shaped elephant bear helmet, taken from a young adult and fashioned into a helmet that covers the eyes and head.  Leaves the mouth free for a filter mask, and looks much more ceremonial than a makeshift bone helmet.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL zuicide vest" },
+    "copy-from": "vest_leather_zuicide_short",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "vest_leather_zuicide_short_xl",
+    "description": "A leather vest with high explosives sewn into it.  Activate it to prime the explosives, and a short time later it will blow.  Virgins not included.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL zuicide vest" },
+    "copy-from": "vest_leather_zuicide_short_active",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "vest_leather_zuicide_short_active_xl",
+    "description": "An active zuicide vest...  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL small purse" },
+    "copy-from": "sac_purse",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sac_purse_xl",
+    "description": "Boiled, salted, coated in wax, and run along with adjustable thread, this fluid sac is now a usable purse.  It can even seal fluids within, and be used to craft basic fluid bombs.  This fits onto the torso neatly, and can be activated to change the string's length.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL small arm-purse" },
+    "copy-from": "sac_purse_arm",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sac_purse_arm_xl",
+    "description": "Boiled, salted, coated in wax, and run along with adjustable thread, this fluid sac is now a usable purse.  It can even seal fluids within, and be used to craft basic fluid bombs.  This ties onto the upper arm, and can be activated to change the string's length.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL small leg-purse" },
+    "copy-from": "sac_purse_leg",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sac_purse_leg_xl",
+    "description": "Boiled, salted, coated in wax, and run along with adjustable thread, this fluid sac is now a usable purse.  It can even seal fluids within, and be used to craft basic fluid bombs.  its length of string is adjusted to fit the legs, and can be activated to change the string's length.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL small ankle-purse" },
+    "copy-from": "sac_purse_ankle",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "sac_purse_ankle_xl",
+    "description": "Boiled, salted, coated in wax, and run along with adjustable thread, this fluid sac is now a usable purse.  It can even seal fluids within, and be used to craft basic fluid bombs.  This one ties around the ankle, and can be activated to change the string's length.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL lined kevlar vest" },
+    "copy-from": "kevlar_tee",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kevlar_tee_xl",
+    "description": "A lightweight, bullet resistant vest, with a sewn-in undershirt with an undershirt for comfort.  Suitable for wearing under clothing.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL armored leather arm guards", "str_pl": "pairs of XL armored leather arm guards" },
+    "copy-from": "armguard_larmor_mod",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armguard_larmor_mod_xl",
+    "description": "A pair of tough leather arm guards.  Light and comfortable, with reinforced elbows, and rough studs and strips of metal worked in.  This can be worn regardless of your state of mutation"
+  }
+]

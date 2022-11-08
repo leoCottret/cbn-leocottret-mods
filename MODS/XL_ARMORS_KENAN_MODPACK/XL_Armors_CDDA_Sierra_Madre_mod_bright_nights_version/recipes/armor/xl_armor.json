@@ -1,0 +1,62 @@
+[
+  {
+    "result": "assassin_suit_xl",
+    "id_suffix": "from_assassin_suit",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "assassin_suit", 1 ] ] ]
+  },
+  {
+    "result": "sierra_armor_xl",
+    "id_suffix": "from_sierra_armor",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "sierra_armor", 1 ] ] ]
+  },
+  {
+    "result": "sierra_helmet_xl",
+    "id_suffix": "from_sierra_helmet",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "sierra_helmet", 1 ] ] ]
+  },
+  {
+    "result": "sierra_armor_reinforced_xl",
+    "id_suffix": "from_sierra_armor_reinforced",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "sierra_armor_reinforced", 1 ] ] ]
+  },
+  {
+    "result": "sierra_helmet_reinforced_xl",
+    "id_suffix": "from_sierra_helmet_reinforced",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "sierra_helmet_reinforced", 1 ] ] ]
+  },
+  {
+    "result": "ghost_suit_xl",
+    "id_suffix": "from_ghost_suit",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "ghost_suit", 1 ] ] ]
+  }
+]

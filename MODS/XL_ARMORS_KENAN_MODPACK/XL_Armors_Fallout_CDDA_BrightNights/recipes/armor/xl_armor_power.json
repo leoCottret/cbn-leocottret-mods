@@ -1,0 +1,62 @@
+[
+  {
+    "result": "power_armor_t51_xl",
+    "id_suffix": "from_power_armor_t51",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "power_armor_t51", 1 ] ] ]
+  },
+  {
+    "result": "power_armor_helmet_t51_xl",
+    "id_suffix": "from_power_armor_helmet_t51",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "power_armor_helmet_t51", 1 ] ] ]
+  },
+  {
+    "result": "power_armor_t45_xl",
+    "id_suffix": "from_power_armor_t45",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "power_armor_t45", 1 ] ] ]
+  },
+  {
+    "result": "power_armor_helmet_t45_xl",
+    "id_suffix": "from_power_armor_helmet_t45",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "power_armor_helmet_t45", 1 ] ] ]
+  },
+  {
+    "result": "power_armor_x01_xl",
+    "id_suffix": "from_power_armor_x01",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "power_armor_x01", 1 ] ] ]
+  },
+  {
+    "result": "power_armor_helmet_x01_xl",
+    "id_suffix": "from_power_armor_helmet_x01",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "power_armor_helmet_x01", 1 ] ] ]
+  }
+]

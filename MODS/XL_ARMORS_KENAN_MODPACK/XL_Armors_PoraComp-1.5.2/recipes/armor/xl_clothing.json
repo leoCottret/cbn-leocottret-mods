@@ -1,0 +1,24 @@
+[
+  {
+    "result": "Insulated_2L_Canteen_xl",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": 10000,
+    "autolearn": true,
+    "components": [ [ [ "2lcanteen", 1 ] ], [ [ "duct_tape", 240 ] ], [ [ "Cellulose", 2 ] ] ]
+  },
+  {
+    "result": "Insulated_Canteen_xl",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": 10000,
+    "autolearn": true,
+    "components": [ [ [ "canteen", 1 ] ], [ [ "duct_tape", 120 ] ], [ [ "Cellulose", 1 ] ] ]
+  }
+]

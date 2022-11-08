@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "XL Snorkelling" },
+    "copy-from": "snorkel_mizu",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "snorkel_mizu_xl",
+    "description": "It is a tool to let you breathe even underwater. However, you will feel stuffy while you are not used to it.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Simple snorkel" },
+    "copy-from": "snorkel_makeshift_mizu",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "snorkel_makeshift_mizu_xl",
+    "description": "A snorkel made of duct tape and rubber hose is coming. It seems that my breath will suck.  This can be worn regardless of your state of mutation"
+  }
+]
