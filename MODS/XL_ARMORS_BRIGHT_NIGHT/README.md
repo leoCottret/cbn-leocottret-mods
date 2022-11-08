@@ -1,4 +1,6 @@
 # XL Armors for Bright Night
+## Other versions
+- [Kenan's Modpack](https://github.com/leoCottret/cbn-leocottret-mods/edit/main/MODS/XL_ARMORS_KENAN_MODPACK/README.md) 
 ## Why this?
 - Huge mutants have a tiny, ridiculous choice of armors. There are some XL armors in the base game, but they cover only a few % of the available armors
 - There are some mods that add XL armors, but they are very far from covering every armors
