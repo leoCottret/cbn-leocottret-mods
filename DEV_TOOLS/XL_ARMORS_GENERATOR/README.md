@@ -1,5 +1,3 @@
-STILL WIP FOR NOW
-
 First, big thanks to @scarf that helped me build the start of the script, and was even kind enough to give me a Proof of Concept of it
 
 ### What is this for?
