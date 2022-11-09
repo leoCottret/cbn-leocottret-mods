@@ -1,4 +1,4 @@
-# XL Armors for Bright Night
+# XL Armors for Kenan's modpack
 Version for vanilla, with explanations [here](https://github.com/leoCottret/cbn-leocottret-mods/edit/main/MODS/XL_ARMORS_BRIGHT_NIGHT/)    
 This is the version for [Kenan's modpack](https://github.com/Kenan2000/BrightNights-Structured-Kenan-Modpack) (well, with vanilla too, I just put everything generated here).  
 I was particularly interested by the "More Survivor Stuff" version, maybe you would be too.  
