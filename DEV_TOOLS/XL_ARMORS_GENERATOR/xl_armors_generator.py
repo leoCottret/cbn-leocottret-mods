@@ -25,7 +25,7 @@ from typing_extensions import Self
 # Please move the files from the results folder before editing them, to be safe
 
 # explicit. Existing armors, recipes, data from mods etc. Everything is fetched thanks to this variable
-game_folder_path = "C:/Games/CDDA_MODDING_BN/cdda/data/"
+game_folder_path = f"C:\Games\CDDA_MODDING_BN_dummy\cdda\data"
 # the resulting folder, with, for each module, the xl armors, recipes and uncraft recipes
 # PS: modules = mods + vanilla
 pathlib.Path("results").mkdir(parents=True, exist_ok=True)
@@ -43,7 +43,7 @@ linting = True
 # powershell exe location. Is used to execute the powershell script
 POWERSHELL_PATH = r'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
 # path to the powershell script that will lint the result with the help of json_formatter.exe
-PS_SCRIPT_PATH = r'C:\Users\Sudo\Desktop\python_tests\style-json-cur-dir.ps1'
+PS_SCRIPT_PATH = r'C:\Games\CDDA_BN_MY_MODS\cbn-leocottret-mods\DEV_TOOLS\XL_ARMORS_GENERATOR\style-json-cur-dir.ps1'
 
 # how punishing the XL versions will be, eg 1.2 encumbrance means 20% more from the original version
 class XLFactors():
@@ -672,7 +672,13 @@ if __name__ == "__main__":
         if not nxamf.name == VANILLA_FLAG:
             nxamf.rename(f"{result_folder}/{VANILLA_FLAG}_{nxamf.name}")
     print(f"New armors amount: {new_armors_amount}")
+
     # lint XL armors and their recipes
     if linting:
         print("Linting everything...")
-        subprocess.run([POWERSHELL_PATH, PS_SCRIPT_PATH], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
+        process_result = subprocess.run([POWERSHELL_PATH, PS_SCRIPT_PATH], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True)
+        if process_result.returncode == 0:  # COMPARING RESULT
+            process_message = "Linting finished successfully"
+        else:
+            process_message = "An error Occurred! Did you specify the powershell script (absolute) path correctly?"
+        print(process_message)
