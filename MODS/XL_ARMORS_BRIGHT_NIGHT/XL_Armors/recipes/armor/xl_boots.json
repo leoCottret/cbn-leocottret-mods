@@ -12,6 +12,16 @@
     "components": [ [ [ "filament", 168, "LIST" ] ] ]
   },
   {
+    "result": "boots_bone_xl",
+    "id_suffix": "from_boots_bone",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "boots_bone", 1 ] ] ]
+  },
+  {
     "result": "boots_bunker_xl",
     "id_suffix": "from_boots_bunker",
     "type": "recipe",
@@ -154,6 +164,18 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "boots_steel", 1 ] ] ]
+  },
+  {
+    "result": "boots_western_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "35 m",
+    "book_learn": [ [ "textbook_tailor", 4 ], [ "tailor_portfolio", 5 ] ],
+    "using": [ [ "sewing_standard", 20 ] ],
+    "components": [ [ [ "leather", 14 ] ] ]
   },
   {
     "result": "boots_winter_xl",

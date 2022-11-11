@@ -35,11 +35,81 @@
     "components": [ [ [ "gold_small", 4 ] ], [ [ "garnet", 1 ] ] ]
   },
   {
+    "result": "amethyst_dental_grill_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ], [ [ "amethyst", 1 ] ] ]
+  },
+  {
+    "result": "aquamarine_dental_grill_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ], [ [ "aquamarine", 1 ] ] ]
+  },
+  {
+    "result": "emerald_dental_grill_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ], [ [ "emerald", 1 ] ] ]
+  },
+  {
+    "result": "alexandrite_dental_grill_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ], [ [ "alexandrite", 1 ] ] ]
+  },
+  {
+    "result": "ruby_dental_grill_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ], [ [ "ruby", 1 ] ] ]
+  },
+  {
+    "result": "peridot_dental_grill_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ], [ [ "peridot", 1 ] ] ]
+  },
+  {
+    "result": "sapphire_dental_grill_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ], [ [ "sapphire", 1 ] ] ]
+  },
+  {
+    "result": "tourmaline_dental_grill_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ], [ [ "tourmaline", 1 ] ] ]
+  },
+  {
+    "result": "citrine_dental_grill_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ], [ [ "citrine", 1 ] ] ]
+  },
+  {
     "result": "barrette_xl",
     "type": "uncraft",
     "skill_used": "fabrication",
     "time": "6 s",
     "components": [ [ [ "plastic_scrap", 1 ] ] ]
+  },
+  {
+    "result": "blue_topaz_dental_grill_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ], [ [ "blue_topaz", 1 ] ] ]
   },
   {
     "result": "diamond_ring_xl",

@@ -27,6 +27,15 @@
     "description": "A tight mask made of black leather.  The eyes and mouth can be closed using zippers.  This can be worn regardless of your state of mutation"
   },
   {
+    "name": { "str": "XL bondage mask (zipped)", "str_pl": "XL bondage masks (zipped)" },
+    "copy-from": "bondage_mask_zipped",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bondage_mask_zipped_xl",
+    "description": "A tight mask made of black leather.  The eyes and mouth have been zipped closed.  This can be worn regardless of your state of mutation"
+  },
+  {
     "name": { "str": "XL fencing mask" },
     "copy-from": "fencing_mask",
     "type": "ARMOR",

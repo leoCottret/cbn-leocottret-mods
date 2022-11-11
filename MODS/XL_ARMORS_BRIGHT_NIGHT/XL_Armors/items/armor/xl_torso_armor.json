@@ -9,6 +9,15 @@
     "description": "An ancient Greek breastplate, made of bronze.  This can be worn regardless of your state of mutation"
   },
   {
+    "name": { "str": "XL lamellar cuirass", "str_pl": "XL lamellar cuirasses" },
+    "copy-from": "armor_lamellar",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_lamellar_xl",
+    "description": "A cuirass made of multiple pieces of tough leather, laced together for durable yet flexible protection.  This can be worn regardless of your state of mutation"
+  },
+  {
     "name": { "str_sp": "XL lorica segmentata" },
     "copy-from": "armor_lorica",
     "type": "ARMOR",
@@ -52,6 +61,15 @@
     "extend": { "flags": [ "OVERSIZE" ] },
     "id": "jacket_leather_mod_xl",
     "description": "An armored jacket made from thick leather and metal plates.  Cumbersome, but offers excellent protection from harm.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL occult bone armor" },
+    "copy-from": "jacket_leather_bone",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "jacket_leather_bone_xl",
+    "description": "A black jacket made from thick leather and covered with intricately carved bones.  You've never seen patterns like those before, each time you look at them you spot a new one as if they were changing on their own.  This can be worn regardless of your state of mutation"
   },
   {
     "name": { "str": "XL lam\u00e9 (foil)", "str_pl": "XL lam\u00e9s (foil)" },

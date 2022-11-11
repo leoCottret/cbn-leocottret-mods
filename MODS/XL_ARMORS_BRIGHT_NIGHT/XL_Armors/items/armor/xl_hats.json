@@ -99,6 +99,15 @@
     "description": "A hat made from the pelts of animals.  Extremely warm.  This can be worn regardless of your state of mutation"
   },
   {
+    "name": { "str": "XL faux fur hat" },
+    "copy-from": "hat_faux_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hat_faux_fur_xl",
+    "description": "A stylish hat made of faux fur.  Like real fur, but without the suffering, if the tag is to be believed.  Very warm.  This can be worn regardless of your state of mutation"
+  },
+  {
     "name": { "str": "XL hard hat" },
     "copy-from": "hat_hard",
     "type": "ARMOR",
