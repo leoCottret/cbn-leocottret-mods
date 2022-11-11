@@ -6,6 +6,6 @@ A collection of mods/tools of different purposes for Bright Night.
   - For "superusers" and modders that want to show their love to their fellow mutants
 ## Mods
 - [Every missing XL armors for all mods included in Bright Night by default](/MODS/XL_ARMORS_BRIGHT_NIGHT). 
-  - This includes: The core game, Aftershock, CRT Expansion, Magyclism, More Survival Tools, No Hope for a total of 606 new armors and recipes to create them directly, or from their original armor.
+  - This includes: The core game, Aftershock, CRT Expansion, Magyclism, More Survival Tools, No Hope for a total of 683 new armors and recipes to create them directly, or from their original armor.
 - [XL armors for Kenan's modpack](/MODS/XL_ARMORS_KENAN_MODPACK). 
 - [XL armors for Noct's Cata++](/MODS/nocts_cata_mod). 
