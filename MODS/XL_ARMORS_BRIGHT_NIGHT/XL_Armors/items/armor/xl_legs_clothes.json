@@ -135,15 +135,6 @@
     "description": "A hefty pair of fur-lined pants.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str_sp": "XL faux fur pants" },
-    "copy-from": "pants_faux_fur",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "pants_faux_fur_xl",
-    "description": "A pair of long cotton pants lined with warm imitation fur.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str_sp": "XL leather pants" },
     "copy-from": "pants_leather",
     "type": "ARMOR",

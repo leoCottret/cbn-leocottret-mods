@@ -27,15 +27,6 @@
     "description": "A fur coat with a couple small pockets.  Extremely warm.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL faux fur coat" },
-    "copy-from": "coat_faux_fur",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "coat_faux_fur_xl",
-    "description": "A garishly-colored faux fur coat with a couple small pockets.  Although not as warm as the natural fur, it gives you some of that unique flair.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "XL sable coat" },
     "copy-from": "coat_fur_sf",
     "type": "ARMOR",
@@ -88,15 +79,6 @@
     "extend": { "flags": [ "OVERSIZE" ] },
     "id": "duster_fur_xl",
     "description": "A thick fur full-length duster.  Has many pockets for storage.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL faux fur duster" },
-    "copy-from": "duster_faux_fur",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "duster_faux_fur_xl",
-    "description": "A thick faux fur duster, falling below your knees.  Has many pockets for storing things.  This can be worn regardless of your state of mutation"
   },
   {
     "name": { "str": "XL survivor duster" },
@@ -324,15 +306,6 @@
     "description": "A thick fur full-length duster without sleeves, leaving your arms unencumbered.  Has plenty of storage space due to its many pockets.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL sleeveless faux fur duster" },
-    "copy-from": "sleeveless_duster_faux_fur",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "sleeveless_duster_faux_fur_xl",
-    "description": "A thick, sleeveless faux fur duster, falling below your knees.  Has many pockets for storing things.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "XL sleeveless survivor duster" },
     "copy-from": "sleeveless_duster_survivor",
     "type": "ARMOR",
@@ -349,15 +322,6 @@
     "extend": { "flags": [ "OVERSIZE" ] },
     "id": "sleeveless_trenchcoat_fur_xl",
     "description": "A thick fur trenchcoat without sleeves, leaving your arms unencumbered.  Has plenty of storage space due to its many pockets.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL sleeveless faux fur trenchcoat" },
-    "copy-from": "sleeveless_trenchcoat_faux_fur",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "sleeveless_trenchcoat_faux_fur_xl",
-    "description": "A thick faux fur trenchcoat without sleeves.  Has plenty of storage space, and looks pretty good.  This can be worn regardless of your state of mutation"
   },
   {
     "name": { "str": "XL sleeveless survivor trenchcoat" },
@@ -394,15 +358,6 @@
     "extend": { "flags": [ "OVERSIZE" ] },
     "id": "trenchcoat_fur_xl",
     "description": "A thick fur trenchcoat, lined with pockets.  Great for storage.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL faux fur trenchcoat" },
-    "copy-from": "trenchcoat_faux_fur",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "trenchcoat_faux_fur_xl",
-    "description": "A thick faux fur trenchcoat, lined with pockets.  Great for storage, and makes you the talk of the town.  This can be worn regardless of your state of mutation"
   },
   {
     "name": { "str": "XL survivor trenchcoat" },

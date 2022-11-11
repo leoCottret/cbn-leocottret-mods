@@ -30,16 +30,6 @@
     "components": [ [ [ "dinosuit", 1 ] ] ]
   },
   {
-    "result": "robofac_jumpsuit_xl",
-    "id_suffix": "from_robofac_jumpsuit",
-    "type": "recipe",
-    "skill_used": "fabrication",
-    "time": "20 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "robofac_jumpsuit", 1 ] ] ]
-  },
-  {
     "result": "union_suit_xl",
     "type": "recipe",
     "category": "CC_ARMOR",

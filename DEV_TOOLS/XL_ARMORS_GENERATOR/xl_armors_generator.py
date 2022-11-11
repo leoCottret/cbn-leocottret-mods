@@ -190,6 +190,7 @@ def load_blacklist_ids(file_name, sort_blacklist):
 
 # does this armor needs a xl version of it? Checks if it's in the blacklist, and if it has both no copy_from and no coverage
 # an armor coverage means that this armor is only wearable by normal sized characters by default
+# having encumbrance too!
 def is_valid_armor(armor: ARMOR, armor_blacklist_ids: list | None):
     is_valid:bool = True
     # we don't create an xl version of blacklisted armor ids
@@ -198,7 +199,8 @@ def is_valid_armor(armor: ARMOR, armor_blacklist_ids: list | None):
             is_valid = False
     
     # we don't want to create a xl armor for something without coverage (and without copy-from), like earings, because they can be worn by mutants
-    elif (not armor.copy_from and not armor.coverage):
+    # having encumbrance will also
+    elif (not armor.copy_from and (not armor.coverage or (armor.encumbrance != None and armor.encumbrance != 0))):
         is_valid = False
     # we don't want this armor if it contains one of the blacklisted keywords too
     for kw in blacklist_keywords:
@@ -366,7 +368,8 @@ class Armor(Struct, rename={"copy_from": "copy-from"}, omit_defaults=True):
     type: str | None = None
     description: object | None = None
     copy_from: str | None = None # Used in conjunction with below, must not be set. Avoid excluding items for nothing, better than nothing
-    coverage: int | None = None # To check if it exists. If it doesn't (eg earing), the object can be worn
+    coverage: int | None = None # To check if it exists. If it doesn't (eg earings), the object can be worn by a mutant by default
+    encumbrance: int | None = None # To check if it exists. If it does (eg belts), the object can be worn by a mutant by default
     flags: list[str] | str | None = None # To check if it already has the OVERSIZE flag
 
 # a proportional value modifier for armor. WIll generate the proportional field of the XL armor

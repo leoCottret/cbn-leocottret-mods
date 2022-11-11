@@ -33,18 +33,6 @@
     "components": [ [ [ "rag", 13 ] ], [ [ "fur", 14 ] ] ]
   },
   {
-    "result": "coat_faux_fur_xl",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 3,
-    "time": "1 h 40 m",
-    "book_learn": [ [ "textbook_tailor", 4 ], [ "tailor_portfolio", 3 ], [ "recipe_fauxfur", 3 ] ],
-    "using": [ [ "sewing_standard", 20 ] ],
-    "components": [ [ [ "rag", 13 ] ], [ [ "faux_fur", 14 ] ] ]
-  },
-  {
     "result": "coat_fur_sf_xl",
     "id_suffix": "from_coat_fur_sf",
     "type": "recipe",
@@ -110,18 +98,6 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 60 ] ],
     "components": [ [ [ "fur", 48 ] ] ]
-  },
-  {
-    "result": "duster_faux_fur_xl",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 3,
-    "time": "3 h 20 m",
-    "book_learn": [ [ "textbook_tailor", 3 ], [ "tailor_portfolio", 3 ], [ "recipe_fauxfur", 2 ] ],
-    "using": [ [ "sewing_standard", 60 ] ],
-    "components": [ [ [ "rag", 30 ] ], [ [ "faux_fur", 24 ] ] ]
   },
   {
     "result": "duster_survivor_xl",
@@ -423,31 +399,6 @@
     "flags": [ "NO_RESIZE" ]
   },
   {
-    "result": "sleeveless_duster_faux_fur_xl",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 3,
-    "time": "3 h 20 m",
-    "book_learn": [ [ "textbook_tailor", 3 ], [ "tailor_portfolio", 3 ], [ "recipe_fauxfur", 2 ] ],
-    "using": [ [ "sewing_standard", 50 ] ],
-    "components": [ [ [ "rag", 24 ] ], [ [ "faux_fur", 14 ] ] ]
-  },
-  {
-    "result": "sleeveless_duster_faux_fur_xl",
-    "id_suffix": "from_duster_faux_fur",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "time": "6 m",
-    "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "duster_faux_fur", 1 ] ] ],
-    "flags": [ "NO_RESIZE" ]
-  },
-  {
     "result": "sleeveless_duster_survivor_xl",
     "id_suffix": "from_duster_survivor",
     "type": "recipe",
@@ -513,31 +464,6 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 38 ] ],
     "components": [ [ [ "fur", 33 ] ] ]
-  },
-  {
-    "result": "sleeveless_trenchcoat_faux_fur_xl",
-    "id_suffix": "from_trenchcoat_faux_fur",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "time": "6 m",
-    "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "trenchcoat_faux_fur", 1 ] ] ],
-    "flags": [ "NO_RESIZE" ]
-  },
-  {
-    "result": "sleeveless_trenchcoat_faux_fur_xl",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 3,
-    "time": "3 h 20 m",
-    "book_learn": [ [ "textbook_tailor", 3 ], [ "tailor_portfolio", 3 ], [ "recipe_fauxfur", 2 ] ],
-    "using": [ [ "sewing_standard", 38 ] ],
-    "components": [ [ [ "rag", 12 ] ], [ [ "faux_fur", 12 ] ] ]
   },
   {
     "result": "sleeveless_trenchcoat_survivor_xl",
@@ -627,18 +553,6 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 45 ] ],
     "components": [ [ [ "fur", 36 ] ] ]
-  },
-  {
-    "result": "trenchcoat_faux_fur_xl",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 3,
-    "time": "3 h 20 m",
-    "book_learn": [ [ "textbook_tailor", 3 ], [ "tailor_portfolio", 3 ], [ "recipe_fauxfur", 2 ] ],
-    "using": [ [ "sewing_standard", 45 ] ],
-    "components": [ [ [ "rag", 16 ] ], [ [ "faux_fur", 14 ] ] ]
   },
   {
     "result": "trenchcoat_survivor_xl",

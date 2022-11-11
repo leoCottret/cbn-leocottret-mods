@@ -9,15 +9,6 @@
     "description": "Lightweight sandals made from wound cord.  They offer little in the way of protection, but keep you cool during warmer months.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "pair of XL occult boots", "str_pl": "pairs of XL occult boots" },
-    "copy-from": "boots_bone",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "boots_bone_xl",
-    "description": "Leather boots covered with tiny finely carved bones.  With each step the bones collide with each other producing a strange song.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "pair of XL turnout boots", "str_pl": "pairs of XL turnout boots" },
     "copy-from": "boots_bunker",
     "type": "ARMOR",
@@ -106,15 +97,6 @@
     "extend": { "flags": [ "OVERSIZE" ] },
     "id": "boots_steel_xl",
     "description": "Leather boots with a steel toe.  Extremely durable.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "pair of XL western boots", "str_pl": "pairs of XL western boots" },
-    "copy-from": "boots_western",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "boots_western_xl",
-    "description": "Stiff leather boots with intricate embroidery and one-inch heels.  They look good, but aren't made for running.  Each boot is large enough to conceal a small holdout pistol.  This can be worn regardless of your state of mutation"
   },
   {
     "name": { "str": "pair of XL winter boots", "str_pl": "pairs of XL winter boots" },

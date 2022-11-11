@@ -27,15 +27,6 @@
     "description": "A full-body costume in the form of an anthropomorphic dinosaur.  It is quite encumbering and has little storage but is very warm.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL Hub 01 jumpsuit" },
-    "copy-from": "robofac_jumpsuit",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "robofac_jumpsuit_xl",
-    "description": "A brown jumpsuit worn by the staff of Hub 01.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "XL union suit" },
     "copy-from": "union_suit",
     "type": "ARMOR",

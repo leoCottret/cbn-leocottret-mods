@@ -9,69 +9,6 @@
     "description": "A stout firefighter's belt.  Useful for keeping your bunker gear up, it also doubles as an equipment belt with a reinforced loop for holding a large tool.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL black belt" },
-    "copy-from": "judo_belt_black",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "judo_belt_black_xl",
-    "description": "A belt worn by martial arts practitioners, advertising a master.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL blue belt" },
-    "copy-from": "judo_belt_blue",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "judo_belt_blue_xl",
-    "description": "A belt worn by martial arts practitioners, advertising a strong intermediate.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL brown belt" },
-    "copy-from": "judo_belt_brown",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "judo_belt_brown_xl",
-    "description": "A belt worn by martial arts practitioners, advertising a near-master.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL green belt" },
-    "copy-from": "judo_belt_green",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "judo_belt_green_xl",
-    "description": "A belt worn by martial arts practitioners, advertising an intermediate.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL orange belt" },
-    "copy-from": "judo_belt_orange",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "judo_belt_orange_xl",
-    "description": "A belt worn by martial arts practitioners, advertising a fresh intermediate.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL white belt" },
-    "copy-from": "judo_belt_white",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "judo_belt_white_xl",
-    "description": "A belt worn by martial arts practitioners, advertising a novice.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL yellow belt" },
-    "copy-from": "judo_belt_yellow",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "judo_belt_yellow_xl",
-    "description": "A belt worn by martial arts practitioners, advertising a moderate novice.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "XL obi" },
     "copy-from": "obi_gi",
     "type": "ARMOR",

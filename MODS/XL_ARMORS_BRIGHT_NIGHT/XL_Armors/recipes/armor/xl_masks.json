@@ -35,16 +35,6 @@
     "components": [ [ [ "bondage_mask", 1 ] ] ]
   },
   {
-    "result": "bondage_mask_zipped_xl",
-    "id_suffix": "from_bondage_mask_zipped",
-    "type": "recipe",
-    "skill_used": "fabrication",
-    "time": "20 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "bondage_mask_zipped", 1 ] ] ]
-  },
-  {
     "result": "fencing_mask_xl",
     "id_suffix": "from_fencing_mask",
     "type": "recipe",
