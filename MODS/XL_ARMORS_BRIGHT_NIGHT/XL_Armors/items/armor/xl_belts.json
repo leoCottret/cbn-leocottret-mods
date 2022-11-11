@@ -72,15 +72,6 @@
     "description": "A belt worn by martial arts practitioners, advertising a moderate novice.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL obi" },
-    "copy-from": "obi_gi",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "obi_gi_xl",
-    "description": "A broad, black obi gi.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "XL webbing belt" },
     "copy-from": "webbing_belt",
     "type": "ARMOR",

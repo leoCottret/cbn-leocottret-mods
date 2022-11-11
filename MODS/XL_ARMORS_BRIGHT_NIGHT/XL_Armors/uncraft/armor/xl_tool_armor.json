@@ -1,12 +1,5 @@
 [
   {
-    "result": "fc_hairpin_xl",
-    "type": "uncraft",
-    "skill_used": "fabrication",
-    "time": "6 s",
-    "components": [ [ [ "plastic_scrap", 1 ] ] ]
-  },
-  {
     "result": "guitar_electric_xl",
     "type": "uncraft",
     "skill_used": "electronics",

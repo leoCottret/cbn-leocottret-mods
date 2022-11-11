@@ -200,7 +200,7 @@ def is_valid_armor(armor: ARMOR, armor_blacklist_ids: list | None):
     
     # we don't want to create a xl armor for something without coverage (and without copy-from), like earings, because they can be worn by mutants
     # having encumbrance will also
-    elif (not armor.copy_from and not armor.coverage and not armor.encumbrance):
+    if (not armor.copy_from and not armor.coverage and not armor.encumbrance):
         is_valid = False
     # we don't want this armor if it contains one of the blacklisted keywords too
     for kw in blacklist_keywords:
