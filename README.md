@@ -1,5 +1,5 @@
 # Goodies for Cataclysm: Bright Night
-A collection of mods/tools of different purposes for Bright Night.
+A collection of mods/tools for Bright Night.
 
 ## Dev tools
 - [A tool](/DEV_TOOLS/XL_ARMORS_GENERATOR) to generate your own version of XL armors, with custom parameters, for Bright Night and its compatible mods
