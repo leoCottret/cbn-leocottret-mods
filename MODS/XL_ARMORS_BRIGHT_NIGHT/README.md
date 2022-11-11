@@ -7,7 +7,7 @@
 - Many mods don't add XL versions of their armor too
 
 ## How to solve this injustice?
-- Add 637 XL armors, and even more recipes for them (more on that below)
+- Add 638 XL armors, and even more recipes for them (more on that below)
 - Everything was generated with the script found [here](../../DEV_TOOLS/XL_ARMORS_GENERATOR)
 - The main idea was to create a script that can generate XL armors for the base game and any mod automatically
 - So you can enjoy your XL light survivor suit, XL bondage mask, XL heavy power armor, XL clown shoes, XL ring of strength +4...
