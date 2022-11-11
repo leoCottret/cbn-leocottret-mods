@@ -190,11 +190,13 @@ def load_blacklist_ids(file_name, sort_blacklist):
 
 # does this armor needs a xl version of it? Checks if it's in the blacklist, and if it has both no copy_from and no coverage
 # an armor coverage means that this armor is only wearable by normal sized characters by default
-def is_valid_armor(armor: ARMOR, armor_blacklist_ids):
+def is_valid_armor(armor: ARMOR, armor_blacklist_ids: list | None):
     is_valid:bool = True
     # we don't create an xl version of blacklisted armor ids
-    if (gus(armor) in armor_blacklist_ids):
-        is_valid = False
+    if armor_blacklist_ids:
+        if (gus(armor) in armor_blacklist_ids):
+            is_valid = False
+    
     # we don't want to create a xl armor for something without coverage (and without copy-from), like earings, because they can be worn by mutants
     elif (not armor.copy_from and not armor.coverage):
         is_valid = False
@@ -252,7 +254,10 @@ def check_if_needs_xl_armor(armor:Armor, armor_blacklist_ids, potential_armors_d
             for a in file_data.data:
                 # we found the parent (the copy-from id)!
                 if gus(a) == armor.copy_from:
-                    return check_if_needs_xl_armor(a, armor_blacklist_ids, potential_armors_data, True)
+                    # IMPORTANT, we do not check if the armor is blacklisted here
+                    # in case if we have an armor B that inherits from a blacklisted armor A
+                    # well in that case, we don't care if armor A is blacklisted, we still need the info!
+                    return check_if_needs_xl_armor(a, None, potential_armors_data, True)
 
     # if we didn't find the parent, it's best to create an armor
     # very rarely, an armor item inherit from a non armor item
