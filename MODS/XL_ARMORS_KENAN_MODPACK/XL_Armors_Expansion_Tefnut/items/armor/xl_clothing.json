@@ -27,15 +27,6 @@
     "description": "The Hachimaki, a stylized headband of red and white cloth. A symbol of perserverance and effort by the wearer, it is commonly associated with the 'kamikazee' suicide bombers of world war 2.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL senninbari" },
-    "copy-from": "belt_senninbari",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "belt_senninbari_xl",
-    "description": "A 1000 stich belt worn around the waist of an imperial japanese uniform. They are supposed to bring good luck, confer courage, and make the wearer immune to bullets. While you doubt that last one, who's to say the first two aren't true? Weirder stuff happens every day, now.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "XL IJA fatigues" },
     "copy-from": "fatigues_ija",
     "type": "ARMOR",

@@ -81,15 +81,6 @@
     "description": "A thick full-length duster coat with rubber insulation.  More than mildly encumbering, but rather protective against any anti-infantry electrical discharges from the robots.  Has several pockets for storage.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL CRIT S-I G.E.A.R" },
-    "copy-from": "ds_monitor",
-    "type": "TOOL_ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "ds_monitor_xl",
-    "description": "C.R.I.T standard issue General Engineering Assistance Rig.  Plugged into your spinal cord, this device improves your overall physique and provides basic information on your surroundings.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "XL CRIT Armored Anomaly Suit" },
     "copy-from": "crt_aarmor",
     "type": "ARMOR",

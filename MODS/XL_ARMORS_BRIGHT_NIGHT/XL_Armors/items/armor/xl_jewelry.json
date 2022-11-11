@@ -1,32 +1,5 @@
 [
   {
-    "name": { "str": "pair of XL beaded earrings", "str_pl": "pairs of XL beaded earrings" },
-    "copy-from": "bead_ear",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "bead_ear_xl",
-    "description": "A simple pair of earrings made of string and wooden beads.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL friendship bracelet" },
-    "copy-from": "bracelet_friendship",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "bracelet_friendship_xl",
-    "description": "A homemade bracelet crafted from colorful knickknacks.  It's not very expensive, but it's the effort that makes it special.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL bronze medal" },
-    "copy-from": "bronze_medal",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "bronze_medal_xl",
-    "description": "A medal awarded for achieving third place in some event.  It might be worth something if it was made of bronze; this one is made from iron.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "XL diamond dental grill" },
     "copy-from": "diamond_dental_grill",
     "type": "ARMOR",
@@ -45,364 +18,94 @@
     "description": "Fake teeth inlaid with garnets, worn over the teeth.  It looks very shiny.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL barrette" },
-    "copy-from": "barrette",
+    "name": { "str": "XL amethyst dental grill" },
+    "copy-from": "amethyst_dental_grill",
     "type": "ARMOR",
     "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
     "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "barrette_xl",
-    "description": "A barrette with lots of ornaments.  This can be worn regardless of your state of mutation"
+    "id": "amethyst_dental_grill_xl",
+    "description": "Fake teeth inlaid with amethysts, worn over the teeth.  It looks very shiny.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL diamond and gold ring" },
-    "copy-from": "diamond_ring",
+    "name": { "str": "XL aquamarine dental grill" },
+    "copy-from": "aquamarine_dental_grill",
     "type": "ARMOR",
     "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
     "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "diamond_ring_xl",
-    "description": "A gold ring with a sparkling diamond mounted on top of it.  Back in the old days this could be worth a fortune.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
+    "id": "aquamarine_dental_grill_xl",
+    "description": "Fake teeth inlaid with aquamarines, worn over the teeth.  It looks very shiny.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL collar pin" },
-    "copy-from": "collarpin",
+    "name": { "str": "XL emerald dental grill" },
+    "copy-from": "emerald_dental_grill",
     "type": "ARMOR",
     "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
     "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "collarpin_xl",
-    "description": "A staple accessory for gentlemen.  Keeps your shirt collar in place and provides a more aesthetically pleasing arc to your necktie.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
+    "id": "emerald_dental_grill_xl",
+    "description": "Fake teeth inlaid with emeralds, worn over the teeth.  It looks very shiny.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "pair of XL copper earrings", "str_pl": "pairs of XL copper earrings" },
-    "copy-from": "copper_ear",
+    "name": { "str": "XL alexandrite dental grill" },
+    "copy-from": "alexandrite_dental_grill",
     "type": "ARMOR",
     "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
     "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "copper_ear_xl",
-    "description": "A pair of copper earrings.  It's pretty heavy.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
+    "id": "alexandrite_dental_grill_xl",
+    "description": "Fake teeth inlaid with alexandrites, worn over the teeth.  It looks very shiny.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL copper hairpin" },
-    "copy-from": "copper_hairpin",
+    "name": { "str": "XL ruby dental grill" },
+    "copy-from": "ruby_dental_grill",
     "type": "ARMOR",
     "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
     "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "copper_hairpin_xl",
-    "description": "A hairpin made from copper.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
+    "id": "ruby_dental_grill_xl",
+    "description": "Fake teeth inlaid with rubys, worn over the teeth.  It looks very shiny.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL copper locket" },
-    "copy-from": "copper_locket",
+    "name": { "str": "XL peridot dental grill" },
+    "copy-from": "peridot_dental_grill",
     "type": "ARMOR",
     "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
     "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "copper_locket_xl",
-    "description": "A circular, copper locket.  It's been tarnished with use, and has gained some dull green spots.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
+    "id": "peridot_dental_grill_xl",
+    "description": "Fake teeth inlaid with peridots, worn over the teeth.  It looks very shiny.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL copper ring" },
-    "copy-from": "copper_ring",
+    "name": { "str": "XL sapphire dental grill" },
+    "copy-from": "sapphire_dental_grill",
     "type": "ARMOR",
     "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
     "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "copper_ring_xl",
-    "description": "A plain, copper ring.  Not very shiny, and not very popular.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
+    "id": "sapphire_dental_grill_xl",
+    "description": "Fake teeth inlaid with sapphires, worn over the teeth.  It looks very shiny.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "pair of XL cufflinks", "str_pl": "pairs of XL cufflinks" },
-    "copy-from": "cufflinks",
+    "name": { "str": "XL tourmaline dental grill" },
+    "copy-from": "tourmaline_dental_grill",
     "type": "ARMOR",
     "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
     "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "cufflinks_xl",
-    "description": "An unmarked, pair of silver cufflinks.  Cufflinks are used to secure the cuffs of dress shirts - a must-have for men in formal wear.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
+    "id": "tourmaline_dental_grill_xl",
+    "description": "Fake teeth inlaid with tourmaline, worn over the teeth.  It looks very shiny.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "pair of XL intricate cufflinks", "str_pl": "pairs of XL intricate cufflinks" },
-    "copy-from": "cufflinks_intricate",
+    "name": { "str": "XL citrine dental grill" },
+    "copy-from": "citrine_dental_grill",
     "type": "ARMOR",
     "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
     "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "cufflinks_intricate_xl",
-    "description": "An expensive pair of silver cufflinks, stylized with detailed overlays of gold gears and fractal patterns.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
+    "id": "citrine_dental_grill_xl",
+    "description": "Fake teeth inlaid with citrines, worn over the teeth.  It looks very shiny.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL plug" },
-    "copy-from": "ear_spool",
+    "name": { "str": "XL blue topaz dental grill" },
+    "copy-from": "blue_topaz_dental_grill",
     "type": "ARMOR",
     "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
     "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "ear_spool_xl",
-    "description": "Those round things people plug into their earlobes as earrings, also called \"ear plug\" or \"ear spool.\"  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL gold dental grill" },
-    "copy-from": "gold_dental_grill",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "gold_dental_grill_xl",
-    "description": "Fake golden teeth, worn over the teeth.  Fits horribly, but looks very shiny.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "pair of XL gold earrings", "str_pl": "pairs of XL gold earrings" },
-    "copy-from": "gold_ear",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "gold_ear_xl",
-    "description": "A pair of shiny gold earrings.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL gold hairpin" },
-    "copy-from": "gold_hairpin",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "gold_hairpin_xl",
-    "description": "A gold hairpin, designed by the rich, for the rich.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL gold locket" },
-    "copy-from": "gold_locket",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "gold_locket_xl",
-    "description": "A heart-shaped, gold locket with a frame inside to store photographs or small objects.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL gold medal" },
-    "copy-from": "gold_medal",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "gold_medal_xl",
-    "description": "A medal awarded for achieving first place in some event.  Before everything fell apart, this could be a source of pride for its owner.  Now it's just another shiny bauble.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL gold ring" },
-    "copy-from": "gold_ring",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "gold_ring_xl",
-    "description": "A flashy gold ring.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL tie clip" },
-    "copy-from": "tieclip",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "tieclip_xl",
-    "description": "A fancy silver tie clip, a great match for your skinny tie.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "pair of XL silver earrings", "str_pl": "pairs of XL silver earrings" },
-    "copy-from": "silver_ear",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "silver_ear_xl",
-    "description": "A pair of beautiful silver earrings.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL small relic" },
-    "copy-from": "small_relic",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "small_relic_xl",
-    "description": "A small relic from a forgotten saint.  As extraordinary as the world has become it may have some power yet.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL holy symbol" },
-    "copy-from": "holy_symbol",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "holy_symbol_xl",
-    "description": "A necklace made of fine gold chain bearing the symbol of a forgotten faith.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL handmade holy symbol" },
-    "copy-from": "holy_symbol_wood",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "holy_symbol_wood_xl",
-    "description": "A simple necklace representing a religious faith.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL jade brooch", "str_pl": "XL jade brooches" },
-    "copy-from": "jade_brooch",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "jade_brooch_xl",
-    "description": "A hand-crafted jade brooch of Oriental origin.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL platinum dental grill" },
-    "copy-from": "platinum_dental_grill",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "platinum_dental_grill_xl",
-    "description": "Fake platinum-and-silver teeth.  They may be cheaper than fake gold teeth, but they're much more rare.  Fits horribly, but looks very shiny.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "pair of XL platinum earrings", "str_pl": "pairs of XL platinum earrings" },
-    "copy-from": "platinum_ear",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "platinum_ear_xl",
-    "description": "A pair of plain platinum earrings - if gold is getting boring, just use another rare metal.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL platinum hairpin" },
-    "copy-from": "platinum_hairpin",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "platinum_hairpin_xl",
-    "description": "The ultimate in esoteric, metal hair accessories, this hairpin is made from pure platinum.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL platinum locket" },
-    "copy-from": "platinum_locket",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "platinum_locket_xl",
-    "description": "A small, platinum locket for storing photographs or other small objects.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL platinum ring" },
-    "copy-from": "platinum_ring",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "platinum_ring_xl",
-    "description": "A platinum ring, engraved with all manner of swirls and spirals.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL engagement ring" },
-    "copy-from": "ring_engagement",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "ring_engagement_xl",
-    "description": "This ring is an intricate gold band, with a small cluster of diamonds set in the center.  Before the world broke down, this ring would've cost a small fortune.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL purity ring" },
-    "copy-from": "ring_purity",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "ring_purity_xl",
-    "description": "Also known as a promise ring, this ring is worn as a sign of chastity.  This one bears the inscription, \"Love is patient.\"  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL signet ring" },
-    "copy-from": "ring_signet",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "ring_signet_xl",
-    "description": "A gold and silver ring with a wide stamp attached to the band.  A long time ago, the stamp was legible, but now the pattern is too worn to discern its former use.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL wedding ring" },
-    "copy-from": "ring_wedding",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "ring_wedding_xl",
-    "description": "A flawless ring, ensnaring a diamond with twists of pure gold.  It's a constant reminder that the wearer is married.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL silver hairpin" },
-    "copy-from": "silver_hairpin",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "silver_hairpin_xl",
-    "description": "A shiny, silver hairpin with a tiny bee engraved onto it.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL silver locket" },
-    "copy-from": "silver_locket",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "silver_locket_xl",
-    "description": "A small, silver locket with a frame inside to store photographs or small objects.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL silver medal" },
-    "copy-from": "silver_medal",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "silver_medal_xl",
-    "description": "A medal awarded for achieving second place in some event.  Before everything fell apart, this could be a source of pride for its owner.  Now it's just another shiny bauble.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL silver ring" },
-    "copy-from": "silver_ring",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "silver_ring_xl",
-    "description": "A simple, silver ring.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL fuzzy cat tail" },
-    "copy-from": "fur_cat_tail",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "fur_cat_tail_xl",
-    "description": "A fuzzy tawny tail weighted down with tiny beads of plastic.  Sways behind you when you walk.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL leather cat tail" },
-    "copy-from": "leather_cat_tail",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "leather_cat_tail_xl",
-    "description": "A glossy black leather tail weighted down with tiny beads of plastic.  Sways behind you when you walk.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL garnet and gold ring" },
-    "copy-from": "garnet_gold_ring",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "garnet_gold_ring_xl",
-    "description": "A gold ring with a garnet mounted on top of it.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL garnet and silver ring" },
-    "copy-from": "garnet_silver_ring",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "garnet_silver_ring_xl",
-    "description": "A silver ring with a garnet mounted on top of it.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL garnet and platinum ring" },
-    "copy-from": "garnet_platinum_ring",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "garnet_platinum_ring_xl",
-    "description": "A platinum ring with a garnet mounted on top of it.  You can wear it if you like, but it won't provide any effects.  This can be worn regardless of your state of mutation"
+    "id": "blue_topaz_dental_grill_xl",
+    "description": "Fake teeth inlaid with blue topaz, worn over the teeth.  It looks very shiny.  This can be worn regardless of your state of mutation"
   },
   {
     "name": { "str": "XL garnet and platinum tiara" },

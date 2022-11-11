@@ -10,26 +10,6 @@
     "components": [ [ [ "armor_stonefist", 1 ] ] ]
   },
   {
-    "result": "magic_lamp_xl",
-    "id_suffix": "from_magic_lamp",
-    "type": "recipe",
-    "skill_used": "fabrication",
-    "time": "20 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "magic_lamp", 1 ] ] ]
-  },
-  {
-    "result": "magic_light_xl",
-    "id_suffix": "from_magic_light",
-    "type": "recipe",
-    "skill_used": "fabrication",
-    "time": "20 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "magic_light", 1 ] ] ]
-  },
-  {
     "result": "ice_gliders_xl",
     "id_suffix": "from_ice_gliders",
     "type": "recipe",

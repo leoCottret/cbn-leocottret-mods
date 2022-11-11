@@ -90,16 +90,6 @@
     "components": [ [ [ "crt_iduster", 1 ] ] ]
   },
   {
-    "result": "ds_monitor_xl",
-    "id_suffix": "from_ds_monitor",
-    "type": "recipe",
-    "skill_used": "fabrication",
-    "time": "20 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "ds_monitor", 1 ] ] ]
-  },
-  {
     "result": "crt_aarmor_xl",
     "id_suffix": "from_crt_aarmor",
     "type": "recipe",

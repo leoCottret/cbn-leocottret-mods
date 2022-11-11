@@ -9,15 +9,6 @@
     "description": "A colorful and ridiculous wig fit for a clown.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL clown nose" },
-    "copy-from": "clown_nose",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "clown_nose_xl",
-    "description": "A red latex nose often seen being worn by clowns.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "XL golden crown" },
     "copy-from": "crown_golden",
     "type": "ARMOR",
@@ -43,41 +34,5 @@
     "extend": { "flags": [ "OVERSIZE" ] },
     "id": "mouthpiece_xl",
     "description": "A protective piece of equipment commonly used by athletes, which is worn inside the mouth to protect your teeth.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL skinny tie" },
-    "copy-from": "tie_skinny",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "tie_skinny_xl",
-    "description": "A skinny black and white checkered necktie.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL bow tie" },
-    "copy-from": "tie_bow",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "tie_bow_xl",
-    "description": "A simple black bow tie.  Best worn with a suit.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL clip-on tie" },
-    "copy-from": "tie_clipon",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "tie_clipon_xl",
-    "description": "A clip-on necktie, with blue and silver stripes.  It's quick and easy to put on, and much better than the necktie.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL necktie" },
-    "copy-from": "tie_necktie",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "tie_necktie_xl",
-    "description": "An ordinary, green necktie.  It's more difficult to put on, but it takes real skill to do so.  Wearing a necktie is much better than wearing a clip-on tie.  This can be worn regardless of your state of mutation"
   }
 ]
