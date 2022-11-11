@@ -32,6 +32,9 @@ pathlib.Path("results").mkdir(parents=True, exist_ok=True)
 result_folder = pathlib.Path("results")
 # we don't went to create XL versions of some armors, this is a list of those ids
 blacklist_file_name = "armors_blacklist.txt"
+# we want to create XL versions of some armors, no matter whate
+# eg kevlar, that has a useless outer layer XL version (there is much better or this layer) instead of a close skin one
+whitelist_file_name = "armors_whitelist.txt"
 # if the armor id contains one of those keywords, exclude it. Difference with the blacklist is, 
 # this won't search for an exact match, but if the id contains one of those words
 blacklist_keywords = [ "badge_", "_bracelet", "_cat_ears", "_collar", "_cufflinks", "_earring", "_necklace" ]
@@ -58,8 +61,8 @@ armor_types = [ "ARMOR", "TOOL_ARMOR" ]
 # to check if the json object is a valid recipe. Same comment as above
 recipe_types = [ "recipe", "uncraft" ]
 
-# sort blacklist by alphabetical order on script load, and replace file content, could be useful if the file becomes big. Shouble probably be always True
-sort_blacklist:bool = True
+# sort black/whitelists by alphabetical order on script load, and replace file content, could be useful if the file becomes big. Shouble probably be always True
+sort_bw_lists:bool = True
 # END OPTIONS, YOU SHOULDN'T HAVE TO CHANGE THINGS BELOW THAT
 
 
@@ -97,14 +100,18 @@ def get_armor_name(armor: XLArmor|Armor):
 global existing_xl_armor_found
 existing_xl_armor_found = False
 # check if armor already exists in vanilla or one of your mods
-def check_xl_armor_existence(armor: Armor, new_xl_armor: XLArmor, armor_blacklist_ids: list, potential_armors_data):
+def check_xl_armor_existence(armor: Armor, new_xl_armor: XLArmor, armor_blacklist_ids: list, armor_whitelist_ids: list, potential_armors_data):
     global existing_xl_armor_found
+
+    # if it's in the whitelist, we don't check further (it may already exists, and that's the point of the whitelist)
+    if armor.id in armor_whitelist_ids:
+        return
 
     for module_files in potential_armors_data:
         for file_data in module_files:
             for a in file_data.data:
                 # get armor name (either name is a string, it contains a str field, or a str_sp field)
-                if (is_valid_armor(a, armor_blacklist_ids)):
+                if is_valid_armor(a, armor_blacklist_ids):
                     # should cover most cases. Would have been simpler if there was some convention...
                     # if there's already an armor that has the same id as the original armor when 
                     #   the id starts with xl, and if we remove it, we have the same id EG xlboots_combat
@@ -186,19 +193,20 @@ def get_potential_mod_info(raw_json_objects):
     return modinfo
 
 # if we want to avoid making a xl version of an armor, we put its id in the blacklist file
+# if we have an armor that shouldn't have a XL version, but we want to create one anyway, we put its id in the whitelist
 # this function load those ids and return them in an array
-def load_blacklist_ids(file_name, sort_blacklist):
-    blacklist_ids = []
+def load_bw_list_ids(file_name, sort_bw_lists):
+    list_ids = []
     with open(file_name) as f:
         for armor_id in f:
-            blacklist_ids.append(armor_id.replace('\n', ''))
-    if (sort_blacklist):
-        blacklist_ids = sorted(blacklist_ids)
+            list_ids.append(armor_id.replace('\n', ''))
+    if (sort_bw_lists):
+        list_ids = sorted(list_ids)
         f = open(file_name, "w")
-        for armor_id in blacklist_ids:
+        for armor_id in list_ids:
             f.write(armor_id + "\n")
         f.close()
-    return blacklist_ids
+    return list_ids
 
 # does this armor needs a xl version of it? Checks if it's in the blacklist, and if it has both no copy_from and no coverage
 # an armor coverage means that this armor is only wearable by normal sized characters by default
@@ -243,11 +251,15 @@ def is_xl_armor(armor: ARMOR):
 
 # will check everything to be sure it's an armor that needs a XL version
 # will be called recursively if copy_from is set
-def check_if_needs_xl_armor(armor:Armor, armor_blacklist_ids, potential_armors_data, from_child=False):
+def check_if_needs_xl_armor(armor:Armor, armor_blacklist_ids, armor_whitelist_ids, potential_armors_data, from_child=False):
 
     # if it's an abstract object and not from a child, we really don't want it!
     if armor.abstract and not from_child:
         return False
+
+    # we have a VIP, let him pass
+    if armor_whitelist_ids and armor.id in armor_whitelist_ids:
+        return True
 
     # if it's an xl armor, not doubt, we don't want it
     # if it's a blacklisted id, has a blacklisted keyword, or has no coverage and no copy from, we also definitly don't want a XL armor
@@ -271,7 +283,7 @@ def check_if_needs_xl_armor(armor:Armor, armor_blacklist_ids, potential_armors_d
                     # IMPORTANT, we do not check if the armor is blacklisted here
                     # in case if we have an armor B that inherits from a blacklisted armor A
                     # well in that case, we don't care if armor A is blacklisted, we still need the info!
-                    return check_if_needs_xl_armor(a, None, potential_armors_data, True)
+                    return check_if_needs_xl_armor(a, None, None, potential_armors_data, True)
 
     # if we didn't find the parent, it's best to create an armor
     # very rarely, an armor item inherit from a non armor item
@@ -582,7 +594,8 @@ if __name__ == "__main__":
         potential_recipes_data.append(potential_mod_armor_data)
 
     # load blacklisted armor ids
-    armor_blacklist_ids = load_blacklist_ids(blacklist_file_name, sort_blacklist)
+    armor_blacklist_ids = load_bw_list_ids(blacklist_file_name, sort_bw_lists)
+    armor_whitelist_ids = load_bw_list_ids(whitelist_file_name, sort_bw_lists)
 
     # "main loop"
     for module_files in potential_armors_data:
@@ -596,9 +609,9 @@ if __name__ == "__main__":
             selected_armors = []
             for armor in file_data.data:
                 # we don't want to create a xl armor of a xl armor. Is not checked in is_valid_armor because this function is used in check_xl_armor... too   
-                if check_if_needs_xl_armor(armor, armor_blacklist_ids, potential_armors_data):
+                if check_if_needs_xl_armor(armor, armor_blacklist_ids, armor_whitelist_ids, potential_armors_data):
                     xl_armor = XLArmor.from_armor(armor, XL_factors)
-                    check_xl_armor_existence(armor, xl_armor, armor_blacklist_ids, potential_armors_data)
+                    check_xl_armor_existence(armor, xl_armor, armor_blacklist_ids, armor_whitelist_ids, potential_armors_data)
                     xl_armor_json = json.loads(msgspec.json.encode(xl_armor))
                     xl_armors_json.append(xl_armor_json)
                     selected_armors.append(armor)

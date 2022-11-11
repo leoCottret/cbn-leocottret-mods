@@ -65,7 +65,6 @@ jeans
 jumpsuit
 jumpsuit_leather
 jumpsuit_leather_mod
-kevlar
 leather_belt
 leg_splint
 leg_warmers

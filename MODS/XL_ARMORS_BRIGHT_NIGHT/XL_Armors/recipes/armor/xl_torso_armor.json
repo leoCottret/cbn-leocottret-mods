@@ -128,6 +128,16 @@
     "components": [ [ [ "football_armor", 1 ] ] ]
   },
   {
+    "result": "kevlar_xl",
+    "id_suffix": "from_kevlar",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "kevlar", 1 ] ] ]
+  },
+  {
     "result": "lsurvivor_armor_xl",
     "type": "recipe",
     "category": "CC_ARMOR",

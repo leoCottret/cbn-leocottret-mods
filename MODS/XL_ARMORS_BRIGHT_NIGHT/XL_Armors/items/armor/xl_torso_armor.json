@@ -99,6 +99,15 @@
     "description": "Heavy plastic armor for your upper torso.  Normally worn by football players.  This can be worn regardless of your state of mutation"
   },
   {
+    "name": { "str": "XL Kevlar vest" },
+    "copy-from": "kevlar",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "kevlar_xl",
+    "description": "A lightweight, bullet resistant vest.  Suitable for wearing under clothing.  This can be worn regardless of your state of mutation"
+  },
+  {
     "name": { "str": "XL light survivor body armor" },
     "copy-from": "lsurvivor_armor",
     "type": "ARMOR",
