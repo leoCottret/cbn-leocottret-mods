@@ -117,20 +117,38 @@ def check_xl_armor_existence(armor: Armor, new_xl_armor: XLArmor, armor_blacklis
                         print(armor.id)
                         return
 
-# load all potential armors from this file. Returns a list of Armor objects
-def get_potential_armors(targeted_file):
+
+
+
+# check if the file is correctly formatted and exist, then call the right function to load the objects type
+def get_potential_objects(targeted_file, data_type):
     if (not targeted_file.exists()):
         print("FILE DOESN T EXIST: " + targeted_file.name)
         exit()
-    raw_json_object = None
+    # try to decode the file, if there's an error in the json formatting, it will print the absolute path and stop the script
+    raw_json_objects = None
     try:
-        raw_json_object = msgspec.json.decode(targeted_file.read_bytes())
+        raw_json_objects = msgspec.json.decode(targeted_file.read_bytes())
     except msgspec.DecodeError:
         print(f"FILE JSON DECODE ERROR on file: {targeted_file.resolve()} \nPlease format it correctly.")
         exit()
 
+    formatted_objects = None
+    if data_type == "ARMOR":
+        formatted_objects = get_potential_armors(raw_json_objects)
+    elif data_type == "RECIPE":
+        formatted_objects = get_potential_recipes(raw_json_objects)
+    elif data_type == "MOD_INFO":
+        formatted_objects = get_potential_mod_info(raw_json_objects)
+    else:
+        print("WRONG DATA TYPE")
+        exit()
+    return formatted_objects
+
+# load all potential armors from the raw json file content
+def get_potential_armors(raw_json_objects):
     new_raw_json_objects = []
-    for raw_json in raw_json_object:
+    for raw_json in raw_json_objects:
         valid:bool = False
         for allowed_armor_type in armor_types:
             # we want to avoid potential non armor objects in the file
@@ -142,15 +160,10 @@ def get_potential_armors(targeted_file):
     armors = msgspec.json.decode(json.dumps(new_raw_json_objects).encode('utf-8'), type=list[Armor])
     return armors
 
-# load all potential recipes from this file. Returns a list of Recipe objects
-def get_potential_recipes(targeted_file):
-    if (not targeted_file.exists()):
-        print("FILE DOESN T EXIST: " + targeted_file.name)
-        exit()
-
-    raw_json_object = msgspec.json.decode(targeted_file.read_bytes())
+# load all potential recipes from the raw json file content. Returns a list of Recipe objects
+def get_potential_recipes(raw_json_objects):
     new_raw_json_objects = []
-    for raw_json in raw_json_object:
+    for raw_json in raw_json_objects:
         valid:bool = False
         for allowed_recipe_type in recipe_types:
             # we want to avoid potential non recipe objects in the file
@@ -161,15 +174,10 @@ def get_potential_recipes(targeted_file):
     recipes = msgspec.json.decode(json.dumps(new_raw_json_objects).encode('utf-8'), type=list[Recipe])
     return recipes
 
-# load "all" potential mod info in this file. Sometimes mods contain non modinfo json objects (the mod content is in this file...). This filters it
-def get_potential_mod_info(targeted_file):
-    if (not targeted_file.exists()):
-        print("FILE DOESN T EXIST: " + targeted_file.name)
-        exit()
-
-    raw_json_object = msgspec.json.decode(targeted_file.read_bytes())
+# load "all" potential mod info from the raw json file content. Sometimes mods contain non modinfo json objects (the mod content is in this file...). This filters it
+def get_potential_mod_info(raw_json_objects):
     new_raw_json_objects = []
-    for raw_json in raw_json_object:
+    for raw_json in raw_json_objects:
         valid:bool = False
         # we want to avoid potential non modinfo objects in the file
         if ("'type': '"+modinfo_type+"'" in str(raw_json)) and ("'id': '" in str(raw_json)):
@@ -272,21 +280,12 @@ def check_if_needs_xl_armor(armor:Armor, armor_blacklist_ids, potential_armors_d
     return True
 
 # load every potential recipes or armors, and store them with their respective file name, and it's origin (the mod folder or "IS_VANILLA")
-# TODO set data_type as an enum
 def load_potential_data(potential_data_folders, data_type, origin):
     potential_data = []
     for file_group in potential_data_folders:
         for targeted_file_path in file_group:
             data = []
-            if (data_type == "ARMOR"):
-                data = get_potential_armors(targeted_file_path)
-            elif (data_type == "RECIPE"):
-                data = get_potential_recipes(targeted_file_path)
-            elif (data_type == "MOD_INFO"):
-                data = get_potential_mod_info(targeted_file_path)
-            else:
-                print("WRONG DATA TYPE")
-                exit()
+            data = get_potential_objects(targeted_file_path, data_type)
             if len(data) > 0:
                 file_data = FileData(targeted_file_path, data, origin)
                 potential_data.append(file_data)
