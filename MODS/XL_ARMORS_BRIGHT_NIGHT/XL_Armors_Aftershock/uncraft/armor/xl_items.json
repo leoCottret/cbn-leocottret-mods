@@ -1,9 +1,0 @@
-[
-  {
-    "result": "afs_titanium_ring_xl",
-    "type": "uncraft",
-    "time": "30 s",
-    "qualities": [ { "id": "HAMMER", "level": 1 } ],
-    "components": [ [ [ "afs_titanium_small", 2 ] ] ]
-  }
-]

@@ -9,24 +9,6 @@
     "description": "A magical flexible stonelike substance for protection and attack.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL magic lamp" },
-    "copy-from": "magic_lamp",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "magic_lamp_xl",
-    "description": "a magical light source that will light up a small area.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL magic light" },
-    "copy-from": "magic_light",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "magic_light_xl",
-    "description": "A small magical light that you can read by.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str_sp": "XL slick icy coatings" },
     "copy-from": "ice_gliders",
     "type": "ARMOR",
