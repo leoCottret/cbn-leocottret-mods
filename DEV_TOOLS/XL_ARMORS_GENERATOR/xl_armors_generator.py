@@ -63,6 +63,7 @@ sort_blacklist:bool = True
 # END OPTIONS, YOU SHOULDN'T HAVE TO CHANGE THINGS BELOW THAT
 
 
+
 # used to create the vanilla module files, and give them some kind of flag. Mods use their folder name instead.
 # also the id of the main xl armor mod. Will also be written before the xl armor mod extensions for each mod
 # eg xl armor mod for arcana will have for id XL_Armors_Arcana
@@ -73,6 +74,7 @@ modinfo_type = "MOD_INFO"
 
 now = datetime.now()
 current_date = str(now.year) + "/" + str(now.month) + "/" + str(now.day)
+
 
 # get the armor name in the gazillon of possibilities
 def get_armor_name(armor: XLArmor|Armor):
@@ -117,11 +119,8 @@ def check_xl_armor_existence(armor: Armor, new_xl_armor: XLArmor, armor_blacklis
                         print(armor.id)
                         return
 
-
-
-
 # check if the file is correctly formatted and exist, then call the right function to load the objects type
-def get_potential_objects(targeted_file, data_type):
+def get_potential_objects(targeted_file, data_type: DataType):
     if (not targeted_file.exists()):
         print("FILE DOESN T EXIST: " + targeted_file.name)
         exit()
@@ -134,11 +133,11 @@ def get_potential_objects(targeted_file, data_type):
         exit()
 
     formatted_objects = None
-    if data_type == "ARMOR":
+    if data_type == DataType.ARMOR:
         formatted_objects = get_potential_armors(raw_json_objects)
-    elif data_type == "RECIPE":
+    elif data_type == DataType.RECIPE:
         formatted_objects = get_potential_recipes(raw_json_objects)
-    elif data_type == "MOD_INFO":
+    elif data_type == DataType.MOD_INFO:
         formatted_objects = get_potential_mod_info(raw_json_objects)
     else:
         print("WRONG DATA TYPE")
@@ -211,8 +210,8 @@ def is_valid_armor(armor: ARMOR, armor_blacklist_ids: list | None):
         if (gus(armor) in armor_blacklist_ids):
             is_valid = False
     
-    # we don't want to create a xl armor for something without coverage (and without copy-from), like earings, because they can be worn by mutants
-    # having encumbrance will also
+    # we don't want to create a xl armor for something without coverage, encumbrance and copy-from (inheritance)
+    # eg earing, because they can be worn by mutants
     if (not armor.copy_from and not armor.coverage and not armor.encumbrance):
         is_valid = False
     # we don't want this armor if it contains one of the blacklisted keywords too
@@ -321,6 +320,9 @@ def create_mod_info_file(result_folder, file_origin, mod_info:ModInfo|None = Non
 
 
 
+# defines the different possible data types
+class DataType:
+    ARMOR, RECIPE, MOD_INFO = range(3)
 
 # store the file name and the potential data (armors or recipes) in a file
 class FileData:
@@ -561,22 +563,22 @@ if __name__ == "__main__":
     # load all potential armors, and put them in potential_armors_data
     vanilla_files = pathlib.Path(game_folder_path + "/json/items/" ).glob('**/*.json')
     potential_armors_data = []
-    potential_armors_data.append(load_potential_data([vanilla_files], "ARMOR", VANILLA_FLAG))
+    potential_armors_data.append(load_potential_data([vanilla_files], DataType.ARMOR, VANILLA_FLAG))
 
     for mf in mod_root_folders: # mf for mod folder
         mod_files = pathlib.Path(str(mf)).glob('**/*.json')
-        potential_mod_armor_data = load_potential_data([mod_files], "ARMOR", mf.name)
+        potential_mod_armor_data = load_potential_data([mod_files], DataType.ARMOR, mf.name)
         potential_armors_data.append(potential_mod_armor_data)
 
     # load all potential recipes, and put them in potential_recipes_data
     vanilla_recipe_files = pathlib.Path(game_folder_path + "/json/recipes").glob('**/*.json')
     vanilla_uncraft_files = pathlib.Path(game_folder_path + "/json/uncraft").glob('**/*.json')
     potential_recipes_data = []
-    potential_recipes_data.append(load_potential_data([vanilla_recipe_files, vanilla_uncraft_files], "RECIPE", VANILLA_FLAG))
+    potential_recipes_data.append(load_potential_data([vanilla_recipe_files, vanilla_uncraft_files], DataType.RECIPE, VANILLA_FLAG))
 
     for mf in mod_root_folders:
         mod_files = pathlib.Path(str(mf)).glob('**/*.json')
-        potential_mod_armor_data = load_potential_data([mod_files], "RECIPE", mf.name)
+        potential_mod_armor_data = load_potential_data([mod_files], DataType.RECIPE, mf.name)
         potential_recipes_data.append(potential_mod_armor_data)
 
     # load blacklisted armor ids
@@ -672,7 +674,7 @@ if __name__ == "__main__":
         for mif in mod_info_files:
             # if the modfile was in the same folder as this newly created one
             if nxamf.name == mif.parent.name:
-                modinfo_data = load_potential_data([[mif]], "MOD_INFO", nxamf.name)
+                modinfo_data = load_potential_data([[mif]], DataType.MOD_INFO, nxamf.name)
                 mod_info_data.append(modinfo_data)
 
     # generate the new mod info files for the new folders in results
