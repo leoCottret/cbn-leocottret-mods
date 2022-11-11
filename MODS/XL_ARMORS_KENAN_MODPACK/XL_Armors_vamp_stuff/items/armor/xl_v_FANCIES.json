@@ -1,0 +1,20 @@
+[
+  {
+    "name": { "str": "XL bloodrune talisman" },
+    "copy-from": "blood_talisman",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "blood_talisman_xl",
+    "description": "An odd necklace with a beautifully etched bloodrune stone in eagle's talon shape. If you prick your fingertip in its sharp point, you feel your blood rushing towards it.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL bloodrune ring" },
+    "copy-from": "blood_cring",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "blood_cring_xl",
+    "description": "A shimmering bloodrune ring with a tiny etched symbol under it. A proof of loyalty to the commando.  This can be worn regardless of your state of mutation"
+  }
+]

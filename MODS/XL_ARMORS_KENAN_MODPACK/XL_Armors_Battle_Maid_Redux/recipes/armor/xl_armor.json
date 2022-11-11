@@ -13,6 +13,16 @@
     "components": [ [ [ "rag", 4 ] ] ]
   },
   {
+    "result": "maid_cap_shoggoth_xl",
+    "id_suffix": "from_maid_cap_shoggoth",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "maid_cap_shoggoth", 1 ] ] ]
+  },
+  {
     "result": "cat_maid_cap_xl",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -24,5 +34,18 @@
     "autolearn": true,
     "tools": [ [ [ "sewing_kit", 20 ] ] ],
     "components": [ [ [ "rag", 6 ] ] ]
+  },
+  {
+    "result": "petticoat_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "80 m",
+    "reversible": false,
+    "autolearn": true,
+    "tools": [ [ [ "sewing_kit", 30 ] ] ],
+    "components": [ [ [ "rag", 9 ] ] ]
   }
 ]

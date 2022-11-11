@@ -30,6 +30,36 @@
     "components": [ [ [ "crt_la_boots", 1 ] ] ]
   },
   {
+    "result": "crt_gloves_xl",
+    "id_suffix": "from_crt_gloves",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "crt_gloves", 1 ] ] ]
+  },
+  {
+    "result": "crt_gloves_liner_xl",
+    "id_suffix": "from_crt_gloves_liner",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "crt_gloves_liner", 1 ] ] ]
+  },
+  {
+    "result": "crt_chestrig_xl",
+    "id_suffix": "from_crt_chestrig",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "crt_chestrig", 1 ] ] ]
+  },
+  {
     "result": "crt_legguard_xl",
     "id_suffix": "from_crt_legguard",
     "type": "recipe",
@@ -58,6 +88,16 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "crt_iduster", 1 ] ] ]
+  },
+  {
+    "result": "ds_monitor_xl",
+    "id_suffix": "from_ds_monitor",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "ds_monitor", 1 ] ] ]
   },
   {
     "result": "crt_aarmor_xl",

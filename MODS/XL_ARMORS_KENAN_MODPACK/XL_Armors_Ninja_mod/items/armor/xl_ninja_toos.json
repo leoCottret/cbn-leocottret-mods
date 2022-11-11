@@ -90,6 +90,15 @@
     "description": "These tabi were strengthened with modern materials. We have devised to keep light movement in every environment. To that extent, the blade preventive performance has been sacrificed.  This can be worn regardless of your state of mutation"
   },
   {
+    "name": { "str": "XL Ninja tengu mask" },
+    "copy-from": "ninja_tengu_mask",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "ninja_tengu_mask_xl",
+    "description": "Tengu is an imaginary creature in Japan and has a deep relationship with mountain faith. This is a handicraft imitating the face of the Tengu, it seems to be a considerable age.  This can be worn regardless of your state of mutation"
+  },
+  {
     "name": { "str": "XL Ninja jet pack" },
     "copy-from": "ninja_jetpack",
     "type": "TOOL_ARMOR",

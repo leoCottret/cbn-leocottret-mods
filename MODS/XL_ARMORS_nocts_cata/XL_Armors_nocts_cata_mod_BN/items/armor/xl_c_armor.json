@@ -1,0 +1,245 @@
+[
+  {
+    "name": { "str": "XL survivor's archer backpack" },
+    "copy-from": "survbowpack",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "survbowpack_xl",
+    "description": "A custom-built backpack modified further to be an archer's best friend.  Lots of storage, manageable encumbrance and a built in quiver.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor plate armor" },
+    "copy-from": "armor_lightplate_surv",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_lightplate_surv_xl",
+    "description": "A suit of Gothic plate armor modified with kevlar and leather, altered to better protect the gaps between plates and provide better protection from the elements.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor cuirass", "str_pl": "XL survivor cuirasses" },
+    "copy-from": "cuirass_lightplate_surv",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cuirass_lightplate_surv_xl",
+    "description": "A medieval steel breastplate, modified with kevlar and leather to better protect from the elements.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor steel arm guards", "str_pl": "XL survivor steel arm guards" },
+    "copy-from": "armguard_lightplate_surv",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armguard_lightplate_surv_xl",
+    "description": "A full assembly of medieval arm protection.  Rerebraces, couters, and vambraces, subsequently modified with kevlar and leather to better protect the joints.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor steel leg guards", "str_pl": "XL survivor steel leg guards" },
+    "copy-from": "legguard_lightplate_surv",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "legguard_lightplate_surv_xl",
+    "description": "A full assembly of medieval leg protection.  Cuisses, poleyns, and greaves, subsequently modified with kevlar and leather to better protect the joints.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor great helm" },
+    "copy-from": "helmet_plate_surv",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_plate_surv_xl",
+    "description": "A medieval helmet that has been heavily modified, widening the eye slits and breaths, with ballistic lenses and a kevlar aventail helping make up for the increased vulnerability.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL survivor armored gauntlets", "str_pl": "pairs of XL survivor armored gauntlets" },
+    "copy-from": "gloves_plate_surv",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gloves_plate_surv_xl",
+    "description": "A heavy set of medieval gauntlets, modified with kevlar reinforcements to increase protection from the elements.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL survivor armored boots", "str_pl": "pairs of XL survivor armored boots" },
+    "copy-from": "boots_plate_surv",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_plate_surv_xl",
+    "description": "A heavy set of armor plated boots, modified with kevlar to better protect from the elements.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL mute boots", "str_pl": "pairs of XL mute boots" },
+    "copy-from": "boots_stealth",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_stealth_xl",
+    "description": "Experimental reinforced boots that completely silence your steps, but also slow your movement.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL radiogenic goggles", "str_pl": "pair of radiogenic gogglespairs of XL " },
+    "copy-from": "goggles_nv_clairvoyance",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "goggles_nv_clairvoyance_xl",
+    "description": "Experimental goggles that use gamma radiation emitters, allowing the user to see through walls and in the dark.  Prolonged use is not recommended due to danger of radiation poisoning.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL light military armor" },
+    "copy-from": "lmil_armor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "lmil_armor_xl",
+    "description": "A fairly light full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from a fabric bodysuit with advanced composite plates, it is relatively easy to move in but protection is minimal, only rated for pistol-caliber rounds and fragmentation.  It also has two pouches for various sizes of small and medium magazines.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL military armor" },
+    "copy-from": "mil_armor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mil_armor_xl",
+    "description": "A full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition, but may fail against full-power rifle rounds.  It also has two pouches for various sizes of small and medium magazines.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL heavy military armor" },
+    "copy-from": "hmil_armor",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hmil_armor_xl",
+    "description": "A heavy-duty full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from heavy-duty lining with advanced plating, it protects the body rather well against most rifle rounds, but may be too cumbersome for most situations.  It also has two pouches for various sizes of medium and large magazines.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL light military helmet" },
+    "copy-from": "lmil_helm",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "lmil_helm_xl",
+    "description": "A fairly light full-face ballistic helmet, one size fits most.  Made from a fabric lining with advanced composite plates, it is only rated for pistol-caliber rounds and fragmentation.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL military helmet" },
+    "copy-from": "mil_helm",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "mil_helm_xl",
+    "description": "A full-face ballistic helmet, one size fits most.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to intermediate caliber ammunition.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL heavy military helmet" },
+    "copy-from": "hmil_helm",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "hmil_helm_xl",
+    "description": "A heavy-duty full-face ballistic helmet, one size fits most.  Made from heavy-duty lining with advanced plating, it protects the head rather well against most rifle rounds.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL designer bra" },
+    "copy-from": "fancy_bra",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fancy_bra_xl",
+    "description": "A luxurious designer bra.  Serves its purpose and looks good on you.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL designer panties" },
+    "copy-from": "fancy_panties",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fancy_panties_xl",
+    "description": "A luxurious set of designer panties. Preserves your modesty and looks good on you.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL designer briefs" },
+    "copy-from": "fancy_briefs",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fancy_briefs_xl",
+    "description": "A pair of designer briefs.  Comfortable and good looking underwear worn by men.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL designer boxer shorts" },
+    "copy-from": "fancy_boxer_shorts",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fancy_boxer_shorts_xl",
+    "description": "Men's designer boxer shorts.  Much more fashionable than briefs and just as comfortable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str_sp": "XL designer boxer briefs" },
+    "copy-from": "fancy_boxer_briefs",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fancy_boxer_briefs_xl",
+    "description": "The age-old question, boxers or briefs?  Your answer?  Yes, the fancy kind.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL leather bikini bottom" },
+    "copy-from": "bikini_bottom_leather",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bikini_bottom_leather_xl",
+    "description": "A simple leather bikini bottom.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fur bikini bottom" },
+    "copy-from": "bikini_bottom_fur",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "bikini_bottom_fur_xl",
+    "description": "A simple fur bikini bottom.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL thong" },
+    "copy-from": "thong",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "thong_xl",
+    "description": "Women's underwear that covers a little less than normal in exchange for stares.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL dress skirt" },
+    "copy-from": "dress_skirt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "dress_skirt_xl",
+    "description": "A short yet professional looking cotton skirt.  Somewhat easy to move in, but has no pockets.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL microskirt" },
+    "copy-from": "microskirt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "microskirt_xl",
+    "description": "A skirt that is on the short side.  No pockets but it is comfortable to wear.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor cowboy hat" },
+    "copy-from": "cowboy_hat_surv",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "cowboy_hat_surv_xl",
+    "description": "A wide-brimmed hat that's been modified with kevlar padding, and bandolier loops sewn onto the hat band.  Perfect for holding a few cartridges somewhere out of the way, its adjustable loops fitting a wide variety of ammunition.  This can be worn regardless of your state of mutation"
+  }
+]

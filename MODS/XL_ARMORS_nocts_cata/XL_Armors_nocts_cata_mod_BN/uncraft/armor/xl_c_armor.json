@@ -1,0 +1,68 @@
+[
+  {
+    "result": "lmil_armor_xl",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "30 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "rag", 21 ] ], [ [ "kevlar_plate", 10 ] ], [ [ "alloy_plate", 2 ] ], [ [ "alloy_sheet", 3 ] ] ]
+  },
+  {
+    "result": "mil_armor_xl",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "30 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [
+      [ [ "leather", 21 ] ],
+      [ [ "kevlar_plate", 14 ] ],
+      [ [ "alloy_plate", 3 ] ],
+      [ [ "alloy_sheet", 1 ] ],
+      [ [ "hard_steel_armor", 1 ] ]
+    ]
+  },
+  {
+    "result": "hmil_armor_xl",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "30 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "kevlar_plate", 54 ] ], [ [ "alloy_plate", 7 ] ], [ [ "hard_steel_armor", 3 ] ] ]
+  },
+  {
+    "result": "lmil_helm_xl",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "10 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "rag", 2 ] ], [ [ "kevlar_plate", 1 ] ], [ [ "alloy_sheet", 3 ] ] ]
+  },
+  {
+    "result": "mil_helm_xl",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "10 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [
+      [ [ "leather", 2 ] ],
+      [ [ "kevlar_plate", 3 ] ],
+      [ [ "alloy_plate", 1 ] ],
+      [ [ "alloy_sheet", 2 ] ],
+      [ [ "hard_steel_armor", 1 ] ]
+    ]
+  },
+  {
+    "result": "hmil_helm_xl",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "10 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "kevlar_plate", 6 ] ], [ [ "alloy_plate", 2 ] ], [ [ "hard_steel_armor", 1 ] ] ]
+  }
+]

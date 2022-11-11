@@ -1,5 +1,14 @@
 [
   {
+    "name": { "str": "XL Survivor Top" },
+    "copy-from": "porawep_survivor_top",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "porawep_survivor_top_xl",
+    "description": "The answer to the ever evolving challange of the cataclysm, survivor gear is customized for utility and versility. This particular gear set is a long sleeve shirt with plenty of pockets. A nomex underlay protects from the enviroment while kevlar gives a bit of physical protection.  This can be worn regardless of your state of mutation"
+  },
+  {
     "name": { "str": "XL Survivor Bottoms" },
     "copy-from": "porawep_survivor_bottoms",
     "type": "ARMOR",

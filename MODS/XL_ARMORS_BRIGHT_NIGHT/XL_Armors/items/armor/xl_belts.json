@@ -1,5 +1,14 @@
 [
   {
+    "name": { "str": "XL firefighter belt" },
+    "copy-from": "fireman_belt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "fireman_belt_xl",
+    "description": "A stout firefighter's belt.  Useful for keeping your bunker gear up, it also doubles as an equipment belt with a reinforced loop for holding a large tool.  This can be worn regardless of your state of mutation"
+  },
+  {
     "name": { "str": "XL black belt" },
     "copy-from": "judo_belt_black",
     "type": "ARMOR",
@@ -61,5 +70,23 @@
     "extend": { "flags": [ "OVERSIZE" ] },
     "id": "judo_belt_yellow_xl",
     "description": "A belt worn by martial arts practitioners, advertising a moderate novice.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL obi" },
+    "copy-from": "obi_gi",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "obi_gi_xl",
+    "description": "A broad, black obi gi.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL webbing belt" },
+    "copy-from": "webbing_belt",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "webbing_belt_xl",
+    "description": "A 2-inch nylon webbing belt commonly used by military forces.  This can be worn regardless of your state of mutation"
   }
 ]

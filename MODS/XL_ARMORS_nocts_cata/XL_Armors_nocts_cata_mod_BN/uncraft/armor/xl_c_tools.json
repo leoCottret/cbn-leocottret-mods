@@ -1,0 +1,16 @@
+[
+  {
+    "result": "parawatch_xl",
+    "type": "uncraft",
+    "time": "1 m",
+    "components": [ [ [ "parabracelets", 1 ] ], [ [ "wristwatch", 1 ] ], [ [ "thermometer", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "parabracelets_xl",
+    "type": "uncraft",
+    "time": "1 m",
+    "components": [ [ [ "string_36", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  }
+]

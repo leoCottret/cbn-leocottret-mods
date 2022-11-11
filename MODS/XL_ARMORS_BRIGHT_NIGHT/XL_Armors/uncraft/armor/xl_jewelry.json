@@ -1,0 +1,317 @@
+[
+  {
+    "result": "bead_ear_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "splinter", 1 ] ] ]
+  },
+  {
+    "result": "bracelet_friendship_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "splinter", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
+  },
+  {
+    "result": "bronze_medal_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "scrap", 1 ] ] ]
+  },
+  {
+    "result": "diamond_dental_grill_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 2 ] ], [ [ "diamond", 1 ] ] ]
+  },
+  {
+    "result": "garnet_dental_grill_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ], [ [ "garnet", 1 ] ] ]
+  },
+  {
+    "result": "barrette_xl",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "time": "6 s",
+    "components": [ [ [ "plastic_scrap", 1 ] ] ]
+  },
+  {
+    "result": "diamond_ring_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 2 ] ], [ [ "diamond", 1 ] ] ]
+  },
+  {
+    "result": "collarpin_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 4 ] ] ]
+  },
+  {
+    "result": "copper_ear_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "copper", 30 ] ] ]
+  },
+  {
+    "result": "copper_hairpin_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "copper", 3 ] ] ]
+  },
+  {
+    "result": "copper_locket_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "copper", 4 ] ] ]
+  },
+  {
+    "result": "copper_ring_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "copper", 3 ] ] ]
+  },
+  {
+    "result": "cufflinks_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 3 ] ] ]
+  },
+  {
+    "result": "cufflinks_intricate_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 2 ] ], [ [ "gold_small", 2 ] ] ]
+  },
+  {
+    "result": "ear_spool_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "plastic_chunk", 1 ] ] ]
+  },
+  {
+    "result": "gold_dental_grill_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 2 ] ] ]
+  },
+  {
+    "result": "gold_ear_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 2 ] ] ]
+  },
+  {
+    "result": "gold_hairpin_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 3 ] ] ]
+  },
+  {
+    "result": "gold_locket_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ] ]
+  },
+  {
+    "result": "gold_medal_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 3 ] ] ]
+  },
+  {
+    "result": "gold_ring_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 2 ] ] ]
+  },
+  {
+    "result": "gold_ring_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 2 ] ] ]
+  },
+  {
+    "result": "tieclip_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 4 ] ] ]
+  },
+  {
+    "result": "silver_ear_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 3 ] ] ]
+  },
+  {
+    "result": "small_relic_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 24 ] ] ]
+  },
+  {
+    "result": "holy_symbol_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 4 ] ] ]
+  },
+  {
+    "result": "holy_symbol_wood_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "splinter", 1 ] ] ]
+  },
+  {
+    "result": "platinum_dental_grill_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "platinum_small", 2 ] ] ]
+  },
+  {
+    "result": "platinum_ear_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "platinum_small", 2 ] ] ]
+  },
+  {
+    "result": "platinum_hairpin_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "platinum_small", 3 ] ] ]
+  },
+  {
+    "result": "platinum_locket_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "platinum_small", 4 ] ] ]
+  },
+  {
+    "result": "platinum_ring_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "platinum_small", 2 ] ] ]
+  },
+  {
+    "result": "ring_engagement_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 3 ] ], [ [ "diamond", 1 ] ] ]
+  },
+  {
+    "result": "ring_purity_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 3 ] ] ]
+  },
+  {
+    "result": "ring_signet_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 2 ] ], [ [ "silver_small", 2 ] ] ]
+  },
+  {
+    "result": "ring_wedding_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 2 ] ], [ [ "diamond", 2 ] ] ]
+  },
+  {
+    "result": "silver_hairpin_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 3 ] ] ]
+  },
+  {
+    "result": "silver_locket_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 12 ] ] ]
+  },
+  {
+    "result": "silver_medal_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 3 ] ] ]
+  },
+  {
+    "result": "silver_ring_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 3 ] ] ]
+  },
+  {
+    "result": "fur_cat_tail_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "fur", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
+  },
+  {
+    "result": "leather_cat_tail_xl",
+    "type": "uncraft",
+    "time": "30 s",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "leather", 1 ] ] ]
+  },
+  {
+    "result": "garnet_gold_ring_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "gold_small", 2 ] ], [ [ "garnet", 1 ] ] ]
+  },
+  {
+    "result": "garnet_silver_ring_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "silver_small", 2 ] ], [ [ "garnet", 1 ] ] ]
+  },
+  {
+    "result": "garnet_platinum_ring_xl",
+    "type": "uncraft",
+    "time": "60 s",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "platinum_small", 2 ] ], [ [ "garnet", 1 ] ] ]
+  }
+]

@@ -9,6 +9,24 @@
     "description": "A magical flexible stonelike substance for protection and attack.  This can be worn regardless of your state of mutation"
   },
   {
+    "name": { "str": "XL magic lamp" },
+    "copy-from": "magic_lamp",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "magic_lamp_xl",
+    "description": "a magical light source that will light up a small area.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL magic light" },
+    "copy-from": "magic_light",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "magic_light_xl",
+    "description": "A small magical light that you can read by.  This can be worn regardless of your state of mutation"
+  },
+  {
     "name": { "str_sp": "XL slick icy coatings" },
     "copy-from": "ice_gliders",
     "type": "ARMOR",
@@ -25,5 +43,14 @@
     "extend": { "flags": [ "OVERSIZE" ] },
     "id": "fleshpouch_xl",
     "description": "A large pouch of tough flesh on your back, filled with tiny tentacles that grasp and hold anything you place inside.  It shifts and adjusts itself to minimize encumbrance.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL overcharge burn" },
+    "copy-from": "overcharge_burn_scar",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "overcharge_burn_scar_xl",
+    "description": "Ouch, this really smarts!  It'll go away soon, maybe?  This can be worn regardless of your state of mutation"
   }
 ]

@@ -1,0 +1,29 @@
+[
+  {
+    "name": { "str": "XL scout's tool" },
+    "copy-from": "megamap",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "megamap_xl",
+    "description": "This is a bulky electronic wrist mounted tool, designed to provide an accurate topographical map of your surroundings when used.  It also comes with digital clock and alarm features.  The battery is integral to the device, and requires sunlight or a recharging station to charge.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL paracord survival watch", "str_pl": "XL paracord survival watches" },
+    "copy-from": "parawatch",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "parawatch_xl",
+    "description": "A simple wristwatch on a plastic band, wrapped with a paracord bracelet with a thermometer attached.  Tells the time and has an alarm clock feature.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL paracord bracelet" },
+    "copy-from": "parabracelets",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "parabracelets_xl",
+    "description": "A simple bracelet made out of paracord.  Disassemble for some string.  This can be worn regardless of your state of mutation"
+  }
+]

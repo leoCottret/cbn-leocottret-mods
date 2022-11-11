@@ -382,6 +382,26 @@
     ]
   },
   {
+    "result": "hairpin_xl",
+    "id_suffix": "from_hairpin",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "hairpin", 1 ] ] ]
+  },
+  {
+    "result": "fc_hairpin_xl",
+    "id_suffix": "from_fc_hairpin",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "fc_hairpin", 1 ] ] ]
+  },
+  {
     "result": "towel_xl",
     "id_suffix": "knitting",
     "type": "recipe",
@@ -588,6 +608,16 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "whistle", 1 ] ] ]
+  },
+  {
+    "result": "harmonica_holder_xl",
+    "id_suffix": "from_harmonica_holder",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "harmonica_holder", 1 ] ] ]
   },
   {
     "result": "acoustic_guitar_xl",

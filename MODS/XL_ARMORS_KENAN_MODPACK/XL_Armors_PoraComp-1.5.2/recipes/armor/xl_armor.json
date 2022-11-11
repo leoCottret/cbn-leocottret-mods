@@ -1,5 +1,23 @@
 [
   {
+    "result": "porawep_survivor_top_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": 100000,
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 50 ] ],
+    "tools": [ [ [ "welder", 14 ], [ "welder_crude", 21 ], [ "soldering_iron", 21 ], [ "toolset", 21 ] ] ],
+    "components": [
+      [ [ "rag", 18 ] ],
+      [ [ "nomex", 10 ], [ "nomex_suit", 1 ] ],
+      [ [ "duct_tape", 120 ] ],
+      [ [ "modularvest", 1 ], [ "kevlar_plate", 14 ] ]
+    ]
+  },
+  {
     "result": "porawep_survivor_bottoms_xl",
     "type": "recipe",
     "category": "CC_ARMOR",

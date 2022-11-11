@@ -1,5 +1,25 @@
 [
   {
+    "result": "belt_str_xl",
+    "id_suffix": "from_belt_str",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "belt_str", 1 ] ] ]
+  },
+  {
+    "result": "belt_haste_xl",
+    "id_suffix": "from_belt_haste",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "belt_haste", 1 ] ] ]
+  },
+  {
     "result": "wizard_hat_xl",
     "id_suffix": "from_wizard_hat",
     "type": "recipe",

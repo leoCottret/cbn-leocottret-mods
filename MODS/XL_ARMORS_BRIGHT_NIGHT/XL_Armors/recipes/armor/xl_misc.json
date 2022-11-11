@@ -10,6 +10,16 @@
     "components": [ [ [ "clown_wig", 1 ] ] ]
   },
   {
+    "result": "clown_nose_xl",
+    "id_suffix": "from_clown_nose",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "clown_nose", 1 ] ] ]
+  },
+  {
     "result": "crown_golden_xl",
     "id_suffix": "from_crown_golden",
     "type": "recipe",
@@ -42,5 +52,45 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "mouthpiece", 1 ] ] ]
+  },
+  {
+    "result": "tie_skinny_xl",
+    "id_suffix": "from_tie_skinny",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "tie_skinny", 1 ] ] ]
+  },
+  {
+    "result": "tie_bow_xl",
+    "id_suffix": "from_tie_bow",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "tie_bow", 1 ] ] ]
+  },
+  {
+    "result": "tie_clipon_xl",
+    "id_suffix": "from_tie_clipon",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "tie_clipon", 1 ] ] ]
+  },
+  {
+    "result": "tie_necktie_xl",
+    "id_suffix": "from_tie_necktie",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "tie_necktie", 1 ] ] ]
   }
 ]

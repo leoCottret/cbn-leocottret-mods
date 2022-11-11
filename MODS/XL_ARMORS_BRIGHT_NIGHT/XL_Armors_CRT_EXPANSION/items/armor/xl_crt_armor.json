@@ -27,6 +27,33 @@
     "description": "C.R.I.T skeletonized boots.  Based off of C.R.I.T boots, the light-armor variant was created for missions in warmer climates.  The LA boots keep most of the old features of the standard issue boots but trade in protection for easier movement.  This can be worn regardless of your state of mutation"
   },
   {
+    "name": { "str": "pair of XL CRIT fingertip-less gloves", "str_pl": "pairs of XL CRIT fingertip-less gloves" },
+    "copy-from": "crt_gloves",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_gloves_xl",
+    "description": "C.R.I.T standard-issue gloves.  Made with superalloy mesh for those with gene-modding and/or mutations while still allowing greater manipulation of items and moderate protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL CRIT fingertip-less liners", "str_pl": "pairs of XL CRIT fingertip-less liners" },
+    "copy-from": "crt_gloves_liner",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_gloves_liner_xl",
+    "description": "C.R.I.T standard-issue glove liners.  Made with neoprene and rubber mesh for warmth and fingertip-less for those with gene-modding and/or mutations while still allowing greater manipulation of items and moderate protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL CRIT chestrig" },
+    "copy-from": "crt_chestrig",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "crt_chestrig_xl",
+    "description": "C.R.I.T standard-issue chestrig, has mesh and MOLLE loops for gear and slots with light-armor padding.  This can be worn regardless of your state of mutation"
+  },
+  {
     "name": { "str": "pair of XL CRIT leg guards", "str_pl": "pairs of XL CRIT leg guards" },
     "copy-from": "crt_legguard",
     "type": "ARMOR",
@@ -52,6 +79,15 @@
     "extend": { "flags": [ "OVERSIZE" ] },
     "id": "crt_iduster_xl",
     "description": "A thick full-length duster coat with rubber insulation.  More than mildly encumbering, but rather protective against any anti-infantry electrical discharges from the robots.  Has several pockets for storage.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL CRIT S-I G.E.A.R" },
+    "copy-from": "ds_monitor",
+    "type": "TOOL_ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "ds_monitor_xl",
+    "description": "C.R.I.T standard issue General Engineering Assistance Rig.  Plugged into your spinal cord, this device improves your overall physique and provides basic information on your surroundings.  This can be worn regardless of your state of mutation"
   },
   {
     "name": { "str": "XL CRIT Armored Anomaly Suit" },

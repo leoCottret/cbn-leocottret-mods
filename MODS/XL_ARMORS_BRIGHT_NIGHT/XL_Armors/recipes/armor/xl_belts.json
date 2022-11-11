@@ -1,5 +1,15 @@
 [
   {
+    "result": "fireman_belt_xl",
+    "id_suffix": "from_fireman_belt",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "fireman_belt", 1 ] ] ]
+  },
+  {
     "result": "judo_belt_black_xl",
     "id_suffix": "from_judo_belt_black",
     "type": "recipe",
@@ -68,5 +78,25 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "judo_belt_yellow", 1 ] ] ]
+  },
+  {
+    "result": "obi_gi_xl",
+    "id_suffix": "from_obi_gi",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "obi_gi", 1 ] ] ]
+  },
+  {
+    "result": "webbing_belt_xl",
+    "id_suffix": "from_webbing_belt",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "webbing_belt", 1 ] ] ]
   }
 ]

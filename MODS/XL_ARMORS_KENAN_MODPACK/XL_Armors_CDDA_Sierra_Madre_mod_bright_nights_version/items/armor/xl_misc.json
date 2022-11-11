@@ -7,5 +7,23 @@
     "extend": { "flags": [ "OVERSIZE" ] },
     "id": "collar_armed_xl",
     "description": "The collar is constantly beeping, ready to blow up once its internal timer reaches zero.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Hologram visualisation" },
+    "copy-from": "npc_glue",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "npc_glue_xl",
+    "description": "If you see it it's one giant bug.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL Sierra Madre Vault console display" },
+    "copy-from": "npc_glue2",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "npc_glue2_xl",
+    "description": "If you see it it's one giant bug.  This can be worn regardless of your state of mutation"
   }
 ]

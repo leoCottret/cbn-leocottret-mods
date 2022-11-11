@@ -8,5 +8,25 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "collar_armed", 1 ] ] ]
+  },
+  {
+    "result": "npc_glue_xl",
+    "id_suffix": "from_npc_glue",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "npc_glue", 1 ] ] ]
+  },
+  {
+    "result": "npc_glue2_xl",
+    "id_suffix": "from_npc_glue2",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "npc_glue2", 1 ] ] ]
   }
 ]

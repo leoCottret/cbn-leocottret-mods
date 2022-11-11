@@ -1,5 +1,475 @@
 [
   {
+    "result": "bead_ear_xl",
+    "id_suffix": "from_bead_ear",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "bead_ear", 1 ] ] ]
+  },
+  {
+    "result": "bracelet_friendship_xl",
+    "id_suffix": "from_bracelet_friendship",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "bracelet_friendship", 1 ] ] ]
+  },
+  {
+    "result": "bronze_medal_xl",
+    "id_suffix": "from_bronze_medal",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "bronze_medal", 1 ] ] ]
+  },
+  {
+    "result": "diamond_dental_grill_xl",
+    "id_suffix": "from_diamond_dental_grill",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "diamond_dental_grill", 1 ] ] ]
+  },
+  {
+    "result": "garnet_dental_grill_xl",
+    "id_suffix": "from_garnet_dental_grill",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "garnet_dental_grill", 1 ] ] ]
+  },
+  {
+    "result": "barrette_xl",
+    "id_suffix": "from_barrette",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "barrette", 1 ] ] ]
+  },
+  {
+    "result": "diamond_ring_xl",
+    "id_suffix": "from_diamond_ring",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "diamond_ring", 1 ] ] ]
+  },
+  {
+    "result": "collarpin_xl",
+    "id_suffix": "from_collarpin",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "collarpin", 1 ] ] ]
+  },
+  {
+    "result": "copper_ear_xl",
+    "id_suffix": "from_copper_ear",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "copper_ear", 1 ] ] ]
+  },
+  {
+    "result": "copper_hairpin_xl",
+    "id_suffix": "from_copper_hairpin",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "copper_hairpin", 1 ] ] ]
+  },
+  {
+    "result": "copper_locket_xl",
+    "id_suffix": "from_copper_locket",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "copper_locket", 1 ] ] ]
+  },
+  {
+    "result": "copper_ring_xl",
+    "id_suffix": "from_copper_ring",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "copper_ring", 1 ] ] ]
+  },
+  {
+    "result": "cufflinks_xl",
+    "id_suffix": "from_cufflinks",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "cufflinks", 1 ] ] ]
+  },
+  {
+    "result": "cufflinks_intricate_xl",
+    "id_suffix": "from_cufflinks_intricate",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "cufflinks_intricate", 1 ] ] ]
+  },
+  {
+    "result": "ear_spool_xl",
+    "id_suffix": "from_ear_spool",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "ear_spool", 1 ] ] ]
+  },
+  {
+    "result": "gold_dental_grill_xl",
+    "id_suffix": "from_gold_dental_grill",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gold_dental_grill", 1 ] ] ]
+  },
+  {
+    "result": "gold_ear_xl",
+    "id_suffix": "from_gold_ear",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gold_ear", 1 ] ] ]
+  },
+  {
+    "result": "gold_hairpin_xl",
+    "id_suffix": "from_gold_hairpin",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gold_hairpin", 1 ] ] ]
+  },
+  {
+    "result": "gold_locket_xl",
+    "id_suffix": "from_gold_locket",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gold_locket", 1 ] ] ]
+  },
+  {
+    "result": "gold_medal_xl",
+    "id_suffix": "from_gold_medal",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gold_medal", 1 ] ] ]
+  },
+  {
+    "result": "gold_ring_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "120 m",
+    "book_learn": [ [ "jewelry_book", 6 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "using": [ [ "blacksmithing_standard", 3 ] ],
+    "tools": [ [ [ "swage", -1 ] ] ],
+    "components": [ [ [ "gold_small", 3 ] ] ]
+  },
+  {
+    "result": "tieclip_xl",
+    "id_suffix": "from_tieclip",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "tieclip", 1 ] ] ]
+  },
+  {
+    "result": "silver_ear_xl",
+    "id_suffix": "from_silver_ear",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "silver_ear", 1 ] ] ]
+  },
+  {
+    "result": "small_relic_xl",
+    "id_suffix": "from_small_relic",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "small_relic", 1 ] ] ]
+  },
+  {
+    "result": "holy_symbol_xl",
+    "id_suffix": "from_holy_symbol",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "holy_symbol", 1 ] ] ]
+  },
+  {
+    "result": "holy_symbol_wood_xl",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "time": "30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "using": [ [ "cordage_short", 3 ] ],
+    "components": [ [ [ "splinter", 1 ], [ "stick", 1 ], [ "2x4", 1 ] ] ]
+  },
+  {
+    "result": "jade_brooch_xl",
+    "id_suffix": "from_jade_brooch",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "jade_brooch", 1 ] ] ]
+  },
+  {
+    "result": "platinum_dental_grill_xl",
+    "id_suffix": "from_platinum_dental_grill",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "platinum_dental_grill", 1 ] ] ]
+  },
+  {
+    "result": "platinum_ear_xl",
+    "id_suffix": "from_platinum_ear",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "platinum_ear", 1 ] ] ]
+  },
+  {
+    "result": "platinum_hairpin_xl",
+    "id_suffix": "from_platinum_hairpin",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "platinum_hairpin", 1 ] ] ]
+  },
+  {
+    "result": "platinum_locket_xl",
+    "id_suffix": "from_platinum_locket",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "platinum_locket", 1 ] ] ]
+  },
+  {
+    "result": "platinum_ring_xl",
+    "id_suffix": "from_platinum_ring",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "platinum_ring", 1 ] ] ]
+  },
+  {
+    "result": "ring_engagement_xl",
+    "id_suffix": "from_ring_engagement",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "ring_engagement", 1 ] ] ]
+  },
+  {
+    "result": "ring_purity_xl",
+    "id_suffix": "from_ring_purity",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "ring_purity", 1 ] ] ]
+  },
+  {
+    "result": "ring_signet_xl",
+    "id_suffix": "from_ring_signet",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "ring_signet", 1 ] ] ]
+  },
+  {
+    "result": "ring_wedding_xl",
+    "id_suffix": "from_ring_wedding",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "ring_wedding", 1 ] ] ]
+  },
+  {
+    "result": "silver_hairpin_xl",
+    "id_suffix": "from_silver_hairpin",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "silver_hairpin", 1 ] ] ]
+  },
+  {
+    "result": "silver_locket_xl",
+    "id_suffix": "from_silver_locket",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "silver_locket", 1 ] ] ]
+  },
+  {
+    "result": "silver_medal_xl",
+    "id_suffix": "from_silver_medal",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "silver_medal", 1 ] ] ]
+  },
+  {
+    "result": "silver_ring_xl",
+    "id_suffix": "from_silver_ring",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "silver_ring", 1 ] ] ]
+  },
+  {
+    "result": "fur_cat_tail_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "30 m",
+    "book_learn": [ [ "mag_animecon", 3 ] ],
+    "using": [ [ "sewing_standard", 10 ] ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [
+      [ [ "fur", 4 ] ],
+      [ [ "cordage", 1, "LIST" ] ],
+      [ [ "plastic_chunk", 12 ], [ "bottle_plastic", 6 ], [ "bottle_plastic_small", 12 ], [ "jug_plastic", 1 ] ]
+    ]
+  },
+  {
+    "result": "leather_cat_tail_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "30 m",
+    "book_learn": [ [ "mag_animecon", 3 ] ],
+    "using": [ [ "sewing_standard", 10 ] ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [
+      [ [ "leather", 4 ] ],
+      [ [ "cordage", 1, "LIST" ] ],
+      [ [ "plastic_chunk", 12 ], [ "bottle_plastic", 6 ], [ "bottle_plastic_small", 12 ], [ "jug_plastic", 1 ] ]
+    ]
+  },
+  {
+    "result": "garnet_gold_ring_xl",
+    "id_suffix": "from_garnet_gold_ring",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "garnet_gold_ring", 1 ] ] ]
+  },
+  {
+    "result": "garnet_silver_ring_xl",
+    "id_suffix": "from_garnet_silver_ring",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "garnet_silver_ring", 1 ] ] ]
+  },
+  {
+    "result": "garnet_platinum_ring_xl",
+    "id_suffix": "from_garnet_platinum_ring",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "garnet_platinum_ring", 1 ] ] ]
+  },
+  {
     "result": "garnet_platinum_tiara_xl",
     "id_suffix": "from_garnet_platinum_tiara",
     "type": "recipe",

@@ -1,0 +1,12 @@
+[
+  {
+    "result": "secro_power_armor_battery_xl",
+    "id_suffix": "from_secro_power_armor_battery",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "secro_power_armor_battery", 1 ] ] ]
+  }
+]

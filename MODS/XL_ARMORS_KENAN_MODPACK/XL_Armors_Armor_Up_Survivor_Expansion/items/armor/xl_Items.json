@@ -1,5 +1,32 @@
 [
   {
+    "name": { "str": "XL superalloy plate armor" },
+    "copy-from": "armor_alloyplate",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_alloyplate_xl",
+    "description": "A suit of Gothic plate armor. Handmade from superalloy plates, for better protection at lower weight.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor plate armor" },
+    "copy-from": "survivor_lightplate",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "survivor_lightplate_xl",
+    "description": "A suit of Gothic plate armor, reinforced with kevlar at the joints for better protection.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL survivor alloy plate armor" },
+    "copy-from": "survivor_alloyplate",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "survivor_alloyplate_xl",
+    "description": "A suit of superalloy Gothic plate armor, reinforced with kevlar at the joints for better protection.  This can be worn regardless of your state of mutation"
+  },
+  {
     "name": { "str": "XL survivor skinsuit" },
     "copy-from": "survivor_skinsuit",
     "type": "ARMOR",

@@ -1,5 +1,52 @@
 [
   {
+    "result": "armor_alloyplate_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 9,
+    "time": "5 h 20 m",
+    "book_learn": [ [ "textbook_armwest", 8 ] ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 100 ], [ "oxy_torch", 20 ] ] ],
+    "components": [ [ [ "alloy_plate", 2 ], [ "alloy_sheet", 12 ] ], [ [ "fur", 24 ], [ "leather", 24 ] ] ]
+  },
+  {
+    "result": "survivor_lightplate_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h",
+    "autolearn": true,
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "using": [ [ "filament", 60 ] ],
+    "tools": [ [ [ "welder", 18 ], [ "welder_crude", 27 ], [ "soldering_iron", 27 ], [ "toolset", 27 ] ] ],
+    "components": [
+      [ [ "armor_lightplate", 1 ] ],
+      [ [ "kevlar", 1 ], [ "modularvest", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 19 ] ]
+    ]
+  },
+  {
+    "result": "survivor_alloyplate_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": "1 h",
+    "autolearn": true,
+    "qualities": [ { "id": "SEW", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "using": [ [ "filament", 60 ] ],
+    "tools": [ [ [ "welder", 18 ], [ "welder_crude", 27 ], [ "soldering_iron", 27 ], [ "toolset", 27 ] ] ],
+    "components": [
+      [ [ "armor_alloyplate", 1 ] ],
+      [ [ "kevlar", 1 ], [ "modularvest", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 19 ] ]
+    ]
+  },
+  {
     "result": "survivor_skinsuit_xl",
     "type": "recipe",
     "category": "CC_ARMOR",

@@ -1,0 +1,64 @@
+[
+  {
+    "result": "armguard_firechitin_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_ARMS",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "string_36", 1 ], [ "string_6", 4 ] ], [ [ "firechitin_piece", 7 ] ] ]
+  },
+  {
+    "result": "armor_firechitin_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 8,
+    "time": "33 m 20 s",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "using": [ [ "cordage", 2 ] ],
+    "components": [ [ [ "firechitin_piece", 18 ] ] ]
+  },
+  {
+    "result": "gauntlets_firechitin_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "string_36", 1 ], [ "string_6", 4 ] ], [ [ "firechitin_piece", 7 ] ] ]
+  },
+  {
+    "result": "helmet_firechitin_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 7,
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "components": [ [ [ "string_36", 1 ], [ "string_6", 6 ] ], [ [ "firechitin_piece", 9 ] ] ]
+  },
+  {
+    "result": "boots_firechitin_xl",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "time": "14 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT_FINE", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "using": [ [ "cordage", 1 ] ],
+    "components": [ [ [ "firechitin_piece", 14 ] ], [ [ "leather", 4 ], [ "fur", 4 ], [ "rag", 4 ] ] ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "result": "locket_lucy_xl",
+    "id_suffix": "from_locket_lucy",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "locket_lucy", 1 ] ] ]
+  }
+]

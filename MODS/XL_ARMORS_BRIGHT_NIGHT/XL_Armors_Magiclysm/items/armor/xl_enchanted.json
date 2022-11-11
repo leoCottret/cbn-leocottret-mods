@@ -1,5 +1,23 @@
 [
   {
+    "name": { "str": "XL belt of strength +2", "str_pl": "XL belts of strength +2" },
+    "copy-from": "belt_str",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "belt_str_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL belt of haste", "str_pl": "XL belts of haste" },
+    "copy-from": "belt_haste",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "belt_haste_xl",
+    "description": "None  This can be worn regardless of your state of mutation"
+  },
+  {
     "name": { "str": "XL wizard hat" },
     "copy-from": "wizard_hat",
     "type": "ARMOR",

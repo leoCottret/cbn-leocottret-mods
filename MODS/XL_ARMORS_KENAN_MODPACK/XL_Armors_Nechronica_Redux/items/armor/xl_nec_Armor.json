@@ -1,5 +1,14 @@
 [
   {
+    "name": { "str": "XL ribbon", "str_pl": "XL ribbons" },
+    "copy-from": "nec_ribbon",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "nec_ribbon_xl",
+    "description": "A small cute cloth ribbon. There is no defensive power, but may heal you in this ruined world.  This can be worn regardless of your state of mutation"
+  },
+  {
     "name": { "str": "XL companion teddy bear" },
     "copy-from": "nec_teddy",
     "type": "ARMOR",

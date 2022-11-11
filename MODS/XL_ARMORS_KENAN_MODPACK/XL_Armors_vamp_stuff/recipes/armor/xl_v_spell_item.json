@@ -1,0 +1,12 @@
+[
+  {
+    "result": "v_war_etherealenchant_xl",
+    "id_suffix": "from_v_war_etherealenchant",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "v_war_etherealenchant", 1 ] ] ]
+  }
+]

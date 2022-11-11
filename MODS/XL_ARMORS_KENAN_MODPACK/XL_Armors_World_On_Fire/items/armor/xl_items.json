@@ -1,0 +1,47 @@
+[
+  {
+    "name": { "str": "pair of XL fire chitin arm guards", "str_pl": "pairs of XL fire chitin arm guards" },
+    "copy-from": "armguard_firechitin",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armguard_firechitin_xl",
+    "description": "A pair of arm guards crafted from the carefully cleaned and pruned exoskeletons of fire ants. Fire-resistant and very durable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fire chitin armor" },
+    "copy-from": "armor_firechitin",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "armor_firechitin_xl",
+    "description": "Leg and body armor crafted from the carefully cleaned and pruned exoskeletons of fire ants. Fire-resistant and very durable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL fire chitin gauntlets", "str_pl": "pairs of XL fire chitin gauntlets" },
+    "copy-from": "gauntlets_firechitin",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "gauntlets_firechitin_xl",
+    "description": "Gauntlets crafted from the carefully cleaned and pruned exoskeletons of fire ants. Fire-resistant and very durable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "XL fire chitin helmet" },
+    "copy-from": "helmet_firechitin",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "helmet_firechitin_xl",
+    "description": "A helmet crafted from the carefully cleaned and pruned exoskeletons of fire ants.  Covers the entire head; fire-resistant and very durable.  This can be worn regardless of your state of mutation"
+  },
+  {
+    "name": { "str": "pair of XL fire chitin boots", "str_pl": "pairs of XL fire chitin boots" },
+    "copy-from": "boots_firechitin",
+    "type": "ARMOR",
+    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
+    "extend": { "flags": [ "OVERSIZE" ] },
+    "id": "boots_firechitin_xl",
+    "description": "Boots crafted from carefully cleaned and pruned exoskeletons of fire ants. Fire-resistant and very durable.  This can be worn regardless of your state of mutation"
+  }
+]

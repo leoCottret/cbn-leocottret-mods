@@ -1,0 +1,32 @@
+[
+  {
+    "result": "megamap_xl",
+    "id_suffix": "from_megamap",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "megamap", 1 ] ] ]
+  },
+  {
+    "result": "parawatch_xl",
+    "id_suffix": "from_parawatch",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "parawatch", 1 ] ] ]
+  },
+  {
+    "result": "parabracelets_xl",
+    "id_suffix": "from_parabracelets",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "parabracelets", 1 ] ] ]
+  }
+]

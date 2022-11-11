@@ -10,6 +10,26 @@
     "components": [ [ [ "armor_stonefist", 1 ] ] ]
   },
   {
+    "result": "magic_lamp_xl",
+    "id_suffix": "from_magic_lamp",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "magic_lamp", 1 ] ] ]
+  },
+  {
+    "result": "magic_light_xl",
+    "id_suffix": "from_magic_light",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "magic_light", 1 ] ] ]
+  },
+  {
     "result": "ice_gliders_xl",
     "id_suffix": "from_ice_gliders",
     "type": "recipe",
@@ -28,5 +48,15 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "fleshpouch", 1 ] ] ]
+  },
+  {
+    "result": "overcharge_burn_scar_xl",
+    "id_suffix": "from_overcharge_burn_scar",
+    "type": "recipe",
+    "skill_used": "fabrication",
+    "time": "20 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "overcharge_burn_scar", 1 ] ] ]
   }
 ]

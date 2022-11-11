@@ -1,0 +1,17 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_World_on_fire",
+  "name": "<color_cyan>XL Armors</color> for World on Fire",
+  "description": "This is an extension that adds XL armors for the World on Fire mod.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [
+    "World_on_fire"
+  ],
+  "version": "Bright Night, last update 2022/11/11"
+}
