@@ -1,5 +1,5 @@
 """
-Converts a file into
+Generates mods containing XL armors versions of all the mods in your /mods/ folder
 """
 
 
@@ -122,7 +122,7 @@ def get_potential_armors(targeted_file):
     if (not targeted_file.exists()):
         print("FILE DOESN T EXIST: " + targeted_file.name)
         exit()
-
+        
     raw_json_object = msgspec.json.decode(targeted_file.read_bytes())
     new_raw_json_objects = []
     for raw_json in raw_json_object:
@@ -540,8 +540,10 @@ if __name__ == "__main__":
     shutil.rmtree("results", True)
     pathlib.Path("results").mkdir(parents=True, exist_ok=True)
 
-
-    new_armors_amount = 0
+    # from vanilla files
+    new_armors_amount_vanilla = 0
+    # from mods
+    new_armors_amount_mods = 0
 
     # load XL factors (cf options)
     XL_factors = XLFactors()
@@ -591,7 +593,10 @@ if __name__ == "__main__":
                     xl_armor_json = json.loads(msgspec.json.encode(xl_armor))
                     xl_armors_json.append(xl_armor_json)
                     selected_armors.append(armor)
-                    new_armors_amount += 1
+                    if file_data.origin == VANILLA_FLAG:
+                        new_armors_amount_vanilla += 1
+                    else:
+                        new_armors_amount_mods += 1
 
             # create a file with the new XL armors, with the same name as the original armor file, but with xl_ before
             if xl_armors_json:
@@ -676,7 +681,8 @@ if __name__ == "__main__":
     for nxamf in new_xl_armor_mods_folders:
         if not nxamf.name == VANILLA_FLAG:
             nxamf.rename(f"{result_folder}/{VANILLA_FLAG}_{nxamf.name}")
-    print(f"New armors amount: {new_armors_amount}")
+    print(f"New armors amount from vanilla files: {new_armors_amount_vanilla}")
+    print(f"New armors amount from mods: {new_armors_amount_mods}")
 
     # lint XL armors and their recipes
     if linting:

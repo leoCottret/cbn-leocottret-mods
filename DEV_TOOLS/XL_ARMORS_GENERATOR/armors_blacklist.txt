@@ -80,6 +80,7 @@ nomex_hood
 nomex_socks
 nomex_suit
 pants_cargo
+police_belt
 pot_helmet
 rebreather
 robe_shadow

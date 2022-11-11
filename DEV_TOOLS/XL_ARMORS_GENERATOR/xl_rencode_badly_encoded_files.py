@@ -4,12 +4,18 @@ import os
 import pathlib
 from chardet import detect
 
+# if true, the script will remove any badly encoded files it encounters
+REMOVE_BADLY_ENCODED_FILES = True
+
 # get file encoding type
 def get_encoding_type(file):
     with open(file, 'rb') as f:
         raw_data = f.read()
     return detect(raw_data)['encoding']
 
+def remove_file(file):
+	print("Removing it...")
+	os.remove(file)
 
 
 mods_folder_path = "C:/Games/CDDA_MODDING_BN_dummy/cdda/data/mods/"
@@ -34,5 +40,9 @@ for mod_file in every_mod_files:
 	    os.rename(trg_file, src_file) # rename new encoding
 	except UnicodeDecodeError:
 	    print('Decode Error ' + str(src_file) )
+	    if REMOVE_BADLY_ENCODED_FILES:
+	    	remove_file(src_file)
 	except UnicodeEncodeError:
 	    print('Encode Error' + str(src_file) )
+	    if REMOVE_BADLY_ENCODED_FILES:
+	    	remove_file(src_file)
