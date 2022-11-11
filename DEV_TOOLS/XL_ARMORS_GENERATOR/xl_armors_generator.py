@@ -122,8 +122,13 @@ def get_potential_armors(targeted_file):
     if (not targeted_file.exists()):
         print("FILE DOESN T EXIST: " + targeted_file.name)
         exit()
-        
-    raw_json_object = msgspec.json.decode(targeted_file.read_bytes())
+    raw_json_object = None
+    try:
+        raw_json_object = msgspec.json.decode(targeted_file.read_bytes())
+    except msgspec.DecodeError:
+        print(f"FILE JSON DECODE ERROR on file: {targeted_file.resolve()} \nPlease format it correctly.")
+        exit()
+
     new_raw_json_objects = []
     for raw_json in raw_json_object:
         valid:bool = False
