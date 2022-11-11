@@ -1,32 +1,5 @@
 [
   {
-    "name": { "str": "XL leather cat tail (vibrator)" },
-    "copy-from": "leather_cat_tail_biv",
-    "type": "TOOL_ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "leather_cat_tail_biv_xl",
-    "description": "A shiny black cat tail made out of leather. Whenever you walk, it sways back and forth. You can turn it on for extra enjoyment.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL furred cat tail (vibrator)" },
-    "copy-from": "fur_cat_tail_biv",
-    "type": "TOOL_ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "fur_cat_tail_biv_xl",
-    "description": "A brown soft and furry cat tail. Whenever you walk, it sways back and forth. You can turn it on for extra enjoyment.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL blob cat tail" },
-    "copy-from": "blob_cat_tail",
-    "type": "TOOL_ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "blob_cat_tail_xl",
-    "description": "A blob shaped like the tail of a cat that has been made docile. Whenever you walk, it sways back and forth. Make sure to feed your new blob friend!  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "XL white brim with veil", "str_pl": "XL white brims with veils" },
     "copy-from": "maidguy_mask_off",
     "type": "TOOL_ARMOR",

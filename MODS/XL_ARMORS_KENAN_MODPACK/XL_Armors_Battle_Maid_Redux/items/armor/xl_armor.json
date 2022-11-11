@@ -9,15 +9,6 @@
     "description": "A frilly white cap commonly used by maids.  This can be worn regardless of your state of mutation"
   },
   {
-    "name": { "str": "XL strange maid headband" },
-    "copy-from": "maid_cap_shoggoth",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "maid_cap_shoggoth_xl",
-    "description": "A frilly white headband commonly used by maids. Something seems off about it.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "XL cat eared maid cap" },
     "copy-from": "cat_maid_cap",
     "type": "ARMOR",
@@ -25,14 +16,5 @@
     "extend": { "flags": [ "OVERSIZE" ] },
     "id": "cat_maid_cap_xl",
     "description": "A frilly white cap commonly used by maids. There's two bumps on top of it that look like cat ears. It's very cute.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL petticoat", "str_pl": "XL petticoats" },
-    "copy-from": "petticoat",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "petticoat_xl",
-    "description": "A type of frilly undergarment usually worn under skirts.  This can be worn regardless of your state of mutation"
   }
 ]

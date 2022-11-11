@@ -1,23 +1,5 @@
 [
   {
-    "name": { "str": "XL advanced power armor" },
-    "copy-from": "advanced_power_armor",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "advanced_power_armor_xl",
-    "description": "A jet black suit of very lightweight powered armor, designed to be used by specialist shock troopers. Known only by the military designation 'Power Armor, Advanced', it appears to have been constructed in limited quantities.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL advanced power armor helmet" },
-    "copy-from": "advanced_power_armor_helmet",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "advanced_power_armor_helmet_xl",
-    "description": "A jet black power armor helmet designed for use with the matching suit, constructed from lightweight materials, but still very protective.  This can be worn regardless of your state of mutation"
-  },
-  {
     "name": { "str": "XL robot helmet" },
     "copy-from": "helmet_robot",
     "type": "ARMOR",
@@ -43,23 +25,5 @@
     "extend": { "flags": [ "OVERSIZE" ] },
     "id": "helmet_mechpilot_xl",
     "description": "A thick helmet, encasing the entire head, with a large reflective visor, allowing a wide field of vision.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL hellfire power armor" },
-    "copy-from": "fire__armor",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "fire__armor_xl",
-    "description": "A large power armor suit. It seems to be very heavily insultated.  This can be worn regardless of your state of mutation"
-  },
-  {
-    "name": { "str": "XL hellfire power armor helmet" },
-    "copy-from": "fire_power_armor_helmet",
-    "type": "ARMOR",
-    "proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 },
-    "extend": { "flags": [ "OVERSIZE" ] },
-    "id": "fire_power_armor_helmet_xl",
-    "description": "A large power armor helmet. It seems to be very heavily insultated.  This can be worn regardless of your state of mutation"
   }
 ]

@@ -30,16 +30,6 @@
     "components": [ [ [ "headband_hachimaki", 1 ] ] ]
   },
   {
-    "result": "belt_senninbari_xl",
-    "id_suffix": "from_belt_senninbari",
-    "type": "recipe",
-    "skill_used": "fabrication",
-    "time": "20 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "belt_senninbari", 1 ] ] ]
-  },
-  {
     "result": "fatigues_ija_xl",
     "id_suffix": "from_fatigues_ija",
     "type": "recipe",
