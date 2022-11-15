@@ -443,7 +443,7 @@ class Recipe(Struct, rename={"copy_from": "copy-from"}, omit_defaults=True):
     subcategory: str | None = None
     skill_used: str | None = None
     difficulty: int | None = None
-    skill_required: list | None = None # complete type list[list[str|int]] | list[str|int] | None -> is not supported in python
+    skills_required: list | None = None # complete type list[list[str|int]] | list[str|int] | None -> is not supported in python
     time: str | int | None = None
     reversible: bool | None = None
     autolearn: bool | list[list[str|int]] | None = None # can be bool or array
@@ -474,7 +474,7 @@ class Recipe(Struct, rename={"copy_from": "copy-from"}, omit_defaults=True):
             category=recipe.category,
             subcategory=recipe.subcategory,
             skill_used=recipe.skill_used,
-            skill_required=recipe.skill_required,
+            skills_required=recipe.skills_required,
             time=recipe.time,
             difficulty=recipe.difficulty,
             reversible=recipe.reversible,
@@ -657,7 +657,7 @@ if __name__ == "__main__":
                                         print("Unrecognised recipe type " + xl_recipe.type + " for " + xl_recipe.result)
                                         exit()
 
-                # if the armor has no recipe, no matter! Add a recipe to create an XL version from the original
+                # if the armor has no recipe, no matter! Add a recipe to create a XL version from the original
                 # so you can enjoy you XL linux tee-shirt, XL beekeeping gloves, XL clownshoes etc.
                 if (not armor_found):
                     # we don't want recipes for active objects
