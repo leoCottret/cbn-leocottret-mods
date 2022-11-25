@@ -5,7 +5,7 @@
     "name": "Sudo's Requiem",
     "authors": [ "leoCottret" ],
     "maintainers": [ "leoCottret" ],
-    "description": "Adds (SoonTM)late game items, big bundle of materials and (SoonTM)late game monsters to challenge your demi-god cyber mutant",
+    "description": "Adds late game items, big bundle of materials and (SoonTM)late game monsters to challenge your demi-god cyber mutant",
     "category": "content",
     "dependencies": [ "bn" ],
     "obsolete": false
