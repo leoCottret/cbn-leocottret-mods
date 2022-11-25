@@ -1,4 +1,4 @@
-I tried to make a modular mod, so you can delete any folder in Sudo_Requiem with content you don't want.
+I tried to make a modular mod, so you can delete any folder in Sudo_Requiem with content you don't want.  
 For now:
 - **Late_Game_Items** contains late game craftable items, that have high skill requirement, and sometimes require rare materials. 
   - Non of them are actual armors, because I think vanilla and other mods cover this part well enough already
