@@ -1,8 +1,8 @@
-I tried to make a modular mod, so you can delete any folder in Sudo_Requiem with content you don't want.
+I tried to make a modular mod, so you can delete any folder in Sudo_Requiem with content you don't want.  
 For now:
 - **Late_Game_Items** contains late game craftable items, that have high skill requirement, and sometimes require rare materials. 
   - Non of them are actual armors, because I think vanilla and other mods cover this part well enough already
-  - No those are things like bulletproof/fireproof canteen, backpacks and leg rig, the kind of items that keep getting destroyed even when you have the knowledge and ressources to create something more sturdy
+  - No those are things like bulletproof/fireproof canteen, backpacks and leg rig, the kind of items that keep getting destroyed even when you have the knowledge and ressources to create something sturdier
   - It also adds one very late game craftable item, which should be only possible to craft in a very long playthrough. This item is supposed to be the best backpack you could hope for, using alien technology.
     - It later occured to me that XEDRA already made an item with a similar reference, well this is the pimped version 
 - **QOL**
