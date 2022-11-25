@@ -658,7 +658,7 @@ if __name__ == "__main__":
                                         exit()
 
                 # if the armor has no recipe, no matter! Add a recipe to create a XL version from the original
-                # so you can enjoy you XL linux tee-shirt, XL beekeeping gloves, XL clownshoes etc.
+                # so you can enjoy your XL linux tee-shirt, XL beekeeping gloves, XL clownshoes etc.
                 if (not armor_found):
                     # we don't want recipes for active objects
                     if not armor.id[-3:] == "_on":
