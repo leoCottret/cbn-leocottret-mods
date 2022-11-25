@@ -9,4 +9,4 @@ For now:
   - Those are Quality Of Life items, for now just reversible craftable big bundle of materials
     - eg: Big bundle of leather -> needs 50 leather patch + 1 short string -> you can disassemble it to get **all** the items back  
     - This should help hoarders to reduce the hundreds of accumulated basic materials to a few ones, so they take less space and can be moved more easily
-    - This also should reduce lag
+    - This should also reduce lag
