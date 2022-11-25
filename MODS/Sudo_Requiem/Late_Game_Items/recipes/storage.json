@@ -1,0 +1,83 @@
+[
+	{
+		"result": "tardis_bag",
+		"type": "recipe",
+		"category": "CC_ARMOR",
+		"subcategory": "CSC_ARMOR_STORAGE",
+		"skill_used": "tailor",
+		"difficulty": 10,
+		"skills_required": [ "fabrication", 10 ],
+		"time": "24 h 00 m",
+		"book_learn": [ [ "recipe_caseless", 1 ] ],
+		"using": [ [ "sewing_standard", 100 ], [ "steel_tiny", 8 ] ],
+		"tools": [ [ [ "welder", 50 ], [ "welder_crude", 100 ], [ "soldering_iron", 100 ], [ "toolset", 100 ] ] ],
+		"qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SAW_M", "level": 1 } ],
+		"components": [ 
+			[ [ "nomex", 72 ] ],  
+			[ [ "neoprene", 72 ] ], 
+			[ [ "kevlar_plate", 72 ] ], 
+			[ [ "alloy_sheet", 12 ] ], 
+			[ [ "gold", 100 ] ], 
+			[ [ "sheet_metal_small", 12 ] ], 
+			[ [ "cordage", 2, "LIST" ] ], 
+			[ [ "modularvest", 1 ] ], 
+			[ [ "vortex_stone", 2 ] ],
+			[ [ "mininuke", 1 ] ]
+		]
+	},
+	{
+		"result": "bigback_survivor_xl",
+		"type": "recipe",
+		"category": "CC_ARMOR",
+		"subcategory": "CSC_ARMOR_STORAGE",
+		"skill_used": "tailor",
+		"difficulty": 9,
+		"time": "6 h 00 m",
+		"autolearn": true,
+		"using": [ [ "sewing_standard", 150 ] ],
+		"qualities": [ { "id": "HAMMER", "level": 3 } ],
+		"components": [ [ [ "leather", 72 ] ], [ [ "kevlar", 3 ], [ "modularvest", 3 ], [ "swat_armor", 3 ], [ "kevlar_plate", 72 ] ], [ [ "sheet_metal_small", 12 ] ], [ [ "cordage", 2, "LIST" ] ], [ [ "leather_pouch", 2 ] ] ]
+	},
+	{
+		"result": "hlegrig_surv",
+		"type": "recipe",
+		"category": "CC_ARMOR",
+		"subcategory": "CSC_ARMOR_STORAGE",
+		"skill_used": "tailor",
+		"difficulty": 9,
+		"skills_required": [ "fabrication", 9 ],
+		"time": "1 h 40 m",
+		"autolearn": true,
+		"book_learn": [ [ "recipe_surv", 5 ] ],
+		"using": [ [ "sewing_standard", 100 ], [ "steel_tiny", 1 ] ],
+		"qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "CUT", "level": 1 } ],
+		"components": [
+			[ [ "nomex", 8 ] ],
+			[ [ "kevlar_plate", 12 ] ],
+			[ [ "sheet_metal_small", 2 ] ], 
+			[ [ "duct_tape", 50 ] ]
+		]
+	},
+	{
+		"result": "adv_molle_pack",
+		"type": "recipe",
+		"category": "CC_ARMOR",
+		"subcategory": "CSC_ARMOR_STORAGE",
+		"skill_used": "tailor",
+		"difficulty": 9,
+		"skills_required": [ "fabrication", 9 ],
+		"time": "1 h 40 m",
+		"autolearn": true,
+		"book_learn": [ [ "recipe_surv", 5 ] ],
+		"using": [ [ "sewing_standard", 100 ], [ "steel_tiny", 1 ] ],
+		"qualities": [ { "id": "HAMMER", "level": 3 } ],
+		"tools": [ [ [ "welder", 10 ], [ "welder_crude", 10 ], [ "soldering_iron", 10 ], [ "toolset", 10 ] ] ],
+		"components": [
+			[ [ "molle_pack", 1 ] ],
+			[ [ "nomex", 10 ] ],
+			[ [ "kevlar_plate", 8 ] ],
+			[ [ "sheet_metal_small", 2 ] ], 
+			[ [ "duct_tape", 50 ] ]
+		]
+	}
+]

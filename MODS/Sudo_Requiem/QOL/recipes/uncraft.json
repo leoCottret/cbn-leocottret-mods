@@ -1,0 +1,122 @@
+[
+	{
+		"result": "big_bundle_rag",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "rag", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_leather",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "leather", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_kevlar",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "kevlar_plate", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_nomex",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "nomex", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_plastic",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "plastic_chunk", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_lycra",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "lycra_patch", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_neoprene",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "neoprene", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_chitin",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "chitin_piece", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_acidchitin",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "acidchitin_piece", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_amplifier",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "amplifier", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_circuit",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "circuit", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_e_scrap",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "e_scrap", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_fur",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "fur", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_power_supply",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "power_supply", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	},
+	{
+		"result": "big_bundle_wire",
+		"type": "uncraft",
+		"skill_used": "fabrication",
+		"time": "60 s",
+		"components": [ [ [ "wire", 50 ] ], [ [ "string_6", 1 ] ] ],
+		"flags": [ "BLIND_EASY" ]
+	}
+]

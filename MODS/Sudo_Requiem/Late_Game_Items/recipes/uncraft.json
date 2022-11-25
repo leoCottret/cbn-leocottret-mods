@@ -1,0 +1,21 @@
+[
+	{
+		"result": "adv_molle_pack",
+		"type": "uncraft",
+		"time": "300 s",
+		"components": [
+			[ [ "nomex", 10 ] ],
+			[ [ "kevlar_plate", 6 ] ]
+		]
+	},
+	{
+		"result": "bulletproof_canteen",
+		"type": "uncraft",
+		"time": "10 m",
+		"components": [ 
+			[ [ "kevlar_plate", 3 ] ], 
+			[ [ "alloy_sheet", 1 ] ],
+			[ [ "wire", 1 ] ] 
+		]
+	}
+]

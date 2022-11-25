@@ -1,0 +1,23 @@
+[
+	{
+		"type": "recipe",
+		"result": "bulletproof_canteen",
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_CONTAINERS",
+		"skill_used": "fabrication",
+		"difficulty": 10,
+		"autolearn": true,
+		"skills_required": [ "tailor", 5 ],
+		"time": "90 m",
+		"book_learn": [ [ "recipe_surv", 5 ] ],
+		"using": [ [ "steel_tiny", 1 ] ],
+		"tools": [ [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ] ],
+		"qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SAW_M", "level": 1 } ],
+		"components": [ 
+			[ [ "kevlar_plate", 6 ] ], 
+			[ [ "alloy_sheet", 1 ] ], 
+			[ [ "sheet_metal_small", 1 ] ], 
+			[ [ "wire", 1 ] ] 
+		]
+	}
+]

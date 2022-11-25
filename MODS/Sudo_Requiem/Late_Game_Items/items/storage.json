@@ -1,0 +1,101 @@
+[
+	{
+		"id": "tardis_bag",
+		"type": "ARMOR",
+		"name": { "str": "Tardis bag" },
+		"description": "It's bigger on the inside!  The top of Rivtech technology, a bag that stores the items in an other dimension.  Despite their best efforts they could not suppress completly the encumbrance of the items. It needs the power of a mininuke to create the link between the two dimensions.",
+		"weight": "5 kg",
+		"volume": "50 L",
+		"price": 120000,
+		"price_postapoc": 10000,
+		"material": [ "nomex", "kevlar", "neoprene", "superalloy", "gold" ],
+		"symbol": "X",
+		"looks_like": "rucksack",
+		"color": "cyan",
+		"covers": [ "torso" ],
+		"coverage": 50,
+		"rigid": false,
+		"encumbrance": 1,
+		"max_encumbrance": 5000,
+		"storage": "10000 L",
+		"material_thickness": 15,
+		"environmental_protection": 15, 
+		"use_action": {
+			"type": "holster",
+			"holster_prompt": "Sheath melee weapon",
+			"holster_msg": "You sheath your %s",
+			"min_volume": "500 ml",
+			"max_volume": "12000 ml",
+			"draw_cost": 80,
+			"multi": 4,
+			"flags": [ "SHEATH_KNIFE", "BELT_CLIP", "SHEATH_SWORD", "SHEATH_AXE", "SHEATH_SPEAR", "SHEATH_GOLF" ]
+		},
+		"flags": [ "VARSIZE", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "NONCONDUCTIVE", "BELTED", "WATER_FRIENDLY", "STURDY", "POCKETS", "SUPER_FANCY" ]
+	},
+	{
+		"id": "bigback_survivor_xl",
+		"copy-from": "bigback",
+		"type": "ARMOR",
+		"name": { "str": "XL high-volume survivor rucksack" },
+		"description": "Also known as a \"mutant bigpack\", this beast of a backpack can carry and withstand anything.",
+		"proportional": { "weight": 1.8, "volume": 1.5, "encumbrance": 1.4, "max_encumbrance": 1.4, "storage": 1.4,  "material_thickness": 4.5 },
+		"relative": { "warmth": -5 },
+		"material": [ "leather", "kevlar" ],
+		"extend": { "flags": [ "STURDY" ] }
+	},
+	{
+		"type": "ARMOR",
+		"id": "hlegrig_surv",
+		"name": { "str": "heavy survivor leg rig" },
+		"description": "A custom set of low-slung adjustable straps and rings, designed to secure a variety of equipment strapped to the legs.  Its straps can handle a wide range of short blades, firearms, magazines, and most items that would fit on a tool belt. This version uses kevlar and nomex. It is a bit more bulky, much more sturdy, heavier, and fire resistant.  Activate it to store up to 4 items.",
+		"weight": "1250 g",
+		"volume": "1750 ml",
+		"price": "200 USD",
+		"price_postapoc": "15 USD",
+		"rigid": false,
+		"material": [ "nomex", "kevlar", "steel" ],
+		"symbol": "[",
+		"looks_like": "legrig",
+		"color": "dark_gray",
+		"covers": [ "legs" ],
+		"coverage": 10,
+		"encumbrance": 3,
+		"max_encumbrance": 7,
+		"material_thickness": 6,
+		"use_action": {
+			"type": "holster",
+			"holster_prompt": "Stash item",
+			"holster_msg": "You stash your %s.",
+			"multi": 4,
+			"min_volume": "50 ml",
+			"max_volume": "1750 ml",
+			"skills": [ "pistol", "smg", "shotgun", "rifle" ],
+			"draw_cost": 85,
+			"flags": [ "SHEATH_KNIFE", "BELT_CLIP", "SHEATH_SWORD", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER" ]
+		},
+		"flags": [ "WATER_FRIENDLY", "BELTED", "OVERSIZE", "NO_QUICKDRAW", "STURDY", "NONCONDUCTIVE" ]
+	},
+	{
+		"id": "adv_molle_pack",
+		"copy-from": "molle_pack",
+		"type": "ARMOR",
+		"name": { "str": "Advanced MOLLE pack" },
+		"description": "A carefully crafted, upgraded version of the MOLLE pack, with better materials.  Fire resistant, sturdier and slightly bulkier, less warm and adaptable to uncommon bodies.  This is the bag that won't let you down.",
+		"material": [ "nomex", "kevlar", "steel" ],
+		"symbol": "[",
+		"extend": { "flags": [ "VARSIZE", "OVERSIZE", "STURDY", "NONCONDUCTIVE" ] },
+		"proportional": { 
+			"price": 7,
+			"price_postapoc": 7,
+			"material_thickness": 3.5,
+			"warmth": 0.5,
+			"weight": 1.5,
+			"volume": 1.2
+		},
+		"//": "After refitting, will translates to +1 for each in comparison with the original",
+		"relative": {
+			"encumbrance": 4,
+			"max_encumbrance": 11
+		}
+	}
+]
