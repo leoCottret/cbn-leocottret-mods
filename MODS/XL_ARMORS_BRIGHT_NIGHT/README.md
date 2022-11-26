@@ -37,11 +37,11 @@
 
 ![image](https://user-images.githubusercontent.com/71428793/199935367-a74199aa-a666-42a7-ae07-940580741f95.png)
 
-- 1 - In the find field, paste this line: `"proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 }`
-- In the Replace field, paste the same line and edit it as you want. 
+- 1 - In the `Find` field, paste this line: `"proportional": { "weight": 1.2, "volume": 1.2, "storage": 1.2, "encumbrance": 1.2 }`
+- In the `Replace` field, paste the same line and edit it as you want. 
 - 2 - For example, starting from the normal version, if you want to increase the weight and volume by 60%, the storage by 20% and have the same encumbrance (no change from the normal version), the line in Replace would look like this: `"proportional": { "weight": 1.6, "volume": 1.6, "storage": 1.2 }`
-- 3 - Click on Replace down right
-- 4 - Click on Replace in the pop up
-- 5 - Use CTRL + W then Enter to save every files and close them one by one
+- 3 - Click on `Replace` down right
+- 4 - Click on `Replace` in the pop up
+- 5 - Press `CTRL + W` then press `Enter` to save every files and close them one by one
 - Of course it's different without sublime text, but if you're not alergic to IT it's just what it is, a big search and replace.
 
