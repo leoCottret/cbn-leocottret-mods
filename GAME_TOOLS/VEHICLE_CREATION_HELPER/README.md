@@ -9,7 +9,7 @@
 - **Supports every vehicle parts except the few that ask for a direction after installation (security camera, headlights,...)**
 
 ### How does it work (non technical explanation)?
-- You first create you future vehicle in a json file, in a easy to use format for anyone not allergic to IT
+- You first create you future vehicle in a json file, in an easy format for anyone not allergic to IT
 - You get a reliable welding source and stockpile the needed components to install the vehicle parts
 - Then you create a new one tile vehicle, open the vehicle menu, position your cursor on the first part to install and start the script
 
