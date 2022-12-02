@@ -12,8 +12,8 @@
 
 https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-97f0-107e28fff973.mp4
 
-- as you can see, the script will navigate through the vehicle tiles, and try to install the vehicle parts one by one
-- using text recognition, it can react to what happens in the game, eg:
+- As you can see, the script will navigate through the vehicle tiles, and try to install the vehicle parts one by one
+- Using text recognition, it can react to what happens in the game, eg:
 	- 0:02 it detects that the foldable light frame is already installed, so it remembers it as "installed" and skip it
 	- 0:03 the foldable light frame isn't installed yet, so it filters its name and select it to be installed
 	- 0:19 it finds the "nearby)" (and "on person)") keyword in the pop up, so it presses enter to terminate the installation
@@ -69,12 +69,12 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
 ]
 ```
 - The final result will look like this
-INSERT PICTURE
-- each vehicle part is defined between `{}`
+![image](https://user-images.githubusercontent.com/71428793/205400378-eba4fa49-a24e-4488-9989-1a2b4087709f.png)
+- Each vehicle part is defined between `{}`
 - `part_name` is the name of the vehicle part to install
 - `vmap` (vehicle part map) defines where the vehicle part will be installed
-	- each vehicle part row is defined between `[]`
-	- each tile in a row is separated by a `","`
+	- Each vehicle part row is defined between `[]`
+	- Each tile in a row is separated by a `","`
 	- `" "` -> nothing will be installed
 	- `"X"` -> the vehicle part will be installed
 	- `"number"` -> the script will install the vehicle parts at this row number
@@ -97,27 +97,30 @@ INSERT PICTURE
 - And for those that never use json, notice that every last vehicle part and vmap row don't have a comma at the end
 
 #### Final set up and start the script
-- start a vehicle construction on your right, as usual (`*` -> Start a Vehicle Construction -> Enter -> Right direction)
-- examine the vehicle tile
-- move your cursor on the upper left tile of your vehicle, or the first part to install of the first row
+- Start a vehicle construction on your right, as usual (`*` -> Start a Vehicle Construction -> Enter -> Right direction)
+- Examine the vehicle tile
+- Move your cursor on the upper left tile of your vehicle, or the first part to install of the first row
 	- most of the time, your first row will have some kind of ram, so if you use a rectangle shape vehicle, you just have to go up one tile
-- most of the time, this will be your second row, because the first will have some kind of ram
-- start the script, switch back to the game, and (hopefully) be amazed
+- Most of the time, this will be your second row, because the first will have some kind of ram
+- Start the script, switch back to the game, and (hopefully) be amazed. To start the script:
 	- if you use the windows version, just double click the .exe
 	- if you use the python version
-		- install python3
-		- try to execute the script `python3 vch.py`, it will most probably warn you about missing libraries
-		- install all the missing libraries with `pip3 install <missing library name>`, until you can execute the script without error
+		- install python 3
+		- try to execute the script `python3 vch.py` (or `python`), it will most probably warn you about missing libraries
+		- install all the missing libraries with `pip3 install <missing library name>` (or `pip`), until you can execute the script without error
 
 #### Important notes
 - **you can stop the script at any time by pressing Left Control**
 - when the script stops it will save the already installed parts in a `vch_updated.json` file, so it can starts at the next part to install when you execute it again (`"D"` = Done, this part is installed)
 - this means you can then tweak the `vch_updated.json` file if you installed some parts without the script, or just delete the `vch_updated.json` file, and the script will take more time at the beginning by verifying that all previous parts have been installed
-- If script doesn't work when you start it, look at the last lines in the debug.txt file
+- If script doesn't work when you start it, look at the last lines in the `debug.txt` file
 
 #### Some set up tips
-- have an infinite welding source, or at least something that can last you for one day, eg:
+- Have an infinite welding source, or at least something that can last you for one day, eg:
 	- a one tile vehicle welding rig on your left
 	- the integrated cutting torch CBM (very low power consumption)
-- you need to have the components for the vehicle parts to install on yourself or in your character reach. Ideally, enough of them to last you for a day
-- start the script in the morning (in game), Turgid and Engorged
+- You need to have the components for the vehicle parts to install on yourself or in your character reach. Ideally, enough of them to last you for a day
+- Start the script in the morning (in game), Turgid and Engorged
+- Avoid having monsters around you that could stop the script if they get too close
+- Obviously, disable safe mode and such. Maybe autosave if it takes too long.
+- Meeting all those requierment, you can install vehicle parts until dead tired, then eat, drink, sleep and repeat
