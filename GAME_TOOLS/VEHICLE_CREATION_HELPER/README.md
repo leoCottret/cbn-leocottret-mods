@@ -9,13 +9,15 @@
 - **Supports every vehicle parts except the few that ask for a direction after installation (security camera, headlights,...)**
 
 ### How does it work (non technical explanation)?
-
+- You first create you future vehicle in a json file, in a easy to use format for anyone not allergic to IT
+- You get a reliable welding source and stockpile the needed components to install the vehicle parts
+- Then you create a new one tile vehicle, position your cursor up left and start the script
 
 https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-97f0-107e28fff973.mp4
 
 - As you can see, the script will navigate through the vehicle tiles, and try to install the vehicle parts one by one
 - Using text recognition, it can react to what happens in the game, eg:
-	- 0:02 it detects that the foldable light frame is already installed, so it remembers it as "installed" and skip it
+	- 0:02 it detects that the foldable light frame is already installed, so it remembers it as "installed" and skips it
 	- 0:03 the foldable light frame isn't installed yet, so it filters its name and select it to be installed
 	- 0:19 it finds the "nearby)" (and "on person)") keyword in the pop up, so it presses enter to terminate the installation
 	- 0:38 same idea as above, but notice that it works for welding tools and vehicle part components
