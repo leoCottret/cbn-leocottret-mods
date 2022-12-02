@@ -82,7 +82,9 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
 	- `"number1:number2"` -> the script will install the vehicle parts at number1 row, and repeat for each row number until it reaches row number2
 	- `"number"` or `"number1:number2"` must be defined in the first encountered vehicle row tile, starting from the left
 - If that's enough explanations you can skip to the next part, otherwise ->
-(TODO hide it by default)
+<details>
+
+  <summary>Detailed explanation</summary>
 - heavy duty frame
 	- we're building a 3x4 vehicle including the ram, so we skip the first row, and then build a 3x3 square of frames
 - military composite ram
@@ -96,6 +98,10 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
 - seat
 	- we add the driver's seat, in the only "interior" tile of the vehicle
 - And for those that never use json, notice that every last vehicle part and vmap row don't have a comma at the end
+blablabla
+
+</details>
+
 
 #### Final set up and start the script
 - Start a vehicle construction on your right, as usual (`*` -> Start a Vehicle Construction -> Enter -> Right direction)
