@@ -1,0 +1,148 @@
+[
+  {
+    "part_name": "heavy duty frame",
+    "vmap": [
+      [ "2:9", "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "wheel hub assembly (steerable)",
+    "vmap": [
+      [ "3", " ", " ", " ", "X" ],
+      [ "8", " ", " ", " ", "X" ]
+    ]
+  },
+  {
+    "part_name": "off-road wide wheel",
+    "vmap": [
+      [ "3", " ", " ", " ", "X" ],
+      [ "8", " ", " ", " ", "X" ]
+    ]
+  },
+  {
+    "part_name": "heavy duty board",
+    "vmap": [
+      [ "2", " ", " ", " ", "X" ],
+      [ "4:8", " ", " ", " ", "X" ],
+      [ "X", "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "opaque heavy duty hatch",
+    "vmap": [
+      [ "3", " ", " ", " ", "X" ]
+    ]
+  },
+  {
+    "part_name": "heavy duty roof",
+    "vmap": [
+      [ "2:9", "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "military composite armor plating",
+    "vmap": [
+      [ "2:3", "X", "X", "X", "X" ],
+      [ "4:8", " ", " ", " ", "X" ],
+      [ "X", "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "military composite ram",
+    "vmap": [
+      [ "X", "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "reinforced windshield",
+    "vmap": [
+      [ " ", "2", "X", "X", " " ]
+    ]
+  },
+  {
+    "part_name": "reclining leather seat",
+    "vmap": [
+      [ " ", "3", " ", "X", " " ]
+    ]
+  },
+  {
+    "part_name": "5-point harness",
+    "vmap": [
+      [ " ", "3", " ", "X", " " ]
+    ]
+  },
+  {
+    "part_name": "cargo space",
+    "vmap": [
+      [ " ", " ", "3", " ", " " ],
+      [ " ", " ", " ", "4:8", " " ]
+    ]
+  },
+  {
+    "part_name": "welding rig",
+    "vmap": [
+      [ " ", "4", " ", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "FOODCO kitchen buddy",
+    "vmap": [
+      [ " ", "5", " ", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "mounted electric forge",
+    "vmap": [
+      [ " ", "6", " ", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "vehicle tank (60L)",
+    "vmap": [
+      [ " ", " ", "3:8", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "V8 engine",
+    "vmap": [
+      [ " ", "3", " ", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "V8 diesel engine",
+    "vmap": [
+      [ " ", " ", " ", "3", " " ]
+    ]
+  },
+  {
+    "part_name": "truck alternator",
+    "vmap": [
+      [ " ", "3", " ", "X", " " ]
+    ]
+  },
+  {
+    "part_name": "large storage battery",
+    "vmap": [
+      [ " ", "4", " ", "X", " " ]
+    ]
+  },
+  {
+    "part_name": "electronics control unit",
+    "vmap": [
+      [ " ", "3", " ", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "aisle with lights",
+    "vmap": [
+      [ " ", " ", "4", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "aisle",
+    "vmap": [
+      [ " ", " ", "5:6", " ", " " ],
+      [ " ", "7:8", "X", " ", " " ]
+    ]
+  }
+]

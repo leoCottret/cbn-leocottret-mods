@@ -1,0 +1,36 @@
+[
+  {
+    "part_name": "heavy duty frame",
+    "vmap": [ 
+      [ " ", " ", " " ],
+      [ "X", "X", "X" ], 
+      [ "X", "X", "X" ],
+      [ "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "military composite ram",
+    "vmap": [ 
+      [ "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "heavy duty board",
+    "vmap": [ 
+      [ "2", " ", "X" ], 
+      [ "4", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "heavy duty roof",
+    "vmap": [
+      [ "2:4", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "seat",
+    "vmap": [
+      [ " ", "3", " " ]
+    ]
+  }
+]

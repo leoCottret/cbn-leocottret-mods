@@ -1,0 +1,103 @@
+[
+  {
+    "part_name": "heavy duty frame",
+    "vmap": [ 
+      [ "2:4", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "wheel hub assembly (steerable)",
+    "vmap": [ 
+      [ "2", " ", "X" ], 
+      [ "4", " ", "X" ]
+    ]
+  },
+  {
+    "part_name": "off-road wide wheel",
+    "vmap": [ 
+      [ "2", " ", "X" ],
+      [ "4", " ", "X" ]
+    ]
+  },
+  {
+    "part_name": "heavy duty board",
+    "vmap": [ 
+      [ "2", " ", "X" ], 
+      [ "4", "X", "X" ] 
+    ]
+  },
+  {
+    "part_name": "opaque heavy duty hatch",
+    "vmap": [  
+      [ "3", " ", "X" ]
+    ]
+  },
+  {
+    "part_name": "heavy duty roof",
+    "vmap": [ 
+      [ "2:4", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "military composite armor plating",
+    "vmap": [ 
+      [ "2", "X", "X" ], 
+      [ "3", " ", "X" ], 
+      [ "4", "X", "X" ] 
+    ]
+  },
+  {
+    "part_name": "military composite ram",
+    "vmap": [ 
+      [ "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "reinforced windshield",
+    "vmap": [ 
+      [ " ", "2", " " ]
+    ]
+  },
+  {
+    "part_name": "reclining leather seat",
+    "vmap": [ 
+      [ " ", "3", " " ]
+    ]
+  },
+  {
+    "part_name": "controls",
+    "vmap": [  
+      [ " ", "3", " " ]
+    ]
+  },
+  {
+    "part_name": "5-point harness",
+    "vmap": [ 
+      [ " ", "3", " " ]
+    ]
+  },
+  {
+    "part_name": "vehicle tank (60L)",
+    "vmap": [ 
+      [ " ", "3", " " ]
+    ]
+  },
+  {
+    "part_name": "upgraded reinforced solar panel",
+    "vmap": [ 
+      [ " ", "3", " " ]
+    ]
+  },
+  {
+    "part_name": "large electric motor",
+    "vmap": [ 
+      [ " ", "3", " " ]
+    ]
+  },
+  {
+    "part_name": "large storage battery",
+    "vmap": [ 
+      [ " ", "4", " " ]
+    ]
+  }
+]

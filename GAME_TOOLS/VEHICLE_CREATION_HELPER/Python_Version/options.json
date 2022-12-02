@@ -1,0 +1,28 @@
+[
+	{
+		"//": "Change the time the script will wait between each key pressed, and between some actions. INCREASE if potato computer, and you may try to LOWER it if you have a beefy one. eg (1 -> 2) 2 times slower, (1 -> 0.5) 2 times faster.",
+		"script_speed": 0.9,
+		"//": "How much time the script should wait when installing a part before stopping, because there's probably a problem. Default: 45 seconds. Must be > 10.",
+		"max_action_wait": 45,
+		"//": "How much time before the script starts, in seconds. The time you have to switch to the game",
+		"time_before_start": 4,
+		"//": "The script will stop if any of those text appear in the bar on the right side during a part installation. Extra safety, or just savescum if something happens because of me (sorry).",
+		"custom_script_stop_flags": [],
+		"//": "If you want to save time the next time you run the script, leave to true (then if you modify the vehicle without the script, delete vch_updated.json). Otherwise, set to false, and the script will reverify every vehicle parts each item you run it",
+		"use_save_system": true,
+		"//": "Change this if you don't use the default key for one of the action",
+		"keys": {
+			"//": "Key to filter vehicle parts to install",
+			"ffilter": "/",
+			"//": "Key to install a vehicle part",
+			"install": "i",
+			"//": "Key to label a vehicle part",
+			"label": "a",
+			"//": "Key to move up in the vehicle menu (default movement keys are arrows)",
+			"up": "8",
+			"left": "LEFT",
+			"right": "RIGHT",
+			"down": "DOWN"
+		}
+	}
+]

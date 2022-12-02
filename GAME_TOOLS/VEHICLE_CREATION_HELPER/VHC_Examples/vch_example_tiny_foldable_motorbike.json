@@ -1,0 +1,92 @@
+[
+  {
+    "part_name": "foldable light frame",
+    "vmap": [ 
+      [ "2:3" ]
+    ]
+  },
+  {
+    "part_name": "light wheel mount (steerable)",
+    "vmap": [ 
+      [ "2:3" ]
+    ]
+  },
+  {
+    "part_name": "off-road bicycle wheel",
+    "vmap": [ 
+      [ "2:3" ]
+    ]
+  },
+  {
+    "part_name": "car battery",
+    "vmap": [ 
+      [ "2:3" ]
+    ]
+  },
+  {
+    "part_name": "folding shopping cart basket",
+    "vmap": [ 
+      [ "2:3" ]
+    ]
+  },
+  {
+    "part_name": "vehicle tank (10L)",
+    "vmap": [ 
+      [ "2:3" ]
+    ]
+  },
+  {
+    "part_name": "spike",
+    "vmap": [ 
+      [ "X" ]
+    ]
+  },
+  {
+    "part_name": "V-twin engine",
+    "vmap": [ 
+      [ "3" ]
+    ]
+  },
+  {
+    "part_name": "small electric motor",
+    "vmap": [ 
+      [ "2" ]
+    ]
+  },
+  {
+    "part_name": "small electric dynamo",
+    "vmap": [ 
+      [ "3" ]
+    ]
+  },
+  {
+    "part_name": "motorbike alternator",
+    "vmap": [ 
+      [ "3" ]
+    ]
+  },
+  {
+    "part_name": "recharging station",
+    "vmap": [ 
+      [ "3" ]
+    ]
+  },
+  {
+    "part_name": "controls",
+    "vmap": [ 
+      [ "3" ]
+    ]
+  },
+  {
+    "part_name": "electronics control unit",
+    "vmap": [ 
+      [ "3" ]
+    ]
+  },
+  {
+    "part_name": "aisle lights",
+    "vmap": [ 
+      [ "3" ]
+    ]
+  }
+]
