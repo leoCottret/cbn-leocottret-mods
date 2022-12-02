@@ -69,6 +69,7 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
 ]
 ```
 - The final result will look like this
+- 
 ![image](https://user-images.githubusercontent.com/71428793/205400378-eba4fa49-a24e-4488-9989-1a2b4087709f.png)
 - Each vehicle part is defined between `{}`
 - `part_name` is the name of the vehicle part to install
