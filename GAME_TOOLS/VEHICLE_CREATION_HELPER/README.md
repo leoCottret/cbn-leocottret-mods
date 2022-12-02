@@ -1,6 +1,6 @@
 # Vehicle Creation Helper
 ### What is this
-- A "game tool", using a combination of text recognition and keys stimulation to automatically build a vehicle in game
+- A "game tool", using a combination of text recognition and keys stimulation to automatically build your vehicle in game
 
 ### Why does it do
 - Having to repeat the same keys hundreds of times to install each part is tedious
