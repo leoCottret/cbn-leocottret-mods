@@ -86,6 +86,7 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
 <details>
 
   <summary>Detailed explanation</summary>
+	
 - heavy duty frame
 	- we're building a 3x4 vehicle including the ram, so we skip the first row, and then build a 3x3 square of frames
 - military composite ram
