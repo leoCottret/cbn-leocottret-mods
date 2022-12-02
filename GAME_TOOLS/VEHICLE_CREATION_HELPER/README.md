@@ -135,3 +135,9 @@ blablabla
 - Avoid having monsters around you that could stop the script if they get too close
 - Obviously, disable safe mode and such. Maybe autosave if it takes too long.
 - Meeting all those requierment, you can install vehicle parts until dead tired, then eat, drink, sleep and repeat
+
+#### Misc info
+- All those vehicles have been fully built with the script, and are included in the VCH_Examples folder
+
+![image](https://user-images.githubusercontent.com/71428793/205408545-80d87d19-fa21-4919-8ed0-b2496eac24c9.png)
+
