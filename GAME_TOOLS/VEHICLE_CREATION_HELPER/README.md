@@ -108,6 +108,7 @@ blablabla
 
 
 #### Final set up and start the script
+- Set up your options in the `options.json` file
 - Start a vehicle construction on your right, as usual (`*` -> Start a Vehicle Construction -> Enter -> Right direction)
 - Examine the vehicle tile
 - Move your cursor on the upper left tile of your vehicle, or the first part to install of the first row
