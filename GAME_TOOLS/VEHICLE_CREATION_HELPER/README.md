@@ -6,6 +6,7 @@
 - Having to repeat the same keys hundreds of times to install each part is tedious
 - This script will make your character install every vehicle parts automatically
 - Huge help to build big vehicle
+- **Supports every vehicle parts except the few that ask for a direction after installation (security camera, headlights,...)**
 
 ### How does it work (non technical explanation)?
 
