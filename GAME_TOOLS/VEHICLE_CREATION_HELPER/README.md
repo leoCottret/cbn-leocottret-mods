@@ -2,7 +2,7 @@
 ### What is this
 - A "game tool", using a combination of text recognition and keys stimulation to automatically build your vehicle in game
 
-### Why does it do
+### What does it do
 - Having to repeat the same keys hundreds of times to install each part is tedious
 - This script will make your character install every vehicle parts automatically
 - Huge help to build big vehicle
