@@ -11,7 +11,7 @@
 ### How does it work (non technical explanation)?
 - You first create you future vehicle in a json file, in a easy to use format for anyone not allergic to IT
 - You get a reliable welding source and stockpile the needed components to install the vehicle parts
-- Then you create a new one tile vehicle, position your cursor up left and start the script
+- Then you create a new one tile vehicle, open the vehicle menu, position your cursor on the first part to install and start the script
 
 https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-97f0-107e28fff973.mp4
 
