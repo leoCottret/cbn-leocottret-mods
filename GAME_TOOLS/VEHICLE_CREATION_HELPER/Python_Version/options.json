@@ -19,7 +19,7 @@
 			"//": "Key to label a vehicle part",
 			"label": "a",
 			"//": "Key to move up in the vehicle menu (default movement keys are arrows)",
-			"up": "8",
+			"up": "UP",
 			"left": "LEFT",
 			"right": "RIGHT",
 			"down": "DOWN"
