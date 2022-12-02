@@ -8,11 +8,22 @@
 - Huge help to build big vehicle
 
 ### How does it work (non technical explanation)?
-- INSERT VIDEO HERE
-- INSERT VIDEO EXPLANATIONS HERE
+
+
+https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-97f0-107e28fff973.mp4
+
+- as you can see, the script will navigate through the vehicle tiles, and try to install the vehicle parts one by one
+- using text recognition, it can react to what happens in the game, eg:
+	- 0:02 it detects that the foldable light frame is already installed, so it remembers it as "installed" and skip it
+	- 0:03 the foldable light frame isn't installed yet, so it filters its name and select it to be installed
+	- 0:19 it finds the "nearby)" (and "on person)") keyword in the pop up, so it presses enter to terminate the installation
+	- 0:38 same idea as above, but notice that it works for welding tools and vehicle part components
+	- 1:09 since the text isn't white, and should be here, it detects that the part can't be installed, so it mark it as uninstalled and will try to reinstall it when you restart the script
+	- (not in the video) if, after filtering, the first proposed vehicle part isn't the right now, it will navigate to it by pressing the "go down" key and select the right one instead
+	- (not in the video) any warning popup will make the script stop (eg if a hostile monster gets too close, or if you're "Dead Tired")
 
 ### How does it work (technical explanation)?
-- INSERT TEC EXPLANATIONS HIDDEN BY DEFAULT
+- The python script (vch.py) is heavily commented, go take a look if you're interested
 
 ### How to use it?
 #### Create your vehicle file
@@ -92,6 +103,11 @@ INSERT PICTURE
 	- most of the time, your first row will have some kind of ram, so if you use a rectangle shape vehicle, you just have to go up one tile
 - most of the time, this will be your second row, because the first will have some kind of ram
 - start the script, switch back to the game, and (hopefully) be amazed
+	- if you use the windows version, just double click the .exe
+	- if you use the python version
+		- install python3
+		- try to execute the script `python3 vch.py`, it will most probably warn you about missing libraries
+		- install all the missing libraries with `pip3 install <missing library name>`, until you can execute the script without error
 
 #### Important notes
 - **you can stop the script at any time by pressing Left Control**
