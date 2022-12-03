@@ -226,7 +226,7 @@ def check_if_texts_are_on_screen_location(texts, left, top, right, bottom, do_up
 # Original code from https://stackoverflow.com/questions/9506841/using-pil-to-turn-a-rgb-image-into-a-pure-black-and-white-image#9506960
 # The basic idea:
 # 1)
-# In a colored image, each pixel stores a "RGB" value, so each pixel color is defined by 3 values (Red, Green, Blue)
+# In a colored pictured, each pixel stores a "RGB" value, so each pixel color is defined by 3 values (Red, Green, Blue)
 #	Each value will have a range from 0 to 255. Pure white is (255, 255, 255) and pure black is (0, 0, 0)
 # Converting a picture to black & white (shades of grey) basically means to do the average of those 3 values, for each pixel
 # So after this we have a shade of grey for each pixel, which will be a value between 0 (pure white) and 255 (pure black)
@@ -237,18 +237,28 @@ def check_if_texts_are_on_screen_location(texts, left, top, right, bottom, do_up
 # 
 # With this basic knowledge, hopefully it becomes easier to understand what those parameters do
 # threshold: is the limit at which a pixel will be either pure white or pure black, depending on its "shade of grey" value
+# 	PS: threshold can also be a list with the minimum and the maximum value of shade of grey accepted (efficient, hacky and easy way to target a color in a screen with few colors)
 # reverse: since pytesseract works (much) better with a black text on a white background, and cataclysm uses the opposit, we reverse the image (clear pixels become black, and the opposit)
-def update_screenshot(threshold, reverse=True):
+def update_screenshot(threshold=70, reverse=True):
 	global CURRENT_SCREENSHOT
 	fn = None
+
+	# minimum value of shade of grey to keep the text
+	threshold_min = threshold
+	# maximum value of shade of grey to keep the text
+	threshold_max = 255
+	if (type(threshold) == list):
+		threshold_min = threshold[0]
+		threshold_max = threshold[1]
 	if reverse:
-		fn = lambda x : 0 if x > threshold else 255
+		fn = lambda x : 0 if x >= threshold_min and x <= threshold_max else 255
 	else:
-		fn = lambda x : 255 if x > threshold else 0
+		fn = lambda x : 255 if x >= threshold_min and x <= threshold_max else 0
 
 	CURRENT_SCREENSHOT = PIL.ImageGrab.grab().convert('L').point(fn, mode='1').convert('1')
-	# CURRENT_SCREENSHOT.show() # Uncomment to see the resulting image for the text recognition
-	# sys.exit()
+	# CURRENT_SCREENSHOT.show() # Uncomment here and below to see the resulting image for the text recognition
+	# exit()
+
 
 
 # KEYBOARD FUNCTIONS (and listener)
@@ -515,7 +525,7 @@ def install_vehicle_part(vehicle_part_name):
 	# Open install menu
 	send_key(OPTIONS.keys.install)
 	time.sleep(0.1*OPTIONS.script_speed)
-	# Check if we can construct a part here, if that's the case, early return
+	# Check if we can construct a part here, if that's not the case, early return
 	if not check_if_texts_are_on_screen_location([INSTALL_POSSIBLE_TEXT], CURRENT_SCREENSHOT.width/2, 0, CURRENT_SCREENSHOT.width, CURRENT_SCREENSHOT.height/2, True):
 		print_and_log(f"{vehicle_part_name} has been skipped, no installation possible here")
 		return False
@@ -524,11 +534,23 @@ def install_vehicle_part(vehicle_part_name):
 
 	# If a similar part is already installed or we don't have the materials, the part won't appear, or won't appear with enough contrast to be read
 	if not check_if_texts_are_on_screen_location([vehicle_part_name], CURRENT_SCREENSHOT.width/3, 0, 2*CURRENT_SCREENSHOT.width/3, CURRENT_SCREENSHOT.height/4, True, 230):
-		print_and_log(f"{vehicle_part_name} has been skipped")
+		print_and_log(f"{vehicle_part_name} skipped")
 		send_key(Key.esc)
 		return False
-	# Most of the time is the already selected one, but sometimes we have to select an other further below
+	
+	# Most of the time the vehicle part is the already selected one, but sometimes we have to select an other further below (eg aisle, aisle lights)
 	select_vehicle_part_to_install(vehicle_part_name)
+
+	# For reasons, the part still appears in white if an additional requirement is missing, so we also check that :/
+	# Filter red text only in the upper right part of the screen, if we find aline > 2 character, one the the req isn't met, skip this part
+	update_screenshot([70, 80])
+	vparts_choices = get_lines_on_screen_location(CURRENT_SCREENSHOT.width*2/3, 0, CURRENT_SCREENSHOT.width, CURRENT_SCREENSHOT.height/3, False)
+	for vpart in vparts_choices:
+		# If we find a word in red that isn't random noise, we're missing something, skipping the part
+		if len(vpart) > 2:
+			print_and_log(f"{vehicle_part_name} skipped (additional req)")
+			send_key(Key.esc)
+			return False
 
 	# Start installation
 	send_key(Key.enter)
@@ -547,9 +569,9 @@ def install_vehicle_part(vehicle_part_name):
 
 		if EXIT_SCRIPT:
 			exit_with_msg("User pressed the exit key, stopping the script")
+
 		if time_waited > OPTIONS.max_action_wait:
 			exit_with_msg("For unknown reasons, the vehicle part couldn't be installed")
-
 
 		if time_waited > 5:
 			# Check for warning messages (center of the screen)

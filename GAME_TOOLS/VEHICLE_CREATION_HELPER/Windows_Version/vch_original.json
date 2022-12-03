@@ -1,103 +1,92 @@
 [
   {
-    "part_name": "heavy duty frame",
+    "part_name": "foldable light frame",
     "vmap": [ 
-      [ "2:4", "X", "X" ]
+      [ "2:3" ]
     ]
   },
   {
-    "part_name": "wheel hub assembly (steerable)",
+    "part_name": "light wheel mount (steerable)",
     "vmap": [ 
-      [ "2", " ", "X" ], 
-      [ "4", " ", "X" ]
+      [ "2:3" ]
     ]
   },
   {
-    "part_name": "off-road wide wheel",
+    "part_name": "off-road bicycle wheel",
     "vmap": [ 
-      [ "2", " ", "X" ],
-      [ "4", " ", "X" ]
+      [ "2:3" ]
     ]
   },
   {
-    "part_name": "heavy duty board",
+    "part_name": "car battery",
     "vmap": [ 
-      [ "2", " ", "X" ], 
-      [ "4", "X", "X" ] 
+      [ "2:3" ]
     ]
   },
   {
-    "part_name": "opaque heavy duty hatch",
-    "vmap": [  
-      [ "3", " ", "X" ]
+    "part_name": "folding shopping cart basket",
+    "vmap": [ 
+      [ "2:3" ]
     ]
   },
   {
-    "part_name": "heavy duty roof",
+    "part_name": "vehicle tank (10L)",
     "vmap": [ 
-      [ "2:4", "X", "X" ]
+      [ "2:3" ]
     ]
   },
   {
-    "part_name": "military composite armor plating",
+    "part_name": "spike",
     "vmap": [ 
-      [ "2", "X", "X" ], 
-      [ "3", " ", "X" ], 
-      [ "4", "X", "X" ] 
+      [ "X" ]
     ]
   },
   {
-    "part_name": "military composite ram",
+    "part_name": "V-twin engine",
     "vmap": [ 
-      [ "X", "X", "X" ]
+      [ "3" ]
     ]
   },
   {
-    "part_name": "reinforced windshield",
+    "part_name": "small electric motor",
     "vmap": [ 
-      [ " ", "2", " " ]
+      [ "2" ]
     ]
   },
   {
-    "part_name": "reclining leather seat",
+    "part_name": "small electric dynamo",
     "vmap": [ 
-      [ " ", "3", " " ]
+      [ "3" ]
+    ]
+  },
+  {
+    "part_name": "motorbike alternator",
+    "vmap": [ 
+      [ "3" ]
+    ]
+  },
+  {
+    "part_name": "recharging station",
+    "vmap": [ 
+      [ "3" ]
     ]
   },
   {
     "part_name": "controls",
-    "vmap": [  
-      [ " ", "3", " " ]
+    "vmap": [ 
+      [ "3" ]
     ]
   },
   {
-    "part_name": "5-point harness",
+    "part_name": "electronics control unit",
     "vmap": [ 
-      [ " ", "3", " " ]
+      [ "3" ]
     ]
   },
   {
-    "part_name": "vehicle tank (60L)",
+    "part_name": "aisle lights",
     "vmap": [ 
-      [ " ", "3", " " ]
-    ]
-  },
-  {
-    "part_name": "upgraded reinforced solar panel",
-    "vmap": [ 
-      [ " ", "3", " " ]
-    ]
-  },
-  {
-    "part_name": "large electric motor",
-    "vmap": [ 
-      [ " ", "3", " " ]
-    ]
-  },
-  {
-    "part_name": "large storage battery",
-    "vmap": [ 
-      [ " ", "4", " " ]
+      [ "3" ]
     ]
   }
 ]

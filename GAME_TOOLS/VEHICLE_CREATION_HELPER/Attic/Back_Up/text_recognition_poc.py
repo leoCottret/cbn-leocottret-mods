@@ -77,6 +77,7 @@ def checkIfTextsAreOnScreenLocation(texts, left, top, right, bottom, do_update, 
 		updateScreenshot(threshold)
 	# Get img in delimited borders
 	cropped_img = CURRENT_SCREENSHOT.crop((left, top, right, bottom))	
+	cropped_img.show()
 	# Get lines in cropped image. 
 	# The line below is by far the most computing heavy of the script, which is why I changed this current function to accept an array of texts
 	lines = None
@@ -133,14 +134,23 @@ def checkIfTextsAreOnScreenLocation(texts, left, top, right, bottom, do_update, 
 # 
 # With this basic knowledge, hopefully it becomes easier to understand what those parameters do
 # threshold: is the limit at which a pixel will be either pure white or pure black, depending on its "shade of grey" value
+# 	PS: threshold can also be a list with the minimum and the maximum value of shade of grey accepted (efficient, hacky and easy way to target a color in a screen with few colors)
 # reverse: since pytesseract works (much) better with a black text on a white background, and cataclysm uses the opposit, we reverse the image (clear pixels become black, and the opposit)
 def updateScreenshot(threshold=70, reverse=True):
 	global CURRENT_SCREENSHOT
 	fn = None
+
+	# minimum value of shade of grey to keep the text
+	threshold_min = threshold
+	# maximum value of shade of grey to keep the text
+	threshold_max = 255
+	if (type(threshold) == list):
+		threshold_min = threshold[0]
+		threshold_max = threshold[1]
 	if reverse:
-		fn = lambda x : 0 if x > threshold else 255
+		fn = lambda x : 0 if x > threshold_min and x < threshold_max else 255
 	else:
-		fn = lambda x : 255 if x > threshold else 0
+		fn = lambda x : 255 if x > threshold_min and x < threshold_max else 0
 
 	CURRENT_SCREENSHOT = PIL.ImageGrab.grab().convert('L').point(fn, mode='1').convert('1')
 	# CURRENT_SCREENSHOT.show() # Uncomment here and below to see the resulting image for the text recognition
@@ -162,14 +172,14 @@ def display_cropped_img(left, top, right, bottom, threshold):
 time.sleep(2)
 updateScreenshot()
 # display image
-# display_cropped_img(0, CURRENT_SCREENSHOT.height/3, CURRENT_SCREENSHOT.width/4, CURRENT_SCREENSHOT.height-165, 120)
+# display_cropped_img(CURRENT_SCREENSHOT.width*2/3, 0, CURRENT_SCREENSHOT.width, CURRENT_SCREENSHOT.height/3, [65, 80])
 
 
 
 txt_to_test = [ "aisle" ]
 try_psm: bool = True
 for i in range(1):
-	if checkIfTextsAreOnScreenLocation(txt_to_test, CURRENT_SCREENSHOT.width/3, 0, 2*CURRENT_SCREENSHOT.width/3, CURRENT_SCREENSHOT.height/2, True, 230):
+	if checkIfTextsAreOnScreenLocation(txt_to_test, CURRENT_SCREENSHOT.width*2/3, 0, CURRENT_SCREENSHOT.width, CURRENT_SCREENSHOT.height/3, True, [65, 80]):
 		print(f"is on screen in delimited borders")
 	else:
 		print(f"is NOT on screen in delimited borders")

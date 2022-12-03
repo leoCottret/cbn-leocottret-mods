@@ -1,7 +1,7 @@
 [
 	{
 		"//": "Change the time the script will wait between each key pressed, and between some actions. INCREASE if potato computer, and you may try to LOWER it if you have a beefy one. eg (1 -> 2) 2 times slower, (1 -> 0.5) 2 times faster.",
-		"script_speed": 1.0,
+		"script_speed": 0.9,
 		"//": "How much time the script should wait when installing a part before stopping, because there's probably a problem. Default: 45 seconds. Must be > 10.",
 		"max_action_wait": 45,
 		"//": "How much time before the script starts, in seconds. The time you have to switch to the game",
