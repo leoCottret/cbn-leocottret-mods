@@ -22,10 +22,11 @@
 		"environmental_protection": 15, 
 		"use_action": {
 			"type": "holster",
-			"holster_prompt": "Sheath melee weapon",
+			"holster_prompt": "Sheath item",
 			"holster_msg": "You sheath your %s",
-			"min_volume": "500 ml",
+			"min_volume": "250 ml",
 			"max_volume": "12000 ml",
+			"skills": [ "pistol", "smg", "shotgun", "rifle", "launcher" ],
 			"draw_cost": 80,
 			"multi": 4,
 			"flags": [ "SHEATH_KNIFE", "BELT_CLIP", "SHEATH_SWORD", "SHEATH_AXE", "SHEATH_SPEAR", "SHEATH_GOLF" ]
@@ -69,7 +70,7 @@
 			"multi": 4,
 			"min_volume": "50 ml",
 			"max_volume": "1750 ml",
-			"skills": [ "pistol", "smg", "shotgun", "rifle" ],
+			"skills": [ "pistol", "smg", "shotgun", "rifle", "launcher" ],
 			"draw_cost": 85,
 			"flags": [ "SHEATH_KNIFE", "BELT_CLIP", "SHEATH_SWORD", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER" ]
 		},
