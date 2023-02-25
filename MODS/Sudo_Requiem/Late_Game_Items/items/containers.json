@@ -4,7 +4,7 @@
 		"type": "CONTAINER",
 		"category": "container",
 		"name": { "str": "bulletproof canteen" },
-		"description": "An insulated, heavy, sturdy, bulletproof and fireproof military-style water canteen with a 1.5 liter capacity.  For those who want to protect their drink as if it were their own life.",
+		"description": "A heavy, sturdy, bulletproof and fireproof military-style water canteen with a 1.5 liter capacity.  For those who want to protect their drink as if it were their own life.",
 		"weight": "1000 g",
 		"volume": "1750 ml",
 		"price": 4000,
@@ -16,7 +16,6 @@
 		"contains": "1500 ml",
 		"seals": true,
 		"watertight": true,
-    	"insulation": 20,
 		"armor_data": { "covers": [ "leg_either" ], "coverage": 5, "encumbrance": 7, "material_thickness": 7 },
 		"flags": [ "WAIST", "VARSIZE", "OVERSIZE", "WATER_FRIENDLY", "STURDY" ]
 	}
