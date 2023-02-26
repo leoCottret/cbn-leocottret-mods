@@ -1,0 +1,15 @@
+{
+  "type": "MOD_INFO",
+  "id": "XL_Armors_Secronom",
+  "name": "<color_cyan>XL Armors</color> for <color_light_red>Secronom</color>",
+  "description": "This is the main XL armors mod, that adds XL armors for secronom.",
+  "category": "content",
+  "authors": [
+    "leoCottret"
+  ],
+  "maintainers": [
+    "leoCottret"
+  ],
+  "dependencies": [ "bn", "secronom" ],
+  "version": "Bright Night, last update 2022/11/11"
+}
