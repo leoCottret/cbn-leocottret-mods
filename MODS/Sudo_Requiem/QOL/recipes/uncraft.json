@@ -40,14 +40,6 @@
 		"flags": [ "BLIND_EASY" ]
 	},
 	{
-		"result": "big_bundle_lycra",
-		"type": "uncraft",
-		"skill_used": "fabrication",
-		"time": "60 s",
-		"components": [ [ [ "lycra_patch", 50 ] ], [ [ "string_6", 1 ] ] ],
-		"flags": [ "BLIND_EASY" ]
-	},
-	{
 		"result": "big_bundle_neoprene",
 		"type": "uncraft",
 		"skill_used": "fabrication",
