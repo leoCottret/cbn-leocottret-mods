@@ -60,18 +60,6 @@
 		"flags": [ "BLIND_HARD" ]
 	},
 	{
-		"result": "big_bundle_lycra",
-		"type": "recipe",
-		"category": "CC_OTHER",
-		"subcategory": "CSC_OTHER_MATERIALS",
-		"skill_used": "fabrication",
-		"difficulty": 1,
-		"time": "1 m",
-		"autolearn": true,
-		"components": [ [ [ "lycra_patch", 50 ] ], [ [ "string_6", 1 ] ] ],
-		"flags": [ "BLIND_HARD" ]
-	},
-	{
 		"result": "big_bundle_neoprene",
 		"type": "recipe",
 		"category": "CC_OTHER",
