@@ -70,20 +70,6 @@
 		"flags": [ "NO_REPAIR", "NO_SALVAGE" ]
 	},
 	{
-		"id": "big_bundle_lycra",
-		"type": "GENERIC",
-		"category": "spare_parts",
-		"name": { "str": "big bundle of lycra", "str_pl": "big bundles of lycra" },
-		"description": "Big bundle of lycra.  Disassemble to unpack. No material lost in the process.",
-		"weight": "4350 g",
-		"volume": "4 L",
-		"material": "lycra",
-		"symbol": ",",
-		"color": "brown",
-		"use_action": "DISASSEMBLE",
-		"flags": [ "NO_REPAIR", "NO_SALVAGE" ]
-	},
-	{
 		"id": "big_bundle_neoprene",
 		"type": "GENERIC",
 		"category": "spare_parts",
