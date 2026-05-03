@@ -11,5 +11,5 @@
 
 
 # Credits
-- **all the musics in the WBC** *(White Bat Cyberpunk)* **folder are made by "Karl Casey @ White Bat Audio"** ![source](https://www.youtube.com/watch?v=zyNjF_PIvGM) and quoting him
+- **all the musics in the WBC** *(White Bat Cyberpunk)* **folder are made by "Karl Casey @ White Bat Audio"** [source](https://www.youtube.com/watch?v=zyNjF_PIvGM) and quoting him
 	- "Can I use this in my video/stream/film/game/project/podcast etc.? -> Yes, my music is 100% copyright free so you can use it in ANY creative project, just credit me "music by Karl Casey @ White Bat Audio". What you CANNOT do is take my music and redistribute it as a product."
