@@ -95,8 +95,31 @@
                 { "file": "music/WBJC/The_Witch.ogg", "volume": 60 },
                 { "file": "music/WBJC/They_Came_From_Below.ogg", "volume": 60 },
                 { "file": "music/WBJC/Tyrell_Corporation.ogg", "volume": 60 },
-                { "file": "music/WBJC/Within_the_Shadows.ogg", "volume": 60 }
-
+                { "file": "music/WBJC/Within_the_Shadows.ogg", "volume": 60 },
+                { "file": "music/WBUV/Archetype.ogg", "volume": 60 },
+                { "file": "music/WBUV/Bloodsport.ogg", "volume": 60 },
+                { "file": "music/WBUV/Creature.ogg", "volume": 60 },
+                { "file": "music/WBUV/Dawn_of_the_Living_Dead.ogg", "volume": 60 },
+                { "file": "music/WBUV/Deception.ogg", "volume": 60 },
+                { "file": "music/WBUV/Fortress.ogg", "volume": 60 },
+                { "file": "music/WBUV/Here_Comes_the_Night.ogg", "volume": 60 },
+                { "file": "music/WBUV/Hunted_by_Machines.ogg", "volume": 60 },
+                { "file": "music/WBUV/Identity.ogg", "volume": 60 },
+                { "file": "music/WBUV/Jaws.ogg", "volume": 60 },
+                { "file": "music/WBUV/Lethal.ogg", "volume": 60 },
+                { "file": "music/WBUV/Lights_Out.ogg", "volume": 60 },
+                { "file": "music/WBUV/Nemesis.ogg", "volume": 60 },
+                { "file": "music/WBUV/Nightmare_City.ogg", "volume": 60 },
+                { "file": "music/WBUV/Prisoner.ogg", "volume": 60 },
+                { "file": "music/WBUV/Pulse.ogg", "volume": 60 },
+                { "file": "music/WBUV/Spitting_Acid.ogg", "volume": 60 },
+                { "file": "music/WBUV/Technocrats.ogg", "volume": 60 },
+                { "file": "music/WBUV/Technological_Ruin.ogg", "volume": 60 },
+                { "file": "music/WBUV/The_New_Order.ogg", "volume": 60 },
+                { "file": "music/WBUV/The_Ultimated_Drug.ogg", "volume": 60 },
+                { "file": "music/WBUV/Ungodly.ogg", "volume": 60 },
+                { "file": "music/WBUV/Unhuman.ogg", "volume": 60 },
+                { "file": "music/WBUV/Vendetta.ogg", "volume": 60 }
             ]
         }
     ]
