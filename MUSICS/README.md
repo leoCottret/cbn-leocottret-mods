@@ -21,3 +21,4 @@
 	- "Can I use this in my video/stream/film/game/project/podcast etc.? -> Yes, my music is 100% copyright free so you can use it in ANY creative project, just credit me "music by Karl Casey @ White Bat Audio". What you CANNOT do is take my music and redistribute it as a product."
  - All the musics in **WBJC** _(White Bat John Carpenter)_ are also **made by "Karl Casey @ White Bat Audio"** [source](https://www.youtube.com/watch?v=Eiijm2GhKAA)
  - All the musics in **WBUV** _(White Bat Ultra Violent)_ are also **made by "Karl Casey @ White Bat Audio"** [source](https://youtu.be/VaVmI29rxys)
+ - All the musics in **WBHS** _(White Bat Horror Synth)_ are also **made by "Karl Casey @ White Bat Audio"** [source](https://youtu.be/9_KDUsQwLYQ)
