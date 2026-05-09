@@ -1,5 +1,5 @@
 # Goodies for Cataclysm: Bright Night
-A collection of mods/tools for Bright Night.
+A collection of mods/tools for [Bright Night](https://github.com/cataclysmbn/Cataclysm-BN).
 
 ## Mods
 - [Every missing XL armors for all mods included in Bright Night by default](/MODS/XL_ARMORS_BRIGHT_NIGHT). 
