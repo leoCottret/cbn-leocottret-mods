@@ -2,11 +2,8 @@
 A collection of mods/tools for [Bright Night](https://github.com/cataclysmbn/Cataclysm-BN).
 
 ## Mods
-- [Every missing XL armors for all mods included in Bright Night by default](/MODS/XL_ARMORS_BRIGHT_NIGHT). 
-  - This includes: The core game, Aftershock, CRT Expansion, Magyclism, More Survival Tools, No Hope for a total of 638 new armors and recipes to create them directly, or from their original armor.
-- [XL armors for Kenan's modpack](/MODS/XL_ARMORS_KENAN_MODPACK). 
-- [XL armors for Noct's Cata++](/MODS/XL_ARMORS_nocts_cata). 
 - [Sudo's Requiem](/MODS/Sudo_Requiem). My main mod that adds late game items, big bundle of materials and (SoonTM)late game monsters to challenge your demi-god cyber mutant 
+- (obsolete) XL armors ->  **no need for that now, you can resize most armors with a tailor kit or an arc welder**
 
 ## Musics
 - [Royalty free musics](/MUSICS) that you can add to your favorite soundpack
@@ -16,4 +13,4 @@ A collection of mods/tools for [Bright Night](https://github.com/cataclysmbn/Cat
   - For "superusers" and modders that want to show their love to their fellow mutants
 ## Game tools
 - [A game tool](/GAME_TOOLS/VEHICLE_CREATION_HELPER), using a combination of text recognition and keys stimulation to automatically build your vehicle in game. Huge help for big vehicles
-  - Windows and python script (cross-plateform) version available
+  - Python script (cross-plateform) version available
