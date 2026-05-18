@@ -5,13 +5,13 @@
 ### What does it do
 - Having to repeat the same keys hundreds of times to install each part is tedious
 - This script will make your character install every vehicle parts automatically
-- Huge help to build big vehicle
-- **Supports every vehicle parts except the few that ask for a direction after installation (security camera, headlights,...)**
+- Huge help to build a big vehicle
+- **Supports every vehicle parts except the few that ask for a direction after installation (security camera, headlights,...).**
 
 ### How does it work (non technical explanation)?
 - You first create you future vehicle in a json file, in an easy format for anyone not allergic to IT
 - You get a reliable welding source and stockpile the needed components to install the vehicle parts
-- Then you create a new one tile vehicle, open the vehicle menu, position your cursor on the first part to install and start the script
+- Then you create a new one tile vehicle (the most top left part), open the vehicle menu, position your cursor on the first part to install and start the script
 
 https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-97f0-107e28fff973.mp4
 
@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
 
 ### How to use it?
 #### Create your vehicle file
-- First you have to create your vehicle in vch_original.json (promise, it's dead simple)
+- First you have to create your vehicle in `vch_edit_me.json` (promise, it's dead simple)
 - There are several complete vehicle examples in the VCH_Examples
 - Let's look at a concrete example with everything you'll need to know
 ```json
@@ -84,7 +84,8 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
 	- `"number"` -> the script will install the vehicle parts at this row number
 	- `"number1:number2"` -> the script will install the vehicle parts at number1 row, and repeat for each row number until it reaches row number2
 	- `"number"` or `"number1:number2"` must be defined in the first encountered vehicle row tile, starting from the left
-- If that's enough explanations you can skip to the next part, otherwise ->
+
+- If that's enough explanations you can skip to the next part, otherwise click below ->
 <details>
 
   <summary>Detailed explanation</summary>
@@ -102,9 +103,23 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
 - seat
 	- we add the driver's seat, in the only "interior" tile of the vehicle
 - And for those that never use json, notice that every last vehicle part and vmap row don't have a comma at the end
-blablabla
 
 </details>
+
+
+
+
+#### Some set up tips
+- Have an infinite welding source, or at least something that can last you for one day and the required tools eg:
+	- a one tile vehicle welding rig on your left OR the integrated cutting torch CBM (very low power consumption)
+	- a boomcrane installed on the one tile vehicle, to install wheels (or a bottlejack for anything but the biggest vehicles)
+	- bolt turning 2, glare protection 2, hammering 2, screw driving 1, sewing 1, cutting 1, drilling 2 -> for reference `toolbox + pair of welding goggles` has everything you need
+- You need to have the components for the vehicle parts to install in your character reach. Avoid having them on yourself, it will create ab extra menu. Ideally, enough of them to last you for a day
+- Avoid having monsters around you that could stop the script if they get too close. Preferably, build the vehicle with walls around you. When I tried the script, once a NPC came to talk to me so the script had to stop. More often, it will be random monsters wandering around. Well all of this depend on your settings, but better build something around you to avoid being distracted.
+- Start the script in the morning (in game), Turgid and Engorged
+- Obviously, disable safe mode and such. Maybe autosave if it takes too long.
+- Meeting all those requirement, you can install vehicle parts until dead tired, then eat, drink, sleep and repeat
+
 
 
 #### Final set up and start the script
@@ -115,30 +130,46 @@ blablabla
 	- most of the time, your first row will have some kind of ram, so if you use a rectangle shape vehicle, you just have to go up one tile
 - Most of the time, this will be your second row, because the first will have some kind of ram
 - Start the script, switch back to the game, and (hopefully) be amazed. To start the script:
-	- if you use the windows version, just double click the .exe
-	- if you use the python version
-		- install python 3
-		- try to execute the script `python3 vch.py` (or `python`), it will most probably warn you about missing libraries
-		- install all the missing libraries with `pip3 install <missing library name>` (or `pip`), until you can execute the script without error
 
-#### Important notes
-- **you can stop the script at any time by pressing Left Control**
-- when the script stops it will save the already installed parts in a `vch_updated.json` file, so it can starts at the next part to install when you execute it again (`"D"` = Done, this part is installed)
-- this means you can then tweak the `vch_updated.json` file if you installed some parts without the script, or just delete the `vch_updated.json` file, and the script will take more time at the beginning by verifying that all previous parts have been installed
-- If script doesn't work when you start it, look at the last lines in the `debug.txt` file
+##### If you're on windows (never tried it, but theoritically:)
+ - install tesseract-ocr https://youtu.be/2kWvk4C1pMo
+ - install python 3 https://youtu.be/C3bOxcILGu4
+ - in a terminal type `python -m pip install pytesseract msgspec screeninfo` or `pip3 install pytesseract msgspec screeninfo`
+ - ``
+ - if you have any difficulty don't hesitate to ask a LLM like chatgpt how to run the script https://chatgpt.com/
 
-#### Some set up tips
-- Have an infinite welding source, or at least something that can last you for one day, eg:
-	- a one tile vehicle welding rig on your left
-	- the integrated cutting torch CBM (very low power consumption)
-- You need to have the components for the vehicle parts to install on yourself or in your character reach. Ideally, enough of them to last you for a day
-- Start the script in the morning (in game), Turgid and Engorged
-- Avoid having monsters around you that could stop the script if they get too close
-- Obviously, disable safe mode and such. Maybe autosave if it takes too long.
-- Meeting all those requierment, you can install vehicle parts until dead tired, then eat, drink, sleep and repeat
+
+
+##### If you're on linux
+- install tesseract-ocr `sudo apt-get install tesseract-ocr`
+- install python 3 `sudo apt install python3`
+- install python dependencies `pip3 install pytesseract msgspec screeninfo` install python dependencies
+-  `cd Python_Version; python3 vch.py`
+
 
 #### Misc info
 - All those vehicles have been fully built with the script, and are included in the VCH_Examples folder
 
 ![image](https://user-images.githubusercontent.com/71428793/205408545-80d87d19-fa21-4919-8ed0-b2496eac24c9.png)
 
+#### Important notes
+- **you can stop the script at any time by pressing Alt**
+- when the script stops it will save the already installed parts in a `vch_parts_left_to_install.json` file, so it can starts at the next parts to install when you execute it again (`"D"` = Done, this part is installed)
+- this means you can then tweak the `vch_parts_left_to_install.json` file if you know what you're doing
+
+## Troubleshooting
+- if the script skipped a part when it shouldn't, increase the script speed in options (it will slow the script down). Or just delete the `vch_parts_left_to_install.json` file, and the script will take more time at the beginning by verifying that all previous parts have been installed
+- If script doesn't work when you start it, look at the last lines in the `debug.txt` file
+
+
+- *If it's still not clear, you can start the script, stop it after it sends a few keys, and look at the generated `vch_parts_left_to_install.json` file, you might get a clearer representation of what your vehicle will look like*
+
+
+# Known bugs
+- Do note use the `"` character, even as `\"` it will mess up vch_updated.json generation ---> eg: `32\" armored wheel` -> :(, `armored wheel` -> :) (bad example, the vehicle part name is armored wheel anyway, but you get the idea)
+
+
+### Building the exe (instructions for me don't mind it)
+- `rm Windows_Version/vch.exe Windows_Version/vch`
+- `pip install pyinstaller; cd VEHICLE_CREATION_HELPER; pyinstaller --onefile Python_Version/vch.py --distpath Windows_Version/;`
+- `cp VCH_Examples/vch_tutorial.json Python_Version/vch_edit_me.json; cp VCH_Examples/vch_tutorial.json Windows_Version/vch_edit_me.json; rm -rf build; rm vch.spec; cp Python_Version/options.json Windows_Version/options.json`

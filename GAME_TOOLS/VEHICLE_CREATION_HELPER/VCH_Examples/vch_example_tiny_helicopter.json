@@ -1,0 +1,121 @@
+[
+  {
+  	"//": "I made this helicopter with the idea to merge it with the big bus (by landing through the hole in the back and interacting with the bike rack)",
+  	"//": "To merge it with the big bus, otherwise use carbon fiber frame",
+    "part_name": "heavy duty frame",
+    "vmap": [ 
+      [ "1:3" ]
+    ]
+  },
+  {
+  	"//": "use casters or nothing if you don't plan to merge it",
+    "part_name": "heavy wheel hub assembly (steerable)",
+    "vmap": [ 
+      [ "1:3" ]
+    ]
+  },
+  {
+    "part_name": "armored wheel",
+    "vmap": [ 
+      [ "1:3" ]
+    ]
+  },
+  {
+    "part_name": "very large storage battery",
+    "vmap": [ 
+      [ "1:3" ]
+    ]
+  },
+  {
+    "part_name": "carbon fiber cargo space",
+    "vmap": [ 
+      [ "1:3" ]
+    ]
+  },
+  {
+  	"//": "Or just use 3 enhanced/super electric motors",
+    "part_name": "vehicle tank (60L)",
+    "vmap": [ 
+      [ "2" ]
+    ]
+  },
+  {
+  	"//": "Or just use 3 enhanced/super electric motors. PS: if your car already has a gasoline engine, it brings reduced benefits, better remove one of them",
+    "part_name": "V-12 engine",
+    "vmap": [ 
+      [ "2" ]
+    ]
+  },
+  {
+  	"//": "blabla electric motors",
+    "part_name": "truck alternator",
+    "vmap": [ 
+      [ "2" ]
+    ]
+  },
+  {
+  	"//": "blabla electric motors",
+    "part_name": "enhanced electric dynamo",
+    "vmap": [ 
+      [ "2" ]
+    ]
+  },
+  {
+    "part_name": "enhanced electric motor",
+    "vmap": [ 
+      [ "1" ],
+      [ "3" ]
+    ]
+  },
+  {
+    "part_name": "recharging station",
+    "vmap": [ 
+      [ "2" ]
+    ]
+  },
+  {
+    "part_name": "controls",
+    "vmap": [ 
+      [ "2" ]
+    ]
+  },
+  {
+    "part_name": "electronics control unit",
+    "vmap": [ 
+      [ "2" ]
+    ]
+  },
+  {
+    "part_name": "aisle lights",
+    "vmap": [ 
+      [ "2" ]
+    ]
+  },
+  {
+    "part_name": "shock absorber",
+    "vmap": [ 
+      [ "1:3" ]
+    ]
+  },
+  {
+    "part_name": "carbon fiber roof",
+    "vmap": [
+      [ "1:3" ]
+    ]
+  },
+  {
+    "//" : "fun fact, I noticed its sweet spot for fuel consumption while flying is around 56 kmh",
+    "part_name": "gyrocopter rotors",
+    "vmap": [ 
+      [ "1:3" ]
+    ]
+  },
+  {
+    "//" : "we could use those too, it would better fit the big bus. In both cases, you can transport loot with the helicopter",
+    "//" : "something strange: it uses less fuel with those ultra powerful rotors (???)",
+    "part_name": "heavy-duty military blackhawk rotors",
+    "vmap": [ 
+      [ "1:3" ]
+    ]
+  }
+]

@@ -22,9 +22,9 @@
   {
     "part_name": "heavy duty board",
     "vmap": [
-      [ "2", " ", " ", " ", "X" ],
+      [ "2",   " ", " ", " ", "X" ],
       [ "4:8", " ", " ", " ", "X" ],
-      [ "X", "X", "X", "X", "X" ]
+      [ "X",   "X", "X", "X", "X" ]
     ]
   },
   {
@@ -109,7 +109,19 @@
     ]
   },
   {
+    "part_name": "enhanced electric motor",
+    "vmap": [
+      [ " ", " ", "3", "", " " ]
+    ]
+  },
+  {
     "part_name": "V8 diesel engine",
+    "vmap": [
+      [ " ", " ", " ", "3", " " ]
+    ]
+  },
+  {
+    "part_name": "",
     "vmap": [
       [ " ", " ", " ", "3", " " ]
     ]
@@ -123,7 +135,13 @@
   {
     "part_name": "large storage battery",
     "vmap": [
-      [ " ", "4", " ", "X", " " ]
+      [ " ", "4:5", " ", "X", " " ]
+    ]
+  },
+  {
+    "part_name": "controls",
+    "vmap": [
+      [ " ", "3", " ", " ", " " ]
     ]
   },
   {

@@ -1,0 +1,255 @@
+[
+  {
+    "part_name": "heavy duty frame",
+    "vmap": [
+      [ "2:20", "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "heavy wheel hub assembly (steerable)",
+    "vmap": [
+      [ "3",  "X", "X", "X", "X" ],
+      [ "19", "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "armored wheel",
+    "vmap": [
+      [ "3",  "X", "X", "X", "X" ],
+      [ "19", "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "military composite ram",
+    "vmap": [
+      [ "X", "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "heavy duty board",
+    "vmap": [
+      [ "2",    "X", "X", "X", "X" ],
+      [ "3:7",  " ", " ", " ", "X" ],
+      [ " ",    " ", " ", " ", "8" ],
+      [ "9:19" ," ", " ", " ", "X" ],
+      [ "20",   "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "opaque heavy duty hatch",
+    "vmap": [
+      [ "8", " ", " ", " ", " " ]
+    ]
+  },
+  {
+    "//": "we build a roof where it's really needed in priority",
+    "part_name": "carbon fiber roof",
+    "vmap": [
+      [ " ", "3:19", "X", "X", " " ]
+    ]
+  },
+  {
+    "part_name": "carbon fiber roof",
+    "vmap": [
+      [ "2",    "X", "X", "X", "X" ],
+      [ "3:19", " ", " ", " ", "X" ],
+      [ "20",   "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "military composite armor plating",
+    "vmap": [
+      [ "2",   "X", "X", "X", "X" ],
+      [ "3:19"," ", " ", " ", "X" ],
+      [ "20",  "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "reclining leather seat",
+    "vmap": [
+      [ " ", "3",   "X", "X", " " ],
+      [ " ", "7:9", " ", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "5-point harness",
+    "vmap": [
+      [ " ", "3",   "X", "X", " " ],
+      [ " ", "7:9", " ", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "controls",
+    "vmap": [
+      [ " ", "8", " ", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "electronics control unit",
+    "vmap": [
+      [ " ", "8", " ", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "carbon fiber cargo space",
+    "vmap": [
+      [ " ", "4",     "X", "X", " " ],
+      [ " ", "5:6",   "X", " ", " " ],
+      [ " ", " ",     "7", " ", " " ],
+      [ " ", " ",     "8", "X", " " ],
+      [ " ", " ",     "9", " ", " " ],
+      [ " ", "10",    "X", "X", " " ],
+      [ " ", "11",    "X", " ", " " ],
+      [ " ", "12:13", "X", "X", " " ],
+      [ " ", " ", "14:16", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "robobench",
+    "vmap": [
+      [ " ", " ", " ", "5", " " ]
+    ]
+  },
+  {
+    "part_name": "vehicle advanced 3D printer",
+    "vmap": [
+      [ " ", " ", " ", "6", " " ]
+    ]
+  },
+  {
+    "part_name": "MetalMaster forge buddy",
+    "vmap": [
+      [ " ", " ", " ", "7", " " ]
+    ]
+  },
+  {
+    "part_name": "KitchenMaster cooking buddy",
+    "vmap": [
+      [ " ", " ", " ", "9", " " ]
+    ]
+  },
+  {
+    "part_name": "recharging station",
+    "vmap": [
+      [ " ", " ", " ", "10", " " ]
+    ]
+  },
+  {
+    "part_name": "advanced butchering station",
+    "vmap": [
+      [ " ", " ", " ", "11", " " ]
+    ]
+  },
+  {
+    "part_name": "freezer",
+    "vmap": [
+      [ " ", "14", " ", "X", " " ]
+    ]
+  },
+  {
+    "part_name": "autoclave",
+    "vmap": [
+      [ " ", " ", " ", "15", " " ]
+    ]
+  },
+  {
+    "part_name": "autodoc couch",
+    "vmap": [
+      [ " ", "15", " ", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "autodoc",
+    "vmap": [
+      [ " ", "16", " ", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "livestock stall",
+    "vmap": [
+      [ " ", "19", " ", "X", " " ]
+    ]
+  },
+  {
+    "part_name": "V12 diesel engine",
+    "vmap": [
+      [ " ", "4", " ", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "enhanced electric motor",
+    "vmap": [
+      [ " ", " ", "4", " ", " " ]
+    ]
+  },
+  {
+    "//": "or V12 engine",
+    "part_name": "6000 hp gas turbine engine",
+    "vmap": [
+      [ " ", " ", " ", "4", " " ]
+    ]
+  },
+  {
+    "part_name": "1900 hp gas turbine engine",
+    "vmap": [
+      [ " ", " ", " ", "4", " " ]
+    ]
+  },
+  {
+    "part_name": "1350 hp gas turbine engine",
+    "vmap": [
+      [ " ", " ", " ", "4", " " ]
+    ]
+  },
+  {
+    "//": "preferably one of the hp engines",
+    "part_name": "V12 engine",
+    "vmap": [
+      [ " ", " ", " ", "4", " " ]
+    ]
+  },
+  {
+    "part_name": "truck alternator",
+    "vmap": [
+      [ " ", "4", " ", "X", " " ]
+    ]
+  },
+  {
+    "part_name": "very large storage battery",
+    "vmap": [
+      [ " ", " ", "5:14", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "upgraded reinforced solar panel",
+    "vmap": [
+      [ " ", " ", "4:8", " ", " " ]
+    ]
+  },
+  {
+    "part_name": "roof-mounted external tank (200L)",
+    "vmap": [
+      [ " ", "4:8", " ", "X", " " ]
+    ]
+  },
+  {
+    "part_name": "shock absorber",
+    "vmap": [
+      [ "","3:19", "X", "X", " " ]
+    ]
+  },
+  {
+    "part_name": "carbon fiber boat hull",
+    "vmap": [
+      [ "2",   "X", "X", "X", "X" ],
+      [ "4:18","X", "X", "X", "X" ],
+      [ "20",  "X", "X", "X", "X" ]
+    ]
+  },
+  {
+    "part_name": "heavy-duty military blackhawk rotors",
+    "vmap": [
+      [ "","14:17", " ", "X", " " ]
+    ]
+  }
+]
