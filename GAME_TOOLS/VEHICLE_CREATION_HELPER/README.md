@@ -147,7 +147,8 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
 #### Misc info
 - All those vehicles have been fully built with the script, and are included in the VCH_Examples folder
 
-![image](https://user-images.githubusercontent.com/71428793/205408545-80d87d19-fa21-4919-8ed0-b2496eac24c9.png)
+<img width="967" height="653" alt="image" src="https://github.com/user-attachments/assets/e48484dc-ce6f-469f-bffb-5fff33c4c985" />
+
 
 #### Important notes
 - **you can stop the script at any time by pressing Alt**
