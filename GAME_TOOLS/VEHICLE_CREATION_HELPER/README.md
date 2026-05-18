@@ -114,16 +114,14 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
 	- a one tile vehicle welding rig on your left OR the integrated cutting torch CBM (very low power consumption)
 	- a boomcrane installed on the one tile vehicle, to install wheels (or a bottlejack for anything but the biggest vehicles)
 	- bolt turning 2, glare protection 2, hammering 2, screw driving 1, sewing 1, cutting 1, drilling 2 -> for reference `toolbox + pair of welding goggles` has everything you need
-- You need to have the components for the vehicle parts to install in your character reach. Avoid having them on yourself, it will create ab extra menu. Ideally, enough of them to last you for a day
-- Avoid having monsters around you that could stop the script if they get too close. Preferably, build the vehicle with walls around you. When I tried the script, once a NPC came to talk to me so the script had to stop. More often, it will be random monsters wandering around. Well all of this depend on your settings, but better build something around you to avoid being distracted.
+- You need to have the components for the vehicle parts to install in your character reach. Avoid having them on yourself, it will create an extra menu. Ideally, enough of them to last you for a day
+- Make the area around you safe, wall yourself in if needed
 - Start the script in the morning (in game), Turgid and Engorged
-- Obviously, disable safe mode and such. Maybe autosave if it takes too long.
+- Disable safe mode or at least make it pause the game only when hostiles are close. Maybe autosave too if it takes too long.
 - Meeting all those requirement, you can install vehicle parts until dead tired, then eat, drink, sleep and repeat
 
-
-
 #### Final set up and start the script
-- Set up your options in the `options.json` file
+- Set up your options in the `options.json` file (most should be left default, check your keys, and the screen settings if you use several screens or a special resolution)
 - Start a vehicle construction on your right, as usual (`*` -> Start a Vehicle Construction -> Enter -> Right direction)
 - Examine the vehicle tile
 - Move your cursor on the upper left tile of your vehicle, or the first part to install of the first row
@@ -135,7 +133,6 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
  - install tesseract-ocr https://youtu.be/2kWvk4C1pMo
  - install python 3 https://youtu.be/C3bOxcILGu4
  - in a terminal type `python -m pip install pytesseract msgspec screeninfo` or `pip3 install pytesseract msgspec screeninfo`
- - ``
  - if you have any difficulty don't hesitate to ask a LLM like chatgpt how to run the script https://chatgpt.com/
 
 
@@ -144,7 +141,7 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
 - install tesseract-ocr `sudo apt-get install tesseract-ocr`
 - install python 3 `sudo apt install python3`
 - install python dependencies `pip3 install pytesseract msgspec screeninfo` install python dependencies
--  `cd Python_Version; python3 vch.py`
+- `cd Python_Version; python3 vch.py`
 
 
 #### Misc info
@@ -159,17 +156,10 @@ https://user-images.githubusercontent.com/71428793/205396697-3f1c69a4-99aa-445c-
 
 ## Troubleshooting
 - if the script skipped a part when it shouldn't, increase the script speed in options (it will slow the script down). Or just delete the `vch_parts_left_to_install.json` file, and the script will take more time at the beginning by verifying that all previous parts have been installed
-- If script doesn't work when you start it, look at the last lines in the `debug.txt` file
-
+- If script doesn't work when you start it, look at the last lines in the `debug.txt` file.
 
 - *If it's still not clear, you can start the script, stop it after it sends a few keys, and look at the generated `vch_parts_left_to_install.json` file, you might get a clearer representation of what your vehicle will look like*
 
 
 # Known bugs
-- Do note use the `"` character, even as `\"` it will mess up vch_updated.json generation ---> eg: `32\" armored wheel` -> :(, `armored wheel` -> :) (bad example, the vehicle part name is armored wheel anyway, but you get the idea)
-
-
-### Building the exe (instructions for me don't mind it)
-- `rm Windows_Version/vch.exe Windows_Version/vch`
-- `pip install pyinstaller; cd VEHICLE_CREATION_HELPER; pyinstaller --onefile Python_Version/vch.py --distpath Windows_Version/;`
-- `cp VCH_Examples/vch_tutorial.json Python_Version/vch_edit_me.json; cp VCH_Examples/vch_tutorial.json Windows_Version/vch_edit_me.json; rm -rf build; rm vch.spec; cp Python_Version/options.json Windows_Version/options.json`
+- Do note use the `"` character, even as `\"` it will mess up vch_updated.json generation ---> eg: `32\" armored wheel` -> :(, `armored wheel` -> :) (bad example, the vehicle part name is "armored wheel" anyway, but you get the idea)
