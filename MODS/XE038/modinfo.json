@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "XE038",
+    "name": "<color_yellow>XE038</color>",
+    "authors": [ "leoCottret aka Sudo67 on discord ping me if something breaks" ],
+    "maintainers": [ "leoCottret" ],
+    "description": "The blob has evolved, now a new substance called XE038 is making monsters mutate even further. Add late game monsters to challenge your demi-god cyber mutant, big bundle of materials and late game items",
+    "category": "content",
+    "dependencies": [ "bn" ],
+    "obsolete": false
+  }
+]

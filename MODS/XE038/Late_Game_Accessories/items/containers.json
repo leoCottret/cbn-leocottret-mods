@@ -17,6 +17,6 @@
 		"seals": true,
 		"watertight": true,
 		"armor_data": { "covers": [ "leg_either" ], "coverage": 5, "encumbrance": 7, "material_thickness": 7 },
-		"flags": [ "WAIST", "VARSIZE", "OVERSIZE", "WATER_FRIENDLY", "STURDY" ]
+		"flags": [ "WAIST", "VARSIZE", "WATER_FRIENDLY", "STURDY" ]
 	}
 ]

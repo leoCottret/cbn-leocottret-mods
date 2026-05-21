@@ -1,0 +1,11 @@
+[
+	{
+		"type": "monstergroup",
+	    "name": "XE038_GROUP_SOLDIER_UPGRADE_2",
+	    "default": "mon_zombie_kevlar_2",
+	    "monsters": [ 
+	    	{ "monster": "xe038_mon_zombie_kevlar_3", "freq": 100, "cost_multiplier": 10 },
+	    	{ "monster": "xe038_mon_zombie_hulk_flaming_eye", "freq": 1, "cost_multiplier": 10 } 
+	    ]
+	}
+]
