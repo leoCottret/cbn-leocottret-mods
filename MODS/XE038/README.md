@@ -1,6 +1,6 @@
 I tried to make a modular mod, so you can delete any folder in XE038 with content you don't want (for now!).  
 
-_TLDR: "The blob has evolved, now a new substance called XE038 is making monsters mutate even further. Add late game monsters to challenge your demi-god cyber mutant, big bundle of materials and late game items"_
+**_TLDR: "The blob has evolved, now a new substance called XE038 is making monsters mutate even further. Add late game monsters to challenge your demi-god cyber mutant, big bundle of materials and late game items"_**
 
 For now:
 - **Monsters** -> intended for experienced players (or masochists)
