@@ -1,0 +1,57 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [
+      "Chibi_Ultica",
+      "UltimateCataclysm",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE",
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE_LEGACY",
+      "UlticaShell",
+      "MshockXottoplus12",
+      "MSX++DEAD_PEOPLE",
+      "MXplus12_for_cosmetics",
+      "MSXotto+"
+    ],
+    "tiles-new": [
+      {
+        "file": "XE038_large.png",
+        "tiles": [
+          {
+            "id": "xe038_mon_zombie_kevlar_3",
+            "fg": [
+              { "weight": 20, "sprite": 1 },
+              { "weight": 20, "sprite": 2 },
+              { "weight": 20, "sprite": 3 },
+              { "weight": 20, "sprite": 4 },
+              { "weight": 20, "sprite": 5 },
+              { "weight": 20, "sprite": 6 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          { "id": "corpse_xe038_mon_zombie_kevlar_3", "fg": 7, "rotates": false },
+          {
+            "id": "xe038_mon_zombie_hulk_flaming_eye",
+            "fg": [
+              { "weight": 20, "sprite": 8 },
+              { "weight": 20, "sprite": 9 },
+              { "weight": 20, "sprite": 10 },
+              { "weight": 20, "sprite": 11 },
+              { "weight": 20, "sprite": 10 },
+              { "weight": 20, "sprite": 9 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          { "id": "corpse_xe038_mon_zombie_hulk_flaming_eye", "fg": 12, "rotates": false },
+        ],
+        "sprite_width": 64,
+        "sprite_height": 80,
+        "sprite_offset_x": -16,
+        "sprite_offset_y": -48
+      }
+    ]
+  }
+]

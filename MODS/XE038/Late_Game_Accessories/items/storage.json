@@ -39,7 +39,7 @@
 		"type": "ARMOR",
 		"name": { "str": "XL high-volume survivor rucksack" },
 		"description": "Also known as a \"mutant bigpack\", this beast of a backpack can carry and withstand anything.",
-		"proportional": { "weight": 1.8, "volume": 1.5, "encumbrance": 1.4, "max_encumbrance": 1.4, "storage": 1.4,  "material_thickness": 4.5 },
+		"proportional": { "weight": 3, "volume": 1.2, "encumbrance": 1.4, "max_encumbrance": 5, "storage": 1.4,  "material_thickness": 4.5 },
 		"relative": { "warmth": -5 },
 		"material": [ "leather", "kevlar" ],
 		"extend": { "flags": [ "STURDY" ] }
