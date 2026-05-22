@@ -2,7 +2,7 @@
 A collection of mods/tools for [Bright Night](https://github.com/cataclysmbn/Cataclysm-BN).
 
 ## Mods
-- [Sudo's Requiem](/MODS/Sudo_Requiem). My main mod that adds late game items, big bundle of materials and (SoonTM)late game monsters to challenge your demi-god cyber mutant 
+- [XE038](/MODS/XE038). My main mod that adds late game monsters to challenge your demi-god cyber mutant, big bundle of materials and late game items
 - (obsolete) XL armors ->  **no need for that now, you can resize most armors with a tailor kit or an arc welder**
 
 ## Musics
