@@ -3,7 +3,7 @@ A collection of mods/tools for [Bright Night](https://github.com/cataclysmbn/Cat
 
 ## Mods
 - [XE038](/MODS/XE038). My main mod that adds late game monsters to challenge your demi-god cyber mutant, big bundle of materials and late game items (_PS: was known as Sudo's requiem_)
-- (obsolete) XL armors ->  **no need for that now, you can resize most armors with a tailor kit or an arc welder**
+- (obsolete) XL armors ->  **no need for that now, you can resize most armors with a tailor kit or an arc welder, you can even create a hole for your tail in power armors.**
 
 ## Musics
 - [Royalty free musics](/MUSICS) that you can add to your favorite soundpack
