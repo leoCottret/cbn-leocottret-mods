@@ -62,7 +62,8 @@
 		"coverage": 10,
 		"encumbrance": 3,
 		"max_encumbrance": 7,
-		"material_thickness": 6,
+		"material_thickness": 5,
+		"environmental_protection": 10, 
 		"use_action": {
 			"type": "holster",
 			"holster_prompt": "Stash item",
