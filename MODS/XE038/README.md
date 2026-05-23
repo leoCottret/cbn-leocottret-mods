@@ -1,6 +1,6 @@
 I tried to make a modular mod, so you can delete any folder in XE038 with content you don't want (for now!).  
 
-**_TLDR: "The blob has evolved, now a new substance called XE038 is making monsters mutate even further. Add late game monsters to challenge your demi-god cyber mutant, big bundle of materials and late game items"_**
+**_TLDR: "The blob has evolved, now a new substance called XE038 is making monsters mutate even further. Add late game monsters to challenge your demi-god cyber mutant, late game items and big bundle of materials"_**
 
 For now:
 - **Monsters** -> intended for experienced players (or masochists)
@@ -9,12 +9,12 @@ For now:
 - **Late_Game_Accessories** 
   - Contains late game craftable items, that have high skill requirement, and sometimes require rare materials. 
   - Non of them are actual armors, because I think vanilla and other mods cover this part well enough already
-  - No those are things "late game accessories" like bulletproof/fireproof canteen, backpacks and leg rig, the kind of items that keep getting destroyed even when you have the knowledge and ressources to create something sturdier
-  - It also adds one very late game craftable item, which should be only possible to craft in a very long playthrough. This item is supposed to be the best backpack you could hope for, using alien technology. I added this backpack for the players to get a long term goal, it should be very hard to craft (tell me if it's not enough).
+  - No those are "late game accessories" like bulletproof/fireproof canteen, backpacks and leg rig, the kind of items that keep getting destroyed even when you have the knowledge and ressources to create something sturdier
+  - It also adds one very late game craftable bag, which should be only possible to craft in a very long playthrough. This item is supposed to be the best backpack you could hope for, using alien technology. I added this backpack for the players to get a long term goal, it should be very hard to craft (tell me if it's not enough).
 - **QOL**
   - Those are Quality Of Life items, for now just reversible craftable big bundle of materials
   - eg: Big bundle of leather -> needs 50 leather patch + 1 short string -> you can disassemble it to get **all** the items back  
   - This should help hoarders to reduce the hundreds of accumulated basic materials to a few ones, so they **take less space, can be moved faster and help reduce lag**
 
 # Credits
-- Thanks to SomeDeadGuy for the Undead People (UDP) tileset. I combined, modified and redraw several sprites from the tileset to make the animated sprites in this mod, so credit to him for the originals!
+- Thanks to SomeDeadGuy for the Undead People (UDP) tileset. I combined, modified and redrew several sprites from the tileset to make the animated sprites in this mod, so credit to him for the originals!
