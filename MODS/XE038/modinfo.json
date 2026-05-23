@@ -6,7 +6,7 @@
     "authors": [ "leoCottret aka Sudo67 on discord ping me if something breaks" ],
     "maintainers": [ "leoCottret" ],
     "description": "The blob has evolved, now a new substance called XE038 is making monsters mutate even further. Add late game monsters to challenge your demi-god cyber mutant, big bundle of materials and late game items.",
-    "version": "1.0.0 22-05-2026",
+    "version": "1.0.1 23-05-2026",
     "category": "content",
     "dependencies": [ "bn" ],
     "obsolete": false

@@ -16,6 +16,8 @@
 		"material": [ "flesh" ],
 		"symbol": "X",
 		"color": "light_blue_red",
+    	"harvest": "CBM_OP2",
+    	"death_drops": "xe038_mon_zombie_death_drops",
 		"aggression": 100,
 		"morale": 100,
 		"melee_skill": 5,
@@ -28,7 +30,6 @@
 	    "vision_day": 50,
 	    "vision_night": 40,
 	    "luminance": 25,
-    	"harvest": "zombie_meatslug",
 		"special_attacks": [ 
 			[ "SMASH", 20 ], 
 			[ "STARE", 12 ] 
