@@ -5,6 +5,7 @@ I tried to make a modular mod, so you can delete any folder in XE038 with conten
 For now:
 - **Monsters** -> intended for experienced players (or masochists)
   - 2 new monsters with animated sprites for the UDP tileset, they are supposed to appear during late game and will be very dangerous (technically, they evolve from the Kevlar Hulk, which has currently no evolution)
+  - The Hulk flaming eye XE038 has a unique LUA attack, it makes you have visual hallucinations but some are real (it can be pretty dangerous, so you're warned)
   - I hope you have fun fighting them, and that they don't beat you up too much. They will appear rarely, but if XE038 is in the name -> danger
 - **Late_Game_Accessories** 
   - Contains late game craftable items, that have high skill requirement, and sometimes require rare materials. 
