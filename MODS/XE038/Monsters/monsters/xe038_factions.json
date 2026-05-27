@@ -1,0 +1,9 @@
+[
+	{
+		"//": "unused now but might later",
+		"type": "MONSTER_FACTION",
+		"name": "xe038",
+		"friendly": [ "blob", "cult", "zombie", "zombie_aquatic", "nether", "jabberwock", "mi-go", "triffid" ],
+		"by_mood": "bee"
+    }
+]

@@ -21,12 +21,12 @@
           {
             "id": "xe038_mon_zombie_kevlar_3",
             "fg": [
-              { "weight": 20, "sprite": 1 },
-              { "weight": 20, "sprite": 2 },
-              { "weight": 20, "sprite": 3 },
               { "weight": 20, "sprite": 4 },
               { "weight": 20, "sprite": 5 },
-              { "weight": 20, "sprite": 6 }
+              { "weight": 20, "sprite": 6 },
+              { "weight": 20, "sprite": 1 },
+              { "weight": 20, "sprite": 2 },
+              { "weight": 20, "sprite": 3 }
             ],
             "rotates": false,
             "animated": true
@@ -35,17 +35,17 @@
           {
             "id": "xe038_mon_zombie_hulk_flaming_eye",
             "fg": [
+              { "weight": 20, "sprite": 11 },
+              { "weight": 20, "sprite": 12 },
+              { "weight": 20, "sprite": 13 },
               { "weight": 20, "sprite": 8 },
               { "weight": 20, "sprite": 9 },
-              { "weight": 20, "sprite": 10 },
-              { "weight": 20, "sprite": 11 },
-              { "weight": 20, "sprite": 10 },
-              { "weight": 20, "sprite": 9 }
+              { "weight": 20, "sprite": 10 }
             ],
             "rotates": false,
             "animated": true
           },
-          { "id": "corpse_xe038_mon_zombie_hulk_flaming_eye", "fg": 12, "rotates": false },
+          { "id": "corpse_xe038_mon_zombie_hulk_flaming_eye", "fg": 14, "rotates": false },
         ],
         "sprite_width": 64,
         "sprite_height": 80,

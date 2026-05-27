@@ -1,0 +1,19 @@
+[
+	{
+		"id": "xe038_zombie_hulk_flaming_eye_reality_disruption",
+		"type": "SPELL",
+		"name": { "str": "Reality Disruption" },
+		"description": "Reality seems to shift, and you do not know what is real anymore.",
+		"message": "",
+		"effect": "target_attack",
+		"effect_str": "xe038_zombie_hulk_flaming_eye_reality_disruption_effect",
+		"valid_targets": [ "hostile" ],
+		"flags": [ "NO_EXPLOSION_VFX", "RANDOM_DURATION", "SILENT" ],
+		"//": "Intensity is simply the duration in second",
+		"min_range": 40,
+		"max_range": 40,
+		"max_level": 10,
+		"min_duration": 37500,
+		"max_duration": 37500
+	}
+]

@@ -7,11 +7,12 @@
     },
 	{
 	    "id": "xe038_mon_zombie_kevlar_3",
+	    "copy-from": "mon_zombie_kevlar_2",
 	    "type": "MONSTER",
 	    "name": { "str": "Kevlar hulk XE038" },
 	    "looks_like": "mon_zombie_kevlar_2",
 	    "description": "This Kevlar Hulk has been mutated by XE038. It now seems faster, more aware, angrier, healthier and stronger",
-	    "copy-from": "mon_zombie_kevlar_2",
+		"default_faction": "zombie",
 	    "symbol": "X",
 	    "color": "light_green_red",
     	"harvest": "XE038_CBM_BIO_KEVLAR_ZOMBIE",

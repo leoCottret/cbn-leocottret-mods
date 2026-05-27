@@ -32,7 +32,13 @@
 	    "luminance": 25,
 		"special_attacks": [ 
 			[ "SMASH", 20 ], 
-			[ "STARE", 12 ] 
+			[ "STARE", 100 ],
+			{
+				"type": "spell",
+				"spell_data": { "id": "xe038_zombie_hulk_flaming_eye_reality_disruption" },
+				"cooldown": 10,
+				"monster_message": "<color_red>The Hulk flaming eye XE038 glares at %3$s intensely as hallucinations become reality!</color>"
+			}
 		],
 		"flags": [
 			"FIREY",

@@ -1,0 +1,17 @@
+[
+	{
+		"type": "effect_type",
+		"id": "xe038_zombie_hulk_flaming_eye_reality_disruption_effect",
+		"name": [ "Reality Disruption" ],
+		"desc": [ "Your entire world shifts, and you cannot distinguish what is real anymore" ],
+		"//": "Needed for the effect to have an intensity, used by the script to know which monster to spawn. Max intensity = max(max dur, max int)", 
+		"///": "BUT if you set the max intensity lower than the dur, it won't display the duration going above that",
+		"max_duration": "50 m",
+		"max_intensity": 2999,
+	    "int_dur_factor": "1 s",
+	    "base_mods": {
+			"per_mod": [ -2, -1 ]
+	    },
+		"flags": [ "EFFECT_LUA_ON_TICK" ]
+	}
+]
