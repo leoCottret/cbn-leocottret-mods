@@ -2,9 +2,9 @@
 - Some royalty free musics that you can add directly to your favorite BN soundpack
 - `musicset.json` contains all the musics path that bright night will play randomly during gameplay
 - Next to `soundpack.txt` (in `your_soundpack_path/(...)/`) create a folder named `music` if it doesn't exist already
-# Case 1 - I don't have a musicset.json file in my soundpack
-- Add everything here in your new `music` folder and you're done -> in that case we're adding musics to a soundpack that didn't have any (eg: https://github.com/nheve/Otopack-Revived-BN/tree/master/Otopack%2BModsUpdates) 
-# Case 2 - I have a musicset.json file in my soundpack
+# Case 1 - No musicset.json file your soundpack ([example](https://github.com/nheve/Otopack-Revived-BN/tree/master)) 
+- Add everything here in your new `music` folder and you're done -> in that case we're adding musics to a soundpack that didn't have any 
+# Case 2 - There is a musicset.json in your soundpack ([example](https://github.com/NarandBD/Otopack-BN-Mk-2))
 - Drag & Drop the musics folder(s) (`WBC`, ...) in the `music` folder
 ## Method 1 - Replace all the musics
 - Overwrite your `musicset.json` with the one here, you're done
