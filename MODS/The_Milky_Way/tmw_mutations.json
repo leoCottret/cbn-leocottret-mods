@@ -1,0 +1,13 @@
+[
+  {
+    "type": "mutation",
+    "id": "TMW_PROLACTIN_AMPLIFICATION",
+    "name": { "str": "Prolactin Amplification" },
+    "points": 2,
+    "visibility": 1,
+    "ugliness": -4,
+    "encumbrance_always": [ [ "torso", 2 ] ],
+    "description": "Your breasts have begun secreting milk on demand and have grown slightly. They can get in the way, but some people will react well to this.",
+    "category": [ "CATTLE" ]
+  }
+]

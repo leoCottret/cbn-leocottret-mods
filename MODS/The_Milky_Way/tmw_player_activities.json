@@ -1,0 +1,12 @@
+[
+  {
+    "id": "TMW_ACT_MILK_CHARACTER",
+    "type": "activity_type",
+    "verb": "milking a human",
+    "suspendable": false,
+    "rooted": true,
+    "no_resume": true,
+    "complex_moves": { "speed": true, "skills": true },
+    "bubble_size_effect": "idle"
+  }
+]

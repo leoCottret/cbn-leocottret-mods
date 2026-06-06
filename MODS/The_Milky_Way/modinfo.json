@@ -1,0 +1,14 @@
+[{
+    "type": "MOD_INFO",
+    "id": "The_Milky_Way",
+    "name": "<color_red>T</color><color_light_red>h</color><color_yellow>e</color> <color_green>M</color><color_light_blue>i</color><color_pink>l</color><color_red>k</color><color_light_red>y</color> <color_yellow>W</color><color_green>a</color><color_light_blue>y</color>",
+    "authors": [ "leoCottret aka Sudo67 on Discord ping me if something breaks" ],
+    "maintainers": [ "leoCottret" ],
+    "description": "Add Prolactin Amplification to the Cattle mutation branch, allowing you to milk NPCs once a day with a bucket in your inventory",
+    "version": "1.0.0 06-06-2026",
+    "category": "misc_additions",
+    "dependencies": [ "bn" ],
+    "lua_api_version": 2,
+    "obsolete": false
+  }
+]
