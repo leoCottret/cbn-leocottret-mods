@@ -1,7 +1,7 @@
--- GAME OPTIONS
+-- MOD OPTIONS
 local CORPORATE_MILK = false -- Change false to true to get a buisness like milking, like you would do to a coworker or client
 local MILK_ACTIVITY_MARGIN = 1.2 -- In case you don't get milk when you milk a NPC, increase this value (eg: 1.4, or even 10 if nothing works, but milking will be near instant)
--- END GAME OPTIONS
+-- END MOD OPTIONS
 
 local mod = game.mod_runtime[game.current_mod]    
 
