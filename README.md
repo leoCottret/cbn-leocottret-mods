@@ -2,7 +2,8 @@
 A collection of mods/tools for [Bright Night](https://github.com/cataclysmbn/Cataclysm-BN).
 
 ## Mods
-- [XE038](/MODS/XE038). My main mod that adds late game monsters to challenge your demi-god cyber mutant, big bundle of materials and late game items (_PS: was known as Sudo's requiem_)
+- [XE038](/MODS/XE038). Add late game monsters to challenge your demi-god cyber mutant, big bundle of materials and late game items (_PS: was known as Sudo's requiem_)
+- [The Milky Way](/MODS/The_Milky_Way). Add Prolactin Amplification to the Cattle mutation branch, allowing you to milk NPCs once a day with a bucket in your inventory
 - (obsolete) XL armors ->  **no need for that now, you can resize most armors with a tailor kit or an arc welder, you can even create a hole for your tail in power armors.**
 
 ## Musics
