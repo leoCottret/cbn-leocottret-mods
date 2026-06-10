@@ -13,6 +13,7 @@
 		"type": "uncraft",
 		"time": "10 m",
 		"components": [ 
+			[ [ "nomex", 3 ] ], 
 			[ [ "kevlar_plate", 3 ] ], 
 			[ [ "alloy_sheet", 1 ] ],
 			[ [ "wire", 1 ] ] 

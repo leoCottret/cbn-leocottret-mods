@@ -10,13 +10,13 @@
 		"price": 4000,
 		"price_postapoc": 250,
 		"to_hit": 1,
-		"material": [ "kevlar", "superalloy", "steel" ],
+		"material": [ "kevlar", "superalloy", "nomex", "steel" ],
 		"symbol": ")",
 		"color": "brown",
 		"contains": "1500 ml",
 		"seals": true,
 		"watertight": true,
-		"armor_data": { "covers": [ "leg_either" ], "coverage": 5, "encumbrance": 7, "material_thickness": 7 },
+		"armor_data": { "covers": [ "leg_either" ], "coverage": 5, "encumbrance": 7, "material_thickness": 7, "environmental_protection": 10 },
 		"flags": [ "WAIST", "VARSIZE", "WATER_FRIENDLY", "STURDY" ]
 	}
 ]

@@ -13,7 +13,8 @@
 		"tools": [ [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ] ],
 		"qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "SAW_M", "level": 1 } ],
 		"components": [ 
-			[ [ "kevlar_plate", 6 ] ], 
+			[ [ "kevlar_plate", 3 ] ], 
+			[ [ "nomex", 3 ] ],  
 			[ [ "alloy_sheet", 1 ] ], 
 			[ [ "sheet_metal_small", 1 ] ], 
 			[ [ "wire", 1 ] ] 
