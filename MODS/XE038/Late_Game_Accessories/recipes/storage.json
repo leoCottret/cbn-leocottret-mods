@@ -12,7 +12,7 @@
 		"using": [ [  "steel_tiny", 8 ]  ],
 		"tools": [ [ [ "soldering_standard", 80, "LIST" ], [ "surface_heat", 80, "LIST" ] ] ],
 		"qualities": [ 
-			{ "id": "CUT", "level": 3 }, 
+			{ "id": "CUT", "level": 2 }, 
 			{ "id": "CUT_FINE", "level": 5 },
 			{ "id": "GLARE", "level": 3 },
 			{ "id": "LEATHER_AWL", "level": 2 },
